@@ -1,32 +1,33 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CQUCOVIDCI
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  deployment:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+env:
+  AZURE_WEBAPP_NAME: cqucovid
+  AZURE_WEBAPP_PACKAGE_PATH: '.'
+  PYTHON_VERSION: '3.7'
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+jobs:
+  build:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-    
-    - uses: azure/login@v1
+    - uses: actions/checkout@v1
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
+      uses: actions/setup-python@v1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
-        
-    - name: Azure WebApp
-      uses: Azure/webapps-deploy@v2
+        python-version: ${{ env.PYTHON_VERSION }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Deploy Web App using GitHub Action
+      uses: azure/webapps-deploy@v2
       with:
-        app-name: cqucovid
+        app-name: ${{ env.AZURE_WEBAPP_NAME }}
+        publish-profile: ${{ secrets.AZURE_CREDENTIALS }}
+        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
