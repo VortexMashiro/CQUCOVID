@@ -29,6 +29,6 @@ jobs:
       uses: azure/webapps-deploy@v1
       with:
         app-name: 'cqucovid'
-#        slot-name: 'production'
+        slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_3fd61ac0216346e4b695a67f8d945c2b }}
-        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+#        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
