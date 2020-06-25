@@ -7,18 +7,19 @@
     <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
 </head>
 <body>
-    <div id="bar" style="width:1000px; height:600px;"></div>
+    <div id="map" style="width:1000px; height:600px;"></div>
     <script>
         $(
             function () {
-                var chart = echarts.init(document.getElementById('bar'), 'white', {renderer: 'canvas'});
+                var chart = echarts.init(document.getElementById('map'), 'white', {renderer: 'canvas'});
                 $.ajax({
                     type: "GET",
-                    url: "{{base_url}}/barChart",
+                    url: "{{base_url}}/mapChart",
                     dataType: 'json',
                     success: function (result) {
-                        //result=unescape(result);
+                        console.log(result);
                         chart.setOption(result);
+                       
                     }
                 });
             }
