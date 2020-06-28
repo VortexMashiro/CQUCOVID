@@ -31,4 +31,5 @@ COPY . /cqu_covid
 # the next three lines.
 COPY requirements.txt /
 RUN pip install --no-cache-dir -U pip
+RUN pip install Pillow==6.2.2
 RUN pip install --no-cache-dir -r /requirements.txt
