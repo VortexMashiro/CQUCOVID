@@ -1197,9 +1197,17 @@ def get_year_chart(year: str):
 
     return grid_chart
 
+@app.route('/')
+def target():
+    page_name = "COVID-MAP"
+    return render_template('loading.html', messager_data=page_name)
 
-@app.route('/')#GDP demo
+@app.route('/covid')#GDP demo
 def get_index():
+    msg_data = "No data was passed"
+    if request.args.to_dict(flat=False)['data'][0]:
+        msg_data = str(request.args.to_dict(flat=False)['data'][0])
+
     timeline = Timeline(
         init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.DARK)
     )
@@ -1222,6 +1230,7 @@ def get_index():
     #timeline.render("china_gdp_from_1993_to_2018.html")
     return render_template(
         "demo.html",
+        passed_data = msg_data,
         myechart=timeline.render_embed(),
         #host=REMOTE_HOST,
         #host=request.url_root,
