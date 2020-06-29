@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta charset="utf-8">
-    <title>{{passed_data}}</title>
-    {% for jsfile_name in script_list %}
-        <script src="{{ host }}/{{ jsfile_name }}.js"></script>
-    {% endfor %}
-</head>
+  {% extends "default_layout.html" %}
+  <style>
+    .home-message{ 
+    
+    margin-top:50px!important;/*Only works in home.html*/
+  
+  }
+</style>
+  {% block content %}
+  <section style="height: 180px;"></section>
 
-<body>
   {{ myechart|safe }}
-</body>
 
-</html>
+  {% endblock %}

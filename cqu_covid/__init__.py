@@ -1,7 +1,8 @@
 from flask import Flask
 import config
 # import yaml
-app = Flask(__name__, static_folder="templates")
+app = Flask(__name__)
+#app = Flask(__name__)
 #init app config
 # def read_yaml(yaml_file_path):
 #     with open(yaml_file_path, 'rb') as f:

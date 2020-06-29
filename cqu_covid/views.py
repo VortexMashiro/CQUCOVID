@@ -22,10 +22,6 @@ from pyecharts.globals import WarningType
 WarningType.ShowWarning = False#https://github.com/pyecharts/pyecharts/issues/1638
 #IMPORTANT : ALL CODE SHOULD FOLLOW THIS DOC : http://pyecharts.org/#/zh-cn/web_flask
 
-@app.route('/title')#test config
-def get_title():
-    return app.config['TITLE'] #pure backend mode.
-
 
 def bar_base() -> Bar:
     c = (
@@ -40,36 +36,17 @@ def bar_base() -> Bar:
 @app.route("/Bar")#handler for http request
 def bar_test():
     return render_template("pyechart_test.html",
-                            base_url=request.url_root)
-@app.route("/Map")#This doesn't work
-def map_test():
-    return render_template("map_test.html",
-                            base_url=request.url_root)
+                            base_url=request.url_root)#You can access request directly in jinja, do not do this.
 
 @app.route("/barChart")#handler for the ajax request, but still available for http.
 def get_bar_chart():
     c = bar_base()
     return c.dump_options_with_quotes()
 
-@app.route("/mapChart")#handler for the ajax request, but still available for http.
-def get_map_chart():
-    locate = ['北京','天津','河北','山西','内蒙古','辽宁','吉林','黑龙江','上海','江苏','浙江','安徽','福建','江西','山东','河南','湖北','湖南','广东','广西','海南','重庆','四川','贵州','云南','陕西','甘肃','青海','宁夏','新疆','西藏']
-    app_price = [10.84,8.65,18.06,8.90,5.04,29.20,8.98,17.80,27.81,24.24,12.72,11.10,6.30,7.00,22.45,16.92,11.00,14.99,18.85,5.85,1.40,7.32,14.61,4.62,6.05,8.07,6.73,15.54,13.00,39.07,25.61,21.3]
-    #locate=['beijing']
-    #app_price=[10]
-    list1 = [[locate[i],app_price[i]] for i in range(len(locate))]
-    map = (
-        Map()
-        .add("2019年全国各省苹果价格", list1, maptype="china")
-        .set_global_opts(
-            title_opts=opts.TitleOpts(title="2019年全国各省苹果价格表"),
-            visualmap_opts=opts.VisualMapOpts(max_=50)  #最大数据范围
-        )
-        
-    )
-    return map.dump_options_with_quotes()
 
-
+@app.route("/test")
+def riinosite_test():
+    return render_template("default_layout.html")
 #######GDP DEMO #########
 
 data = [
@@ -1209,7 +1186,8 @@ def get_index():
         msg_data = str(request.args.to_dict(flat=False)['data'][0])
 
     timeline = Timeline(
-        init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.DARK)
+        #init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.DARK)
+        init_opts=opts.InitOpts(width="100%",height="900px" ,theme=ThemeType.DARK)
     )
     for y in time_list:
         g = get_year_chart(year=y)
