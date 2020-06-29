@@ -1,14 +1,7 @@
 
-  {% extends "default_layout.html" %}
-  <style>
-    .home-message{ 
-    
-    margin-top:50px!important;/*Only works in home.html*/
-  
-  }
+  {% extends "layout/fullscreen_layout.html" %}
 </style>
   {% block content %}
-  <section style="height: 180px;"></section>
 
   {{ myechart|safe }}
 

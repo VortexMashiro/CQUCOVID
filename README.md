@@ -26,9 +26,6 @@ The application is currently packed as a package `cqu_covid`. To import this pac
 └─`app.py`
 ```
 
-##Demo
 
-A complete pyecharts demo is in http://127.0.0.1:5000/test (local)
 
-##TODOs
 1. Noticed that there's a loop import between `__init__.py` and `views.py` , this is fine in flask, but not recommended in python.  Please see https://dormousehole.readthedocs.io/en/latest/patterns/packages.html

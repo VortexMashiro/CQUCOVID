@@ -22,31 +22,6 @@ from pyecharts.globals import WarningType
 WarningType.ShowWarning = False#https://github.com/pyecharts/pyecharts/issues/1638
 #IMPORTANT : ALL CODE SHOULD FOLLOW THIS DOC : http://pyecharts.org/#/zh-cn/web_flask
 
-
-def bar_base() -> Bar:
-    c = (
-        Bar()
-        .add_xaxis(["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"])
-        .add_yaxis("商家A", [randrange(0, 100) for _ in range(6)])
-        .add_yaxis("商家B", [randrange(0, 100) for _ in range(6)])
-        .set_global_opts(title_opts=opts.TitleOpts(title="Bar-基本示例", subtitle="我是副标题"))
-    )
-    return c
-
-@app.route("/Bar")#handler for http request
-def bar_test():
-    return render_template("pyechart_test.html",
-                            base_url=request.url_root)#You can access request directly in jinja, do not do this.
-
-@app.route("/barChart")#handler for the ajax request, but still available for http.
-def get_bar_chart():
-    c = bar_base()
-    return c.dump_options_with_quotes()
-
-
-@app.route("/test")
-def riinosite_test():
-    return render_template("default_layout.html")
 #######GDP DEMO #########
 
 data = [
@@ -1187,7 +1162,7 @@ def get_index():
 
     timeline = Timeline(
         #init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.DARK)
-        init_opts=opts.InitOpts(width="100%",height="900px" ,theme=ThemeType.DARK)
+        init_opts=opts.InitOpts(width="100vw",height="100vh" ,theme=ThemeType.DARK)
     )
     for y in time_list:
         g = get_year_chart(year=y)
