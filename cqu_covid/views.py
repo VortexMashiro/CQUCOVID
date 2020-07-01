@@ -16,7 +16,8 @@ from pyecharts.charts import Map,Geo
 
 from pyecharts.globals import ThemeType
 from pyecharts.commons.utils import JsCode
-from pyecharts.charts import Timeline, Grid, Bar, Map, Pie, Line
+from pyecharts.charts import Timeline, Grid, Bar, Map, Pie, Line,Geo
+from pyecharts.faker import Faker
 
 from pyecharts.globals import WarningType
 WarningType.ShowWarning = False#https://github.com/pyecharts/pyecharts/issues/1638
@@ -24,7 +25,7 @@ WarningType.ShowWarning = False#https://github.com/pyecharts/pyecharts/issues/16
 
 #######GDP DEMO #########
 
-data = [
+data = [ #TODO Data interface
     {
         "time": "1993年",
         "data": [
@@ -1191,3 +1192,24 @@ def get_index():
     )
 
 ######GDP DEMO END############
+
+@app.route('/home')
+def get_home_page():
+    Global_map = (
+        Geo(init_opts=opts.InitOpts(width="100vw",height="100vh" ,theme=ThemeType.DARK))
+        .add_schema(maptype="world")#https://github.com/pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
+        .add("geo", [list(z) for z in zip(Faker.provinces, Faker.values())])#TODO Data Interface
+        .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
+        .set_global_opts(
+            visualmap_opts=opts.VisualMapOpts(), title_opts=opts.TitleOpts(title="TITLE")
+        )
+    
+    )
+
+
+    countrylist=[{"name": "China", "number": 11},{"name": "Japan", "number": 12}]#TODO Data Interface
+    return render_template(
+        "home.html",
+        countrylist=countrylist,
+        myechart=Global_map.render_embed()
+    )

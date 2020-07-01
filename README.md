@@ -29,3 +29,15 @@ The application is currently packed as a package `cqu_covid`. To import this pac
 
 
 1. Noticed that there's a loop import between `__init__.py` and `views.py` , this is fine in flask, but not recommended in python.  Please see https://dormousehole.readthedocs.io/en/latest/patterns/packages.html
+
+## Data Interface 
+
+Kindly search `TODO Data` in `views.py`, and you will locate the position where data interfaces are needed.
+
+We need 3 interfaces currently(2020/7/1), please check the corresponding static sample data for specific format.
+
+Riino advices to **use external package to generate data interface**, this will help decrease the lines in views.py. To check bing-like page, please start serve and visit http://127.0.0.1:5000/home
+
+
+
+Note that the type of pyechart is different : in index page, we use  `Map`, in home page, we use `Bio`, and in home page’s country list, we use `dictionary`. See http://gallery.pyecharts.org/#/Geo/geo_base for more info.

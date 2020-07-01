@@ -1,0 +1,18 @@
+
+  {% extends "layout/fullscreen_layout.html" %}
+
+  {% block content %}
+  {% for element in countrylist %}
+       
+                    
+                     <li >
+                        <a href="">
+                            <p>{{element.name}},{{element.number}}</p>
+                        </a>
+                    </li>
+                    
+    {% endfor %}
+
+  {{ myechart|safe }}
+
+  {% endblock %}
