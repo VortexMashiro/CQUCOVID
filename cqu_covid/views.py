@@ -5,6 +5,7 @@ from cqu_covid import app
 # from flask import Flask (have done in __init__)
 
 from random import randrange
+import json
 from flask import render_template,request
 
 from pyecharts import options as opts
@@ -1213,3 +1214,17 @@ def get_home_page():
         countrylist=countrylist,
         myechart=Global_map.render_embed()
     )
+
+#When user clicks a country in countrylist, ask here to get a line pyecharts.
+@app.route("/getConuntryBar",methods=['GET'])
+def get_bar_chart():
+    print("get a ajax GET request.")
+    country_name= json.loads(request.args.get('data', type=str))['name']
+    c = (#TODO, a correct corresponding graph with the country_name is required.
+        Bar()
+        .add_xaxis(["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"])
+        .add_yaxis("商家A", [randrange(0, 100) for _ in range(6)])
+        .add_yaxis("商家B", [randrange(0, 100) for _ in range(6)])
+        .set_global_opts(title_opts=opts.TitleOpts(title=country_name, subtitle="我是副标题"))
+    )
+    return c.dump_options_with_quotes()

@@ -6,13 +6,61 @@
        
                     
                      <li >
-                        <a href="">
+                        <h2 onclick="getBar(this)" class="country" id="{{element.name}}">
                             <p>{{element.name}},{{element.number}}</p>
-                        </a>
+                        </h2>
                     </li>
                     
     {% endfor %}
 
   {{ myechart|safe }}
+  <div id="bar" style="height:600px; width:500px"></div>
+
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        var chart = echarts.init(document.getElementById('bar'), 'white', {renderer: 'canvas'});
+        // $(
+        //     function () {
+               
+                //document.getElementsByClassName('country').addEventListener('click', getBar);;
+            //     var chart = echarts.init(document.getElementById('bar'), 'white', {renderer: 'canvas'});
+            //     var data = {
+            //       data: JSON.stringify({
+            //         'name': "default",
+            //       }),
+            //     }
+            //     $.ajax({
+            //         type: "GET",
+            //         url: $SCRIPT_ROOT+"/getConuntryBar",
+            //         data:data,
+            //         dataType: 'json',
+            //         success: function (result) {
+            //             chart.setOption(result);
+            //         }
+            //     });
+            // }
+
+        // );
+        function getBar(event){
+          
+          console.log(event.id);
+          var data = {
+                  data: JSON.stringify({
+                    'name': event.id,
+                  }),
+                }
+          $.ajax({
+                    type: "GET",
+                    url: $SCRIPT_ROOT+"/getConuntryBar",
+                    data:data,
+                    dataType: 'json',
+                    success: function (result) {
+                        chart.setOption(result);
+                    }
+                });
+        }
+    </script>
+<div></div>
 
   {% endblock %}
