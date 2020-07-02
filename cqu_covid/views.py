@@ -1187,9 +1187,6 @@ def get_index():
         "demo.html",
         passed_data = msg_data,
         myechart=timeline.render_embed(),
-        #host=REMOTE_HOST,
-        #host=request.url_root,
-        #script_list=timeline.get_js_dependencies(),
     )
 
 ######GDP DEMO END############

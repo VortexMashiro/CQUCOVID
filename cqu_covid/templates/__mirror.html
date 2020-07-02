@@ -1,0 +1,106 @@
+<div class="countryPanel">
+  <div class="country tab" role="Region" aria-label="国家/地区列表">
+    <div class="timelinePillWrapper">
+      <div class="timelinePill">COVID-19 时间线 ❯</div>
+    </div>
+    <div class="infoTile" style="width: 272px;">
+      <div class="infoTileHeader">
+        <div>
+          <h2 class="title" title="累计确诊">累计确诊</h2>
+          <div class="lastUpdate">14 分钟前更新</div>
+        </div>
+        <div class="infoTileIconCon">
+          <div class="infoTitleInfo" title="数据信息" tabindex="0">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              role="img"
+              aria-label="数据信息"
+            >
+              <title>数据信息</title>
+              <path
+                d="M8 1C6.61553 1 5.26215 1.41054 4.11101 2.17971C2.95987 2.94888 2.06266 4.04213 1.53285 5.32122C1.00303 6.6003 0.86441 8.00776 1.13451 9.36563C1.4046 10.7235 2.07129 11.9708 3.05026 12.9497C4.02922 13.9287 5.2765 14.5954 6.63437 14.8655C7.99224 15.1356 9.3997 14.997 10.6788 14.4672C11.9579 13.9373 13.0511 13.0401 13.8203 11.889C14.5895 10.7378 15 9.38447 15 8C15 6.14348 14.2625 4.36301 12.9497 3.05025C11.637 1.7375 9.85652 1 8 1ZM9 9.5V11C9 11.2652 8.89464 11.5196 8.70711 11.7071C8.51957 11.8946 8.26522 12 8 12C7.73479 12 7.48043 11.8946 7.2929 11.7071C7.10536 11.5196 7 11.2652 7 11V8C7 7.73478 7.10536 7.48043 7.2929 7.29289C7.48043 7.10536 7.73479 7 8 7C8.26522 7 8.51957 7.10536 8.70711 7.29289C8.89464 7.48043 9 7.73478 9 8V9.5ZM8.707 5.707C8.54338 5.87057 8.32811 5.97235 8.09786 5.99499C7.86761 6.01763 7.63664 5.95973 7.44429 5.83116C7.25195 5.70259 7.11013 5.51131 7.04301 5.2899C6.97589 5.0685 6.98762 4.83066 7.07619 4.61693C7.16477 4.4032 7.32471 4.2268 7.52877 4.11777C7.73283 4.00875 7.96838 3.97386 8.19529 4.01904C8.42219 4.06422 8.62641 4.18668 8.77314 4.36555C8.91988 4.54442 9.00005 4.76864 9 5C8.99994 5.26519 8.89455 5.51951 8.707 5.707Z"
+                fill="#767676"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="infoTileConfirmed">
+        <div class="confirmed">10,512,383</div>
+        <div class="deltaConfirmed" title="new cases over the last 24 hours">
+          +17,364
+        </div>
+      </div>
+      <div class="infoTileData">
+        <h2 class="legend">
+          <div class="color" style="background: rgb(244, 195, 99);"></div>
+          <div class="description">现有确诊</div>
+          <div class="total">4,612,803</div>
+        </h2>
+        <h2 class="legend">
+          <div class="color" style="background: rgb(96, 187, 105);"></div>
+          <div class="description">累计治愈</div>
+          <div class="total">
+            <div class="">5,387,249</div>
+            <div class="delta" title="new cases over the last 24 hours">
+              +15,676
+            </div>
+          </div>
+        </h2>
+        <h2 class="legend">
+          <div class="color" style="background: rgb(118, 118, 118);"></div>
+          <div class="description">累计死亡</div>
+          <div class="total">
+            <div class="">512,331</div>
+            <div class="delta" title="new cases over the last 24 hours">
+              +480
+            </div>
+          </div>
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="verticalHeader">
+  <div class="locationWrapper">
+    <h2 class="locationTitle">全球</h2>
+  </div>
+  <div
+    class="verticalOptions"
+    style="grid-template-columns: repeat(3, min-content);"
+  >
+    <div class="verticalOption selected" tabindex="0">概况</div>
+    <div class="verticalOption" tabindex="0">资讯和视频</div>
+    <div class="verticalOption" tabindex="0">图表</div>
+    <div
+      class="verticalIndicator"
+      style="transform: translateX(0px) scaleX(1);"
+    ></div>
+  </div>
+</div>
+
+<div
+  class="map"
+  role="main"
+  style="height: 100%; width: 100%; overflow: hidden;"
+>
+  <div class="mapContainer allowGL">
+    <div class="wrapper-bingmaps" style="height: 100%; position: relative;">
+      <div
+        class="MicrosoftMap"
+        style="
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 0px;
+          top: 0px;
+        "
+      ></div>
+    </div>
+  </div>
+</div>
+
