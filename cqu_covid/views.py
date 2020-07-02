@@ -1210,6 +1210,10 @@ def get_home_page():
         "home.html",
         countrylist=countrylist,
         myechart=Global_map.render_embed()
+        #global_comfirmed=global_comfirmed,
+        #global_recover=global_recover,
+        #global_death=global_death, 
+        #TODO Interface for gloabl var.
     )
 
 #When user clicks a country in countrylist, ask here to get a line pyecharts.
@@ -1225,3 +1229,12 @@ def get_bar_chart():
         .set_global_opts(title_opts=opts.TitleOpts(title=country_name, subtitle="我是副标题"))
     )
     return c.dump_options_with_quotes()
+
+
+@app.route('/news')
+def get_news():
+    return render_template(
+        'news.html'
+        #newslist=newslist
+        #TODO  News related, format:  [{'title'=title,'des'=des,'date'=date,'author'=author},...]
+        )
