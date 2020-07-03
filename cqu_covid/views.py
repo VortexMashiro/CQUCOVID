@@ -7,6 +7,7 @@ from cqu_covid import app
 from random import randrange
 import json
 from flask import render_template,request
+from flask import jsonify
 
 from pyecharts import options as opts
 # from pyecharts.charts import Bar
@@ -260,7 +261,7 @@ def get_index():
 @app.route('/home')
 def get_home_page():
     Global_map = (
-        Geo(init_opts=opts.InitOpts(width="100vw",height="100vh" ,theme=ThemeType.DARK))
+        Geo(init_opts=opts.InitOpts(width="100%" ,height="100%",theme=ThemeType.DARK))
         .add_schema(maptype="world")#https://github.com/pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
         .add("geo", [list(z) for z in zip(Faker.provinces, Faker.values())])#TODO Data Interface
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
@@ -272,15 +273,30 @@ def get_home_page():
 
 
     countrylist=[{"name": "China", "number": 11},{"name": "Japan", "number": 12}]#TODO Data Interface
+
+
+    global_status={'total':'10,512,383',
+                   'total_today':'17,364',
+                    'confirm_total':'5,387,249',
+                    'confirm_today':'15,676',
+                    'recover_total':'5,387,249',
+                    'recover_today':'15,676',
+                    'death_total':'5,387,249',
+                    'death_today':'15,676'}
     return render_template(
         "home.html",
         countrylist=countrylist,
-        myechart=Global_map.render_embed()
+        myechart=Global_map.render_embed(),
+        global_status=global_status
+        #global_comfirmed=global_comfirmed,
+        #global_recover=global_recover,
+        #global_death=global_death, 
+        #TODO Interface for gloabl var.
     )
 
 #When user clicks a country in countrylist, ask here to get a line pyecharts.
 @app.route("/getConuntryBar",methods=['GET'])
-def get_bar_chart():
+def get_country_chart():
     print("get a ajax GET request.")
     country_name= json.loads(request.args.get('data', type=str))['name']
 
@@ -292,3 +308,24 @@ def get_bar_chart():
         .set_global_opts(title_opts=opts.TitleOpts(title=country_name, subtitle="我是副标题"))
     )
     return c.dump_options_with_quotes()
+@app.route("/getCountryStatus",methods=['GET'])
+def get_country_status():
+    country_name= json.loads(request.args.get('data', type=str))['name']
+    country_status={'total':'10,512,383',#TODO data interface
+                   'total_today':'17,364',
+                    'confirm_total':'5,387,249',
+                    'confirm_today':'15,676',
+                    'recover_total':'5,387,249',
+                    'recover_today':'15,676',
+                    'death_total':'5,387,249',
+                    'death_today':'15,676'}
+    return jsonify(country_status)
+
+
+@app.route('/news')
+def get_news():
+    return render_template(
+        'news.html'
+        #newslist=newslist
+        #TODO  News related, format:  [{'title'=title,'des'=des,'date'=date,'author'=author},...]
+        )

@@ -2,224 +2,16 @@
   {% extends "layout/fullscreen_layout.html" %}
   {% block content %}
   <style>
-    div{
-      font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    }
-    .content {
-    display: flex;
-    flex: 1;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+        .content {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 0px; /* redefined in sp.css */
+  
 }
-    .header{
-      width: 100vw;
-      display: flex;
-      padding: 12px 24px;
-      border-bottom: 1px solid #DDD;
-    }
-    .header .spacer {
-    flex: 1 0 auto;
-    }
-    .countryPanel {
-    transition: width cubic-bezier(.3, .55, .1, 1) .4s;
-    width: 320px;
-    }
-    .tab {
-    width: 320px;
-    padding: 24px 24px 0 24px;
-    box-sizing: border-box;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.05);
-    z-index: 201;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    max-height: 100%;
-    }
-    .timelinePillWrapper {
-    display: inline-block;
-    height: 32px;
-    margin-bottom: 20px;
-    }
-    .infoTile {
-    border-bottom: #DDD 1px solid;
-    color: #333;
-}
-.infoTileHeader {
-    display: flex;
-    justify-content: space-between;
-}
-.country .infoTile .title {
-    margin-bottom: 0px;
-    font-size: 16px;
-    line-height: 22px;
-}
-.infoTile .lastUpdate {
-    font-size: 12px;
-    color: #767676;
-    line-height: 20px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-.infoTileIconCon {
-    display: flex;
-    align-items: center;
-}
-.infoTitleInfo {
-    padding: 8px;
-}
-.infoTileConfirmed {
-    display: flex;
-    align-items: center;
-}
-.infoTile .confirmed {
-    font-size: 32px;
-    color: #DE3700;
-    font-weight: bold;
-    line-height: 40px;
-}
-.infoTile .deltaConfirmed {
-    color: #666;
-    border-radius: 4px;
-    font-size: 13px;
-    line-height: 22px;
-    padding: 4px 8px;
-}
-.country .infoTileData {
-    padding-bottom: 20px;
-}
-.country .legend:first-child {
-    padding-top: 12px;
-}
-.country .legend {
-    padding-top: 16px;
-}
-.legend {
-    display: grid;
-    padding-top: 16px;
-    grid-template-columns: 8px auto min-content;
-    align-items: center;
-    grid-gap: 16px 8px;
-    font-size: 13px;
-    line-height: 20px;
-}
-.legend .color {
-    width: 8px;
-    height: 8px;
-    border-radius: 8px;
-}
-.legend .description {
-    font-weight: 600;
-}
-.legend .total {
-    color: #767676;
-    display: flex;
-    align-items: center;
-}
-.verticalWrapper {
-    width: 100%;
-    height: 90vh;
-    position: relative;
-    overflow-x: auto;
-}
-.verticalHeader {
-    background: rgba(247, 247, 247, 0.8);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    padding: 12px 24px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 300;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    border-bottom: 1px solid #ddd;
-}
-.locationWrapper {
-    display: flex;
-    align-items: center;
-}
-.locationTitle {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    color: #333333;
-    margin-right: 12px;
-    padding: 4px 0;
-}
-.verticalOptions {
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 24px;
-    color: #333333;
-    display: grid;
-    white-space: nowrap;
-    margin-bottom: -16px;
-}
-.verticalOptions {
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 24px;
-    color: #333333;
-    display: grid;
-    white-space: nowrap;
-    margin-bottom: -16px;
-}
-.verticalContent {
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-}
-.overview {
-    position: absolute;
-    top: 56px;
-    margin: 24px;
-    height: calc(100% - 104px);
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 4px 0 6px 0;
-    display: block;
-    width: 320px;
-    z-index: 1;
-}
-.overviewContent {
-    overflow-y: auto;
-    margin: 0;
-    padding: 16px 16px 0 24px;
-    height: calc(100% - 10px);
-}
-.overview .pageName {
-    font-size: 16px;
-    margin-bottom: 12px;
-    line-height: 22px;
-}
-.overviewContent .segmentPanel {
-    padding-right: 16px;
-    height: 100%;
-}
-.segmentTitle {
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 20px;
-    color: #333333;
-    margin-bottom: 10px;
-}
-.mapContainer.allowGL {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    left: 0px;
-    top: 0px;
-    background-color: #c8c8c8;
-}
-  </style>
+      </style>
   <div class="header">
     <a href="" target="_self" class="covidHeader">
       <h1 class="pageName">COVID-19</h1>
@@ -250,32 +42,52 @@
                           </svg></div>
                   </div>
               </div>
+              <!-- global_status here. -->
               <div class="infoTileConfirmed">
-                  <div class="confirmed">10,512,383</div>
-                  <div class="deltaConfirmed" title="new cases over the last 24 hours">+17,364</div>
+                  <div class="confirmed">{{global_status.total}}</div>
+                  <div class="deltaConfirmed" title="new cases over the last 24 hours">+{{global_status.total_today}}</div>
               </div>
               <div class="infoTileData">
                   <h2 class="legend">
                       <div class="color" style="background: rgb(244, 195, 99);"></div>
                       <div class="description">现有确诊</div>
-                      <div class="total">4,612,803</div>
+                      <div class="total">
+                        <div class="">{{global_status.confirm_total}}</div>
+                        <div class="delta" title="new cases over the last 24 hours">+{{global_status.confirm_today}}</div>
+                      </div>
+                      
                   </h2>
                   <h2 class="legend">
                       <div class="color" style="background: rgb(96, 187, 105);"></div>
                       <div class="description">累计治愈</div>
                       <div class="total">
-                          <div class="">5,387,249</div>
-                          <div class="delta" title="new cases over the last 24 hours">+15,676</div>
+                          <div class="">{{global_status.recover_total}}</div>
+                          <div class="delta" title="new cases over the last 24 hours">+{{global_status.recover_today}}</div>
                       </div>
                   </h2>
                   <h2 class="legend">
                       <div class="color" style="background: rgb(118, 118, 118);"></div>
                       <div class="description">累计死亡</div>
                       <div class="total">
-                          <div class="">512,331</div>
-                          <div class="delta" title="new cases over the last 24 hours">+480</div>
+                          <div class="">{{global_status.death_total}}</div>
+                          <div class="delta" title="new cases over the last 24 hours">+{{global_status.death_today}}</div>
                       </div>
                   </h2>
+              </div>
+          </div>
+          <div class="combinedArea">
+              <div class="areas deep">
+                {% for element in countrylist %}
+                <div class="areaDiv">
+                    <div class="area">
+                        <div class="areaName" onclick="getBar(this)"  id="{{element.name}}">{{element.name}}</div>
+                        <div class="areaTotal">
+                            <div class="secondaryInfo">{{element.number}}</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                {% endfor %}
               </div>
           </div>
           
