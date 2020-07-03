@@ -11,6 +11,8 @@
     width: 100%;
     position: relative;
     overflow: hidden;
+    padding-top: 0px; /* redefined in sp.css */
+    
 }
     .header{
       width: 100vw;
@@ -219,6 +221,50 @@
     top: 0px;
     background-color: #c8c8c8;
 }
+.combinedArea {
+    padding: 0px 24px;
+    width: 100%;
+    overflow-y: scroll;
+}
+[dir="ltr"] .combinedArea {
+    margin-left: -24px;
+}
+.areas {
+    padding: 24px 0;
+    width: 100%;
+}
+.areaDiv {
+    display: flex;
+    align-items: center;
+}
+.areaDiv:not(:last-child) {
+    margin-bottom: 12px;
+}
+.area {
+    display: flex;
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 10px 16px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    flex: 1;
+    align-items: center;
+}
+.area .areaName {
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex: 1;
+}
+.area .areaTotal {
+    color: #767676;
+}
   </style>
   <div class="header">
     <a href="" target="_self" class="covidHeader">
@@ -276,6 +322,21 @@
                           <div class="delta" title="new cases over the last 24 hours">+480</div>
                       </div>
                   </h2>
+              </div>
+          </div>
+          <div class="combinedArea">
+              <div class="areas deep">
+                {% for element in countrylist %}
+                <div class="areaDiv">
+                    <div class="area">
+                        <div class="areaName" onclick="getBar(this)"  id="{{element.name}}">{{element.name}}</div>
+                        <div class="areaTotal">
+                            <div class="secondaryInfo">{{element.number}}</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                {% endfor %}
               </div>
           </div>
           

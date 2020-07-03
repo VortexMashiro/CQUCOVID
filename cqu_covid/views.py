@@ -1194,7 +1194,7 @@ def get_index():
 @app.route('/home')
 def get_home_page():
     Global_map = (
-        Geo(init_opts=opts.InitOpts(width="100vw",height="100vh" ,theme=ThemeType.DARK))
+        Geo(init_opts=opts.InitOpts(width="100%" ,height="100%",theme=ThemeType.DARK))
         .add_schema(maptype="world")#https://github.com/pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
         .add("geo", [list(z) for z in zip(Faker.provinces, Faker.values())])#TODO Data Interface
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
