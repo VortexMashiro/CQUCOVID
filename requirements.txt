@@ -6,3 +6,5 @@ click==7.1.2
 itsdangerous==1.1.0
 pyecharts==1.8.1
 pyecharts-snapshot==0.2.0
+pandas==0.24.1
+numpy==1.16.2
