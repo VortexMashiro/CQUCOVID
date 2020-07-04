@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import os
+import json
 
 
 def get_word_epidemic(date):
@@ -111,7 +112,6 @@ def get_new_confirmed_deaths(country):
         date_list = []
         for index in range(0, data.shape[0]):
             item = data.iloc[index]
-            date = item["Updated"]
             date_list.append(item["Updated"])
             new_confirmed_list.append(item["ConfirmedChange"])
             new_death_list.append(item["DeathsChange"])
@@ -153,41 +153,77 @@ def get_new_confirmed_top5(country, date):
         return None
 
 
-def get_region_comparion(country, date):
+def get_region_comparion(country, date, attribute):
     """
     获取地区对比的疫情数据
     :param country: "China"
     :param date:  04/25/2020
+    :param attribbute:  属性名称{Confirmed|Deaths|Recovered|ConfirmedChange}
     :return:Nothing
     """
     date_name = date.replace("/", "-")
     file_name1 = "data/country-epidemic/" \
                  + date_name + "-" + country + ".csv"
-    if os.path.isfile(file_name1):
+    file_name2 = "data/region-comparision/" + country + ".csv"
+    if os.path.isfile(file_name1) and os.path.isfile(file_name2):
         data = pd.read_csv(
             open(os.path.join("data/country-epidemic/", date_name + "-" + country + ".csv"),
-                 "r",encoding="utf-8"),dtype=np.object)
-        data_c = data.sort_values(by="Confirmed")
-        data_d = data.sort_values(by="Deaths")
-        data_r = data.sort_values(by="Recovered")
-        data_cc = data.sort_values(by="ConfirmedChange")
+                 "r", encoding="utf-8"), dtype=np.object)
+        if attribute not in data.columns:
+            print("不正确的属性名称！")
+            return None
+        data.sort_values(by=attribute, inplace=True, ascending=False)
 
-        if data.shape[0]>5:
-            data_c = data_c.head(5)
-            data_d = data_d.head(5)
-            data_r = data_r.head(5)
-            data_cc = data_cc.head(5)
+        if data.shape[0] > 5:
+            data = data.head(5)
+        region_list = data["AdminRegion1"].tolist()
 
-        data_c = data_c["AdminRegion"].tolist()
-        data_d = data_c["AdminRegion"].tolist()
-        data_r = data_c["AdminRegion"].tolist()
-        data_cc = data_c["AdminRegion"].tolist()
-
-        for region in data_c:
-            file_name2 = "data/country-epidemic-summary/"+region+".csv"
-
-
-
+        data = pd.read_csv(
+            open(os.path.join("data/region-comparision/", country + ".csv"),
+                 "r", encoding="utf-8"), dtype=np.object)
+        region_column = data["AdminRegion1"]
+        result = {}
+        for region in region_list:
+            item = data[region_column == region][["Updated", attribute]]
+            date_list = item["Updated"].tolist()
+            data_list = item[attribute].tolist()
+            result[region] = [date_list, data_list]
+        return result
     else:
-        print("")
+        print("缺少相关数据文件")
+        return None
+
+
+def get_country_position():
+    """
+    获取所有国家的经纬度
+    :return: position list
+    """
+    file = "data/position/country-position.csv"
+    if os.path.isfile(file):
+        data = pd.read_csv(
+            open(os.path.join("data/position/" + "country-position.csv"),
+                 "r", encoding="utf-8"))
+        position_list = []
+        for index in range(0, data.shape[0]):
+            position_list.append(data.iloc[index].tolist())
+        return position_list
+    else:
+        print("没有数据文件！")
+        return None
+
+def get_time_axis_data():
+    """
+
+    :return:
+    """
+    file = "data/world-epidemic/summary.json"
+    if os.path.isfile(file):
+        f = open(file, 'r')
+        content = f.read()
+        a = json.loads(content)
+        f.close()
+        return a
+    else:
+        print("没有数据文件！")
         return None
