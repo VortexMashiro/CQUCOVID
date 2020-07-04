@@ -1228,9 +1228,6 @@ def get_home_page():
         countrylist=countrylist,
         #myechart=Global_map.render_embed(),# this is being replaced with AJAX
         global_status=global_status
-        #global_comfirmed=global_comfirmed,
-        #global_recover=global_recover,
-        #global_death=global_death, 
         #TODO Interface for gloabl var.
     )
 @app.route("/getGlobalMap",methods=['GET'])
