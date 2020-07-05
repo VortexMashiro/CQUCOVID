@@ -168,12 +168,15 @@
 
 </div> <!-- content -->
     <script>
+        var current_country=$('#Worldwide').parent();
         $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
         var chart = echarts.init(document.getElementById('bar'), 'white', {renderer: 'canvas'});
         var global_map = echarts.init(document.getElementById('globalMap'), {renderer: 'canvas'});
         //this will be called when clicking a country in countrylist
         function getBar(event){
-          
+          current_country.removeClass('selected');
+          current_country=$('#'+event.id).parent();
+          current_country.addClass('selected');
           console.log(event.id);
           var data = {
                   data: JSON.stringify({
@@ -192,6 +195,7 @@
         }
         //this will call getBar() with the data 'world'
         function initBar(){
+          current_country.addClass('selected');
           var data = {
                   data: JSON.stringify({
                     'name': 'Worldwide',
