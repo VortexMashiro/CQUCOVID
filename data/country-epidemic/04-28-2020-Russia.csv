@@ -1,0 +1,80 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
+150,8.0,3.0,32.0,Adygea
+324,14.0,2.0,34.0,Altay Territory
+41,1.0,0.0,10.0,Amur
+181,6.0,1.0,29.0,Arkhangel’sk
+306,8.0,4.0,55.0,Astrakhan’
+631,61.0,14.0,80.0,Bashkortostan
+299,30.0,3.0,31.0,Belgorod
+113,12.0,0.0,9.0,Birobijan
+668,26.0,4.0,102.0,Bryansk
+227,18.0,2.0,70.0,Buryatia
+447,18.0,7.0,79.0,Chechnya
+408,48.0,0.0,47.0,Chelyabinsk
+502,39.0,8.0,44.0,Chuvashia
+1147,153.0,11.0,76.0,Dagestan
+633,43.0,18.0,97.0,Ingushetia
+95,8.0,4.0,33.0,Irkutsk
+296,14.0,2.0,70.0,Ivanovo
+367,38.0,1.0,28.0,Kabardino-Balkaria
+303,39.0,3.0,66.0,Kaliningrad
+167,9.0,3.0,24.0,Kalmykia
+706,67.0,12.0,30.0,Kaluga
+203,8.0,0.0,6.0,Kamchatka
+314,13.0,2.0,6.0,Karachay-Cherkessia
+62,6.0,0.0,5.0,Karelia
+111,4.0,2.0,12.0,Kemerovo
+467,28.0,5.0,25.0,Khabarovsk
+206,22.0,7.0,17.0,Khakassia
+338,41.0,2.0,59.0,Khanty-Mansi
+423,35.0,3.0,38.0,Kirov
+597,7.0,5.0,52.0,Komi-Permyak
+180,22.0,3.0,12.0,Kostroma
+888,51.0,19.0,132.0,Krasnodar
+574,47.0,7.0,64.0,Krasnoyarsk
+33,2.0,0.0,4.0,Kurgan
+590,65.0,4.0,46.0,Kursk
+356,26.0,4.0,65.0,Lipetsk
+92,1.0,2.0,3.0,Magadan
+500,38.0,3.0,81.0,Mari El
+592,32.0,2.0,36.0,Mordovia
+48426,3075.0,479.0,4130.0,Moscow City
+1056,67.0,4.0,88.0,Murmansk
+29,18.0,0.0,1.0,Nenets
+1663,89.0,9.0,109.0,Nizhniy Novgorod
+549,148.0,3.0,57.0,North Ossetia-Alania
+254,10.0,2.0,18.0,Novgorod
+407,60.0,4.0,53.0,Novosibirsk
+82,11.0,2.0,21.0,Omsk
+460,53.0,2.0,38.0,Orel
+456,65.0,2.0,82.0,Orenburg
+322,39.0,7.0,58.0,Penza
+471,17.0,4.0,67.0,Perm
+347,45.0,3.0,33.0,Primorye
+128,4.0,8.0,14.0,Pskov
+778,64.0,2.0,89.0,Rostov
+788,101.0,3.0,47.0,Ryazan’
+166,7.0,1.0,18.0,Sakha
+22,1.0,0.0,17.0,Sakhalin
+272,8.0,5.0,27.0,Samara
+359,32.0,2.0,39.0,Saratov
+369,45.0,3.0,26.0,Smolensk
+3436,198.0,27.0,544.0,St Petersburg City
+491,37.0,6.0,73.0,Stavropol
+539,85.0,1.0,88.0,Sverdlovsk
+493,33.0,1.0,50.0,Tambov
+697,65.0,0.0,72.0,Tatarstan
+81,5.0,0.0,11.0,Tomsk
+783,70.0,5.0,59.0,Tula
+31,1.0,0.0,8.0,Tuva
+507,9.0,1.0,35.0,Tver’
+404,5.0,3.0,61.0,Tyumen’
+212,5.0,6.0,19.0,Udmurtia
+360,29.0,4.0,10.0,Ul’yanovsk
+597,79.0,5.0,11.0,Vladimir
+297,25.0,8.0,44.0,Volgograd
+160,5.0,0.0,41.0,Vologda
+420,62.0,8.0,57.0,Voronezh
+387,12.0,1.0,39.0,Yamalo-Nenets
+456,47.0,3.0,26.0,Yaroslavl’
+103,7.0,0.0,14.0,Zabaykalsky Krai

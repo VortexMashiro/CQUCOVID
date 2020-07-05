@@ -1,0 +1,170 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
+244799,53672.0,10030.0,87407.0,Worldwide
+22,0.0,0.0,1.0,Afghanistan
+64,5.0,2.0,0.0,Albania
+90,18.0,8.0,32.0,Algeria
+0,0.0,0.0,0.0,American Samoa
+74,58.0,0.0,1.0,Andorra
+1,0.0,0.0,0.0,Antigua and Barbuda
+128,31.0,3.0,3.0,Argentina
+136,26.0,0.0,1.0,Armenia
+4,0.0,0.0,1.0,Aruba
+708,142.0,6.0,46.0,Australia
+2013,367.0,6.0,9.0,Austria
+44,10.0,1.0,10.0,Azerbaijan
+3,2.0,0.0,0.0,Bahamas
+269,32.0,1.0,100.0,Bahrain
+17,3.0,1.0,3.0,Bangladesh
+5,3.0,0.0,0.0,Barbados
+60,9.0,0.0,5.0,Belarus
+1795,309.0,21.0,31.0,Belgium
+2,0.0,0.0,0.0,Benin
+1,0.0,0.0,0.0,Bhutan
+141,1.0,10.0,0.0,Bolivia
+62,18.0,0.0,2.0,Bosnia and Herz.
+621,193.0,7.0,2.0,Brazil
+73,5.0,0.0,0.0,Brunei
+105,13.0,3.0,0.0,Bulgaria
+33,6.0,1.0,0.0,Burkina Faso
+47,10.0,0.0,1.0,Cambodia
+13,2.0,0.0,0.0,Cameroon
+873,145.0,12.0,11.0,Canada
+1,0.0,0.0,0.0,Central African Rep.
+1,0.0,0.0,0.0,Chad
+342,104.0,0.0,0.0,Chile
+80928,9.0,3245.0,70420.0,China
+128,26.0,1.0,1.0,Colombia
+3,0.0,0.0,0.0,Congo
+14,7.0,0.0,0.0,Dem. Rep. Congo
+87,18.0,1.0,0.0,Costa Rica
+9,0.0,0.0,1.0,Côte d'Ivoire
+105,16.0,1.0,5.0,Croatia
+11,1.0,1.0,0.0,Cuba
+3,0.0,1.0,0.0,Curaçao
+67,9.0,0.0,0.0,Cyprus
+765,205.0,0.0,3.0,Czech Rep.
+3793,10.0,139.0,3.0,Denmark
+1,0.0,0.0,0.0,Djibouti
+34,0.0,2.0,0.0,Dominican Rep.
+260,105.0,4.0,0.0,Ecuador
+256,46.0,7.0,28.0,Egypt
+1,0.0,0.0,0.0,El Salvador
+6,2.0,0.0,0.0,Eq. Guinea
+267,9.0,0.0,1.0,Estonia
+1,0.0,0.0,0.0,Swaziland
+9,3.0,0.0,0.0,Ethiopia
+72,14.0,0.0,0.0,Faroe Is.
+1,14.0,0.0,0.0,Fiji
+603,92.0,0.0,10.0,Finland
+10995,1861.0,372.0,602.0,France
+11,5.0,372.0,602.0,French Polynesia
+3,0.0,0.0,0.0,Gabon
+1,0.0,0.0,0.0,Gambia
+40,2.0,0.0,1.0,Georgia
+10999,2801.0,20.0,113.0,Germany
+11,2.0,0.0,0.0,Ghana
+464,46.0,6.0,14.0,Greece
+12,4.0,0.0,0.0,Guam
+9,1.0,1.0,0.0,Guatemala
+1,0.0,0.0,0.0,Guernsey
+1,0.0,0.0,0.0,Guinea
+4,0.0,1.0,0.0,Guyana
+24,12.0,0.0,0.0,Honduras
+208,16.0,4.0,95.0,Hong Kong SAR
+73,15.0,1.0,2.0,Hungary
+409,79.0,1.0,5.0,Iceland
+173,22.0,4.0,15.0,India
+2031,3.0,181.0,15.0,Indonesia
+18407,1046.0,1284.0,5710.0,Iran
+192,28.0,13.0,41.0,Iraq
+557,191.0,3.0,5.0,Ireland
+1,191.0,3.0,5.0,Isle of Man
+648,136.0,0.0,12.0,Israel
+41035,5322.0,3405.0,4440.0,Italy
+16,1.0,1.0,2.0,Jamaica
+950,36.0,33.0,191.0,Japan
+10,4.0,0.0,0.0,Jersey
+69,13.0,0.0,1.0,Jordan
+44,8.0,0.0,0.0,Kazakhstan
+7,0.0,0.0,0.0,Kenya
+21,1.0,0.0,0.0,Kosovo
+148,6.0,0.0,18.0,Kuwait
+3,0.0,0.0,0.0,Kyrgyzstan
+111,25.0,0.0,1.0,Latvia
+163,14.0,4.0,4.0,Lebanon
+2,0.0,0.0,0.0,Liberia
+28,21.0,0.0,0.0,Liechtenstein
+48,14.0,0.0,1.0,Lithuania
+335,132.0,4.0,0.0,Luxembourg
+17,2.0,0.0,10.0,Macao SAR
+900,110.0,2.0,75.0,Malaysia
+13,0.0,0.0,0.0,Maldives
+53,5.0,0.0,2.0,Malta
+2,0.0,0.0,0.0,Mauritania
+7,4.0,0.0,0.0,Mauritius
+164,46.0,1.0,4.0,Mexico
+49,13.0,1.0,1.0,Moldova
+9,0.0,0.0,0.0,Monaco
+6,0.0,0.0,0.0,Mongolia
+13,5.0,0.0,0.0,Montenegro
+63,9.0,2.0,1.0,Morocco
+3,1.0,0.0,0.0,Namibia
+1,0.0,0.0,1.0,Nepal
+2460,409.0,76.0,1.0,Netherlands
+28,8.0,0.0,0.0,New Zealand
+1,0.0,0.0,0.0,Nicaragua
+1,0.0,0.0,0.0,Niger
+11,4.0,0.0,1.0,Nigeria
+67,19.0,0.0,1.0,Macedonia
+0,0.0,0.0,0.0,Northern Mariana Islands
+1552,129.0,6.0,1.0,Norway
+48,9.0,0.0,13.0,Oman
+461,159.0,2.0,13.0,Pakistan
+137,28.0,1.0,0.0,Panama
+13,2.0,0.0,0.0,Paraguay
+189,44.0,0.0,1.0,Peru
+217,15.0,17.0,8.0,Philippines
+355,68.0,5.0,1.0,Poland
+785,143.0,3.0,3.0,Portugal
+6,0.0,0.0,0.0,Puerto Rico
+456,4.0,0.0,4.0,Qatar
+277,17.0,0.0,25.0,Romania
+199,52.0,1.0,5.0,Russia
+11,4.0,0.0,0.0,Rwanda
+2,0.0,0.0,0.0,Saint Lucia
+1,0.0,0.0,0.0,Saint Vincent and the Grenadines
+144,17.0,14.0,4.0,San Marino
+274,36.0,0.0,8.0,Saudi Arabia
+36,9.0,0.0,2.0,Senegal
+103,14.0,0.0,1.0,Serbia
+6,0.0,0.0,0.0,Seychelles
+345,32.0,0.0,124.0,Singapore
+123,18.0,0.0,0.0,Slovakia
+319,32.0,1.0,0.0,Slovenia
+1,0.0,0.0,0.0,Somalia
+150,34.0,0.0,0.0,South Africa
+8652,87.0,94.0,1947.0,Korea
+18077,3308.0,833.0,1585.0,Spain
+53,11.0,0.0,3.0,Sri Lanka
+2,0.0,1.0,0.0,Sudan
+2,1.0,0.0,0.0,Suriname
+1553,143.0,21.0,15.0,Sweden
+3888,818.0,53.0,15.0,Switzerland
+108,8.0,1.0,26.0,Taiwan
+6,3.0,0.0,0.0,Tanzania
+272,60.0,1.0,42.0,Thailand
+1,0.0,0.0,0.0,Togo
+9,2.0,0.0,0.0,Trinidad and Tobago
+54,15.0,1.0,1.0,Tunisia
+359,168.0,4.0,0.0,Turkey
+3,0.0,0.0,0.0,U.S. Virgin Islands
+26,10.0,3.0,0.0,Ukraine
+140,27.0,0.0,31.0,United Arab Emirates
+3269,643.0,144.0,65.0,United Kingdom
+12022,3948.0,178.0,108.0,United States
+94,15.0,0.0,0.0,Uruguay
+23,8.0,0.0,0.0,Uzbekistan
+1,0.0,0.0,0.0,Vatican City
+42,6.0,0.0,0.0,Venezuela
+85,9.0,0.0,16.0,Vietnam
+2,0.0,0.0,0.0,Zambia

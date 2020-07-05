@@ -1,0 +1,18 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
+144,0.0,3.0,131.0,Busan
+6874,1.0,183.0,6519.0,Daegu
+45,0.0,1.0,40.0,Daejeon
+56,0.0,2.0,48.0,Gangwon
+30,0.0,0.0,30.0,Gwangju
+764,4.0,18.0,644.0,Gyeonggi
+145,2.0,0.0,92.0,Incheon
+14,0.0,0.0,13.0,Jeju
+59,0.0,0.0,46.0,North Chungcheong
+1377,1.0,54.0,1285.0,North Gyeongsang
+21,0.0,0.0,19.0,North Jeolla
+47,0.0,0.0,47.0,Sejong
+775,7.0,4.0,607.0,Seoul
+145,0.0,0.0,141.0,South Chungcheong
+123,0.0,0.0,119.0,South Gyeongsang
+18,0.0,0.0,17.0,South Jeolla
+50,0.0,1.0,42.0,Ulsan

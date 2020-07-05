@@ -15,14 +15,17 @@ def get_word_epidemic(date):
         data = pd.read_csv(open(
             os.path.join("data/world-epidemic/", date_name + ".csv"),
             'r', encoding="utf-8"), dtype=np.object)
+        confirmed = data["Confirmed"]
+        max = confirmed.drop(0).max()
+        min = data["Confirmed"].min()
         result_list = []
         for index in range(0, data.shape[0]):
             item = data.iloc[index].tolist()
             result_list.append(item)
-        return result_list
+        return max,min,result_list
     else:
         print("没有这一天的数据！")
-        return None
+        return None,None,None
 
 
 def get_country_epidemic(date, country):
@@ -39,10 +42,13 @@ def get_country_epidemic(date, country):
         data = pd.read_csv(
             open(os.path.join("data/country-epidemic/", date_name + "-" + country + ".csv"),
                  "r", encoding="utf-8"), dtype=np.object)
+        confirmed = data["Confirmed"]
+        max = confirmed.max()
+        min = confirmed.min()
         result = []
         for index in range(0, data.shape[0]):
             result.append(data.iloc[index].tolist())
-        return result
+        return max, min, result
     else:
         print("没有相关数据！")
         return None

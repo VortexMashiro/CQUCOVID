@@ -1,0 +1,126 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
+118319,4617.0,4292.0,0,Worldwide
+8,1.0,0.0,0.0,Afghanistan
+15,5.0,1.0,0.0,Albania
+24,1.0,0.0,0.0,Algeria
+1,0.0,0.0,0.0,Andorra
+21,2.0,1.0,0.0,Argentina
+4,3.0,0.0,0.0,Armenia
+128,16.0,3.0,24.0,Australia
+246,64.0,0.0,4.0,Austria
+15,2.0,0.0,4.0,Azerbaijan
+110,1.0,0.0,30.0,Bahrain
+3,0.0,0.0,30.0,Bangladesh
+19,2.0,0.0,3.0,Belarus
+314,47.0,3.0,1.0,Belgium
+1,0.0,0.0,1.0,Bhutan
+139,0.0,10.0,0.0,Bolivia
+7,1.0,0.0,0.0,Bosnia and Herz.
+52,18.0,0.0,0.0,Brazil
+11,10.0,0.0,0.0,Brunei
+7,1.0,1.0,0.0,Bulgaria
+2,0.0,0.0,0.0,Burkina Faso
+3,0.0,0.0,0.0,Cambodia
+2,0.0,0.0,0.0,Cameroon
+118,21.0,1.0,9.0,Canada
+23,5.0,0.0,0.0,Chile
+80813,13.0,3162.0,61475.0,China
+9,6.0,0.0,0.0,Colombia
+1,6.0,0.0,0.0,Congo
+22,9.0,0.0,0.0,Costa Rica
+1,9.0,0.0,0.0,Côte d'Ivoire
+19,4.0,0.0,0.0,Croatia
+6,4.0,0.0,0.0,Cyprus
+94,31.0,0.0,0.0,Czech Rep.
+3713,10.0,139.0,1.0,Denmark
+8,1.0,0.0,1.0,Dominican Rep.
+19,2.0,0.0,0.0,Ecuador
+73,7.0,1.0,27.0,Egypt
+17,4.0,0.0,0.0,Estonia
+2,0.0,0.0,0.0,Faroe Is.
+181,73.0,0.0,1.0,Finland
+2281,497.0,48.0,12.0,France
+5,0.0,0.0,12.0,French Guiana
+1,0.0,0.0,12.0,French Polynesia
+24,1.0,0.0,0.0,Georgia
+1884,424.0,3.0,25.0,Germany
+1,0.0,0.0,25.0,Gibraltar
+99,10.0,0.0,0.0,Greece
+0,0.0,0.0,0.0,Guam
+1,0.0,0.0,0.0,Guernsey
+1,0.0,0.0,0.0,Guyana
+2,0.0,0.0,0.0,Honduras
+129,9.0,3.0,60.0,Hong Kong SAR
+13,1.0,0.0,0.0,Hungary
+90,9.0,0.0,0.0,Iceland
+60,10.0,0.0,4.0,India
+2007,3.0,181.0,2.0,Indonesia
+9000,958.0,354.0,2959.0,Iran
+75,4.0,10.0,2959.0,Iraq
+43,9.0,1.0,0.0,Ireland
+107,20.0,0.0,4.0,Israel
+12462,2313.0,827.0,1258.0,Italy
+2,1.0,0.0,1258.0,Jamaica
+620,52.0,15.0,102.0,Japan
+2,1.0,15.0,102.0,Jersey
+1,0.0,0.0,102.0,Jordan
+72,3.0,0.0,2.0,Kuwait
+16,6.0,0.0,1.0,Latvia
+73,7.0,3.0,1.0,Lebanon
+1,0.0,0.0,1.0,Liechtenstein
+4,1.0,0.0,0.0,Lithuania
+16,9.0,0.0,0.0,Luxembourg
+149,19.0,0.0,26.0,Malaysia
+8,4.0,0.0,0.0,Maldives
+7,2.0,0.0,0.0,Malta
+3,1.0,0.0,0.0,Martinique
+11,4.0,0.0,4.0,Mexico
+4,1.0,0.0,4.0,Moldova
+1,0.0,0.0,4.0,Monaco
+1,0.0,0.0,4.0,Mongolia
+6,3.0,1.0,0.0,Morocco
+1,0.0,0.0,0.0,Nepal
+503,121.0,5.0,0.0,Netherlands
+5,0.0,0.0,0.0,New Zealand
+2,0.0,0.0,0.0,Nigeria
+9,2.0,0.0,0.0,Macedonia
+489,214.0,0.0,1.0,Norway
+18,0.0,0.0,1.0,Oman
+20,1.0,1.0,1.0,Pakistan
+14,6.0,1.0,0.0,Panama
+5,0.0,0.0,0.0,Paraguay
+11,2.0,0.0,0.0,Peru
+49,16.0,1.0,2.0,Philippines
+31,9.0,0.0,0.0,Poland
+59,18.0,0.0,0.0,Portugal
+0,0.0,0.0,0.0,Puerto Rico
+24,6.0,0.0,0.0,Qatar
+47,18.0,0.0,6.0,Romania
+28,8.0,0.0,3.0,Russia
+1,0.0,0.0,3.0,Saint Barthélemy
+2,0.0,0.0,3.0,Saint Martin
+69,7.0,3.0,0.0,San Marino
+45,25.0,0.0,1.0,Saudi Arabia
+7,2.0,0.0,1.0,Senegal
+18,13.0,0.0,0.0,Serbia
+178,12.0,0.0,96.0,Singapore
+10,3.0,0.0,0.0,Slovakia
+57,23.0,0.0,0.0,Slovenia
+13,6.0,0.0,0.0,South Africa
+7869,114.0,66.0,288.0,Korea
+2277,582.0,55.0,138.0,Spain
+1,0.0,0.0,1.0,Sri Lanka
+620,196.0,1.0,1.0,Sweden
+640,160.0,3.0,3.0,Switzerland
+48,1.0,1.0,17.0,Taiwan
+59,6.0,1.0,34.0,Thailand
+1,0.0,0.0,34.0,Togo
+7,1.0,0.0,0.0,Tunisia
+1,0.0,0.0,0.0,Turkey
+0,0.0,0.0,0.0,U.S. Virgin Islands
+1,0.0,0.0,0.0,Ukraine
+79,5.0,0.0,17.0,United Arab Emirates
+456,83.0,8.0,19.0,United Kingdom
+1205,269.0,40.0,15.0,United States
+1,0.0,0.0,15.0,Vatican City
+38,4.0,0.0,16.0,Vietnam

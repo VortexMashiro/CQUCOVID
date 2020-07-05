@@ -1,0 +1,14 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
+1348,98.0,24.0,279.0,Alberta
+1266,32.0,39.0,704.0,British Columbia
+190,3.0,2.0,17.0,Manitoba
+103,2.0,0.0,28.0,New Brunswick
+226,9.0,2.0,32.0,Newfoundland and Labrador
+293,31.0,0.0,64.0,Nova Scotia
+5,1.0,0.0,1.0,Northwest Territories
+0,0.0,0.0,0.0,Nunavut
+4347,309.0,132.0,1624.0,Ontario
+22,0.0,0.0,8.0,Prince Edward Island
+8580,636.0,121.0,611.0,Quebec
+253,4.0,3.0,67.0,Saskatchewan
+7,1.0,0.0,4.0,Yukon Territory

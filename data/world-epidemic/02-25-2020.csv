@@ -1,0 +1,44 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
+80239,908.0,2700.0,0,Worldwide
+1,0.0,0.0,0,Afghanistan
+1,0.0,0.0,0,Algeria
+22,0.0,0.0,0,Australia
+2,0.0,0.0,0,Austria
+8,7.0,0.0,0,Bahrain
+1,0.0,0.0,0,Belgium
+1,0.0,0.0,0,Cambodia
+11,0.0,0.0,8.0,Canada
+77780,518.0,2666.0,27536.0,China
+1,518.0,0.0,27536.0,Croatia
+1,0.0,0.0,27536.0,Egypt
+2,1.0,0.0,27536.0,Finland
+13,1.0,1.0,11.0,France
+18,2.0,0.0,14.0,Germany
+85,4.0,2.0,18.0,Hong Kong SAR
+3,0.0,0.0,18.0,India
+95,31.0,16.0,3.0,Iran
+1,0.0,0.0,3.0,Iraq
+18,16.0,0.0,3.0,Israel
+322,93.0,10.0,3.0,Italy
+164,7.0,1.0,23.0,Japan
+11,6.0,0.0,23.0,Kuwait
+2,1.0,0.0,23.0,Lebanon
+10,0.0,0.0,7.0,Macao SAR
+22,0.0,0.0,20.0,Malaysia
+1,0.0,0.0,20.0,Nepal
+4,2.0,0.0,20.0,Oman
+3,0.0,1.0,20.0,Philippines
+1,0.0,0.0,20.0,Romania
+2,0.0,0.0,20.0,Russia
+91,1.0,0.0,58.0,Singapore
+977,144.0,10.0,22.0,Korea
+10,6.0,1.0,2.0,Spain
+1,0.0,0.0,2.0,Sri Lanka
+1,0.0,0.0,2.0,Sweden
+1,0.0,-1.0,2.0,Switzerland
+31,1.0,1.0,5.0,Taiwan
+37,2.0,0.0,21.0,Thailand
+13,0.0,0.0,21.0,United Arab Emirates
+13,0.0,0.0,21.0,United Kingdom
+36,1.0,2.0,5.0,United States
+16,0.0,0.0,16.0,Vietnam

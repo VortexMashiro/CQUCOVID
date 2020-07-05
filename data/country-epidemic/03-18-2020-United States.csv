@@ -1,0 +1,483 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
+6,0.0,0.0,0.0,Alaska
+51,12.0,0.0,0.0,Alabama
+1,0.0,0.0,0.0,Alabama
+1,0.0,0.0,0.0,Alabama
+4,2.0,0.0,0.0,Alabama
+25,4.0,0.0,0.0,Alabama
+8,5.0,0.0,0.0,Alabama
+1,0.0,0.0,0.0,Alabama
+1,0.0,0.0,0.0,Alabama
+2,0.0,0.0,0.0,Alabama
+4,0.0,0.0,0.0,Alabama
+1,0.0,0.0,0.0,Alabama
+3,0.0,0.0,0.0,Alabama
+37,15.0,0.0,0.0,Arkansas
+27,7.0,0.0,1.0,Arizona
+675,77.0,16.0,6.0,California
+27,9.0,0.0,6.0,California
+2,0.0,0.0,6.0,California
+39,5.0,0.0,6.0,California
+2,0.0,0.0,6.0,California
+1,0.0,0.0,1.0,California
+2,0.0,0.0,1.0,California
+144,50.0,1.0,1.0,California
+1,0.0,0.0,0.0,California
+11,2.0,0.0,0.0,California
+2,2.0,0.0,0.0,California
+1,0.0,0.0,0.0,California
+29,7.0,0.0,0.0,California
+8,0.0,1.0,0.0,California
+16,1.0,3.0,0.0,California
+40,7.0,2.0,0.0,California
+4,1.0,0.0,2.0,California
+3,2.0,0.0,0.0,California
+56,5.0,0.0,0.0,California
+43,3.0,0.0,0.0,California
+13,5.0,0.0,0.0,California
+6,4.0,0.0,0.0,California
+64,23.0,1.0,0.0,California
+2,1.0,0.0,0.0,California
+155,17.0,4.0,0.0,California
+13,4.0,0.0,0.0,California
+1,0.0,0.0,0.0,California
+8,1.0,0.0,0.0,California
+5,1.0,0.0,0.0,California
+4,2.0,0.0,0.0,California
+3,1.0,0.0,0.0,California
+10,5.0,0.0,0.0,California
+4,2.0,0.0,0.0,California
+216,33.0,2.0,0.0,Colorado
+10,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+22,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+7,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+2,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+43,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+11,33.0,2.0,0.0,Colorado
+39,33.0,2.0,0.0,Colorado
+8,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+2,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+1,33.0,2.0,0.0,Colorado
+11,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+25,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+4,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+1,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+11,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+1,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+2,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+4,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+9,33.0,2.0,0.0,Colorado
+0,33.0,2.0,0.0,Colorado
+96,28.0,1.0,0.0,Connecticut
+69,28.0,1.0,0.0,Connecticut
+11,28.0,1.0,0.0,Connecticut
+5,28.0,1.0,0.0,Connecticut
+1,28.0,1.0,0.0,Connecticut
+10,28.0,1.0,0.0,Connecticut
+31,1.0,0.0,0.0,District of Columbia
+26,10.0,0.0,0.0,Delaware
+328,136.0,8.0,0.0,Florida
+10,4.0,8.0,0.0,Florida
+0,4.0,8.0,0.0,Florida
+0,4.0,8.0,0.0,Florida
+0,4.0,8.0,0.0,Florida
+2,1.0,8.0,0.0,Florida
+80,25.0,8.0,0.0,Florida
+0,25.0,8.0,0.0,Florida
+1,0.0,8.0,0.0,Florida
+3,1.0,8.0,0.0,Florida
+4,0.0,8.0,0.0,Florida
+13,6.0,8.0,0.0,Florida
+0,6.0,8.0,0.0,Florida
+0,6.0,8.0,0.0,Florida
+0,6.0,8.0,0.0,Florida
+14,4.0,8.0,0.0,Florida
+1,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+1,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+14,5.0,8.0,0.0,Florida
+0,5.0,8.0,0.0,Florida
+0,5.0,8.0,0.0,Florida
+0,5.0,8.0,0.0,Florida
+0,5.0,8.0,0.0,Florida
+2,1.0,8.0,0.0,Florida
+11,4.0,8.0,0.0,Florida
+4,4.0,8.0,0.0,Florida
+0,4.0,8.0,0.0,Florida
+0,4.0,8.0,0.0,Florida
+0,4.0,8.0,0.0,Florida
+8,1.0,8.0,0.0,Florida
+0,1.0,8.0,0.0,Florida
+0,1.0,8.0,0.0,Florida
+77,34.0,8.0,0.0,Florida
+0,34.0,8.0,0.0,Florida
+1,0.0,8.0,0.0,Florida
+4,2.0,8.0,0.0,Florida
+0,2.0,8.0,0.0,Florida
+15,9.0,8.0,0.0,Florida
+8,1.0,8.0,0.0,Florida
+21,8.0,8.0,0.0,Florida
+3,1.0,8.0,0.0,Florida
+12,8.0,8.0,0.0,Florida
+2,1.0,8.0,0.0,Florida
+0,1.0,8.0,0.0,Florida
+1,0.0,8.0,0.0,Florida
+5,1.0,8.0,0.0,Florida
+7,3.0,8.0,0.0,Florida
+4,1.0,8.0,0.0,Florida
+1,1.0,8.0,0.0,Florida
+0,1.0,8.0,0.0,Florida
+0,1.0,8.0,0.0,Florida
+0,1.0,8.0,0.0,Florida
+9,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+1,0.0,8.0,0.0,Florida
+0,0.0,8.0,0.0,Florida
+197,51.0,1.0,0.0,Georgia
+1,0.0,1.0,0.0,Georgia
+19,9.0,1.0,0.0,Georgia
+1,0.0,1.0,0.0,Georgia
+9,2.0,1.0,0.0,Georgia
+5,2.0,1.0,0.0,Georgia
+6,1.0,1.0,0.0,Georgia
+28,3.0,1.0,0.0,Georgia
+1,0.0,1.0,0.0,Georgia
+3,0.0,1.0,0.0,Georgia
+18,3.0,1.0,0.0,Georgia
+17,3.0,1.0,0.0,Georgia
+8,3.0,1.0,0.0,Georgia
+6,0.0,1.0,0.0,Georgia
+2,1.0,1.0,0.0,Georgia
+49,16.0,1.0,0.0,Georgia
+3,1.0,1.0,0.0,Georgia
+7,0.0,1.0,0.0,Georgia
+3,2.0,1.0,0.0,Georgia
+2,0.0,1.0,0.0,Georgia
+1,0.0,1.0,0.0,Georgia
+2,0.0,1.0,0.0,Georgia
+5,1.0,1.0,0.0,Georgia
+3,2.0,1.0,0.0,Georgia
+3,2.0,1.0,0.0,Georgia
+1,0.0,1.0,0.0,Georgia
+1,0.0,1.0,0.0,Georgia
+1,0.0,1.0,0.0,Georgia
+2,0.0,1.0,0.0,Georgia
+1,0.0,1.0,0.0,Georgia
+16,2.0,0.0,0.0,Hawaii
+44,6.0,0.0,0.0,Iowa
+11,2.0,0.0,0.0,Idaho
+288,128.0,1.0,2.0,Illinois
+56,17.0,5.0,0.0,Indiana
+21,5.0,1.0,0.0,Kansas
+35,9.0,1.0,0.0,Kentucky
+280,84.0,7.0,0.0,Louisiana
+0,0.0,0.0,0.0,Louisiana
+0,0.0,0.0,0.0,Louisiana
+0,0.0,0.0,0.0,Louisiana
+45,10.0,1.0,0.0,Louisiana
+3,1.0,0.0,0.0,Louisiana
+0,0.0,0.0,0.0,Louisiana
+0,0.0,0.0,0.0,Louisiana
+256,38.0,0.0,1.0,Massachusetts
+2,0.0,0.0,1.0,Massachusetts
+17,3.0,0.0,1.0,Massachusetts
+5,0.0,0.0,1.0,Massachusetts
+14,6.0,0.0,1.0,Massachusetts
+1,6.0,0.0,1.0,Massachusetts
+2,1.0,0.0,1.0,Massachusetts
+100,11.0,0.0,1.0,Massachusetts
+45,2.0,0.0,1.0,Massachusetts
+5,0.0,0.0,1.0,Massachusetts
+51,9.0,0.0,1.0,Massachusetts
+10,2.0,0.0,1.0,Massachusetts
+85,28.0,1.0,4.0,Maryland
+42,10.0,0.0,0.0,Maine
+80,15.0,1.0,0.0,Michigan
+1,0.0,1.0,0.0,Michigan
+1,0.0,1.0,0.0,Michigan
+1,0.0,1.0,0.0,Michigan
+2,0.0,1.0,0.0,Michigan
+1,0.0,1.0,0.0,Michigan
+6,4.0,1.0,0.0,Michigan
+1,4.0,1.0,0.0,Michigan
+1,0.0,1.0,0.0,Michigan
+7,2.0,1.0,0.0,Michigan
+1,0.0,1.0,0.0,Michigan
+1,0.0,1.0,0.0,Michigan
+55,45.0,1.0,0.0,Michigan
+1,45.0,1.0,0.0,Michigan
+2,1.0,1.0,0.0,Michigan
+1,0.0,1.0,0.0,Michigan
+105,82.0,1.0,0.0,Michigan
+1,0.0,1.0,0.0,Michigan
+1,0.0,1.0,0.0,Michigan
+4,2.0,1.0,0.0,Michigan
+14,7.0,1.0,0.0,Michigan
+44,34.0,1.0,0.0,Michigan
+77,17.0,0.0,0.0,Minnesota
+24,9.0,1.0,0.0,Missouri
+34,13.0,0.0,0.0,Mississippi
+2,13.0,0.0,0.0,Mississippi
+2,13.0,0.0,0.0,Mississippi
+2,13.0,0.0,0.0,Mississippi
+1,13.0,0.0,0.0,Mississippi
+3,13.0,0.0,0.0,Mississippi
+2,13.0,0.0,0.0,Mississippi
+4,13.0,0.0,0.0,Mississippi
+6,13.0,0.0,0.0,Mississippi
+1,13.0,0.0,0.0,Mississippi
+4,13.0,0.0,0.0,Mississippi
+1,13.0,0.0,0.0,Mississippi
+1,13.0,0.0,0.0,Mississippi
+4,13.0,0.0,0.0,Mississippi
+1,13.0,0.0,0.0,Mississippi
+13,2.0,0.0,0.0,Montana
+63,23.0,0.0,0.0,North Carolina
+7,4.0,0.0,0.0,North Dakota
+26,4.0,0.0,0.0,Nebraska
+39,13.0,0.0,0.0,New Hampshire
+427,160.0,5.0,1.0,New Jersey
+3,160.0,5.0,1.0,New Jersey
+114,15.0,5.0,1.0,New Jersey
+10,5.0,5.0,1.0,New Jersey
+8,5.0,5.0,1.0,New Jersey
+45,13.0,5.0,1.0,New Jersey
+2,0.0,5.0,1.0,New Jersey
+34,10.0,5.0,1.0,New Jersey
+6,2.0,5.0,1.0,New Jersey
+15,6.0,5.0,1.0,New Jersey
+40,18.0,5.0,1.0,New Jersey
+32,10.0,5.0,1.0,New Jersey
+19,12.0,5.0,1.0,New Jersey
+8,4.0,5.0,1.0,New Jersey
+18,8.0,5.0,1.0,New Jersey
+16,9.0,5.0,1.0,New Jersey
+26,11.0,5.0,1.0,New Jersey
+28,5.0,0.0,0.0,New Mexico
+55,10.0,1.0,0.0,Nevada
+2382,1008.0,16.0,1.0,New York
+36,13.0,16.0,1.0,New York
+2,0.0,16.0,1.0,New York
+1,0.0,16.0,1.0,New York
+1,0.0,16.0,1.0,New York
+1,0.0,16.0,1.0,New York
+1,0.0,16.0,1.0,New York
+20,4.0,16.0,1.0,New York
+7,0.0,16.0,1.0,New York
+1,0.0,16.0,1.0,New York
+2,0.0,16.0,1.0,New York
+1,0.0,16.0,1.0,New York
+1,0.0,16.0,1.0,New York
+14,4.0,16.0,1.0,New York
+2,1.0,16.0,1.0,New York
+183,52.0,16.0,1.0,New York
+1641,827.0,16.0,1.0,New York
+2,0.0,16.0,1.0,New York
+1,0.0,16.0,1.0,New York
+32,17.0,16.0,1.0,New York
+2,0.0,16.0,1.0,New York
+4,3.0,16.0,1.0,New York
+30,8.0,16.0,1.0,New York
+14,5.0,16.0,1.0,New York
+14,9.0,16.0,1.0,New York
+116,32.0,16.0,1.0,New York
+1,0.0,16.0,1.0,New York
+1,0.0,16.0,1.0,New York
+3,1.0,16.0,1.0,New York
+9,1.0,16.0,1.0,New York
+1,1.0,16.0,1.0,New York
+1,1.0,16.0,1.0,New York
+538,158.0,16.0,1.0,New York
+1,0.0,16.0,1.0,New York
+88,21.0,0.0,0.0,Ohio
+1,21.0,0.0,0.0,Ohio
+2,21.0,0.0,0.0,Ohio
+8,21.0,0.0,0.0,Ohio
+2,21.0,0.0,0.0,Ohio
+38,21.0,0.0,0.0,Ohio
+1,21.0,0.0,0.0,Ohio
+1,21.0,0.0,0.0,Ohio
+7,21.0,0.0,0.0,Ohio
+1,21.0,0.0,0.0,Ohio
+1,21.0,0.0,0.0,Ohio
+2,21.0,0.0,0.0,Ohio
+6,21.0,0.0,0.0,Ohio
+1,21.0,0.0,0.0,Ohio
+3,21.0,0.0,0.0,Ohio
+4,21.0,0.0,0.0,Ohio
+3,21.0,0.0,0.0,Ohio
+4,21.0,0.0,0.0,Ohio
+2,21.0,0.0,0.0,Ohio
+1,21.0,0.0,0.0,Ohio
+29,12.0,0.0,0.0,Oklahoma
+75,10.0,3.0,0.0,Oregon
+3,10.0,0.0,0.0,Oregon
+6,10.0,0.0,0.0,Oregon
+6,10.0,0.0,0.0,Oregon
+1,10.0,0.0,0.0,Oregon
+2,10.0,0.0,0.0,Oregon
+1,10.0,0.0,0.0,Oregon
+2,10.0,1.0,0.0,Oregon
+15,10.0,0.0,0.0,Oregon
+8,10.0,0.0,0.0,Oregon
+3,10.0,1.0,0.0,Oregon
+1,10.0,0.0,0.0,Oregon
+2,10.0,0.0,0.0,Oregon
+23,10.0,1.0,0.0,Oregon
+2,10.0,0.0,0.0,Oregon
+133,37.0,1.0,0.0,Pennsylvania
+11,4.0,1.0,0.0,Pennsylvania
+2,1.0,1.0,0.0,Pennsylvania
+1,1.0,1.0,0.0,Pennsylvania
+9,1.0,1.0,0.0,Pennsylvania
+9,5.0,1.0,0.0,Pennsylvania
+10,0.0,1.0,0.0,Pennsylvania
+14,5.0,1.0,0.0,Pennsylvania
+1,5.0,1.0,0.0,Pennsylvania
+1,0.0,1.0,0.0,Pennsylvania
+1,0.0,1.0,0.0,Pennsylvania
+11,3.0,1.0,0.0,Pennsylvania
+42,10.0,1.0,0.0,Pennsylvania
+1,0.0,1.0,0.0,Pennsylvania
+17,7.0,1.0,0.0,Pennsylvania
+2,1.0,1.0,0.0,Pennsylvania
+2,0.0,1.0,0.0,Pennsylvania
+1,0.0,1.0,0.0,Pennsylvania
+2,0.0,1.0,0.0,Pennsylvania
+33,12.0,0.0,0.0,Rhode Island
+60,13.0,1.0,0.0,South Carolina
+11,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+5,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+98,25.0,0.0,0.0,Tennessee
+1,25.0,0.0,0.0,Tennessee
+1,25.0,0.0,0.0,Tennessee
+58,25.0,0.0,0.0,Tennessee
+1,25.0,0.0,0.0,Tennessee
+1,25.0,0.0,0.0,Tennessee
+2,25.0,0.0,0.0,Tennessee
+1,25.0,0.0,0.0,Tennessee
+1,25.0,0.0,0.0,Tennessee
+1,25.0,0.0,0.0,Tennessee
+4,25.0,0.0,0.0,Tennessee
+1,25.0,0.0,0.0,Tennessee
+2,25.0,0.0,0.0,Tennessee
+24,25.0,0.0,0.0,Tennessee
+82,19.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+4,1.0,2.0,0.0,Texas
+1,1.0,2.0,0.0,Texas
+2,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+6,0.0,2.0,0.0,Texas
+15,6.0,2.0,0.0,Texas
+4,3.0,2.0,0.0,Texas
+3,0.0,2.0,0.0,Texas
+9,0.0,2.0,0.0,Texas
+2,1.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+10,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+3,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+5,1.0,2.0,0.0,Texas
+5,2.0,2.0,0.0,Texas
+4,1.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+53,12.0,0.0,0.0,Utah
+6,12.0,0.0,0.0,Utah
+4,12.0,0.0,0.0,Utah
+22,12.0,0.0,0.0,Utah
+0,12.0,0.0,0.0,Utah
+15,12.0,0.0,0.0,Utah
+1,12.0,0.0,0.0,Utah
+1,12.0,0.0,0.0,Utah
+2,12.0,0.0,0.0,Utah
+77,10.0,2.0,1.0,Virginia
+19,2.0,0.0,0.0,Vermont
+1419,175.0,82.0,0.0,Washington
+2,0.0,0.0,0.0,Washington
+4,0.0,3.0,0.0,Washington
+1,0.0,0.0,0.0,Washington
+1,0.0,0.0,0.0,Washington
+8,1.0,1.0,0.0,Washington
+1,0.0,0.0,0.0,Washington
+16,2.0,0.0,0.0,Washington
+4,1.0,0.0,0.0,Washington
+631,62.0,56.0,0.0,Washington
+9,2.0,0.0,0.0,Washington
+4,1.0,0.0,0.0,Washington
+1,0.0,0.0,0.0,Washington
+1,0.0,0.0,0.0,Washington
+1,0.0,0.0,0.0,Washington
+56,11.0,0.0,0.0,Washington
+14,5.0,0.0,0.0,Washington
+310,56.0,6.0,0.0,Washington
+4,0.0,0.0,0.0,Washington
+6,1.0,0.0,0.0,Washington
+7,1.0,0.0,0.0,Washington
+7,2.0,0.0,0.0,Washington
+106,34.0,0.0,1.0,Wisconsin
+2,1.0,0.0,0.0,West Virginia
+18,7.0,0.0,0.0,Wyoming

@@ -3,8 +3,39 @@ import numpy as np
 import os
 import json
 
-
 # 预处理
+
+dict = {'China (mainland)': 'China',
+        'South Korea': 'Korea',
+        'Laos': 'Lao PDR',
+        'Eswatini': 'Swaziland',
+        'South Sudan': 'S. Sudan',
+        'Central African Republic': 'Central African Rep.',
+        'Equatorial Guinea': 'Eq. Guinea',
+        'Congo (DRC)': 'Dem. Rep. Congo',
+        'North Macedonia': 'Macedonia',
+        'Bosnia and Herzegovina': 'Bosnia and Herz.',
+        'Czechia': 'Czech Rep.',
+        'Faroe Islands': 'Faroe Is.',
+        'Dominican Republic': 'Dominican Rep.',
+        'Cabo Verde': 'Cape Verde',
+        'Falkland Islands': 'Falkland Is.', }
+
+
+def country_map(key):
+    value = dict.get(key)
+    if value == None:
+        return key
+    else:
+        return value
+
+
+# df = pd.read_csv("Bing-COVID19-Data.csv")
+# df["Country_Region"] = df["Country_Region"].apply(country_map)
+# df.to_csv("Bing-COVID19-Data.csv", index=None, encoding="utf-8")
+
+
+# 预处理结束
 
 def extra_source():
     """
@@ -62,7 +93,6 @@ def extra_word_epidemic(source, date_list):
         data.fillna(method="pad", inplace=True)
         data.fillna(value=0, inplace=True)
         data.to_csv(file_name, index=None, encoding="utf-8")
-        print(date)
 
 
 def extra_country_epidemic(source, date_list, country_list):
@@ -108,7 +138,6 @@ def extra_country_epidemic_summary(source, country_list):
         data.fillna(value=0, inplace=True)
         file_name = "data/country-epidemic-summary/" + country + ".csv"
         data.to_csv(file_name, encoding="utf-8", index=None)
-        print(country)
 
 
 def extra_new_confirmed_death(source, country_list):
@@ -124,7 +153,6 @@ def extra_new_confirmed_death(source, country_list):
         data.fillna(value=0, inplace=True)
         file_name = "data/new-confirmed-death/" + country + ".csv"
         data.to_csv(file_name, encoding="utf-8", index=None)
-        print(country)
 
 
 def extra_region_comparision(source, country_list):
@@ -145,7 +173,6 @@ def extra_region_comparision(source, country_list):
         data.fillna(value=0, inplace=True)
         file_name = "data/region-comparision/" + country + ".csv"
         data.to_csv(file_name, encoding="utf-8", index=None)
-        print(country)
 
 
 def extra_country_position(source, country_list):
@@ -161,7 +188,6 @@ def extra_country_position(source, country_list):
         data = source[(country_column == country) & area_column].iloc[0]
         data = data[["Latitude", "Longitude", "Country_Region"]].tolist()
         position_list.append(data)
-        print(country)
     result = pd.DataFrame(position_list, columns=["Latitude", "Longitude", "Country_Region"])
     result.drop(index=0, inplace=True)
     file_name = "data/position/country-position.csv"
@@ -179,26 +205,34 @@ def extra_time_axis_data(date_list):
     DATA = {}
     for date in date_list:
         date_name = date.replace("/", "-")
-        file_name = directory+date_name+".csv"
-        data = pd.read_csv(file_name,dtype=np.object)
+        file_name = directory + date_name + ".csv"
+        data = pd.read_csv(file_name, dtype=np.object)
         value = []
-        for index in range(0,data.shape[0]):
+        for index in range(0, data.shape[0]):
             value.append(data.iloc[index].tolist())
-            # print(value)
         DATA[date] = value
-    json_file = open(file_name_json,"w")
+    json_file = open(file_name_json, "w")
     json_file.write(json.dumps(DATA))
     json_file.close()
 
+
 source_data = extra_source()
+print("extra_source")
 date_list_data = extra_date_list(source_data)
-print(date_list_data)
-# extra_word_epidemic(source_data, date_list_data)
-# country_list_data = extra_country_list(source_data)
-# print(country_list_data)
-# extra_country_epidemic(source_data, date_list_data, country_list_data)
-# extra_country_epidemic_summary(source_data, country_list_data)
-# extra_new_confirmed_death(source_data, country_list_data)
-# extra_region_comparision(source_data,country_list_data)
-# extra_country_position(source_data,country_list_data)
-# extra_time_axis_data(date_list_data)
+print("extra_date_list")
+extra_word_epidemic(source_data, date_list_data)
+print("extra_word_epidemic")
+country_list_data = extra_country_list(source_data)
+print("extra_country_list")
+extra_country_epidemic(source_data, date_list_data, country_list_data)
+print("extra_country_epidemic")
+extra_country_epidemic_summary(source_data, country_list_data)
+print("extra_country_epidemic_summary")
+extra_new_confirmed_death(source_data, country_list_data)
+print("extra_new_confirmed_death")
+extra_region_comparision(source_data,country_list_data)
+print("extra_region_comparision")
+extra_country_position(source_data,country_list_data)
+print("extra_country_position")
+extra_time_axis_data(date_list_data)
+print("extra_time_axis_data")

@@ -1,0 +1,221 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
+33,0.0,0.0,33.0,Andaman and Nicobar Islands
+1847,70.0,38.0,780.0,Andhra Pradesh
+83,2.0,4.0,39.0,Andhra Pradesh
+97,5.0,0.0,68.0,Andhra Pradesh
+96,4.0,0.0,40.0,Andhra Pradesh
+46,1.0,0.0,26.0,Andhra Pradesh
+373,11.0,8.0,150.0,Andhra Pradesh
+316,15.0,11.0,123.0,Andhra Pradesh
+540,12.0,12.0,168.0,Andhra Pradesh
+61,0.0,0.0,52.0,Andhra Pradesh
+46,9.0,0.0,22.0,Andhra Pradesh
+62,1.0,0.0,33.0,Andhra Pradesh
+1,0.0,0.0,1.0,Arunachal Pradesh
+54,9.0,1.0,34.0,Assam
+550,8.0,5.0,246.0,Bihar
+135,15.0,1.0,21.0,Chandigarh
+59,0.0,0.0,38.0,Chhattisgarh
+5980,448.0,66.0,1931.0,Delhi
+184,0.0,66.0,1931.0,Delhi
+37,0.0,66.0,1931.0,Delhi
+25,0.0,66.0,1931.0,Delhi
+70,0.0,66.0,1931.0,Delhi
+42,0.0,66.0,1931.0,Delhi
+1,0.0,0.0,0.0,Dadra and Nagar Haveli
+7,0.0,0.0,7.0,Goa
+7012,387.0,425.0,1709.0,Gujarat
+4991,283.0,321.0,886.0,Gujarat
+76,1.0,6.0,43.0,Gujarat
+83,4.0,5.0,21.0,Gujarat
+19,6.0,0.0,2.0,Gujarat
+88,5.0,5.0,20.0,Gujarat
+3,0.0,0.0,3.0,Gujarat
+9,5.0,1.0,0.0,Gujarat
+7,0.0,1.0,5.0,Gujarat
+42,0.0,1.0,8.0,Gujarat
+1,0.0,0.0,1.0,Gujarat
+51,2.0,3.0,6.0,Gujarat
+24,0.0,1.0,13.0,Gujarat
+3,0.0,0.0,3.0,Gujarat
+64,1.0,1.0,26.0,Gujarat
+10,1.0,2.0,3.0,Gujarat
+799,38.0,37.0,365.0,Gujarat
+440,18.0,31.0,191.0,Gujarat
+46,1.0,2.0,38.0,Himachal Pradesh
+625,31.0,7.0,260.0,Haryana
+132,5.0,3.0,41.0,Jharkhand
+705,12.0,30.0,366.0,Karnataka
+503,0.0,4.0,474.0,Kerala
+17974,1216.0,694.0,3301.0,Maharashtra
+57,2.0,694.0,3301.0,Maharashtra
+99,18.0,694.0,3301.0,Maharashtra
+73,6.0,694.0,3301.0,Maharashtra
+400,30.0,694.0,3301.0,Maharashtra
+1,0.0,694.0,3301.0,Maharashtra
+24,0.0,694.0,3301.0,Maharashtra
+1,0.0,694.0,3301.0,Maharashtra
+58,2.0,694.0,3301.0,Maharashtra
+78,10.0,694.0,3301.0,Maharashtra
+8,0.0,694.0,3301.0,Maharashtra
+16,0.0,694.0,3301.0,Maharashtra
+25,6.0,694.0,3301.0,Maharashtra
+11394,725.0,694.0,3301.0,Maharashtra
+206,13.0,694.0,3301.0,Maharashtra
+533,62.0,694.0,3301.0,Maharashtra
+4,0.0,694.0,3301.0,Maharashtra
+233,13.0,694.0,3301.0,Maharashtra
+2129,34.0,694.0,3301.0,Maharashtra
+16,2.0,694.0,3301.0,Maharashtra
+35,1.0,694.0,3301.0,Maharashtra
+94,8.0,694.0,3301.0,Maharashtra
+1889,243.0,694.0,3301.0,Maharashtra
+2,0.0,694.0,3301.0,Maharashtra
+93,1.0,694.0,3301.0,Maharashtra
+12,0.0,1.0,10.0,Meghalaya
+2,0.0,0.0,2.0,Manipur
+3252,114.0,193.0,1231.0,Madhya Pradesh
+3,0.0,193.0,1231.0,Madhya Pradesh
+24,0.0,193.0,1231.0,Madhya Pradesh
+2,0.0,193.0,1231.0,Madhya Pradesh
+675,34.0,193.0,1231.0,Madhya Pradesh
+2,0.0,193.0,1231.0,Madhya Pradesh
+18,0.0,193.0,1231.0,Madhya Pradesh
+32,0.0,193.0,1231.0,Madhya Pradesh
+16,5.0,193.0,1231.0,Madhya Pradesh
+25,0.0,193.0,1231.0,Madhya Pradesh
+1699,23.0,193.0,1231.0,Madhya Pradesh
+116,6.0,193.0,1231.0,Madhya Pradesh
+9,0.0,193.0,1231.0,Madhya Pradesh
+13,0.0,193.0,1231.0,Madhya Pradesh
+29,0.0,193.0,1231.0,Madhya Pradesh
+13,0.0,193.0,1231.0,Madhya Pradesh
+2,0.0,193.0,1231.0,Madhya Pradesh
+2,0.0,193.0,1231.0,Madhya Pradesh
+6,0.0,193.0,1231.0,Madhya Pradesh
+2,0.0,193.0,1231.0,Madhya Pradesh
+1,0.0,193.0,1231.0,Madhya Pradesh
+29,0.0,193.0,1231.0,Madhya Pradesh
+13,0.0,193.0,1231.0,Madhya Pradesh
+1,0.0,0.0,0.0,Mizoram
+219,34.0,2.0,62.0,Orissa
+1644,128.0,28.0,149.0,Punjab
+9,0.0,0.0,6.0,Puducherry
+3427,110.0,97.0,1596.0,Rajasthan
+187,5.0,97.0,51.0,Rajasthan
+18,5.0,97.0,6.0,Rajasthan
+66,0.0,97.0,58.0,Rajasthan
+3,0.0,97.0,1.0,Rajasthan
+116,1.0,97.0,105.0,Rajasthan
+39,0.0,97.0,35.0,Rajasthan
+38,0.0,97.0,36.0,Rajasthan
+14,0.0,97.0,14.0,Rajasthan
+21,0.0,97.0,18.0,Rajasthan
+21,6.0,97.0,1.0,Rajasthan
+9,2.0,97.0,5.0,Rajasthan
+1111,32.0,97.0,677.0,Rajasthan
+35,0.0,97.0,31.0,Rajasthan
+42,0.0,97.0,42.0,Rajasthan
+842,40.0,97.0,312.0,Rajasthan
+4,1.0,97.0,3.0,Rajasthan
+223,1.0,97.0,159.0,Rajasthan
+119,0.0,97.0,80.0,Rajasthan
+50,22.0,97.0,2.0,Rajasthan
+4,0.0,97.0,2.0,Rajasthan
+7,0.0,97.0,2.0,Rajasthan
+137,1.0,97.0,120.0,Rajasthan
+20,5.0,97.0,7.0,Rajasthan
+5409,580.0,37.0,1547.0,Tamil Nadu
+246,212.0,37.0,1547.0,Tamil Nadu
+2644,318.0,37.0,1547.0,Tamil Nadu
+146,0.0,37.0,1547.0,Tamil Nadu
+356,64.0,37.0,1547.0,Tamil Nadu
+107,5.0,37.0,1547.0,Tamil Nadu
+70,0.0,37.0,1547.0,Tamil Nadu
+89,47.0,37.0,1547.0,Tamil Nadu
+17,0.0,37.0,1547.0,Tamil Nadu
+44,0.0,37.0,1547.0,Tamil Nadu
+111,7.0,37.0,1547.0,Tamil Nadu
+45,0.0,37.0,1547.0,Tamil Nadu
+76,0.0,37.0,1547.0,Tamil Nadu
+73,36.0,37.0,1547.0,Tamil Nadu
+23,2.0,37.0,1547.0,Tamil Nadu
+35,1.0,37.0,1547.0,Tamil Nadu
+12,0.0,37.0,1547.0,Tamil Nadu
+65,3.0,37.0,1547.0,Tamil Nadu
+54,5.0,37.0,1547.0,Tamil Nadu
+192,49.0,37.0,1547.0,Tamil Nadu
+32,1.0,37.0,1547.0,Tamil Nadu
+30,3.0,37.0,1547.0,Tamil Nadu
+62,3.0,37.0,1547.0,Tamil Nadu
+68,2.0,37.0,1547.0,Tamil Nadu
+114,0.0,37.0,1547.0,Tamil Nadu
+59,11.0,37.0,1547.0,Tamil Nadu
+29,7.0,37.0,1547.0,Tamil Nadu
+205,23.0,37.0,1547.0,Tamil Nadu
+35,0.0,37.0,1547.0,Tamil Nadu
+65,22.0,0.0,2.0,Tripura
+1123,16.0,29.0,650.0,Telangana
+21,0.0,0.0,12.0,Telangana
+614,8.0,21.0,212.0,Telangana
+12,0.0,0.0,9.0,Telangana
+19,0.0,0.0,16.0,Telangana
+8,0.0,0.0,3.0,Telangana
+4,0.0,0.0,4.0,Telangana
+1,0.0,0.0,1.0,Telangana
+6,0.0,0.0,4.0,Telangana
+2,0.0,0.0,2.0,Telangana
+17,0.0,0.0,12.0,Telangana
+20,0.0,0.0,12.0,Telangana
+61,0.0,0.0,33.0,Telangana
+40,0.0,2.0,17.0,Telangana
+7,0.0,0.0,6.0,Telangana
+1,0.0,0.0,1.0,Telangana
+83,0.0,0.0,12.0,Telangana
+27,0.0,0.0,23.0,Telangana
+62,1.0,1.0,39.0,Uttarakhand
+3071,73.0,62.0,1250.0,Uttar Pradesh
+621,28.0,62.0,1250.0,Uttar Pradesh
+1,0.0,62.0,1250.0,Uttar Pradesh
+16,0.0,62.0,1250.0,Uttar Pradesh
+8,0.0,62.0,1250.0,Uttar Pradesh
+15,0.0,62.0,1250.0,Uttar Pradesh
+7,5.0,62.0,1250.0,Uttar Pradesh
+6,0.0,62.0,1250.0,Uttar Pradesh
+19,0.0,62.0,1250.0,Uttar Pradesh
+26,0.0,62.0,1250.0,Uttar Pradesh
+13,0.0,62.0,1250.0,Uttar Pradesh
+18,0.0,62.0,1250.0,Uttar Pradesh
+3,0.0,62.0,1250.0,Uttar Pradesh
+138,8.0,62.0,1250.0,Uttar Pradesh
+219,13.0,62.0,1250.0,Uttar Pradesh
+94,4.0,62.0,1250.0,Uttar Pradesh
+6,0.0,62.0,1250.0,Uttar Pradesh
+17,0.0,62.0,1250.0,Uttar Pradesh
+2,0.0,62.0,1250.0,Uttar Pradesh
+4,0.0,62.0,1250.0,Uttar Pradesh
+5,0.0,62.0,1250.0,Uttar Pradesh
+10,0.0,62.0,1250.0,Uttar Pradesh
+7,1.0,62.0,1250.0,Uttar Pradesh
+288,8.0,62.0,1250.0,Uttar Pradesh
+2,0.0,62.0,1250.0,Uttar Pradesh
+4,0.0,62.0,1250.0,Uttar Pradesh
+253,4.0,62.0,1250.0,Uttar Pradesh
+6,0.0,62.0,1250.0,Uttar Pradesh
+4,0.0,62.0,1250.0,Uttar Pradesh
+6,0.0,62.0,1250.0,Uttar Pradesh
+194,9.0,62.0,1250.0,Uttar Pradesh
+3,0.0,62.0,1250.0,Uttar Pradesh
+118,6.0,62.0,1250.0,Uttar Pradesh
+2,0.0,62.0,1250.0,Uttar Pradesh
+6,0.0,62.0,1250.0,Uttar Pradesh
+15,0.0,62.0,1250.0,Uttar Pradesh
+144,8.0,62.0,1250.0,Uttar Pradesh
+7,0.0,62.0,1250.0,Uttar Pradesh
+1,0.0,62.0,1250.0,Uttar Pradesh
+1,0.0,62.0,1250.0,Uttar Pradesh
+26,0.0,62.0,1250.0,Uttar Pradesh
+17,0.0,62.0,1250.0,Uttar Pradesh
+4,3.0,62.0,1250.0,Uttar Pradesh
+77,5.0,62.0,1250.0,Uttar Pradesh
+1548,92.0,151.0,364.0,West Bengal

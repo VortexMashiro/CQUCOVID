@@ -1,0 +1,1623 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
+69,10.0,1.0,0,Alaska
+43,10.0,1.0,0,Alaska
+6,1.0,1.0,0,Alaska
+4,1.0,1.0,0,Alaska
+1,0.0,1.0,0,Alaska
+12,1.0,1.0,0,Alaska
+2,0.0,1.0,0,Alaska
+531,73.0,1.0,0,Alabama
+6,0.0,1.0,0,Alabama
+5,0.0,1.0,0,Alabama
+4,2.0,1.0,0,Alabama
+2,0.0,0.0,0,Alabama
+1,0.0,1.0,0,Alabama
+3,1.0,1.0,0,Alabama
+13,0.0,1.0,0,Alabama
+1,0.0,0.0,0,Alabama
+6,2.0,1.0,0,Alabama
+1,0.0,0.0,0,Alabama
+1,0.0,1.0,0,Alabama
+3,2.0,1.0,0,Alabama
+1,0.0,1.0,0,Alabama
+2,0.0,0.0,0,Alabama
+1,0.0,0.0,0,Alabama
+1,0.0,0.0,0,Alabama
+6,0.0,1.0,0,Alabama
+2,0.0,1.0,0,Alabama
+1,0.0,0.0,0,Alabama
+12,2.0,1.0,0,Alabama
+4,0.0,1.0,0,Alabama
+3,0.0,1.0,0,Alabama
+1,0.0,0.0,0,Alabama
+3,0.0,1.0,0,Alabama
+4,0.0,1.0,0,Alabama
+177,15.0,1.0,0,Alabama
+1,0.0,0.0,0,Alabama
+9,0.0,1.0,0,Alabama
+2,-1.0,0.0,0,Alabama
+48,1.0,1.0,0,Alabama
+14,1.0,0.0,0,Alabama
+1,0.0,0.0,0,Alabama
+47,4.0,1.0,0,Alabama
+2,1.0,0.0,0,Alabama
+7,0.0,1.0,0,Alabama
+4,1.0,1.0,0,Alabama
+23,4.0,1.0,0,Alabama
+18,1.0,1.0,0,Alabama
+9,0.0,1.0,0,Alabama
+1,0.0,1.0,0,Alabama
+2,0.0,1.0,0,Alabama
+1,0.0,0.0,0,Alabama
+1,0.0,0.0,0,Alabama
+66,13.0,1.0,0,Alabama
+9,3.0,0.0,0,Alabama
+4,0.0,1.0,0,Alabama
+4,0.0,1.0,0,Alabama
+21,1.0,1.0,0,Alabama
+23,5.0,1.0,0,Alabama
+2,0.0,1.0,0,Alabama
+2,0.0,1.0,0,Alabama
+2,0.0,0.0,0,Alabama
+349,43.0,2.0,0,Arkansas
+23,0.0,0.0,1.0,Arkansas
+1,0.0,0.0,0.0,Arkansas
+4,0.0,0.0,0.0,Arkansas
+1,0.0,0.0,0.0,Arkansas
+17,2.0,0.0,2.0,Arkansas
+49,3.0,2.0,3.0,Arkansas
+4,0.0,0.0,0.0,Arkansas
+1,0.0,0.0,0.0,Arkansas
+2,0.0,0.0,0.0,Arkansas
+4,0.0,0.0,0.0,Arkansas
+1,0.0,0.0,0.0,Arkansas
+9,2.0,0.0,1.0,Arkansas
+1,0.0,0.0,0.0,Arkansas
+2,0.0,0.0,0.0,Arkansas
+2,1.0,0.0,0.0,Arkansas
+27,3.0,0.0,2.0,Arkansas
+20,1.0,0.0,1.0,Arkansas
+3,0.0,0.0,0.0,Arkansas
+3,0.0,0.0,1.0,Arkansas
+1,0.0,0.0,0.0,Arkansas
+2,0.0,0.0,0.0,Arkansas
+3,0.0,0.0,0.0,Arkansas
+23,0.0,0.0,1.0,Arkansas
+1,0.0,0.0,0.0,Arkansas
+5,0.0,0.0,0.0,Arkansas
+4,0.0,0.0,0.0,Arkansas
+2,0.0,0.0,0.0,Arkansas
+3,0.0,0.0,0.0,Arkansas
+2,0.0,0.0,0.0,Arkansas
+3,0.0,0.0,0.0,Arkansas
+88,5.0,1.0,2.0,Arkansas
+2,1.0,0.0,0.0,Arkansas
+4,0.0,0.0,0.0,Arkansas
+4,0.0,0.0,0.0,Arkansas
+3,0.0,0.0,0.0,Arkansas
+1,0.0,0.0,1.0,Arkansas
+4,0.0,0.0,0.0,Arkansas
+2,0.0,0.0,0.0,Arkansas
+16,3.0,0.0,1.0,Arkansas
+13,1.0,0.0,3.0,Arkansas
+6,0.0,0.0,0.0,Arkansas
+1,0.0,0.0,0.0,Arkansas
+665,157.0,13.0,0.0,Arizona
+11,2.0,13.0,0.0,Arizona
+2,0.0,13.0,0.0,Arizona
+41,13.0,13.0,0.0,Arizona
+4,2.0,13.0,0.0,Arizona
+2,0.0,13.0,0.0,Arizona
+399,100.0,13.0,0.0,Arizona
+4,2.0,13.0,0.0,Arizona
+49,6.0,13.0,0.0,Arizona
+102,27.0,13.0,0.0,Arizona
+36,1.0,13.0,0.0,Arizona
+2,0.0,13.0,0.0,Arizona
+9,4.0,13.0,0.0,Arizona
+4,0.0,13.0,0.0,Arizona
+4643,842.0,101.0,0.0,California
+220,42.0,4.0,0.0,California
+2,0.0,0.0,0.0,California
+5,0.0,0.0,0.0,California
+3,0.0,0.0,0.0,California
+1,0.0,0.0,0.0,California
+151,20.0,2.0,0.0,California
+12,3.0,0.0,0.0,California
+31,4.0,0.0,0.0,California
+1,4.0,0.0,0.0,California
+14,2.0,0.0,0.0,California
+21,4.0,0.0,0.0,California
+5,3.0,0.0,0.0,California
+40,8.0,0.0,0.0,California
+1,8.0,0.0,0.0,California
+1887,544.0,26.0,0.0,California
+11,1.0,1.0,0.0,California
+69,4.0,1.0,0.0,California
+2,0.0,0.0,0.0,California
+7,3.0,0.0,0.0,California
+8,2.0,0.0,0.0,California
+27,3.0,1.0,0.0,California
+8,1.0,0.0,0.0,California
+8,0.0,0.0,0.0,California
+321,65.0,3.0,0.0,California
+41,11.0,1.0,0.0,California
+185,78.0,8.0,0.0,California
+164,26.0,6.0,0.0,California
+14,2.0,1.0,0.0,California
+64,9.0,3.0,0.0,California
+417,76.0,6.0,0.0,California
+279,56.0,3.0,0.0,California
+93,10.0,4.0,0.0,California
+59,5.0,0.0,0.0,California
+239,44.0,6.0,0.0,California
+47,15.0,0.0,0.0,California
+574,32.0,20.0,0.0,California
+34,2.0,0.0,0.0,California
+3,0.0,1.0,0.0,California
+3,0.0,0.0,0.0,California
+34,0.0,0.0,0.0,California
+54,5.0,1.0,0.0,California
+23,6.0,0.0,0.0,California
+2,0.0,0.0,0.0,California
+24,4.0,0.0,0.0,California
+83,22.0,3.0,0.0,California
+16,5.0,1.0,0.0,California
+3,0.0,0.0,0.0,California
+1734,304.0,31.0,0.0,Colorado
+71,21.0,31.0,0.0,Colorado
+1,1.0,31.0,0.0,Colorado
+155,36.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+76,10.0,31.0,0.0,Colorado
+13,3.0,31.0,0.0,Colorado
+5,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+3,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+1,1.0,31.0,0.0,Colorado
+1,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+2,1.0,31.0,0.0,Colorado
+312,50.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+79,12.0,31.0,0.0,Colorado
+170,23.0,31.0,0.0,Colorado
+160,23.0,31.0,0.0,Colorado
+3,0.0,31.0,0.0,Colorado
+1,0.0,31.0,0.0,Colorado
+16,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+3,0.0,31.0,0.0,Colorado
+66,9.0,31.0,0.0,Colorado
+1,0.0,31.0,0.0,Colorado
+1,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+158,27.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+2,1.0,31.0,0.0,Colorado
+13,8.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+67,6.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+1,1.0,31.0,0.0,Colorado
+3,1.0,31.0,0.0,Colorado
+7,1.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+6,2.0,31.0,0.0,Colorado
+4,1.0,31.0,0.0,Colorado
+2,1.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+1,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+25,2.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+6,3.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+2,0.0,31.0,0.0,Colorado
+12,3.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+1,0.0,31.0,0.0,Colorado
+0,0.0,31.0,0.0,Colorado
+10,0.0,31.0,0.0,Colorado
+7,0.0,31.0,0.0,Colorado
+1,0.0,31.0,0.0,Colorado
+129,22.0,31.0,0.0,Colorado
+2,0.0,31.0,0.0,Colorado
+1012,69.0,27.0,0.0,Connecticut
+752,145.0,15.0,0.0,Connecticut
+189,51.0,2.0,0.0,Connecticut
+52,8.0,0.0,0.0,Connecticut
+25,7.0,1.0,0.0,Connecticut
+222,66.0,6.0,0.0,Connecticut
+15,2.0,0.0,0.0,Connecticut
+33,0.0,3.0,0.0,Connecticut
+3,0.0,0.0,0.0,Connecticut
+304,37.0,10.0,0.0,District of Columbia
+165,22.0,2.0,0.0,Delaware
+21,2.0,0.0,0.0,Delaware
+105,14.0,1.0,0.0,Delaware
+37,4.0,1.0,0.0,Delaware
+3261,777.0,37.0,0.0,Florida
+57,4.0,0.0,0.0,Florida
+7,2.0,0.0,0.0,Florida
+3,0.0,0.0,0.0,Florida
+1,0.0,0.0,0.0,Florida
+16,2.0,0.0,0.0,Florida
+614,109.0,5.0,0.0,Florida
+5,1.0,0.0,0.0,Florida
+11,0.0,1.0,0.0,Florida
+22,2.0,4.0,0.0,Florida
+81,14.0,0.0,0.0,Florida
+3,0.0,0.0,0.0,Florida
+6,1.0,0.0,0.0,Florida
+90,8.0,3.0,0.0,Florida
+22,2.0,0.0,0.0,Florida
+11,3.0,0.0,0.0,Florida
+1,0.0,0.0,0.0,Florida
+10,1.0,0.0,0.0,Florida
+5,0.0,1.0,0.0,Florida
+167,16.0,1.0,0.0,Florida
+14,0.0,0.0,0.0,Florida
+1,0.0,0.0,0.0,Florida
+29,3.0,0.0,0.0,Florida
+76,10.0,4.0,0.0,Florida
+14,1.0,0.0,0.0,Florida
+28,1.0,1.0,0.0,Florida
+8,3.0,0.0,0.0,Florida
+16,5.0,0.0,0.0,Florida
+763,109.0,1.0,0.0,Florida
+16,2.0,0.0,0.0,Florida
+6,1.0,0.0,0.0,Florida
+23,1.0,0.0,0.0,Florida
+156,37.0,4.0,0.0,Florida
+53,8.0,0.0,0.0,Florida
+194,20.0,3.0,0.0,Florida
+23,2.0,1.0,0.0,Florida
+77,12.0,1.0,0.0,Florida
+26,6.0,0.0,0.0,Florida
+12,0.0,0.0,0.0,Florida
+14,2.0,1.0,0.0,Florida
+40,6.0,2.0,0.0,Florida
+49,9.0,0.0,0.0,Florida
+36,0.0,1.0,0.0,Florida
+14,3.0,1.0,0.0,Florida
+29,5.0,0.0,0.0,Florida
+1,1.0,0.0,0.0,Florida
+39,5.0,0.0,0.0,Florida
+13,0.0,0.0,0.0,Florida
+1,0.0,0.0,0.0,Florida
+2198,555.0,65.0,0.0,Georgia
+3,0.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+6,1.0,65.0,0.0,Georgia
+98,5.0,65.0,0.0,Georgia
+2,1.0,65.0,0.0,Georgia
+10,2.0,65.0,0.0,Georgia
+4,1.0,65.0,0.0,Georgia
+3,0.0,65.0,0.0,Georgia
+3,0.0,65.0,0.0,Georgia
+2,1.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+55,3.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+10,1.0,65.0,0.0,Georgia
+1,1.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+46,2.0,65.0,0.0,Georgia
+32,3.0,65.0,0.0,Georgia
+46,9.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+144,25.0,65.0,0.0,Georgia
+3,1.0,65.0,0.0,Georgia
+4,0.0,65.0,0.0,Georgia
+10,0.0,65.0,0.0,Georgia
+19,5.0,65.0,0.0,Georgia
+4,0.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+181,44.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+193,29.0,65.0,0.0,Georgia
+27,9.0,65.0,0.0,Georgia
+10,3.0,65.0,0.0,Georgia
+4,1.0,65.0,0.0,Georgia
+2,1.0,65.0,0.0,Georgia
+19,5.0,65.0,0.0,Georgia
+20,3.0,65.0,0.0,Georgia
+19,4.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+307,76.0,65.0,0.0,Georgia
+6,0.0,65.0,0.0,Georgia
+12,3.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+102,23.0,65.0,0.0,Georgia
+1,23.0,65.0,0.0,Georgia
+24,2.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+40,11.0,65.0,0.0,Georgia
+9,0.0,65.0,0.0,Georgia
+3,0.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+2,1.0,65.0,0.0,Georgia
+3,0.0,65.0,0.0,Georgia
+8,0.0,65.0,0.0,Georgia
+35,6.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+3,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+16,2.0,65.0,0.0,Georgia
+4,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+3,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+3,0.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+14,4.0,65.0,0.0,Georgia
+3,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+8,2.0,65.0,0.0,Georgia
+15,3.0,65.0,0.0,Georgia
+10,3.0,65.0,0.0,Georgia
+12,5.0,65.0,0.0,Georgia
+6,1.0,65.0,0.0,Georgia
+4,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+10,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+3,1.0,65.0,0.0,Georgia
+11,0.0,65.0,0.0,Georgia
+16,3.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+11,0.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+10,3.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+6,1.0,65.0,0.0,Georgia
+3,2.0,65.0,0.0,Georgia
+11,4.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+11,1.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+2,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+6,0.0,65.0,0.0,Georgia
+1,0.0,65.0,0.0,Georgia
+7,1.0,65.0,0.0,Georgia
+120,14.0,0.0,0.0,Hawaii
+7,2.0,0.0,0.0,Hawaii
+87,10.0,0.0,0.0,Hawaii
+5,0.0,0.0,0.0,Hawaii
+16,2.0,0.0,0.0,Hawaii
+298,63.0,4.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+7,0.0,1.0,0.0,Iowa
+3,1.0,0.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+3,1.0,0.0,0.0,Iowa
+1,1.0,0.0,0.0,Iowa
+9,2.0,0.0,0.0,Iowa
+1,2.0,0.0,0.0,Iowa
+8,2.0,1.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+3,0.0,0.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+7,4.0,0.0,0.0,Iowa
+2,1.0,0.0,0.0,Iowa
+1,1.0,0.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+7,1.0,0.0,0.0,Iowa
+4,0.0,1.0,0.0,Iowa
+2,0.0,0.0,0.0,Iowa
+5,1.0,0.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+1,0.0,0.0,0.0,Iowa
+2,1.0,0.0,0.0,Iowa
+3,1.0,0.0,0.0,Iowa
+1,1.0,0.0,0.0,Iowa
+230,41.0,4.0,0.0,Idaho
+70,17.0,0.0,0.0,Idaho
+2,0.0,0.0,0.0,Idaho
+1,0.0,0.0,0.0,Idaho
+100,14.0,2.0,0.0,Idaho
+21,0.0,1.0,0.0,Idaho
+1,0.0,0.0,0.0,Idaho
+1,0.0,0.0,0.0,Idaho
+1,0.0,0.0,0.0,Idaho
+1,0.0,0.0,0.0,Idaho
+2,0.0,0.0,0.0,Idaho
+9,0.0,0.0,0.0,Idaho
+2,0.0,0.0,0.0,Idaho
+4,0.0,0.0,0.0,Idaho
+1,0.0,0.0,0.0,Idaho
+2,0.0,0.0,0.0,Idaho
+1,0.0,0.0,0.0,Idaho
+1,0.0,0.0,0.0,Idaho
+3026,488.0,34.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+2,0.0,0.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+3,0.0,0.0,0.0,Illinois
+931,412.0,4.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+171,46.0,0.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+13,0.0,0.0,0.0,Illinois
+2,0.0,0.0,0.0,Illinois
+4,0.0,0.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+188,60.0,0.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+2,0.0,0.0,0.0,Illinois
+12,0.0,0.0,0.0,Illinois
+6,0.0,1.0,0.0,Illinois
+3,0.0,0.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+4,0.0,1.0,0.0,Illinois
+3,0.0,0.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+21,0.0,1.0,0.0,Illinois
+1,0.0,0.0,0.0,Illinois
+5,0.0,0.0,0.0,Illinois
+2,0.0,0.0,0.0,Illinois
+1221,282.0,47.0,0.0,Indiana
+1,0.0,0.0,0.0,Indiana
+21,13.0,1.0,0.0,Indiana
+6,0.0,0.0,0.0,Indiana
+7,0.0,0.0,0.0,Indiana
+2,1.0,0.0,0.0,Indiana
+12,2.0,0.0,0.0,Indiana
+4,1.0,1.0,0.0,Indiana
+26,13.0,0.0,0.0,Indiana
+1,0.0,0.0,0.0,Indiana
+8,1.0,1.0,0.0,Indiana
+1,0.0,0.0,0.0,Indiana
+9,2.0,0.0,0.0,Indiana
+3,0.0,0.0,0.0,Indiana
+11,4.0,0.0,0.0,Indiana
+21,8.0,1.0,0.0,Indiana
+3,0.0,0.0,0.0,Indiana
+5,2.0,0.0,0.0,Indiana
+52,12.0,0.0,0.0,Indiana
+13,4.0,1.0,0.0,Indiana
+4,2.0,0.0,0.0,Indiana
+28,7.0,2.0,0.0,Indiana
+7,1.0,1.0,0.0,Indiana
+4,2.0,0.0,0.0,Indiana
+4,1.0,1.0,0.0,Indiana
+5,1.0,0.0,0.0,Indiana
+42,6.0,3.0,0.0,Indiana
+47,16.0,0.0,0.0,Indiana
+2,0.0,0.0,0.0,Indiana
+5,3.0,0.0,0.0,Indiana
+7,3.0,1.0,0.0,Indiana
+484,191.0,8.0,0.0,Indiana
+1,0.0,0.0,0.0,Indiana
+8,2.0,0.0,0.0,Indiana
+3,1.0,0.0,0.0,Indiana
+10,3.0,0.0,0.0,Indiana
+1,0.0,0.0,0.0,Indiana
+1,0.0,0.0,0.0,Indiana
+5,1.0,0.0,0.0,Indiana
+6,1.0,0.0,0.0,Indiana
+2,0.0,1.0,0.0,Indiana
+14,3.0,0.0,0.0,Indiana
+3,2.0,0.0,0.0,Indiana
+1,0.0,1.0,0.0,Indiana
+6,4.0,0.0,0.0,Indiana
+27,6.0,1.0,0.0,Indiana
+1,0.0,0.0,0.0,Indiana
+1,0.0,0.0,0.0,Indiana
+8,1.0,0.0,0.0,Indiana
+2,0.0,0.0,0.0,Indiana
+6,2.0,0.0,0.0,Indiana
+3,0.0,0.0,0.0,Indiana
+3,0.0,0.0,0.0,Indiana
+4,1.0,0.0,0.0,Indiana
+1,0.0,0.0,0.0,Indiana
+1,0.0,0.0,0.0,Indiana
+212,38.0,4.0,0.0,Kansas
+3,2.0,4.0,0.0,Kansas
+3,0.0,4.0,0.0,Kansas
+2,0.0,4.0,0.0,Kansas
+1,1.0,4.0,0.0,Kansas
+1,1.0,4.0,0.0,Kansas
+3,0.0,4.0,0.0,Kansas
+1,0.0,4.0,0.0,Kansas
+14,1.0,4.0,0.0,Kansas
+2,1.0,4.0,0.0,Kansas
+1,1.0,4.0,0.0,Kansas
+1,1.0,4.0,0.0,Kansas
+1,0.0,4.0,0.0,Kansas
+1,0.0,4.0,0.0,Kansas
+66,7.0,4.0,0.0,Kansas
+12,0.0,4.0,0.0,Kansas
+4,0.0,4.0,0.0,Kansas
+3,0.0,4.0,0.0,Kansas
+1,1.0,4.0,0.0,Kansas
+2,0.0,4.0,0.0,Kansas
+2,0.0,4.0,0.0,Kansas
+1,0.0,4.0,0.0,Kansas
+1,1.0,4.0,0.0,Kansas
+1,1.0,4.0,0.0,Kansas
+1,0.0,4.0,0.0,Kansas
+5,1.0,4.0,0.0,Kansas
+2,1.0,4.0,0.0,Kansas
+20,4.0,4.0,0.0,Kansas
+5,1.0,4.0,0.0,Kansas
+1,0.0,4.0,0.0,Kansas
+1,0.0,4.0,0.0,Kansas
+43,9.0,4.0,0.0,Kansas
+248,25.0,4.0,0.0,Kentucky
+2746,441.0,119.0,0.0,Louisiana
+8,5.0,1.0,0.0,Louisiana
+5,0.0,0.0,0.0,Louisiana
+99,8.0,1.0,0.0,Louisiana
+8,3.0,0.0,0.0,Louisiana
+10,3.0,0.0,0.0,Louisiana
+4,1.0,0.0,0.0,Louisiana
+1,0.0,1.0,0.0,Louisiana
+37,5.0,0.0,0.0,Louisiana
+140,25.0,2.0,0.0,Louisiana
+22,7.0,1.0,0.0,Louisiana
+1,0.0,1.0,0.0,Louisiana
+3,1.0,0.0,0.0,Louisiana
+13,2.0,1.0,0.0,Louisiana
+11,3.0,1.0,0.0,Louisiana
+5,1.0,0.0,0.0,Louisiana
+4,2.0,0.0,0.0,Louisiana
+0,0.0,0.0,0.0,Louisiana
+1,0.0,0.0,0.0,Louisiana
+4,1.0,0.0,0.0,Louisiana
+20,3.0,1.0,0.0,Louisiana
+3,2.0,0.0,0.0,Louisiana
+1,0.0,0.0,0.0,Louisiana
+548,90.0,24.0,0.0,Louisiana
+1,0.0,0.0,0.0,Louisiana
+44,14.0,0.0,0.0,Louisiana
+30,2.0,2.0,0.0,Louisiana
+7,4.0,0.0,0.0,Louisiana
+11,0.0,0.0,0.0,Louisiana
+1,0.0,0.0,0.0,Louisiana
+3,0.0,0.0,0.0,Louisiana
+2,0.0,0.0,0.0,Louisiana
+1170,173.0,57.0,0.0,Louisiana
+25,6.0,1.0,0.0,Louisiana
+16,3.0,2.0,0.0,Louisiana
+1,0.0,0.0,0.0,Louisiana
+26,1.0,1.0,0.0,Louisiana
+2,0.0,0.0,0.0,Louisiana
+31,3.0,1.0,0.0,Louisiana
+23,1.0,2.0,0.0,Louisiana
+40,11.0,3.0,0.0,Louisiana
+41,3.0,3.0,0.0,Louisiana
+10,5.0,0.0,0.0,Louisiana
+10,8.0,3.0,0.0,Louisiana
+6,1.0,0.0,0.0,Louisiana
+111,22.0,2.0,0.0,Louisiana
+7,0.0,0.0,0.0,Louisiana
+23,2.0,1.0,0.0,Louisiana
+4,2.0,0.0,0.0,Louisiana
+2,1.0,0.0,0.0,Louisiana
+2,0.0,0.0,0.0,Louisiana
+8,2.0,1.0,0.0,Louisiana
+9,1.0,1.0,0.0,Louisiana
+11,3.0,1.0,0.0,Louisiana
+1,1.0,0.0,0.0,Louisiana
+1,0.0,0.0,0.0,Louisiana
+3240,823.0,35.0,0.0,Massachusetts
+100,33.0,35.0,0.0,Massachusetts
+105,32.0,35.0,0.0,Massachusetts
+129,39.0,35.0,0.0,Massachusetts
+4,1.0,35.0,0.0,Massachusetts
+350,103.0,35.0,0.0,Massachusetts
+24,8.0,35.0,0.0,Massachusetts
+90,35.0,35.0,0.0,Massachusetts
+20,3.0,35.0,0.0,Massachusetts
+685,147.0,35.0,0.0,Massachusetts
+4,1.0,35.0,0.0,Massachusetts
+393,101.0,35.0,0.0,Massachusetts
+187,49.0,35.0,0.0,Massachusetts
+631,183.0,35.0,0.0,Massachusetts
+219,53.0,35.0,0.0,Massachusetts
+774,194.0,5.0,0.0,Maryland
+63,22.0,0.0,0.0,Maryland
+88,16.0,0.0,0.0,Maryland
+103,22.0,0.0,0.0,Maryland
+9,2.0,0.0,0.0,Maryland
+1,0.0,0.0,0.0,Maryland
+9,2.0,0.0,0.0,Maryland
+9,5.0,0.0,0.0,Maryland
+17,7.0,0.0,0.0,Maryland
+15,1.0,0.0,0.0,Maryland
+3,0.0,0.0,0.0,Maryland
+18,9.0,0.0,0.0,Maryland
+62,13.0,0.0,0.0,Maryland
+2,1.0,0.0,0.0,Maryland
+208,44.0,0.0,0.0,Maryland
+148,47.0,0.0,0.0,Maryland
+1,0.0,0.0,0.0,Maryland
+1,0.0,0.0,0.0,Maryland
+4,0.0,0.0,0.0,Maryland
+1,0.0,0.0,0.0,Maryland
+5,3.0,0.0,0.0,Maryland
+5,0.0,0.0,0.0,Maryland
+2,0.0,0.0,0.0,Maryland
+168,13.0,1.0,0.0,Maine
+6,1.0,1.0,2.0,Maine
+92,2.0,1.0,13.0,Maine
+6,2.0,1.0,1.0,Maine
+8,0.0,1.0,2.0,Maine
+6,1.0,1.0,3.0,Maine
+33,6.0,1.0,3.0,Maine
+3657,801.0,92.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+4,0.0,0.0,3.0,Michigan
+18,7.0,0.0,3.0,Michigan
+9,2.0,0.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+4,0.0,0.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+8,1.0,0.0,3.0,Michigan
+1,1.0,0.0,3.0,Michigan
+1,1.0,0.0,3.0,Michigan
+8,4.0,0.0,3.0,Michigan
+3,1.0,0.0,3.0,Michigan
+91,28.0,4.0,3.0,Michigan
+2,0.0,0.0,3.0,Michigan
+1,0.0,1.0,3.0,Michigan
+3,0.0,0.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+6,1.0,0.0,3.0,Michigan
+1,1.0,0.0,3.0,Michigan
+26,4.0,1.0,3.0,Michigan
+2,0.0,0.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+4,1.0,0.0,3.0,Michigan
+18,1.0,0.0,3.0,Michigan
+11,1.0,0.0,3.0,Michigan
+4,2.0,0.0,3.0,Michigan
+45,4.0,1.0,3.0,Michigan
+4,1.0,0.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+8,3.0,0.0,3.0,Michigan
+31,10.0,1.0,3.0,Michigan
+404,57.0,14.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+1,0.0,1.0,3.0,Michigan
+8,2.0,0.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+28,7.0,0.0,3.0,Michigan
+3,2.0,0.0,3.0,Michigan
+6,3.0,2.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+824,156.0,26.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+7,0.0,0.0,3.0,Michigan
+21,3.0,0.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+14,4.0,0.0,3.0,Michigan
+2,1.0,0.0,3.0,Michigan
+2,1.0,0.0,3.0,Michigan
+15,2.0,0.0,3.0,Michigan
+2,0.0,1.0,3.0,Michigan
+3,1.0,0.0,3.0,Michigan
+150,58.0,3.0,3.0,Michigan
+986,135.0,19.0,3.0,Michigan
+1,0.0,0.0,3.0,Michigan
+398,52.0,4.0,3.0,Minnesota
+10,2.0,4.0,3.0,Minnesota
+1,2.0,4.0,3.0,Minnesota
+1,0.0,4.0,3.0,Minnesota
+1,0.0,4.0,3.0,Minnesota
+7,1.0,4.0,3.0,Minnesota
+8,0.0,4.0,3.0,Minnesota
+1,0.0,4.0,3.0,Minnesota
+2,0.0,4.0,3.0,Minnesota
+4,0.0,4.0,3.0,Minnesota
+28,3.0,4.0,3.0,Minnesota
+5,0.0,4.0,3.0,Minnesota
+1,0.0,4.0,3.0,Minnesota
+3,0.0,4.0,3.0,Minnesota
+2,1.0,4.0,3.0,Minnesota
+141,13.0,4.0,3.0,Minnesota
+1,0.0,4.0,3.0,Minnesota
+1,0.0,4.0,3.0,Minnesota
+1,0.0,4.0,3.0,Minnesota
+10,4.0,4.0,3.0,Minnesota
+1,4.0,4.0,3.0,Minnesota
+1,0.0,4.0,3.0,Minnesota
+18,6.0,4.0,3.0,Minnesota
+10,0.0,4.0,3.0,Minnesota
+3,0.0,4.0,3.0,Minnesota
+34,5.0,4.0,3.0,Minnesota
+34,2.0,4.0,3.0,Minnesota
+1,0.0,4.0,3.0,Minnesota
+2,0.0,4.0,3.0,Minnesota
+7,1.0,4.0,3.0,Minnesota
+3,2.0,4.0,3.0,Minnesota
+1,0.0,4.0,3.0,Minnesota
+5,0.0,4.0,3.0,Minnesota
+5,0.0,4.0,3.0,Minnesota
+5,0.0,4.0,3.0,Minnesota
+4,0.0,4.0,3.0,Minnesota
+3,1.0,4.0,3.0,Minnesota
+22,7.0,4.0,3.0,Minnesota
+1,0.0,4.0,3.0,Minnesota
+4,0.0,4.0,3.0,Minnesota
+5,0.0,4.0,3.0,Minnesota
+670,168.0,9.0,3.0,Missouri
+2,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+37,12.0,1.0,3.0,Missouri
+2,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+3,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+8,0.0,0.0,3.0,Missouri
+8,2.0,0.0,3.0,Missouri
+5,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+8,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+2,0.0,0.0,3.0,Missouri
+4,0.0,0.0,3.0,Missouri
+31,6.0,3.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+64,33.0,1.0,3.0,Missouri
+2,0.0,0.0,3.0,Missouri
+10,0.0,0.0,3.0,Missouri
+8,0.0,0.0,3.0,Missouri
+2,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+2,0.0,0.0,3.0,Missouri
+2,0.0,0.0,3.0,Missouri
+3,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+4,0.0,0.0,3.0,Missouri
+5,0.0,0.0,3.0,Missouri
+4,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+247,225.0,2.0,3.0,Missouri
+2,0.0,0.0,3.0,Missouri
+72,15.0,1.0,3.0,Missouri
+332,159.0,2.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+1,0.0,0.0,3.0,Missouri
+579,94.0,6.0,3.0,Mississippi
+131,23.0,1.0,3.0,Montana
+2,0.0,1.0,3.0,Montana
+6,1.0,1.0,3.0,Montana
+6,1.0,1.0,3.0,Montana
+39,1.0,1.0,3.0,Montana
+1,0.0,1.0,3.0,Montana
+1,0.0,1.0,3.0,Montana
+8,3.0,1.0,3.0,Montana
+1,0.0,1.0,3.0,Montana
+2,0.0,1.0,3.0,Montana
+1,0.0,1.0,3.0,Montana
+8,1.0,1.0,3.0,Montana
+1,1.0,1.0,3.0,Montana
+1,0.0,1.0,3.0,Montana
+1,0.0,1.0,3.0,Montana
+8,3.0,1.0,3.0,Montana
+2,1.0,1.0,3.0,Montana
+20,6.0,1.0,3.0,Montana
+763,127.0,3.0,3.0,North Carolina
+5,1.0,0.0,3.0,North Carolina
+3,1.0,0.0,3.0,North Carolina
+3,0.0,0.0,3.0,North Carolina
+11,0.0,0.0,3.0,North Carolina
+15,0.0,0.0,3.0,North Carolina
+1,0.0,0.0,3.0,North Carolina
+21,5.0,1.0,3.0,North Carolina
+3,0.0,0.0,3.0,North Carolina
+4,0.0,0.0,3.0,North Carolina
+7,3.0,0.0,3.0,North Carolina
+11,2.0,0.0,3.0,North Carolina
+4,0.0,0.0,3.0,North Carolina
+2,0.0,0.0,3.0,North Carolina
+3,0.0,0.0,3.0,North Carolina
+8,1.0,0.0,3.0,North Carolina
+4,1.0,0.0,3.0,North Carolina
+2,1.0,0.0,3.0,North Carolina
+1,0.0,0.0,3.0,North Carolina
+83,8.0,0.0,3.0,North Carolina
+16,0.0,0.0,3.0,North Carolina
+5,0.0,0.0,3.0,North Carolina
+9,2.0,0.0,3.0,North Carolina
+3,2.0,0.0,3.0,North Carolina
+3,3.0,0.0,3.0,North Carolina
+31,7.0,0.0,3.0,North Carolina
+11,0.0,1.0,3.0,North Carolina
+1,1.0,0.0,3.0,North Carolina
+6,2.0,0.0,3.0,North Carolina
+2,0.0,0.0,3.0,North Carolina
+2,0.0,0.0,3.0,North Carolina
+15,2.0,0.0,3.0,North Carolina
+9,0.0,1.0,3.0,North Carolina
+2,1.0,0.0,3.0,North Carolina
+3,0.0,0.0,3.0,North Carolina
+1,0.0,0.0,3.0,North Carolina
+3,1.0,0.0,3.0,North Carolina
+218,37.0,0.0,3.0,North Carolina
+3,0.0,0.0,3.0,North Carolina
+2,0.0,0.0,3.0,North Carolina
+2,0.0,0.0,3.0,North Carolina
+13,2.0,0.0,3.0,North Carolina
+3,0.0,0.0,3.0,North Carolina
+4,0.0,0.0,3.0,North Carolina
+24,8.0,0.0,3.0,North Carolina
+1,0.0,0.0,3.0,North Carolina
+1,1.0,0.0,3.0,North Carolina
+10,2.0,0.0,3.0,North Carolina
+5,2.0,0.0,3.0,North Carolina
+2,0.0,0.0,3.0,North Carolina
+10,4.0,0.0,3.0,North Carolina
+1,0.0,0.0,3.0,North Carolina
+1,0.0,0.0,3.0,North Carolina
+2,1.0,0.0,3.0,North Carolina
+1,1.0,0.0,3.0,North Carolina
+2,0.0,0.0,3.0,North Carolina
+27,3.0,0.0,3.0,North Carolina
+2,0.0,0.0,3.0,North Carolina
+104,21.0,0.0,3.0,North Carolina
+4,1.0,0.0,3.0,North Carolina
+3,1.0,0.0,3.0,North Carolina
+7,0.0,0.0,3.0,North Carolina
+58,13.0,0.0,3.0,North Dakota
+25,8.0,0.0,3.0,North Dakota
+11,10.0,0.0,3.0,North Dakota
+1,1.0,0.0,3.0,North Dakota
+1,1.0,0.0,3.0,North Dakota
+1,1.0,0.0,3.0,North Dakota
+1,1.0,0.0,3.0,North Dakota
+11,4.0,0.0,3.0,North Dakota
+2,0.0,0.0,3.0,North Dakota
+3,2.0,0.0,3.0,North Dakota
+7,7.0,0.0,3.0,North Dakota
+1,0.0,0.0,3.0,North Dakota
+4,1.0,0.0,3.0,North Dakota
+88,15.0,2.0,3.0,Nebraska
+2,1.0,2.0,3.0,Nebraska
+4,2.0,2.0,3.0,Nebraska
+2,0.0,2.0,3.0,Nebraska
+1,0.0,2.0,3.0,Nebraska
+1,0.0,2.0,3.0,Nebraska
+46,6.0,2.0,3.0,Nebraska
+2,2.0,2.0,3.0,Nebraska
+1,1.0,2.0,3.0,Nebraska
+2,0.0,2.0,3.0,Nebraska
+4,1.0,2.0,3.0,Nebraska
+3,0.0,2.0,3.0,Nebraska
+1,0.0,2.0,3.0,Nebraska
+1,0.0,2.0,3.0,Nebraska
+9,3.0,2.0,3.0,Nebraska
+2,0.0,2.0,3.0,Nebraska
+5,1.0,2.0,3.0,Nebraska
+187,29.0,2.0,3.0,New Hampshire
+8825,1949.0,108.0,3.0,New Jersey
+14,4.0,108.0,3.0,New Jersey
+1505,150.0,108.0,3.0,New Jersey
+88,12.0,108.0,3.0,New Jersey
+95,11.0,108.0,3.0,New Jersey
+7,1.0,108.0,3.0,New Jersey
+9,5.0,108.0,3.0,New Jersey
+826,109.0,108.0,3.0,New Jersey
+40,7.0,108.0,3.0,New Jersey
+594,77.0,108.0,3.0,New Jersey
+52,13.0,108.0,3.0,New Jersey
+131,10.0,108.0,3.0,New Jersey
+640,68.0,108.0,3.0,New Jersey
+634,67.0,108.0,3.0,New Jersey
+391,38.0,108.0,3.0,New Jersey
+484,48.0,108.0,3.0,New Jersey
+484,43.0,108.0,3.0,New Jersey
+3,1.0,108.0,3.0,New Jersey
+222,22.0,108.0,3.0,New Jersey
+65,16.0,108.0,3.0,New Jersey
+519,44.0,108.0,3.0,New Jersey
+38,7.0,108.0,3.0,New Jersey
+191,55.0,1.0,3.0,New Mexico
+73,18.0,1.0,3.0,New Mexico
+4,0.0,1.0,3.0,New Mexico
+1,0.0,1.0,3.0,New Mexico
+1,0.0,1.0,3.0,New Mexico
+1,0.0,1.0,3.0,New Mexico
+1,0.0,1.0,3.0,New Mexico
+16,0.0,1.0,3.0,New Mexico
+3,0.0,1.0,3.0,New Mexico
+2,0.0,1.0,3.0,New Mexico
+14,0.0,1.0,3.0,New Mexico
+1,0.0,1.0,3.0,New Mexico
+10,0.0,1.0,3.0,New Mexico
+22,0.0,1.0,3.0,New Mexico
+2,0.0,1.0,3.0,New Mexico
+3,0.0,1.0,3.0,New Mexico
+535,107.0,10.0,3.0,Nevada
+443,93.0,10.0,3.0,Nevada
+44635,7377.0,519.0,3.0,New York
+187,16.0,519.0,3.0,New York
+2,0.0,519.0,3.0,New York
+18,2.0,519.0,3.0,New York
+2,0.0,519.0,3.0,New York
+1,0.0,519.0,3.0,New York
+11,4.0,519.0,3.0,New York
+4,1.0,519.0,3.0,New York
+11,0.0,519.0,3.0,New York
+20,7.0,519.0,3.0,New York
+4,2.0,519.0,3.0,New York
+8,1.0,519.0,3.0,New York
+225,35.0,519.0,3.0,New York
+219,85.0,519.0,3.0,New York
+4,0.0,519.0,3.0,New York
+2,1.0,519.0,3.0,New York
+1,0.0,519.0,3.0,New York
+6,2.0,519.0,3.0,New York
+6,1.0,519.0,3.0,New York
+2,0.0,519.0,3.0,New York
+9,2.0,519.0,3.0,New York
+3,0.0,519.0,3.0,New York
+3,0.0,519.0,3.0,New York
+17,8.0,519.0,3.0,New York
+160,21.0,519.0,3.0,New York
+5,0.0,519.0,3.0,New York
+4657,743.0,519.0,3.0,New York
+25398,4005.0,519.0,3.0,New York
+23,9.0,519.0,3.0,New York
+13,0.0,519.0,3.0,New York
+115,32.0,519.0,3.0,New York
+14,3.0,519.0,3.0,New York
+910,159.0,519.0,3.0,New York
+3,1.0,519.0,3.0,New York
+4,0.0,519.0,3.0,New York
+5,2.0,519.0,3.0,New York
+111,17.0,519.0,3.0,New York
+35,3.0,519.0,3.0,New York
+1457,260.0,519.0,3.0,New York
+82,9.0,519.0,3.0,New York
+66,4.0,519.0,3.0,New York
+3,1.0,519.0,3.0,New York
+3,1.0,519.0,3.0,New York
+12,1.0,519.0,3.0,New York
+3385,650.0,519.0,3.0,New York
+64,11.0,519.0,3.0,New York
+2,0.0,519.0,3.0,New York
+26,4.0,519.0,3.0,New York
+98,20.0,519.0,3.0,New York
+8,6.0,519.0,3.0,New York
+6,2.0,519.0,3.0,New York
+11,3.0,519.0,3.0,New York
+7187,1243.0,519.0,3.0,New York
+7,0.0,519.0,3.0,New York
+1137,270.0,19.0,3.0,Ohio
+3,2.0,0.0,3.0,Ohio
+5,2.0,0.0,3.0,Ohio
+1,2.0,0.0,3.0,Ohio
+6,3.0,0.0,3.0,Ohio
+23,5.0,0.0,3.0,Ohio
+3,0.0,0.0,3.0,Ohio
+2,1.0,0.0,3.0,Ohio
+2,0.0,0.0,3.0,Ohio
+6,1.0,0.0,3.0,Ohio
+2,0.0,0.0,3.0,Ohio
+7,3.0,1.0,3.0,Ohio
+4,0.0,0.0,3.0,Ohio
+1,0.0,0.0,3.0,Ohio
+330,62.0,2.0,3.0,Ohio
+1,0.0,0.0,3.0,Ohio
+5,3.0,0.0,3.0,Ohio
+20,8.0,0.0,3.0,Ohio
+3,1.0,1.0,3.0,Ohio
+8,3.0,0.0,3.0,Ohio
+1,0.0,0.0,3.0,Ohio
+152,32.0,2.0,3.0,Ohio
+2,32.0,0.0,3.0,Ohio
+1,0.0,1.0,3.0,Ohio
+10,2.0,0.0,3.0,Ohio
+3,0.0,0.0,3.0,Ohio
+63,15.0,0.0,3.0,Ohio
+2,1.0,0.0,3.0,Ohio
+1,0.0,0.0,3.0,Ohio
+3,1.0,0.0,3.0,Ohio
+1,1.0,0.0,3.0,Ohio
+2,0.0,0.0,3.0,Ohio
+27,13.0,0.0,3.0,Ohio
+1,0.0,0.0,3.0,Ohio
+10,7.0,0.0,3.0,Ohio
+2,0.0,0.0,3.0,Ohio
+56,19.0,0.0,3.0,Ohio
+48,25.0,2.0,3.0,Ohio
+3,1.0,0.0,3.0,Ohio
+68,26.0,2.0,3.0,Ohio
+5,1.0,0.0,3.0,Ohio
+32,10.0,0.0,3.0,Ohio
+2,1.0,0.0,3.0,Ohio
+32,13.0,4.0,3.0,Ohio
+19,5.0,0.0,3.0,Ohio
+2,5.0,0.0,3.0,Ohio
+2,1.0,0.0,3.0,Ohio
+13,9.0,0.0,3.0,Ohio
+4,0.0,0.0,3.0,Ohio
+1,0.0,0.0,3.0,Ohio
+1,0.0,0.0,3.0,Ohio
+1,0.0,0.0,3.0,Ohio
+22,3.0,2.0,3.0,Ohio
+65,22.0,1.0,3.0,Ohio
+17,8.0,1.0,3.0,Ohio
+3,0.0,0.0,3.0,Ohio
+3,0.0,0.0,3.0,Ohio
+11,3.0,0.0,3.0,Ohio
+2,1.0,0.0,3.0,Ohio
+3,2.0,0.0,3.0,Ohio
+8,5.0,0.0,3.0,Ohio
+1,5.0,0.0,3.0,Ohio
+322,74.0,8.0,3.0,Oklahoma
+3,1.0,0.0,3.0,Oklahoma
+1,0.0,0.0,3.0,Oklahoma
+1,0.0,0.0,3.0,Oklahoma
+11,5.0,0.0,3.0,Oklahoma
+1,0.0,0.0,3.0,Oklahoma
+1,0.0,0.0,3.0,Oklahoma
+1,0.0,0.0,3.0,Oklahoma
+39,0.0,3.0,3.0,Oklahoma
+6,3.0,0.0,3.0,Oklahoma
+1,0.0,0.0,3.0,Oklahoma
+14,4.0,1.0,3.0,Oklahoma
+3,0.0,0.0,3.0,Oklahoma
+2,1.0,0.0,3.0,Oklahoma
+2,0.0,0.0,3.0,Oklahoma
+2,0.0,0.0,3.0,Oklahoma
+1,0.0,0.0,3.0,Oklahoma
+17,6.0,0.0,3.0,Oklahoma
+1,6.0,0.0,3.0,Oklahoma
+3,2.0,0.0,3.0,Oklahoma
+3,0.0,0.0,3.0,Oklahoma
+2,0.0,0.0,3.0,Oklahoma
+2,0.0,0.0,3.0,Oklahoma
+5,1.0,0.0,3.0,Oklahoma
+3,1.0,0.0,3.0,Oklahoma
+94,21.0,2.0,3.0,Oklahoma
+2,0.0,0.0,3.0,Oklahoma
+5,2.0,0.0,3.0,Oklahoma
+1,0.0,0.0,3.0,Oklahoma
+14,4.0,1.0,3.0,Oklahoma
+7,2.0,0.0,3.0,Oklahoma
+2,2.0,0.0,3.0,Oklahoma
+2,1.0,0.0,3.0,Oklahoma
+2,0.0,0.0,3.0,Oklahoma
+1,0.0,0.0,3.0,Oklahoma
+1,0.0,0.0,3.0,Oklahoma
+49,8.0,1.0,3.0,Oklahoma
+8,2.0,0.0,3.0,Oklahoma
+9,4.0,0.0,3.0,Oklahoma
+414,98.0,12.0,3.0,Oregon
+6,0.0,0.0,3.0,Oregon
+21,0.0,2.0,3.0,Oregon
+2,0.0,0.0,3.0,Oregon
+15,0.0,0.0,3.0,Oregon
+3,0.0,0.0,3.0,Oregon
+1,0.0,0.0,3.0,Oregon
+1,0.0,0.0,3.0,Oregon
+4,0.0,0.0,3.0,Oregon
+4,0.0,0.0,3.0,Oregon
+1,0.0,0.0,3.0,Oregon
+7,0.0,1.0,3.0,Oregon
+1,0.0,0.0,3.0,Oregon
+26,0.0,1.0,3.0,Oregon
+75,18.0,2.0,3.0,Oregon
+45,0.0,2.0,3.0,Oregon
+6,0.0,0.0,3.0,Oregon
+1,0.0,0.0,3.0,Oregon
+2,0.0,0.0,3.0,Oregon
+1,0.0,0.0,3.0,Oregon
+1,0.0,0.0,3.0,Oregon
+122,18.0,3.0,3.0,Oregon
+7,0.0,0.0,3.0,Oregon
+2218,531.0,22.0,3.0,Pennsylvania
+8,1.0,0.0,3.0,Pennsylvania
+158,25.0,2.0,3.0,Pennsylvania
+1,0.0,0.0,3.0,Pennsylvania
+14,1.0,0.0,3.0,Pennsylvania
+65,29.0,0.0,3.0,Pennsylvania
+1,0.0,0.0,3.0,Pennsylvania
+2,0.0,0.0,3.0,Pennsylvania
+124,17.0,0.0,3.0,Pennsylvania
+26,7.0,1.0,3.0,Pennsylvania
+1,0.0,0.0,3.0,Pennsylvania
+2,0.0,0.0,3.0,Pennsylvania
+11,2.0,0.0,3.0,Pennsylvania
+107,23.0,0.0,3.0,Pennsylvania
+2,0.0,0.0,3.0,Pennsylvania
+3,0.0,0.0,3.0,Pennsylvania
+1,0.0,0.0,3.0,Pennsylvania
+16,1.0,0.0,3.0,Pennsylvania
+18,5.0,0.0,3.0,Pennsylvania
+185,29.0,3.0,3.0,Pennsylvania
+7,3.0,0.0,3.0,Pennsylvania
+9,1.0,0.0,3.0,Pennsylvania
+5,0.0,0.0,3.0,Pennsylvania
+4,1.0,0.0,3.0,Pennsylvania
+2,1.0,0.0,3.0,Pennsylvania
+1,0.0,0.0,3.0,Pennsylvania
+35,7.0,2.0,3.0,Pennsylvania
+33,12.0,0.0,3.0,Pennsylvania
+4,3.0,0.0,3.0,Pennsylvania
+12,8.0,0.0,3.0,Pennsylvania
+93,30.0,2.0,3.0,Pennsylvania
+55,19.0,2.0,3.0,Pennsylvania
+2,1.0,0.0,3.0,Pennsylvania
+4,1.0,0.0,3.0,Pennsylvania
+98,31.0,2.0,3.0,Pennsylvania
+374,92.0,3.0,3.0,Pennsylvania
+4,0.0,0.0,3.0,Pennsylvania
+79,23.0,3.0,3.0,Pennsylvania
+1,23.0,0.0,3.0,Pennsylvania
+530,128.0,2.0,3.0,Pennsylvania
+23,8.0,0.0,3.0,Pennsylvania
+1,0.0,0.0,3.0,Pennsylvania
+13,4.0,0.0,3.0,Pennsylvania
+2,0.0,0.0,3.0,Pennsylvania
+1,0.0,0.0,3.0,Pennsylvania
+1,0.0,0.0,3.0,Pennsylvania
+1,0.0,0.0,3.0,Pennsylvania
+14,2.0,0.0,3.0,Pennsylvania
+6,0.0,0.0,3.0,Pennsylvania
+30,6.0,0.0,3.0,Pennsylvania
+29,8.0,0.0,3.0,Pennsylvania
+188,56.0,0.0,3.0,Rhode Island
+539,83.0,13.0,3.0,South Carolina
+4,0.0,0.0,0.0,South Carolina
+4,0.0,0.0,0.0,South Carolina
+21,0.0,0.0,0.0,South Carolina
+29,0.0,0.0,0.0,South Carolina
+8,0.0,0.0,0.0,South Carolina
+1,0.0,0.0,0.0,South Carolina
+76,16.0,1.0,0.0,South Carolina
+1,0.0,0.0,0.0,South Carolina
+3,0.0,0.0,0.0,South Carolina
+5,0.0,1.0,0.0,South Carolina
+1,0.0,0.0,0.0,South Carolina
+8,0.0,0.0,0.0,South Carolina
+1,0.0,0.0,0.0,South Carolina
+4,0.0,0.0,0.0,South Carolina
+1,0.0,0.0,0.0,South Carolina
+4,0.0,0.0,0.0,South Carolina
+5,0.0,2.0,0.0,South Carolina
+3,0.0,0.0,0.0,South Carolina
+62,11.0,0.0,0.0,South Carolina
+2,0.0,0.0,0.0,South Carolina
+21,0.0,1.0,0.0,South Carolina
+3,0.0,0.0,0.0,South Carolina
+72,8.0,1.0,0.0,South Carolina
+7,0.0,0.0,0.0,South Carolina
+2,0.0,0.0,0.0,South Carolina
+20,0.0,1.0,0.0,South Carolina
+1,0.0,0.0,0.0,South Carolina
+1,0.0,0.0,0.0,South Carolina
+1,0.0,0.0,0.0,South Carolina
+2,0.0,0.0,0.0,South Carolina
+11,0.0,0.0,0.0,South Carolina
+6,0.0,0.0,0.0,South Carolina
+77,17.0,0.0,0.0,South Carolina
+1,0.0,0.0,0.0,South Carolina
+9,0.0,0.0,0.0,South Carolina
+10,0.0,2.0,0.0,South Carolina
+1,0.0,0.0,0.0,South Carolina
+1,0.0,0.0,0.0,South Carolina
+19,0.0,0.0,0.0,South Carolina
+58,12.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+16,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+2,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+2,1.0,1.0,0.0,South Dakota
+2,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+2,0.0,1.0,0.0,South Dakota
+2,0.0,1.0,0.0,South Dakota
+3,1.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+2,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+21,3.0,1.0,0.0,South Dakota
+3,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+1,0.0,1.0,0.0,South Dakota
+1203,246.0,6.0,0.0,Tennessee
+4,1.0,6.0,0.0,Tennessee
+1,0.0,6.0,0.0,Tennessee
+2,1.0,6.0,0.0,Tennessee
+6,2.0,6.0,0.0,Tennessee
+6,1.0,6.0,0.0,Tennessee
+4,2.0,6.0,0.0,Tennessee
+2,1.0,6.0,0.0,Tennessee
+4,1.0,6.0,0.0,Tennessee
+7,0.0,6.0,0.0,Tennessee
+2,0.0,6.0,0.0,Tennessee
+2,0.0,6.0,0.0,Tennessee
+1,0.0,6.0,0.0,Tennessee
+6,0.0,6.0,0.0,Tennessee
+216,13.0,6.0,0.0,Tennessee
+3,1.0,6.0,0.0,Tennessee
+9,2.0,6.0,0.0,Tennessee
+3,0.0,6.0,0.0,Tennessee
+3,0.0,6.0,0.0,Tennessee
+3,0.0,6.0,0.0,Tennessee
+2,0.0,6.0,0.0,Tennessee
+8,0.0,6.0,0.0,Tennessee
+1,0.0,6.0,0.0,Tennessee
+3,0.0,6.0,0.0,Tennessee
+30,2.0,6.0,0.0,Tennessee
+1,0.0,6.0,0.0,Tennessee
+2,1.0,6.0,0.0,Tennessee
+3,0.0,6.0,0.0,Tennessee
+5,1.0,6.0,0.0,Tennessee
+31,5.0,6.0,0.0,Tennessee
+2,0.0,6.0,0.0,Tennessee
+1,0.0,6.0,0.0,Tennessee
+6,0.0,6.0,0.0,Tennessee
+1,0.0,6.0,0.0,Tennessee
+3,1.0,6.0,0.0,Tennessee
+2,0.0,6.0,0.0,Tennessee
+7,0.0,6.0,0.0,Tennessee
+3,0.0,6.0,0.0,Tennessee
+1,0.0,6.0,0.0,Tennessee
+3,0.0,6.0,0.0,Tennessee
+9,3.0,6.0,0.0,Tennessee
+1,0.0,6.0,0.0,Tennessee
+2,0.0,6.0,0.0,Tennessee
+13,2.0,6.0,0.0,Tennessee
+1,0.0,6.0,0.0,Tennessee
+22,2.0,6.0,0.0,Tennessee
+98,4.0,6.0,0.0,Tennessee
+2,0.0,6.0,0.0,Tennessee
+6,3.0,6.0,0.0,Tennessee
+201,54.0,6.0,0.0,Tennessee
+32,0.0,6.0,0.0,Tennessee
+6,2.0,6.0,0.0,Tennessee
+58,15.0,6.0,0.0,Tennessee
+10,2.0,6.0,0.0,Tennessee
+1,0.0,6.0,0.0,Tennessee
+10,1.0,6.0,0.0,Tennessee
+1,0.0,6.0,0.0,Tennessee
+91,21.0,6.0,0.0,Tennessee
+20,7.0,6.0,0.0,Tennessee
+1731,335.0,23.0,0.0,Texas
+1,0.0,23.0,0.0,Texas
+2,0.0,23.0,0.0,Texas
+1,0.0,23.0,0.0,Texas
+2,0.0,23.0,0.0,Texas
+19,0.0,1.0,0.0,Texas
+112,28.0,5.0,0.0,Texas
+1,0.0,5.0,0.0,Texas
+1,0.0,5.0,0.0,Texas
+33,0.0,5.0,0.0,Texas
+21,0.0,5.0,0.0,Texas
+3,0.0,5.0,0.0,Texas
+1,0.0,5.0,0.0,Texas
+2,0.0,5.0,0.0,Texas
+7,0.0,5.0,0.0,Texas
+1,0.0,5.0,0.0,Texas
+6,0.0,5.0,0.0,Texas
+3,0.0,5.0,0.0,Texas
+90,37.0,1.0,0.0,Texas
+7,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+371,68.0,7.0,0.0,Texas
+2,0.0,7.0,0.0,Texas
+2,0.0,7.0,0.0,Texas
+109,39.0,1.0,0.0,Texas
+2,0.0,1.0,0.0,Texas
+21,0.0,1.0,0.0,Texas
+6,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+77,23.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+27,0.0,1.0,0.0,Texas
+2,0.0,1.0,0.0,Texas
+3,0.0,1.0,0.0,Texas
+2,0.0,1.0,0.0,Texas
+8,0.0,1.0,0.0,Texas
+2,0.0,1.0,0.0,Texas
+315,130.0,2.0,0.0,Texas
+9,0.0,2.0,0.0,Texas
+7,0.0,2.0,0.0,Texas
+5,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+7,0.0,2.0,0.0,Texas
+3,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+2,0.0,2.0,0.0,Texas
+3,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+2,0.0,2.0,0.0,Texas
+19,0.0,2.0,0.0,Texas
+1,0.0,2.0,0.0,Texas
+9,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+28,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+4,0.0,1.0,0.0,Texas
+2,0.0,1.0,0.0,Texas
+31,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+14,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+2,0.0,1.0,0.0,Texas
+2,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+2,0.0,1.0,0.0,Texas
+2,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+16,0.0,1.0,0.0,Texas
+114,24.0,1.0,0.0,Texas
+3,0.0,1.0,0.0,Texas
+2,0.0,1.0,0.0,Texas
+149,30.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+3,0.0,1.0,0.0,Texas
+3,0.0,1.0,0.0,Texas
+10,0.0,1.0,0.0,Texas
+3,0.0,1.0,0.0,Texas
+8,0.0,1.0,0.0,Texas
+22,0.0,1.0,0.0,Texas
+1,0.0,1.0,0.0,Texas
+480,78.0,2.0,0.0,Utah
+7,1.0,2.0,0.0,Utah
+50,11.0,2.0,0.0,Utah
+20,6.0,2.0,0.0,Utah
+221,40.0,2.0,0.0,Utah
+0,0.0,2.0,0.0,Utah
+110,7.0,2.0,0.0,Utah
+5,1.0,2.0,0.0,Utah
+27,2.0,2.0,0.0,Utah
+29,8.0,2.0,0.0,Utah
+20,6.0,2.0,0.0,Utah
+615,155.0,15.0,0.0,Virginia
+2,0.0,15.0,0.0,Virginia
+8,2.0,15.0,0.0,Virginia
+18,4.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+63,9.0,15.0,0.0,Virginia
+2,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+11,2.0,15.0,0.0,Virginia
+5,1.0,15.0,0.0,Virginia
+12,0.0,15.0,0.0,Virginia
+2,0.0,15.0,0.0,Virginia
+4,2.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+124,45.0,15.0,0.0,Virginia
+4,3.0,15.0,0.0,Virginia
+3,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+4,2.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+3,1.0,15.0,0.0,Virginia
+3,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+5,4.0,15.0,0.0,Virginia
+2,0.0,15.0,0.0,Virginia
+5,2.0,15.0,0.0,Virginia
+28,7.0,15.0,0.0,Virginia
+2,0.0,15.0,0.0,Virginia
+55,6.0,15.0,0.0,Virginia
+1,6.0,15.0,0.0,Virginia
+2,0.0,15.0,0.0,Virginia
+43,15.0,15.0,0.0,Virginia
+5,1.0,15.0,0.0,Virginia
+2,1.0,15.0,0.0,Virginia
+2,1.0,15.0,0.0,Virginia
+3,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+4,1.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+12,4.0,15.0,0.0,Virginia
+8,2.0,15.0,0.0,Virginia
+1,2.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+3,0.0,15.0,0.0,Virginia
+2,0.0,15.0,0.0,Virginia
+2,0.0,15.0,0.0,Virginia
+44,8.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+17,3.0,15.0,0.0,Virginia
+1,3.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+4,2.0,15.0,0.0,Virginia
+3,0.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+2,0.0,15.0,0.0,Virginia
+11,4.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+29,3.0,15.0,0.0,Virginia
+2,1.0,15.0,0.0,Virginia
+1,0.0,15.0,0.0,Virginia
+5,0.0,15.0,0.0,Virginia
+9,0.0,15.0,0.0,Virginia
+184,26.0,10.0,0.0,Vermont
+13,1.0,10.0,0.0,Vermont
+13,2.0,10.0,0.0,Vermont
+2,1.0,10.0,0.0,Vermont
+90,15.0,10.0,0.0,Vermont
+6,2.0,10.0,0.0,Vermont
+6,1.0,10.0,0.0,Vermont
+3,0.0,10.0,0.0,Vermont
+4,1.0,10.0,0.0,Vermont
+5,0.0,10.0,0.0,Vermont
+9,2.0,10.0,0.0,Vermont
+9,2.0,10.0,0.0,Vermont
+18,1.0,10.0,0.0,Vermont
+4315,486.0,199.0,0.0,Washington
+5,2.0,0.0,0.0,Washington
+42,23.0,5.0,0.0,Washington
+13,3.0,1.0,0.0,Washington
+5,0.0,0.0,0.0,Washington
+76,28.0,6.0,0.0,Washington
+1,0.0,0.0,0.0,Washington
+7,0.0,0.0,0.0,Washington
+5,0.0,0.0,0.0,Washington
+1,0.0,0.0,0.0,Washington
+12,5.0,0.0,0.0,Washington
+42,9.0,1.0,0.0,Washington
+1,0.0,0.0,0.0,Washington
+79,15.0,1.0,0.0,Washington
+11,0.0,0.0,0.0,Washington
+1828,251.0,125.0,0.0,Washington
+42,9.0,1.0,0.0,Washington
+8,0.0,0.0,0.0,Washington
+7,0.0,0.0,0.0,Washington
+7,2.0,0.0,0.0,Washington
+1,0.0,0.0,0.0,Washington
+2,0.0,0.0,0.0,Washington
+2,1.0,0.0,0.0,Washington
+231,45.0,5.0,0.0,Washington
+3,1.0,0.0,0.0,Washington
+91,13.0,1.0,0.0,Washington
+1,13.0,0.0,0.0,Washington
+913,135.0,23.0,0.0,Washington
+86,19.0,0.0,0.0,Washington
+3,1.0,0.0,0.0,Washington
+27,3.0,0.0,0.0,Washington
+2,0.0,0.0,0.0,Washington
+92,6.0,4.0,0.0,Washington
+5,2.0,0.0,0.0,Washington
+72,11.0,2.0,0.0,Washington
+842,135.0,13.0,0.0,Wisconsin
+2,1.0,0.0,0.0,Wisconsin
+5,1.0,0.0,0.0,Wisconsin
+1,0.0,0.0,0.0,Wisconsin
+3,1.0,0.0,0.0,Wisconsin
+2,1.0,0.0,0.0,Wisconsin
+6,1.0,0.0,0.0,Wisconsin
+133,19.0,1.0,0.0,Wisconsin
+6,3.0,0.0,0.0,Wisconsin
+5,1.0,0.0,0.0,Wisconsin
+2,1.0,0.0,0.0,Wisconsin
+7,1.0,0.0,0.0,Wisconsin
+18,0.0,1.0,0.0,Wisconsin
+1,0.0,0.0,0.0,Wisconsin
+3,2.0,0.0,0.0,Wisconsin
+3,0.0,0.0,0.0,Wisconsin
+1,0.0,1.0,0.0,Wisconsin
+6,1.0,0.0,0.0,Wisconsin
+2,1.0,0.0,0.0,Wisconsin
+23,4.0,0.0,0.0,Wisconsin
+14,2.0,0.0,0.0,Wisconsin
+1,0.0,0.0,0.0,Wisconsin
+1,0.0,0.0,0.0,Wisconsin
+411,64.0,6.0,0.0,Wisconsin
+1,0.0,0.0,0.0,Wisconsin
+4,0.0,0.0,0.0,Wisconsin
+30,8.0,3.0,0.0,Wisconsin
+4,1.0,0.0,0.0,Wisconsin
+1,0.0,0.0,0.0,Wisconsin
+9,1.0,0.0,0.0,Wisconsin
+2,1.0,0.0,0.0,Wisconsin
+12,4.0,0.0,0.0,Wisconsin
+8,1.0,1.0,0.0,Wisconsin
+7,0.0,0.0,0.0,Wisconsin
+4,0.0,0.0,0.0,Wisconsin
+2,1.0,0.0,0.0,Wisconsin
+5,0.0,0.0,0.0,Wisconsin
+27,2.0,0.0,0.0,Wisconsin
+61,5.0,0.0,0.0,Wisconsin
+1,5.0,0.0,0.0,Wisconsin
+6,0.0,0.0,0.0,Wisconsin
+2,1.0,0.0,0.0,Wisconsin
+96,20.0,0.0,0.0,West Virginia
+9,5.0,0.0,0.0,West Virginia
+1,5.0,0.0,0.0,West Virginia
+1,5.0,0.0,0.0,West Virginia
+4,0.0,0.0,0.0,West Virginia
+6,1.0,0.0,0.0,West Virginia
+4,0.0,0.0,0.0,West Virginia
+17,2.0,0.0,0.0,West Virginia
+1,0.0,0.0,0.0,West Virginia
+3,1.0,0.0,0.0,West Virginia
+3,0.0,0.0,0.0,West Virginia
+3,2.0,0.0,0.0,West Virginia
+2,0.0,0.0,0.0,West Virginia
+26,2.0,0.0,0.0,West Virginia
+6,2.0,0.0,0.0,West Virginia
+1,2.0,0.0,0.0,West Virginia
+2,0.0,0.0,0.0,West Virginia
+3,1.0,0.0,0.0,West Virginia
+3,1.0,0.0,0.0,West Virginia
+2,0.0,0.0,0.0,West Virginia
+1,0.0,0.0,0.0,West Virginia
+2,0.0,0.0,0.0,West Virginia
+70,14.0,0.0,0.0,Wyoming
+1,0.0,0.0,0.0,Wyoming
+1,0.0,0.0,0.0,Wyoming
+3,0.0,0.0,0.0,Wyoming
+17,3.0,0.0,0.0,Wyoming
+1,1.0,0.0,0.0,Wyoming
+4,3.0,0.0,0.0,Wyoming
+17,2.0,0.0,0.0,Wyoming
+8,2.0,0.0,0.0,Wyoming
+1,0.0,0.0,0.0,Wyoming
+5,1.0,0.0,0.0,Wyoming
+1,0.0,0.0,0.0,Wyoming
+10,2.0,0.0,0.0,Wyoming
+1,1.0,0.0,0.0,Wyoming

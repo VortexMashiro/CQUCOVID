@@ -1,0 +1,27 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
+1212,2.0,45.0,0,Aargau
+25,0.0,0.0,0,Appenzell Inner-Rhoden
+987,0.0,3.0,0,Appenzell Outer-Rhoden
+836,0.0,32.0,0,Basel-Country
+980,1.0,50.0,0,Basel-Town
+1905,3.0,96.0,0,Berne
+1163,1.0,84.0,0,Fribourg
+5152,3.0,279.0,1.0,Geneva
+127,0.0,12.0,1.0,Glarus
+827,0.0,48.0,1.0,Graubünden
+204,0.0,7.0,1.0,Jura
+734,0.0,20.0,1.0,Lucerne
+727,1.0,83.0,1.0,Neuchâtel
+123,0.0,3.0,1.0,Nidwalden
+79,0.0,0.0,1.0,Obwalden
+79,0.0,6.0,1.0,Schaffhausen
+307,0.0,23.0,1.0,Schwyz
+444,1.0,17.0,1.0,Solothurn
+807,0.0,37.0,1.0,St Gallen
+381,1.0,18.0,1.0,Thurgau
+3314,1.0,348.0,568.0,Ticino
+92,0.0,7.0,568.0,Uri
+1946,1.0,151.0,568.0,Valais
+5449,2.0,406.0,1.0,Vaud
+193,-9.0,8.0,1.0,Zug
+3629,4.0,130.0,11.0,Zurich
