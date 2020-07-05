@@ -57,6 +57,8 @@ dict_province = {
     "Zhejiang": "浙江",
 }
 
+def converte_int(string):
+    return int(float(string))
 
 def province_map(key):
     value = dict_province.get(key)
@@ -133,10 +135,14 @@ def extra_word_epidemic(source, date_list):
     for date in date_list:
         data = source[(date_column == date) & country_column]
         data = data[["Confirmed", "ConfirmedChange",
-                     "Deaths", "Recovered", "Country_Region"]]
+                     "Deaths", "Recovered","Country_Region"]]
         file_name = "world-epidemic/" + date.replace("/", "-") + ".csv"
         data.fillna(method="pad", inplace=True)
         data.fillna(value=0, inplace=True)
+        data["Confirmed"] = data["Confirmed"].astype(int)
+        data["ConfirmedChange"] = data["ConfirmedChange"].apply(converte_int)
+        data["Deaths"] = data["Deaths"].apply(converte_int)
+        data["Recovered"] = data["Recovered"].apply(converte_int)
         data.to_csv(file_name, index=None, encoding="utf-8")
 
 
@@ -289,12 +295,12 @@ def extra_country_status(source, country_list, date_list):
     result.to_csv(file_name, encoding="utf-8", index=None)
 
 
-# source_data = extra_source()
-# print("extra_source")
-# date_list_data = extra_date_list(source_data)
-# print("extra_date_list")
-# extra_word_epidemic(source_data, date_list_data)
-# print("extra_word_epidemic")
+source_data = extra_source()
+print("extra_source")
+date_list_data = extra_date_list(source_data)
+print("extra_date_list")
+extra_word_epidemic(source_data, date_list_data)
+print("extra_word_epidemic")
 # country_list_data = extra_country_list(source_data)
 # print("extra_country_list")
 # extra_country_epidemic(source_data, date_list_data, country_list_data)

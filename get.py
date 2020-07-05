@@ -4,7 +4,6 @@ import os
 import json
 
 
-
 def get_word_epidemic(date):
     """
     获取世界疫情数据
@@ -15,11 +14,11 @@ def get_word_epidemic(date):
     if os.path.exists("data/world-epidemic/" + date_name + ".csv"):
         data = pd.read_csv(open(
             os.path.join("data/world-epidemic/", date_name + ".csv"),
-            'r', encoding="utf-8"), dtype=np.object)
-        confirmed = data["Confirmed"].astype(int)
+            'r', encoding="utf-8"))
+        confirmed = data["Confirmed"]
+        data["Confirmed"] = confirmed
         max = confirmed.drop(0).max()
         min = data["Confirmed"].min()
-
         result_list = []
         for index in range(0, data.shape[0]):
             item = data.iloc[index].tolist()
@@ -29,7 +28,7 @@ def get_word_epidemic(date):
         print("没有这一天的数据！")
         return None,None,None
 
-
+print(get_word_epidemic("01/30/2020"))
 
 def get_country_epidemic(date, country):
     """

@@ -1,86 +1,86 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-90869,1921.0,3112.0,0,Worldwide
-1,0.0,0.0,0,Afghanistan
-8,5.0,0.0,0,Algeria
-1,0.0,0.0,0,Andorra
-1,0.0,0.0,0,Argentina
-1,0.0,0.0,0,Armenia
-40,7.0,1.0,21.0,Australia
-18,8.0,0.0,21.0,Austria
-3,0.0,0.0,21.0,Azerbaijan
-49,2.0,0.0,21.0,Bahrain
-4,3.0,0.0,21.0,Belarus
-13,5.0,0.0,1.0,Belgium
-2,0.0,0.0,1.0,Brazil
-1,0.0,0.0,1.0,Cambodia
-33,6.0,0.0,8.0,Canada
-1,6.0,0.0,8.0,Chile
-80304,130.0,2946.0,47204.0,China
-9,1.0,0.0,47204.0,Croatia
-5,2.0,0.0,47204.0,Czech Rep.
-3633,10.0,136.0,47204.0,Denmark
-1,0.0,0.0,47204.0,Dominican Rep.
-11,3.0,0.0,47204.0,Ecuador
-25,5.0,0.0,47204.0,Egypt
-3,1.0,0.0,47204.0,Estonia
-11,4.0,0.0,47204.0,Finland
-212,21.0,4.0,12.0,France
-3,0.0,0.0,12.0,Georgia
-188,38.0,0.0,16.0,Germany
-1,38.0,0.0,16.0,Gibraltar
-7,0.0,0.0,16.0,Greece
-0,0.0,0.0,16.0,Guam
-102,2.0,2.0,37.0,Hong Kong SAR
-16,7.0,0.0,37.0,Iceland
-6,1.0,0.0,3.0,India
-1920,65.0,177.0,3.0,Indonesia
-2336,835.0,77.0,291.0,Iran
-25,6.0,1.0,291.0,Iraq
-2,1.0,0.0,291.0,Ireland
-31,3.0,0.0,1.0,Israel
-2502,466.0,79.0,276.0,Italy
-284,16.0,6.0,43.0,Japan
-1,0.0,0.0,43.0,Jordan
-56,0.0,0.0,43.0,Kuwait
-1,0.0,0.0,43.0,Latvia
-15,2.0,0.0,43.0,Lebanon
-1,2.0,0.0,43.0,Liechtenstein
-1,0.0,0.0,43.0,Lithuania
-1,0.0,0.0,43.0,Luxembourg
-10,0.0,0.0,43.0,Macao SAR
-36,3.0,0.0,22.0,Malaysia
-5,0.0,0.0,22.0,Mexico
-1,0.0,0.0,22.0,Monaco
-1,0.0,0.0,22.0,Morocco
-1,0.0,0.0,22.0,Nepal
-24,5.0,0.0,22.0,Netherlands
-2,1.0,0.0,22.0,New Zealand
-1,0.0,0.0,22.0,Nigeria
-1,0.0,0.0,22.0,Macedonia
-33,8.0,0.0,22.0,Norway
-12,6.0,0.0,2.0,Oman
-5,1.0,0.0,2.0,Pakistan
-3,0.0,1.0,2.0,Philippines
-4,2.0,0.0,2.0,Portugal
-0,0.0,0.0,2.0,Puerto Rico
-7,4.0,0.0,2.0,Qatar
-4,1.0,0.0,1.0,Romania
-3,0.0,0.0,1.0,Russia
-11,2.0,1.0,1.0,San Marino
-1,0.0,0.0,1.0,Saudi Arabia
-1,0.0,0.0,1.0,Senegal
-110,2.0,0.0,78.0,Singapore
-5328,516.0,32.0,34.0,Korea
-166,45.0,2.0,2.0,Spain
-1,0.0,0.0,2.0,Sri Lanka
-32,13.0,0.0,1.0,Sweden
-55,15.0,0.0,1.0,Switzerland
-42,1.0,1.0,12.0,Taiwan
-43,0.0,1.0,12.0,Thailand
-1,0.0,0.0,12.0,Tunisia
-0,0.0,0.0,12.0,U.S. Virgin Islands
-1,0.0,0.0,12.0,Ukraine
-27,2.0,0.0,5.0,United Arab Emirates
-51,11.0,0.0,8.0,United Kingdom
-85,28.0,11.0,9.0,United States
-16,0.0,0.0,9.0,Vietnam
+90869,1921,3112,0,Worldwide
+1,0,0,0,Afghanistan
+8,5,0,0,Algeria
+1,0,0,0,Andorra
+1,0,0,0,Argentina
+1,0,0,0,Armenia
+40,7,1,21,Australia
+18,8,0,21,Austria
+3,0,0,21,Azerbaijan
+49,2,0,21,Bahrain
+4,3,0,21,Belarus
+13,5,0,1,Belgium
+2,0,0,1,Brazil
+1,0,0,1,Cambodia
+33,6,0,8,Canada
+1,6,0,8,Chile
+80304,130,2946,47204,China
+9,1,0,47204,Croatia
+5,2,0,47204,Czech Rep.
+3633,10,136,47204,Denmark
+1,0,0,47204,Dominican Rep.
+11,3,0,47204,Ecuador
+25,5,0,47204,Egypt
+3,1,0,47204,Estonia
+11,4,0,47204,Finland
+212,21,4,12,France
+3,0,0,12,Georgia
+188,38,0,16,Germany
+1,38,0,16,Gibraltar
+7,0,0,16,Greece
+0,0,0,16,Guam
+102,2,2,37,香港
+16,7,0,37,Iceland
+6,1,0,3,India
+1920,65,177,3,Indonesia
+2336,835,77,291,Iran
+25,6,1,291,Iraq
+2,1,0,291,Ireland
+31,3,0,1,Israel
+2502,466,79,276,Italy
+284,16,6,43,Japan
+1,0,0,43,Jordan
+56,0,0,43,Kuwait
+1,0,0,43,Latvia
+15,2,0,43,Lebanon
+1,2,0,43,Liechtenstein
+1,0,0,43,Lithuania
+1,0,0,43,Luxembourg
+10,0,0,43,Macao SAR
+36,3,0,22,Malaysia
+5,0,0,22,Mexico
+1,0,0,22,Monaco
+1,0,0,22,Morocco
+1,0,0,22,Nepal
+24,5,0,22,Netherlands
+2,1,0,22,New Zealand
+1,0,0,22,Nigeria
+1,0,0,22,Macedonia
+33,8,0,22,Norway
+12,6,0,2,Oman
+5,1,0,2,Pakistan
+3,0,1,2,Philippines
+4,2,0,2,Portugal
+0,0,0,2,Puerto Rico
+7,4,0,2,Qatar
+4,1,0,1,Romania
+3,0,0,1,Russia
+11,2,1,1,San Marino
+1,0,0,1,Saudi Arabia
+1,0,0,1,Senegal
+110,2,0,78,Singapore
+5328,516,32,34,Korea
+166,45,2,2,Spain
+1,0,0,2,Sri Lanka
+32,13,0,1,Sweden
+55,15,0,1,Switzerland
+42,1,1,12,台湾
+43,0,1,12,Thailand
+1,0,0,12,Tunisia
+0,0,0,12,U.S. Virgin Islands
+1,0,0,12,Ukraine
+27,2,0,5,United Arab Emirates
+51,11,0,8,United Kingdom
+85,28,11,9,United States
+16,0,0,9,Vietnam

@@ -1206,7 +1206,7 @@ def get_home_page():
         Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
             .add_schema(
             maptype="world")  # https://github.com/pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
-            .add("geo", [list(z) for z in zip(Faker.provinces, Faker.values())])  # TODO Data Interface
+            .add("geo", [["上海",100]])  # TODO Data Interface
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             visualmap_opts=opts.VisualMapOpts(), title_opts=opts.TitleOpts(title="TITLE")
@@ -1246,7 +1246,7 @@ def get_global_map():
         Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
             .add_schema(
             maptype="world")  # https://github.com/pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
-            .add("geo", [list(z) for z in zip(Faker.provinces, Faker.values())])  # TODO Data Interface
+            .add("geo", [["上海",100]])  # TODO Data Interface
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             visualmap_opts=opts.VisualMapOpts(), title_opts=opts.TitleOpts(title=country_name)
@@ -1264,13 +1264,16 @@ def get_global_map():
 def get_country_chart():
     print("get a ajax GET request.")
     country_name = json.loads(request.args.get('data', type=str))['name']
-    date_list, n_confirmed_list,deaths = get.get_samll_picture_data(country_name)
+    date_list, n_confirmed_list,deaths = get.get_country_epidemic_summary(country_name)
     c = (
         Bar()
             .add_xaxis(date_list)
-            .add_yaxis("新增确诊", n_confirmed_list)
+            .add_yaxis("累计确诊", n_confirmed_list)
             .add_yaxis("累计死亡", deaths)
-            .set_global_opts(title_opts=opts.TitleOpts(title=country_name, subtitle="我是副标题"))
+            .set_global_opts(title_opts=opts.TitleOpts(title=country_name),
+                             legend_opts=opts.LegendOpts(pos_bottom=5),
+                             yaxis_opts=opts.AxisOpts(axislabel_opts=opts.LabelOpts(rotate=90)))
+            .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
     )
     return c.dump_options_with_quotes()
 

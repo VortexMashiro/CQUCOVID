@@ -1,8 +1,8 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-313,51.0,0.0,0.0,Worldwide
-571,131.0,0.0,0.0,China
-1,0.0,0.0,0.0,Japan
-2,0.0,0.0,0.0,Macao SAR
-1,0.0,0.0,0.0,Korea
-1,0.0,0.0,0.0,Taiwan
-4,2.0,0.0,0.0,Thailand
+313,51,0,0,Worldwide
+571,131,0,0,China
+1,0,0,0,Japan
+2,0,0,0,Macao SAR
+1,0,0,0,Korea
+1,0,0,0,台湾
+4,2,0,0,Thailand

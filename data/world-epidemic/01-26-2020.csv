@@ -1,20 +1,20 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-2014,694.0,0.0,0.0,Worldwide
-4,0.0,0.0,0.0,Australia
-1,0.0,0.0,0.0,Canada
-2744,769.0,0.0,0.0,China
-3,0.0,0.0,0.0,France
-0,0.0,0.0,0.0,Guam
-8,3.0,0.0,0.0,Hong Kong SAR
-4,1.0,0.0,0.0,Japan
-5,3.0,0.0,0.0,Macao SAR
-4,0.0,0.0,0.0,Malaysia
-1,0.0,0.0,0.0,Nepal
-0,0.0,0.0,0.0,Puerto Rico
-4,1.0,0.0,0.0,Singapore
-3,1.0,0.0,0.0,Korea
-4,1.0,0.0,0.0,Taiwan
-8,2.0,0.0,0.0,Thailand
-0,0.0,0.0,0.0,U.S. Virgin Islands
-5,2.0,0.0,0.0,United States
-2,0.0,0.0,0.0,Vietnam
+2014,694,0,0,Worldwide
+4,0,0,0,Australia
+1,0,0,0,Canada
+2744,769,0,0,China
+3,0,0,0,France
+0,0,0,0,Guam
+8,3,0,0,香港
+4,1,0,0,Japan
+5,3,0,0,Macao SAR
+4,0,0,0,Malaysia
+1,0,0,0,Nepal
+0,0,0,0,Puerto Rico
+4,1,0,0,Singapore
+3,1,0,0,Korea
+4,1,0,0,台湾
+8,2,0,0,Thailand
+0,0,0,0,U.S. Virgin Islands
+5,2,0,0,United States
+2,0,0,0,Vietnam
