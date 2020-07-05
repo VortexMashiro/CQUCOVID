@@ -1213,7 +1213,7 @@ def get_home_page():
 
     print(str(Global_map.js_dependencies.items))
     print(str(Global_map.js_dependencies._values))
-    countrylist=[{"name": "China", "number": 11},{"name": "Japan", "number": 12}]#TODO Data Interface
+    countrylist=[{"name": "China", "number": 11},{"name": "Japan", "number": 12}]
     countrylist_tmp = get.get_country_list_with_data()
     if countrylist_tmp:
         countrylist = countrylist_tmp
@@ -1267,7 +1267,7 @@ def get_country_chart():
 @app.route("/getCountryStatus",methods=['GET'])
 def get_country_status():
     country_name= json.loads(request.args.get('data', type=str))['name']
-    country_status={'total':'10,512,383',#TODO data interface
+    country_status={'total':'10,512,383',
                    'total_today':'17,364',
                     'confirm_total':'5,387,249',
                     'confirm_today':'15,676',

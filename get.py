@@ -324,4 +324,13 @@ def get_samll_picture_data(country="China"):
         print("没有数据文件！")
         return None
 
-print(get_samll_picture_data())
+def get_today():
+    """
+    返回最新日期
+    :return str
+    """
+    file = "data/country-epidemic-summary/Worldwide.csv"
+    if os.path.isfile(file):
+        return pd.read_csv(file)["Updated"].tolist()[-1]
+    else:
+        return None
