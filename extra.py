@@ -30,7 +30,7 @@ def country_map(key):
         return value
 
 
-# df = pd.read_csv("Bing-COVID19-Data.csv")
+# df = pd.read_csv("Bing-COVID19-Data.csv", dtype=np.object)
 # df["Country_Region"] = df["Country_Region"].apply(country_map)
 # df.to_csv("Bing-COVID19-Data.csv", index=None, encoding="utf-8")
 
@@ -220,17 +220,28 @@ def extra_country_status(source, country_list,date_list):
     """
 
     """
-    country_column = source["Country_Region"]
-    updated_column = source["Updated"]
     date = date_list[-1]
+    country_column = source["Country_Region"]
+    area_column = source["AdminRegion1"].isna()
+    column_list = ["Confirmed","ConfirmedChange","Deaths",
+                     "DeathsChange","Recovered","RecoveredChange","Country_Region"]
+    print(date)
+    result_list = []
     for country in country_list:
-        data = source[(country_column == country) & (updated_column == date)]
-        data = data[["Confirmed","ConfirmedChange","Deaths",
-                     "DeathsChange","Recovered","RecoveredChange"]]
-        data.fillna(method="pad", inplace=True)
-        data.fillna(value=0, inplace=True)
-        file_name = "data/country-status/" + country + ".csv"
-        data.to_csv(file_name, encoding="utf-8", index=None)
+        data1 = source[(country_column == country) & area_column]
+        data1 = data1[["Updated","Confirmed","ConfirmedChange","Deaths",
+                     "DeathsChange","Recovered","RecoveredChange","Country_Region"]]
+        data1.ffill(inplace=True)
+        data1.fillna(value=0,inplace=True)
+        updated_column = data1["Updated"]
+        data = data1[updated_column == date]
+        if data.shape[0]==0:
+            continue
+        data = data[column_list]
+        result_list.append(data.iloc[0].tolist())
+    file_name = "data/country-status/country_status.csv"
+    result = pd.DataFrame(data=result_list,columns=column_list)
+    result.to_csv(file_name, encoding="utf-8", index=None)
 
 
 

@@ -238,27 +238,53 @@ def get_country_status(country="China"):
     """
 
     """
-    file_name = "data/country-status/"+country+".csv"
+    file_name = "data/country-status/country_status.csv"
     if os.path.isfile(file_name):
         data = pd.read_csv(
-            open(os.path.join("data/country-status/",country+".csv"),
-                 "r",encoding="utf-8"),dtype=np.int)
+            open(os.path.join("data/country-status/","country_status.csv"),
+                 "r",encoding="utf-8"),dtype=np.str)
+        data = data[data["Country_Region"]==country]
         data = data.iloc[0].tolist()
-        total = data[0]+data[2]+data[4]
-        total_today = data[1]+data[3]+data[5]
+        c = int(data[0])
+        nc = int(data[1])
+        d = int(data[2])
+        nd = int(data[3])
+        r = int(data[4])
+        nr = int(data[5])
+        total = c+r+d
+        total_today = nc+nd+nr
         dict = {
-            'total':total,
-            'total_today': total_today,
-            'confirm_total': data[0],
-            'confirm_today': data[1],
-            'recover_total': data[4],
-            'recover_today': data[5],
-            'death_total': data[2],
-            'death_today': data[3]
+            'total':format(total,','),
+            'total_today': format(total_today,','),
+            'confirm_total': format(c,','),
+            'confirm_today': format(nc,','),
+            'recover_total': format(d,','),
+            'recover_today': format(nd,','),
+            'death_total': format(r,','),
+            'death_today': format(nr,',')
         }
         return dict
     else:
         print("没有数据文件！")
         return None
 
-print(get_country_status("Worldwide"))
+
+def get_country_list_with_data():
+    """
+
+    """
+    file = "data/country-status/country_status.csv"
+    if os.path.isfile(file):
+        data = pd.read_csv(file,encoding="utf-8")
+        country_list = []
+        for index in range(0,data.shape[0]):
+            row = data.iloc[index]
+            total = int(row["Confirmed"]) \
+                    + int(row["Deaths"]) \
+                    + int(row["Recovered"])
+            country = row["Country_Region"]
+            country_list.append({"name":country,"number":format(total,',')})
+        return country_list
+    else:
+        print("没有数据文件！")
+        return None
