@@ -19,7 +19,9 @@ dict_country = {'China (mainland)': 'China',
                 'Faroe Islands': 'Faroe Is.',
                 'Dominican Republic': 'Dominican Rep.',
                 'Cabo Verde': 'Cape Verde',
-                'Falkland Islands': 'Falkland Is.', }
+                'Falkland Islands': 'Falkland Is.',
+                "Hong Kong SAR":"香港",
+                "Taiwan":"台湾"}
 
 dict_province = {
     "Anhui": "安徽",
@@ -36,7 +38,7 @@ dict_province = {
     "Henan": "河南",
     "Hubei": "湖北",
     "Hunan": "湖南",
-    "Inner Mongolia": "",
+    "Inner Mongolia": "内蒙古",
     "Jiangsu": "江苏",
     "Jiangxi": "江西",
     "Jilin": "吉林",
@@ -72,10 +74,10 @@ def country_map(key):
         return value
 
 
-# df = pd.read_csv("Bing-COVID19-Data.csv", dtype=np.object)
-# df["Country_Region"] = df["Country_Region"].apply(country_map)
-# df["AdminRegion1"] = df["AdminRegion1"].apply(province_map)
-# df.to_csv("Bing-COVID19-Data.csv", index=None, encoding="utf-8")
+df = pd.read_csv("Bing-COVID19-Data.csv", dtype=np.object)
+df["Country_Region"] = df["Country_Region"].apply(country_map)
+df["AdminRegion1"] = df["AdminRegion1"].apply(province_map)
+df.to_csv("Bing-COVID19-Data.csv", index=None, encoding="utf-8")
 
 
 # 预处理结束
