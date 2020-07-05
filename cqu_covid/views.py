@@ -12,6 +12,7 @@ from flask import jsonify
 from pyecharts import options as opts
 # from pyecharts.charts import Bar
 
+import get
 
 from pyecharts.charts import Map,Geo
 
@@ -1221,12 +1222,14 @@ def get_home_page():
                     'recover_today':'15,676',
                     'death_total':'5,387,249',
                     'death_today':'15,676'}
+    global_status_temp=get.get_country_status('WorldWide')
+    if global_status_temp:
+        global_status=global_status_temp
     return render_template(
         "home.html",
         countrylist=countrylist,
         #myechart=Global_map.render_embed(),# this is being replaced with AJAX
         global_status=global_status
-        #TODO Interface for gloabl var.
     )
 @app.route("/getGlobalMap",methods=['GET'])
 def get_global_map():
@@ -1240,7 +1243,7 @@ def get_global_map():
             visualmap_opts=opts.VisualMapOpts(), title_opts=opts.TitleOpts(title=country_name)
         )
     
-    )
+    ) 
     return Global_map.dump_options_with_quotes()
 
 
