@@ -1271,6 +1271,7 @@ def get_country_status():
                     'recover_today':'15,676',
                     'death_total':'5,387,249',
                     'death_today':'15,676'}
+
     return jsonify(country_status)
 
 

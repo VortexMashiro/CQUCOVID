@@ -233,3 +233,32 @@ def get_time_axis_data():
     else:
         print("没有数据文件！")
         return None
+
+def get_country_status(country="China"):
+    """
+
+    """
+    file_name = "data/country-status/"+country+".csv"
+    if os.path.isfile(file_name):
+        data = pd.read_csv(
+            open(os.path.join("data/country-status/",country+".csv"),
+                 "r",encoding="utf-8"),dtype=np.int)
+        data = data.iloc[0].tolist()
+        total = data[0]+data[2]+data[4]
+        total_today = data[1]+data[3]+data[5]
+        dict = {
+            'total':total,
+            'total_today': total_today,
+            'confirm_total': data[0],
+            'confirm_today': data[1],
+            'recover_total': data[4],
+            'recover_today': data[5],
+            'death_total': data[2],
+            'death_today': data[3]
+        }
+        return dict
+    else:
+        print("没有数据文件！")
+        return None
+
+print(get_country_status("Worldwide"))
