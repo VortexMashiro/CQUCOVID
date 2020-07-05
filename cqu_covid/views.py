@@ -1214,6 +1214,9 @@ def get_home_page():
     print(str(Global_map.js_dependencies.items))
     print(str(Global_map.js_dependencies._values))
     countrylist=[{"name": "China", "number": 11},{"name": "Japan", "number": 12}]#TODO Data Interface
+    countrylist_tmp = get.get_country_list_with_data()
+    if countrylist_tmp:
+        countrylist = countrylist_tmp
     global_status={'total':'10,512,383',
                    'total_today':'17,364',
                     'confirm_total':'5,387,249',
@@ -1222,7 +1225,7 @@ def get_home_page():
                     'recover_today':'15,676',
                     'death_total':'5,387,249',
                     'death_today':'15,676'}
-    global_status_temp=get.get_country_status('WorldWide')
+    global_status_temp=get.get_country_status('Worldwide')
     if global_status_temp:
         global_status=global_status_temp
     return render_template(
@@ -1272,7 +1275,9 @@ def get_country_status():
                     'recover_today':'15,676',
                     'death_total':'5,387,249',
                     'death_today':'15,676'}
-
+    country_status_tmp = get.get_country_status(country_name)
+    if country_status_tmp:
+        country_status = country_status_tmp
     return jsonify(country_status)
 
 

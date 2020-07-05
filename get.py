@@ -244,6 +244,10 @@ def get_country_status(country="China"):
             open(os.path.join("data/country-status/","country_status.csv"),
                  "r",encoding="utf-8"),dtype=np.str)
         data = data[data["Country_Region"]==country]
+        if data.shape[0]==0:
+            print(country)
+            print("没有这个国家的数据")
+            return None
         data = data.iloc[0].tolist()
         c = int(data[0])
         nc = int(data[1])
