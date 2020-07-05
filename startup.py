@@ -2,4 +2,4 @@
 #To boot the server with default configuration, use `flask run`.
 from cqu_covid import app
 
-app.run()
+app.run(debug=True)

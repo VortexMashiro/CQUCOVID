@@ -13,6 +13,7 @@ from pyecharts import options as opts
 # from pyecharts.charts import Bar
 
 import get
+import paint
 
 from pyecharts.charts import Map, Geo
 
@@ -1202,20 +1203,23 @@ def get_index():
 
 @app.route('/home')
 def get_home_page():
-    Global_map = (
-        Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
-            .add_schema(
-            maptype="world")  # https://github.com/pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
-            .add("geo", [["上海",100]])  # TODO Data Interface
-            .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
-            .set_global_opts(
-            visualmap_opts=opts.VisualMapOpts(), title_opts=opts.TitleOpts(title="TITLE")
-        )
+    # Global_map = (
+    #     Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
+    #         .add_schema(
+    #         maptype="world")  # https://github.com/pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
+    #         .add("geo", [["上海",100],["西藏",100]])  # TODO Data Interface
+    #         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
+    #         .set_global_opts(
+    #         visualmap_opts=opts.VisualMapOpts(), title_opts=opts.TitleOpts(title="TITLE")
+    #     )
+    #
+    # )
+    #
+    # print(str(Global_map.js_dependencies.items))
+    # print(str(Global_map.js_dependencies._values))
 
-    )
+    charts = paint.paint_world_map('')
 
-    print(str(Global_map.js_dependencies.items))
-    print(str(Global_map.js_dependencies._values))
     countrylist = [{"name": "China", "number": 11}, {"name": "Japan", "number": 12}]
     countrylist_tmp = get.get_country_list_with_data()
     if countrylist_tmp:
@@ -1235,24 +1239,51 @@ def get_home_page():
         "home.html",
         countrylist=countrylist,
         # myechart=Global_map.render_embed(),# this is being replaced with AJAX
+        myechart=charts.render_embed(),
         global_status=global_status
     )
+    # return charts.render_embed()
 
 
 @app.route("/getGlobalMap", methods=['GET'])
 def get_global_map():
     country_name = json.loads(request.args.get('data', type=str))['name']
+    max_data, min_data, result = get.get_word_epidemic(get.get_today())
+    max_data=int(max_data)
+    min_data = int(min_data)
+    map_data = []
+    for i in result:
+        i = i[0::4]
+        i.reverse()
+        i[1] = int(i[1])
+        map_data.append(i)
+    map_data = map_data[1:]
+    print(map_data)
+    print(max_data)
+    print(min_data)
     Global_map = (
         Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
             .add_schema(
-            maptype="world")  # https://github.com/pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
-            .add("geo", [["上海",100]])  # TODO Data Interface
+            maptype="world")  # https://github.com/# pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
+            .add_coordinate_json('weizhi.json')
+            .add("geo", map_data)  # TODO Data Interface
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
-            visualmap_opts=opts.VisualMapOpts(), title_opts=opts.TitleOpts(title=country_name)
+            # visualmap_opts=opts.VisualMapOpts(
+            #     is_calculable=True,
+            #     type='color',
+            #     min_=min_data,
+            #     max_=max_data,
+            #     pos_left="600",
+            #     pos_top="400",
+            #     range_text=["High", "Low"],
+            #     range_color=["lightskyblue", "yellow", "orangered"],
+            #     textstyle_opts=opts.TextStyleOpts(color="#ddd"),
+            # ),
+            title_opts=opts.TitleOpts(title=country_name)
         )
-
     )
+    # charts = paint.paint_world_map()
     return Global_map.dump_options_with_quotes()
 
 
@@ -1271,7 +1302,7 @@ def get_country_chart():
             .add_yaxis("累计确诊", n_confirmed_list)
             .add_yaxis("累计死亡", deaths)
             .set_global_opts(title_opts=opts.TitleOpts(title=country_name),
-                             legend_opts=opts.LegendOpts(pos_bottom=5),
+                             legend_opts=opts.LegendOpts(pos_bottom=5, selected_mode="single"),
                              yaxis_opts=opts.AxisOpts(axislabel_opts=opts.LabelOpts(rotate=90)))
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
     )

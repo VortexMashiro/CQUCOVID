@@ -11,12 +11,13 @@ def get_word_epidemic(date):
     :return: list
     """
     date_name = date.replace("/", "-")
-    if os.path.exists("data/world-epidemic/" + date_name + ".csv"):
+    if os.path.isfile("data/world-epidemic/" + date_name + ".csv"):
         data = pd.read_csv(open(
             os.path.join("data/world-epidemic/", date_name + ".csv"),
             'r', encoding="utf-8"))
         confirmed = data["Confirmed"]
         data["Confirmed"] = confirmed
+        # print(confirmed.sort_values())
         max = confirmed.drop(0).max()
         min = data["Confirmed"].min()
         result_list = []
@@ -25,10 +26,10 @@ def get_word_epidemic(date):
             result_list.append(item)
         return max,min,result_list
     else:
-        print("没有这一天的数据！")
+        print("data/world-epidemic/" + date_name + ".csv")
         return None,None,None
 
-print(get_word_epidemic("01/30/2020"))
+print(get_word_epidemic("06/25/2020"))
 
 def get_country_epidemic(date, country):
     """
@@ -43,7 +44,7 @@ def get_country_epidemic(date, country):
     if os.path.isfile(file_name):
         data = pd.read_csv(
             open(os.path.join("data/country-epidemic/", date_name + "-" + country + ".csv"),
-                 "r", encoding="utf-8"), dtype=np.object)
+                 "r", encoding="utf-8"))
         confirmed = data["Confirmed"].astype(int)
         max = confirmed.max()
         min = confirmed.min()
