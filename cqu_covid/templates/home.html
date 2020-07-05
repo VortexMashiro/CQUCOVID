@@ -9,6 +9,7 @@
   position: relative;
   overflow: hidden;
   padding-top: 0px; /* redefined in sp.css */
+  height: 100vh !important;
   
 }
       </style>
@@ -113,11 +114,25 @@
     <div class="verticalContent">
       <div class="overview">
         <div class="overviewContent">
-          <h3 class="pageName">TITLE</h3>
+          <!-- <h3 class="pageName">详情</h3> -->
           <div class="segmentPanel">
-            ddd
-            <div id="bar" style="height:100%;"></div> 
+            <div id="bar" style="height:40vh"></div> 
             <!-- this is a ajax pyecharts. -->
+            <div id="news"  style="height:40vh">
+              <h3 class="pageName">相关资讯</h3>
+              <div class='container'>
+                <!-- news list -->
+                <div class='row'>
+                  <div class="col-sm">
+                    <img>
+                  </div>
+                  <div class="col-sm">
+                    新闻1
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -136,19 +151,6 @@
 
   </div>  <!-- verticalWrapper -->
 
-
- 
-  
-  {% for element in countrylist %}
-       
-<!--                     
-                     <li class="countrylist-item">
-                        <a onclick="getBar(this)" class="country" id="{{element.name}}">
-                            {{element.name}},{{element.number}}
-                        </a>
-                    <li> -->
-                    
-    {% endfor %}
 
 
 
@@ -192,7 +194,7 @@
         function initBar(){
           var data = {
                   data: JSON.stringify({
-                    'name': 'World',
+                    'name': 'Worldwide',
                   }),
                 }
           $.ajax({
@@ -212,7 +214,7 @@
         function initGlobalMap(){
           var data = {
                   data: JSON.stringify({
-                    'name': 'World',
+                    'name': 'Worldwide',
                   }),
                 }
           $.ajax({

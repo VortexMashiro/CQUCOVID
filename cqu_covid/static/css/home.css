@@ -212,7 +212,8 @@ div{
 .combinedArea {
   padding: 0px 24px;
   width: 100%;
-  overflow-y: scroll;
+  height: 400px!important;
+  overflow-y: scroll!important;
 }
 [dir="ltr"] .combinedArea {
   margin-left: -24px;
