@@ -67,15 +67,16 @@ def get_country_epidemic_summary(country):
                  "r", encoding="utf-8"), dtype=np.object)
         confirmed_list = []
         death_list = []
+        date_list = []
         for index in range(0, data.shape[0]):
             item = data.iloc[index]
-            date = item["Updated"]
-            confirmed_list.append([date, item["Confirmed"]])
-            death_list.append([date, item["Deaths"]])
-        return confirmed_list, death_list
+            date_list.append(item["Updated"])
+            confirmed_list.append(item["Confirmed"])
+            death_list.append(item["Deaths"])
+        return date_list,confirmed_list, death_list
     else:
         print("没有相关数据！")
-        return None, None
+        return None, None,None
 
 
 def get_confirmed_distribution(country, date):
@@ -292,3 +293,35 @@ def get_country_list_with_data():
     else:
         print("没有数据文件！")
         return None
+
+
+def get_samll_picture_data(country="China"):
+    """
+
+    """
+    dire1 = "data/country-epidemic-summary/"
+    dire2 = "data/new-confirmed-death/"
+    file1 = dire1+country+".csv"
+    file2 = dire2+country+".csv"
+    if os.path.isfile(file1) & os.path.isfile(file2):
+        data1 = pd.read_csv(
+            open(os.path.join(dire1,country+".csv"),"r",encoding="utf-8"))
+        data1 = data1["Deaths"]
+        data2 = pd.read_csv(
+            open(os.path.join(dire2,country+".csv"),"r",encoding="utf-8"))
+        data2 = data2[["Updated","ConfirmedChange"]]
+        date_list = []
+        confirmed_change = []
+        deaths = []
+        for index in range(0,data1.shape[0]):
+            row1 = data1.iloc[index]
+            row2 = data2.iloc[index]
+            deaths.append(row1)
+            date_list.append(row2["Updated"])
+            confirmed_change.append(row2["ConfirmedChange"])
+        return date_list,confirmed_change,deaths
+    else:
+        print("没有数据文件！")
+        return None
+
+print(get_samll_picture_data())
