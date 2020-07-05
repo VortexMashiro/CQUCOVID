@@ -24,7 +24,7 @@
   <div class="countryPanel">
       <div class="country tab" role="Region" aria-label="国家/地区列表">
           <div class="timelinePillWrapper">
-              <div class="timelinePill">COVID-19 时间线 ❯</div>
+              <div class="timelinePill" onclick="naviToTimeline()">COVID-19 时间线 ❯</div>
           </div>
           <div class="infoTile" style="width: 272px;">
               <div class="infoTileHeader">
@@ -116,15 +116,16 @@
           <h3 class="pageName">TITLE</h3>
           <div class="segmentPanel">
             ddd
-            <div id="bar" style="height:100%;"></div>
+            <div id="bar" style="height:100%;"></div> 
+            <!-- this is a ajax pyecharts. -->
           </div>
         </div>
       </div>
       <div class="map" role="main" style="height: 100%; width: 100%; overflow: hidden;">
         <div class="mapContainer allowGL">
             <div class="wrapper-bingmaps" style="height: 100%; position: relative;">
-                <div class="PyechartMap" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;">
-                  {{ myechart|safe }}
+                <div class="PyechartMap" id="globalMap" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;">
+                  <!-- {{ myechart|safe }} -->
                 </div>
             </div>
         </div>
@@ -167,6 +168,8 @@
     <script>
         $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
         var chart = echarts.init(document.getElementById('bar'), 'white', {renderer: 'canvas'});
+        var global_map = echarts.init(document.getElementById('globalMap'), {renderer: 'canvas'});
+        //this will be called when clicking a country in countrylist
         function getBar(event){
           
           console.log(event.id);
@@ -185,7 +188,7 @@
                     }
                 });
         }
-
+        //this will call getBar() with the data 'world'
         function initBar(){
           var data = {
                   data: JSON.stringify({
@@ -202,8 +205,32 @@
                     }
                 });
         }
+        function naviToTimeline(){
+          window.location.replace('/covid?data={{messager_data}}');
+        }
+
+        function initGlobalMap(){
+          var data = {
+                  data: JSON.stringify({
+                    'name': 'World',
+                  }),
+                }
+          $.ajax({
+                    type: "GET",
+                    url: $SCRIPT_ROOT+"/getGlobalMap",
+                    data:data,
+                    dataType: 'json',
+                    success: function (result) {
+                      eval('result.tooltip.formatter='+result.tooltip.formatter);
+                      global_map.setOption(result);
+                      console.log('Global Map init Successfully');
+                      console.log(result);
+                    }
+                });
+        }
         
         initBar();
+        initGlobalMap();
     </script>
 <div></div>
 

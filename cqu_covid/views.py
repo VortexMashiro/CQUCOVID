@@ -1210,7 +1210,8 @@ def get_home_page():
     
     )
 
-
+    print(str(Global_map.js_dependencies.items))
+    print(str(Global_map.js_dependencies._values))
     countrylist=[{"name": "China", "number": 11},{"name": "Japan", "number": 12}]#TODO Data Interface
 
 
@@ -1225,13 +1226,25 @@ def get_home_page():
     return render_template(
         "home.html",
         countrylist=countrylist,
-        myechart=Global_map.render_embed(),
+        #myechart=Global_map.render_embed(),# this is being replaced with AJAX
         global_status=global_status
-        #global_comfirmed=global_comfirmed,
-        #global_recover=global_recover,
-        #global_death=global_death, 
         #TODO Interface for gloabl var.
     )
+@app.route("/getGlobalMap",methods=['GET'])
+def get_global_map():
+    country_name= json.loads(request.args.get('data', type=str))['name']
+    Global_map = (
+        Geo(init_opts=opts.InitOpts(width="100%" ,height="100%",theme=ThemeType.DARK))
+        .add_schema(maptype="world")#https://github.com/pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
+        .add("geo", [list(z) for z in zip(Faker.provinces, Faker.values())])#TODO Data Interface
+        .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
+        .set_global_opts(
+            visualmap_opts=opts.VisualMapOpts(), title_opts=opts.TitleOpts(title=country_name)
+        )
+    
+    )
+    return Global_map.dump_options_with_quotes()
+
 
 #When user clicks a country in countrylist, ask here to get a line pyecharts.
 @app.route("/getConuntryBar",methods=['GET'])
@@ -1268,3 +1281,4 @@ def get_news():
         #newslist=newslist
         #TODO  News related, format:  [{'title'=title,'des'=des,'date'=date,'author'=author},...]
         )
+
