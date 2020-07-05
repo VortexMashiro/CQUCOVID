@@ -974,7 +974,7 @@ data = [ #TODO Data interface
 time_list = [str(d) + "年" for d in range(1993, 2019)]
 
 
-total_num = [
+total_num = [ #右上角总值（单位万亿），要改成中国疫情累计确诊
     3.4,
     4.5,
     5.8,
@@ -1009,7 +1009,7 @@ minNum = 0
 def get_year_chart(year: str):
     map_data = [
         [[x["name"], x["value"]] for x in d["data"]] for d in data if d["time"] == year
-    ][0]
+    ][0]#map_data[1]就是那个三长度list
     min_data, max_data = (minNum, maxNum)
     data_mark: List = []
     i = 0
@@ -1213,8 +1213,6 @@ def get_home_page():
     print(str(Global_map.js_dependencies.items))
     print(str(Global_map.js_dependencies._values))
     countrylist=[{"name": "China", "number": 11},{"name": "Japan", "number": 12}]#TODO Data Interface
-
-
     global_status={'total':'10,512,383',
                    'total_today':'17,364',
                     'confirm_total':'5,387,249',
