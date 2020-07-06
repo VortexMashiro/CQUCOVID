@@ -4,12 +4,24 @@
     content="{{ config.TITLE}}">
   <!-- jquery -->
   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  <!-- axios -->
+  <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+
   <!-- <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script> -->
   <!-- These pyecharts js can be found in https://github.com/pyecharts/pyecharts-assets -->
-  <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
-  <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
-{#  <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world_china_provinces.js"></script>#}
 
+  <script
+    type="text/javascript"
+    src="{{ url_for('static', filename='js/world.js') }}"
+  ></script>
+  <script
+  type="text/javascript"
+  src="{{ url_for('static', filename='js/echarts.min.js') }}"
+></script>
+<script
+type="text/javascript"
+src="{{ url_for('static', filename='js/world_china_provinces.js') }}"
+></script>
   <!-- inside css -->
   <link
   rel="stylesheet"
