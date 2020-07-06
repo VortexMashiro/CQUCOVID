@@ -253,17 +253,20 @@ def extra_time_axis_data(date_list):
     """
     directory = "world-epidemic/"
     file_name_json = directory + "summary.json"
-    DATA = {}
+    DATA = []
     for date in date_list:
         date_name = date.replace("/", "-")
         file_name = directory + date_name + ".csv"
-        data = pd.read_csv(file_name, dtype=np.object)
-        value = []
+        data = pd.read_csv(file_name, dtype=np.object,encoding="utf-8")
+        item_list = []
         for index in range(0, data.shape[0]):
-            value.append(data.iloc[index].tolist())
-        DATA[date] = value
-    json_file = open(file_name_json, "w")
-    json_file.write(json.dumps(DATA))
+            row = data.iloc[index]
+            country_name =  row["Country_Region"]
+            item_dict = {"name":country_name, "value":[row["Confirmed"],country_name]}
+            item_list.append(item_dict)
+        DATA.append({"time":date, "data":item_list})
+    json_file = open(file_name_json, "w",encoding="utf-8")
+    json_file.write(json.dumps(DATA,ensure_ascii=False))
     json_file.close()
 
 
@@ -313,6 +316,6 @@ print("extra_word_epidemic")
 # print("extra_region_comparision")
 # extra_country_position(source_data,country_list_data)
 # print("extra_country_position")
-# extra_time_axis_data(date_list_data)
-# print("extra_time_axis_data")
+extra_time_axis_data(date_list_data)
+print("extra_time_axis_data")
 # extra_country_status(source_data, country_list_data, date_list_data)
