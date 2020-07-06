@@ -295,6 +295,7 @@ def get_home_page():
     # print(str(Global_map.js_dependencies._values))
 
     charts = paint.paint_world_map('')
+    data_date=get.get_today
 
     countrylist = [{"name": "China", "number": 11}, {"name": "Japan", "number": 12}]
     countrylist_tmp = get.get_country_list_with_data()
@@ -316,7 +317,8 @@ def get_home_page():
         countrylist=countrylist,
         # myechart=Global_map.render_embed(),# this is being replaced with AJAX
         myechart=charts.render_embed(),
-        global_status=global_status
+        global_status=global_status,
+        data_date=data_date
     )
     # return charts.render_embed()
 
@@ -324,6 +326,14 @@ def get_home_page():
 @app.route("/getGlobalMap", methods=['GET'])
 def get_global_map():
     country_name = json.loads(request.args.get('data', type=str))['name']
+    center=None
+    zoom=1
+    if country_name!='Worldwide':
+        with open('weizhi.json','r') as f:
+            json_dict = json.load(f)
+            if country_name in json_dict:
+                center=json_dict.get(country_name)
+                zoom=5
     max_data, min_data, result = get.get_word_epidemic(get.get_today())
     max_data = int(max_data)
     min_data = int(min_data)
@@ -334,15 +344,17 @@ def get_global_map():
         i[1] = int(i[1])
         map_data.append(i)
     map_data = map_data[1:]
-    print(map_data)
-    print(max_data)
-    print(min_data)
+    # print(map_data)
+    # print(max_data)
+    # print(min_data)
     Global_map = (
         Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
             .add_schema(
-            maptype="world")  # https://github.com/# pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
+            maptype="world",
+            center=center,
+            zoom=zoom)  # https://github.com/# pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
             .add_coordinate_json('weizhi.json')
-            .add("geo", map_data)  # TODO Data Interface
+            .add("geo", map_data)  
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             # visualmap_opts=opts.VisualMapOpts(
