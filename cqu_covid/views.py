@@ -15,7 +15,7 @@ from pyecharts import options as opts
 import get
 import paint
 
-from pyecharts.charts import Map, Geo
+from pyecharts.charts import Map, Geo, MapGlobe
 
 from pyecharts.globals import ThemeType
 from pyecharts.commons.utils import JsCode
@@ -274,7 +274,8 @@ def get_home_page():
         "home.html",
         countrylist=countrylist,
         # myechart=Global_map.render_embed(),# this is being replaced with AJAX
-        global_status=global_status
+        global_status=global_status,
+        data_date=str(get.get_today())
     )
     # return charts.render_embed()
 
@@ -282,36 +283,47 @@ def get_home_page():
 @app.route("/getGlobalMap", methods=['GET'])
 def get_global_map():
     country_name = json.loads(request.args.get('data', type=str))['name']
+    center=None
+    zoom=1
+    if country_name!='Worldwide':
+        with open('weizhi.json','r') as f:
+            json_dict = json.load(f)
+            if country_name in json_dict:
+                center=json_dict.get(country_name)
+                zoom=5
     max_data, min_data, result = get.get_word_epidemic(get.get_today())
-    map_data = result
+    max_data = int(max_data)
+    min_data = int(min_data)
+    map_data = []
+    for i in result:
+        i = i[0::4]
+        i.reverse()
+        i[1] = int(i[1])
+        map_data.append(i)
+    map_data = map_data[1:]
+    symbol_size=12
     Global_map = (
         Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
-            .add_schema( maptype="world")  # https://github.com/# pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
+            .add_schema(
+            maptype="world",
+            center=center,
+            zoom=zoom)  # https://github.com/# pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
             .add_coordinate_json('weizhi.json')
-            .add("geo", [["Canada",100]])
+            .add("geo", map_data)  # TODO Data Interface
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
-            # visualmap_opts=opts.VisualMapOpts(
-            #     is_calculable=True,
-            #     type='color',
-            #     min_=min_data,
-            #     max_=max_data,
-            #     pos_left="600",
-            #     pos_top="400",
-            #     range_text=["High", "Low"],
-            #     range_color=["lightskyblue", "yellow", "orangered"],
-            #     textstyle_opts=opts.TextStyleOpts(color="#ddd"),
-            # ),
-            # tooltip_opts=opts.TooltipOpts(
-            #     is_show=True,
-            #     formatter=JsCode(
-            #         """function(params) {
-            #         if ('value' in params.data) {
-            #             return params.data.value[0] + ': '+ params.data.value[1];
-            #         }
-            #     }"""
-            #     ),
-            # ),
+             visualmap_opts=opts.VisualMapOpts(
+                type_="size",
+                is_calculable=True,
+                range_size=[10,100],
+                min_=min_data,
+                max_=max_data,
+                # pos_left="600", #javascript will do this.
+                # pos_top="400",
+                # range_text=["High", "Low"],
+                # range_color=["lightskyblue", "yellow", "orangered"],
+                # textstyle_opts=opts.TextStyleOpts(color="#ddd"),
+            ),
             title_opts=opts.TitleOpts(title=country_name)
         )
     )
@@ -362,3 +374,44 @@ def get_news():
         # newslist=newslist
         # TODO  News related, format:  [{'title'=title,'des'=des,'date'=date,'author'=author},...]
     )
+
+#@app.route("/getGlobalMap3D", methods=['GET'])
+@app.route("/getGlobalMap3D")
+def get_global_map3D():
+    #country_name = json.loads(request.args.get('data', type=str))['name']
+    max_data, min_data, result = get.get_word_epidemic(get.get_today())
+    max_data = int(max_data)
+    min_data = int(min_data)
+    map_data = []
+    for i in result:
+        i = i[0::4]
+        i.reverse()
+        i[1] = int(i[1])
+        map_data.append(i)
+    map_data = map_data[1:]
+    symbol_size=12
+    Global_map = (
+        MapGlobe(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
+        .add_schema(
+        maptype="world"
+        )
+        .add("geo", map_data)
+        .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
+        .set_global_opts(
+                
+             visualmap_opts=opts.VisualMapOpts(
+                type_="size",
+                is_calculable=True,
+                range_size=[0,100],
+                min_=min_data,
+                max_=max_data,
+                # pos_left="600", #javascript will do this.
+                # pos_top="400",
+                # range_text=["High", "Low"],
+                # range_color=["lightskyblue", "yellow", "orangered"],
+                # textstyle_opts=opts.TextStyleOpts(color="#ddd"),
+            ),
+            #title_opts=opts.TitleOpts(title=country_name)
+        )
+    )
+    return Global_map.render_embed()
