@@ -29,20 +29,15 @@ WarningType.ShowWarning = False  # https://github.com/pyecharts/pyecharts/issues
 
 #######GDP DEMO #########
 
-# f = open('data/covid_result.json', 'r')
-# content = f.read()
-# data = json.loads(content)
-# f.close()
-
 # data = get.get_time_axis_data()
 # print(data)
 data = [{"time": "01/21/2020",
-        "data": [{"name": "Worldwide", "value": ["262", "Worldwide"]}, {"name": "China", "value": ["440", "China"]},
-                 {"name": "Guam", "value": ["0", "Guam"]}, {"name": "Japan", "value": ["1", "Japan"]},
-                 {"name": "Puerto Rico", "value": ["0", "Puerto Rico"]}, {"name": "Korea", "value": ["1", "Korea"]},
-                 {"name": "台湾", "value": ["1", "台湾"]}, {"name": "Thailand", "value": ["2", "Thailand"]},
-                 {"name": "U.S. Virgin Islands", "value": ["0", "U.S. Virgin Islands"]},
-                 {"name": "United States", "value": ["1", "United States"]}]}]
+         "data": [["4", "China"],
+                  ['3',"台湾"],
+                  ["1", "Japan"],
+                  ["1", "Korea"],
+                  ["2", "Thailand"],
+                  ["1", "United States"]]}]
 # time_list = get.get_date_list()
 # print(time_list)
 time_list = ['01/21/2020']
@@ -77,19 +72,17 @@ total_num = [3.4]
 #     84.7,
 #     91.5,
 # ]
-maxNum = 97300
+maxNum = 5
 minNum = 0
 
 
-def get_year_chart(year: str):
-    map_data = [
-        [[x["name"], x["value"]] for x in d["data"]] for d in data if d["time"] == year
-    ][0]  # map_data[1]就是那个三长度list
+def get_year_chart(date: str):
+    map_data = [d["data"] for d in data if d["time"] == date][0]  # map_data[1]就是那个三长度list
     min_data, max_data = (minNum, maxNum)
     data_mark: List = []
     i = 0
     for x in time_list:
-        if x == year:
+        if x == date:
             data_mark.append(total_num[i])
         else:
             data_mark.append("")
@@ -98,8 +91,14 @@ def get_year_chart(year: str):
     map_chart = (
         Map()
             .add(
+            maptype="world",
             series_name="",
-            data_pair=map_data,
+            data_pair=[["China",["4", "China"]],
+                       ["台湾", ["3","台湾"]],
+                  ["Japan",["1", "Japan"]],
+                  ["Korea",["1", "Korea"]],
+                  ["Thailand",["2", "Thailand"]],
+                  ["United States",["1", "United States"]]],
             zoom=1,
             center=[119.5, 34.5],
             is_map_symbol_show=False,
@@ -113,7 +112,7 @@ def get_year_chart(year: str):
         )
             .set_global_opts(
             title_opts=opts.TitleOpts(
-                title="" + str(year) + "全国分地区GPD情况（单位：亿） 数据来源：国家统计局",
+                title=date + " 累计确诊数量",
                 subtitle="",
                 pos_left="center",
                 pos_top="top",
@@ -157,18 +156,18 @@ def get_year_chart(year: str):
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             title_opts=opts.TitleOpts(
-                title="全国GDP总量1993-2018年（单位：万亿）", pos_left="72%", pos_top="5%"
+                title="累计确诊xxxxxx", pos_left="72%", pos_top="5%"
             )
         )
     )
-    bar_x_data = [x[0] for x in map_data]
-    bar_y_data = [{"name": x[0], "value": x[1][0]} for x in map_data]
+    bar_x_data = [x[1] for x in map_data]
+    bar_y_data = [{"name": x[1], "value": x[0]} for x in map_data]
     bar = (
         Bar()
             .add_xaxis(xaxis_data=bar_x_data)
             .add_yaxis(
-            "",
-            bar_y_data,
+            series_name="",
+            y_axis=bar_y_data,
             label_opts=opts.LabelOpts(
                 is_show=True, position="right", formatter="{b} : {c}"
             ),
@@ -194,7 +193,7 @@ def get_year_chart(year: str):
         )
     )
 
-    pie_data = [[x[0], x[1][0]] for x in map_data]
+    pie_data = [[x[1], x[0]] for x in map_data]
     pie = (
         Pie()
             .add(
@@ -241,19 +240,20 @@ def target():
 
 @app.route('/covid')  # GDP demo
 def get_index():
-    msg_data = "No data was passed"
-    print(data)
-    print(time_list)
-    if request.args.to_dict(flat=False)['data'][0]:
-        msg_data = str(request.args.to_dict(flat=False)['data'][0])
+    # msg_data = "No data was passed"
+    # print(data)
+    # print(time_list)
+    # print(request.args.to_dict(flat=False))
+    # if request.args.to_dict(flat=False)['data'][0]:
+    #     msg_data = str(request.args.to_dict(flat=False)['data'][0])
 
     timeline = Timeline(
         # init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.DARK)
         init_opts=opts.InitOpts(width="100vw", height="100vh", theme=ThemeType.DARK)
     )
-    for y in time_list:
-        g = get_year_chart(year=y)
-        timeline.add(g, time_point=str(y))
+    for day in time_list:
+        g = get_year_chart(date=day)
+        timeline.add(g, time_point=day)
 
     timeline.add_schema(
         orient="vertical",
@@ -270,7 +270,7 @@ def get_index():
     # timeline.render("china_gdp_from_1993_to_2018.html")
     return render_template(
         "demo.html",
-        passed_data=msg_data,
+        # passed_data=msg_data,
         myechart=timeline.render_embed(),
     )
 

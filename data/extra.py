@@ -259,10 +259,9 @@ def extra_time_axis_data(date_list):
         file_name = directory + date_name + ".csv"
         data = pd.read_csv(file_name, dtype=np.object,encoding="utf-8")
         item_list = []
-        for index in range(0, data.shape[0]):
+        for index in range(1, data.shape[0]):
             row = data.iloc[index]
-            country_name =  row["Country_Region"]
-            item_dict = {"name":country_name, "value":[row["Confirmed"],country_name]}
+            item_dict = [row["Confirmed"],row["Country_Region"]]
             item_list.append(item_dict)
         DATA.append({"time":date, "data":item_list})
     json_file = open(file_name_json, "w",encoding="utf-8")
