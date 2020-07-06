@@ -125,7 +125,7 @@ def get_year_chart(date: str):
                 formatter=JsCode(
                     """function(params) {
                     if ('value' in params.data) {
-                        return params.data.value[2] + ': ' + params.data.value[0];
+                        return params.data.value[2] + '： ' + params.data.value[0];
                     }
                 }"""
                 ),
@@ -295,7 +295,7 @@ def get_home_page():
     # print(str(Global_map.js_dependencies._values))
 
     charts = paint.paint_world_map('')
-    data_date=get.get_today
+    data_date=str(get.get_today)
 
     countrylist = [{"name": "China", "number": 11}, {"name": "Japan", "number": 12}]
     countrylist_tmp = get.get_country_list_with_data()
@@ -347,6 +347,7 @@ def get_global_map():
     # print(map_data)
     # print(max_data)
     # print(min_data)
+    symbol_size=12
     Global_map = (
         Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
             .add_schema(
@@ -357,17 +358,19 @@ def get_global_map():
             .add("geo", map_data)  
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
-            # visualmap_opts=opts.VisualMapOpts(
-            #     is_calculable=True,
-            #     type='color',
-            #     min_=min_data,
-            #     max_=max_data,
-            #     pos_left="600",
-            #     pos_top="400",
-            #     range_text=["High", "Low"],
-            #     range_color=["lightskyblue", "yellow", "orangered"],
-            #     textstyle_opts=opts.TextStyleOpts(color="#ddd"),
-            # ),
+                
+             visualmap_opts=opts.VisualMapOpts(
+                type_="size",
+                is_calculable=True,
+                range_size=[0,100],
+                min_=min_data,
+                max_=max_data,
+                # pos_left="600", #javascript will do this.
+                # pos_top="400",
+                # range_text=["High", "Low"],
+                # range_color=["lightskyblue", "yellow", "orangered"],
+                # textstyle_opts=opts.TextStyleOpts(color="#ddd"),
+            ),
             title_opts=opts.TitleOpts(title=country_name)
         )
     )
