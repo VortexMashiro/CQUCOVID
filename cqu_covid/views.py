@@ -314,7 +314,7 @@ def get_global_map():
              visualmap_opts=opts.VisualMapOpts(
                 type_="size",
                 is_calculable=True,
-                range_size=[0,100],
+                range_size=[10,100],
                 min_=min_data,
                 max_=max_data,
                 # pos_left="600", #javascript will do this.
