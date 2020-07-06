@@ -12,6 +12,16 @@
   height: 100vh !important;
   
 }
+.selected {
+  background: linear-gradient(98.7deg, rgba(255, 255, 255, 0.3) 0%, rgba(235, 235, 235, 0.3) 100%), radial-gradient(50% 351.19% at 50% 50%, rgba(0, 128, 157, 0.016) 0%, rgba(0, 128, 157, 0.02) 100%), #FFFFFF !important;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #00809D !important;
+}
+.area:hover {
+  background: linear-gradient(98.7deg, rgba(255, 255, 255, 0.3) 0%, rgba(235, 235, 235, 0.3) 100%), radial-gradient(50% 351.19% at 50% 50%, rgba(0, 128, 157, 0.016) 0%, rgba(0, 128, 157, 0.02) 100%), #FFFFFF;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #00809D;
+}
       </style>
   <div class="header">
     <a href="" target="_self" class="covidHeader">
@@ -31,7 +41,7 @@
               <div class="infoTileHeader">
                   <div>
                       <h2 class="title" title="累计确诊">累计确诊</h2>
-                      <div class="lastUpdate"> 14 分钟前更新 </div>
+                      <div class="lastUpdate"> 数据更新于：{{data_date}} </div>
                   </div>
                   <div class="infoTileIconCon">
                       <div class="infoTitleInfo" title="数据信息" tabindex="0"><svg width="16" height="16" viewBox="0 0 16 16"
@@ -172,8 +182,44 @@
         $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
         var chart = echarts.init(document.getElementById('bar'), 'white', {renderer: 'canvas'});
         var global_map = echarts.init(document.getElementById('globalMap'), {renderer: 'canvas'});
+        chart.on('click',function(params){
+          console.log('click trigger');
+          chart.dispatchAction({
+                 type:'showTip',
+                 name:params.name
+                 //position:['50%', '50%']
+                })
+          updateGlobalMap(params.name);
+          current_country.removeClass('selected');
+          current_country=$('#'+params.name).parent();
+          current_country.addClass('selected');
+          console.log(params.name);
+          var data = {
+                  data: JSON.stringify({
+                    'name': params.name,
+                  }),
+                }
+          $.ajax({
+                    type: "GET",
+                    url: $SCRIPT_ROOT+"/getConuntryBar",
+                    data:data,
+                    dataType: 'json',
+                    success: function (result) {
+                        chart.setOption(result);
+                    }
+                });
+        })
         //this will be called when clicking a country in countrylist
         function getBar(event){
+          // chart.dispatchAction({
+          //         type: 'hideTip'
+          //       })
+          chart.dispatchAction({
+                 type:'showTip',
+                 name:event.id
+                 //position:['50%', '50%']
+                })
+          updateGlobalMap(event.id);
           current_country.removeClass('selected');
           current_country=$('#'+event.id).parent();
           current_country.addClass('selected');
@@ -193,7 +239,13 @@
                     }
                 });
         }
-        //this will call getBar() with the data 'world'
+        function echartConfig(result){
+          eval('result.tooltip.formatter='+result.tooltip.formatter);
+          result.visualMap.bottom='5%';
+          result.visualMap.right='5%';
+          result.tooltip.position='top';
+        }
+        //this will call getBar() with the data 'Worldwide'
         function initBar(){
           current_country.addClass('selected');
           var data = {
@@ -207,6 +259,7 @@
                     data:data,
                     dataType: 'json',
                     success: function (result) {
+
                         chart.setOption(result);
                     }
                 });
@@ -227,9 +280,29 @@
                     data:data,
                     dataType: 'json',
                     success: function (result) {
-                      eval('result.tooltip.formatter='+result.tooltip.formatter);
+                      echartConfig(result);
                       global_map.setOption(result);
                       console.log('Global Map init Successfully');
+                      console.log(result);
+                    }
+                });
+        }
+
+        function updateGlobalMap(country_name){
+          var data = {
+                  data: JSON.stringify({
+                    'name': country_name,
+                  }),
+                }
+          $.ajax({
+                    type: "GET",
+                    url: $SCRIPT_ROOT+"/getGlobalMap",
+                    data:data,
+                    dataType: 'json',
+                    success: function (result) {
+                      echartConfig(result);
+                      global_map.setOption(result);
+                      console.log('Global Map Update Successfully');
                       console.log(result);
                     }
                 });
