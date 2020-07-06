@@ -221,23 +221,36 @@ def get_country_position():
         print("没有数据文件！")
         return None
 
-def get_time_axis_data():
+def get_time_axis_data(date):
     """
 
     :return:
     """
-    file = "data/world-epidemic/summary.json"
+    date_name = date.replace("/","-")
+    file = "data/world-epidemic/"+date_name+".csv"
     if os.path.isfile(file):
-        f = open(file, 'r',encoding="utf-8")
-        content = f.read()
-        a = json.loads(content)
-        f.close()
-        return a
-    else:
-        print("没有数据文件！")
-        return None
+        data = pd.read_csv(file,encoding="utf-8")
+        result = []
+        for index in range(1,data.shape[0]):
+            row = data.iloc[index]
+            result.append([str(row["Country_Region"]),
+                           [int(row["Confirmed"]),str(row["Country_Region"])]])
+        return result
 
-print(get_time_axis_data())
+print(get_time_axis_data("01/29/2020"))
+
+def get_world_confirmed():
+    """
+
+    """
+    result = []
+    date_list = get_date_list()
+    for date in date_list:
+        date_name = date.replace("/","-")
+        file_name = "data/world-epidemic/"+date_name+".csv"
+        data = pd.read_csv(file_name,encoding="utf-8")
+        result.append(int(data.iloc[0]["Confirmed"]))
+    return result
 
 def get_country_status(country="China"):
     """

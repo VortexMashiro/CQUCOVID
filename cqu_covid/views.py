@@ -29,76 +29,37 @@ WarningType.ShowWarning = False  # https://github.com/pyecharts/pyecharts/issues
 
 #######GDP DEMO #########
 
-# data = get.get_time_axis_data()
-# print(data)
-data = [{"time": "01/21/2020",
-         "data": [["4", "China"],
-                  ['3',"台湾"],
-                  ["1", "Japan"],
-                  ["1", "Korea"],
-                  ["2", "Thailand"],
-                  ["1", "United States"]]}]
 # time_list = get.get_date_list()
 # print(time_list)
-time_list = ['01/21/2020']
+date_list = get.get_date_list()
 
-total_num = [3.4]
+confirmed = get.get_world_confirmed()
 
-# total_num = [  # 右上角总值（单位万亿），要改成中国疫情累计确诊
-#     3.4,
-#     4.5,
-#     5.8,
-#     6.8,
-#     7.6,
-#     8.3,
-#     8.8,
-#     9.9,
-#     10.9,
-#     12.1,
-#     14,
-#     16.8,
-#     19.9,
-#     23.3,
-#     28,
-#     33.3,
-#     36.5,
-#     43.7,
-#     52.1,
-#     57.7,
-#     63.4,
-#     68.4,
-#     72.3,
-#     78,
-#     84.7,
-#     91.5,
-# ]
-maxNum = 5
-minNum = 0
+maxNum = 7711
+minNum = 1
 
 
 def get_year_chart(date: str):
-    map_data = [d["data"] for d in data if d["time"] == date][0]  # map_data[1]就是那个三长度list
+    map_data = get.get_time_axis_data(date)
     min_data, max_data = (minNum, maxNum)
     data_mark: List = []
     i = 0
-    for x in time_list:
+    for x in date_list:
         if x == date:
-            data_mark.append(total_num[i])
+            data_mark.append(confirmed[i])
         else:
             data_mark.append("")
         i = i + 1
-
+    date_part = date.split("/")
+    map_title = str(date_part[2]) + "年" \
+                + str(date_part[0]) + "月" \
+                + str(date_part[1]) + "日累计确诊量（人）"
     map_chart = (
         Map()
             .add(
             maptype="world",
             series_name="",
-            data_pair=[["China",["4", "China"]],
-                       ["台湾", ["3","台湾"]],
-                  ["Japan",["1", "Japan"]],
-                  ["Korea",["1", "Korea"]],
-                  ["Thailand",["2", "Thailand"]],
-                  ["United States",["1", "United States"]]],
+            data_pair=map_data,
             zoom=1,
             center=[119.5, 34.5],
             is_map_symbol_show=False,
@@ -112,7 +73,7 @@ def get_year_chart(date: str):
         )
             .set_global_opts(
             title_opts=opts.TitleOpts(
-                title=date + " 累计确诊数量",
+                title=map_title,
                 subtitle="",
                 pos_left="center",
                 pos_top="top",
@@ -146,8 +107,8 @@ def get_year_chart(date: str):
 
     line_chart = (
         Line()
-            .add_xaxis(time_list)
-            .add_yaxis("", total_num)
+            .add_xaxis(date_list)
+            .add_yaxis("", confirmed)
             .add_yaxis(
             "",
             data_mark,
@@ -156,12 +117,12 @@ def get_year_chart(date: str):
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             title_opts=opts.TitleOpts(
-                title="累计确诊xxxxxx", pos_left="72%", pos_top="5%"
+                title="世界累计确诊折线图", pos_left="72%", pos_top="5%"
             )
         )
     )
-    bar_x_data = [x[1] for x in map_data]
-    bar_y_data = [{"name": x[1], "value": x[0]} for x in map_data]
+    bar_x_data = [x[0] for x in map_data]
+    bar_y_data = [{"name": x[0], "value": x[1][0]} for x in map_data]
     bar = (
         Bar()
             .add_xaxis(xaxis_data=bar_x_data)
@@ -193,7 +154,7 @@ def get_year_chart(date: str):
         )
     )
 
-    pie_data = [[x[1], x[0]] for x in map_data]
+    pie_data = [[x[0], x[1][0]] for x in map_data]
     pie = (
         Pie()
             .add(
@@ -251,7 +212,7 @@ def get_index():
         # init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.DARK)
         init_opts=opts.InitOpts(width="100vw", height="100vh", theme=ThemeType.DARK)
     )
-    for day in time_list:
+    for day in date_list:
         g = get_year_chart(date=day)
         timeline.add(g, time_point=day)
 
@@ -294,8 +255,6 @@ def get_home_page():
     # print(str(Global_map.js_dependencies.items))
     # print(str(Global_map.js_dependencies._values))
 
-    charts = paint.paint_world_map('')
-
     countrylist = [{"name": "China", "number": 11}, {"name": "Japan", "number": 12}]
     countrylist_tmp = get.get_country_list_with_data()
     if countrylist_tmp:
@@ -315,7 +274,6 @@ def get_home_page():
         "home.html",
         countrylist=countrylist,
         # myechart=Global_map.render_embed(),# this is being replaced with AJAX
-        myechart=charts.render_embed(),
         global_status=global_status
     )
     # return charts.render_embed()
@@ -334,9 +292,6 @@ def get_global_map():
         i[1] = int(i[1])
         map_data.append(i)
     map_data = map_data[1:]
-    print(map_data)
-    print(max_data)
-    print(min_data)
     Global_map = (
         Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
             .add_schema(
@@ -375,7 +330,7 @@ def get_country_chart():
             .add_yaxis("累计确诊", n_confirmed_list)
             .add_yaxis("累计死亡", deaths)
             .set_global_opts(title_opts=opts.TitleOpts(title=country_name),
-                             legend_opts=opts.LegendOpts(pos_bottom=5, selected_mode="single"),
+                             legend_opts=opts.LegendOpts(pos_bottom=5),
                              yaxis_opts=opts.AxisOpts(axislabel_opts=opts.LabelOpts(rotate=90)))
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
     )
