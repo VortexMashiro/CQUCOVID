@@ -1,11 +1,10 @@
-Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-578,265,0,0,Worldwide
-830,259,0,0,China
-2,259,0,0,香港
-1,0,0,0,Japan
-1,0,0,0,Singapore
-1,0,0,0,Korea
-1,0,0,0,台湾
-4,0,0,0,Thailand
-1,0,0,0,United States
-2,0,0,0,Vietnam
+Country_Region,Confirmed,Deaths,Recovered
+China,830,0,0
+Japan,1,0,0
+Korea,1,0,0
+Singapore,1,0,0
+Thailand,4,0,0
+United States,1,0,0
+Vietnam,2,0,0
+台湾,1,0,0
+香港,2,0,0

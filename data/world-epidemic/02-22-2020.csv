@@ -1,35 +1,34 @@
-Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-77794,1025,2359,0,Worldwide
-21,0,0,11,Australia
-1,0,0,11,Belgium
-1,0,0,11,Cambodia
-9,0,0,11,Canada
-76392,823,2348,21061,China
-1,0,0,21061,Egypt
-1,0,0,21061,Finland
-12,0,1,7,France
-16,0,0,14,Germany
-69,1,2,6,香港
-3,0,0,6,India
-29,11,6,6,Iran
-1,11,0,6,Iraq
-2,0,0,6,Israel
-79,59,2,2,Italy
-132,27,1,18,Japan
-1,0,0,18,Lebanon
-10,0,0,6,Macao SAR
-22,0,0,6,Malaysia
-1,0,0,6,Nepal
-3,0,1,6,Philippines
-2,0,0,6,Russia
-89,3,0,47,Singapore
-433,229,2,18,Korea
-3,0,1,18,Spain
-1,0,0,18,Sri Lanka
-1,0,0,18,Sweden
-26,0,1,18,台湾
-35,0,0,20,Thailand
-13,2,0,3,United Arab Emirates
-9,0,0,3,United Kingdom
-35,4,2,6,United States
-16,0,0,6,Vietnam
+Country_Region,Confirmed,Deaths,Recovered
+Australia,21,0,11
+Belgium,1,0,11
+Cambodia,1,0,11
+Canada,9,0,11
+China,76392,2348,21061
+Egypt,1,0,21061
+Finland,1,0,21061
+France,12,1,7
+Germany,16,0,14
+India,3,0,6
+Iran,29,6,6
+Iraq,1,0,6
+Israel,2,0,6
+Italy,79,2,2
+Japan,132,1,18
+Korea,433,2,18
+Lebanon,1,0,18
+Macao SAR,10,0,6
+Malaysia,22,0,6
+Nepal,1,0,6
+Philippines,3,1,6
+Russia,2,0,6
+Singapore,89,0,47
+Spain,3,1,18
+Sri Lanka,1,0,18
+Sweden,1,0,18
+Thailand,35,0,20
+United Arab Emirates,13,0,3
+United Kingdom,9,0,3
+United States,35,2,6
+Vietnam,16,0,6
+台湾,26,1,18
+香港,69,2,6

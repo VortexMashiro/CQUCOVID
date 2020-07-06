@@ -76,38 +76,26 @@ def country_map(key):
         return value
 
 
-df = pd.read_csv("Bing-COVID19-Data.csv", dtype=np.object)
-df["Country_Region"] = df["Country_Region"].apply(country_map)
-df["AdminRegion1"] = df["AdminRegion1"].apply(province_map)
-df.to_csv("Bing-COVID19-Data.csv", index=None, encoding="utf-8")
+# df = pd.read_csv("Bing-COVID19-Data.csv", dtype=np.object)
+# df["Country_Region"] = df["Country_Region"].apply(country_map)
+# df["AdminRegion1"] = df["AdminRegion1"].apply(province_map)
+# df.to_csv("Bing-COVID19-Data.csv", index=None, encoding="utf-8")
 
 
 # 预处理结束
 
 def extra_source():
-    """
-    获取数据源
-    :return: dataframe
-    """
     if os.path.isfile("Bing-COVID19-Data.csv"):
         return pd.read_csv(
             "Bing-COVID19-Data.csv", index_col="ID", dtype=np.object)
     else:
-        print("没有源数据文件！")
         return None
 
 
 def extra_date_list(source):
-    """
-    抽取时间线
-    :return:list
-    """
     country_column = source["Country_Region"]
     date_column = source[country_column == "Worldwide"]["Updated"]
-    date_list = []
-    for index in range(0, date_column.shape[0]):
-        date_list.append(date_column.iloc[index])
-    return date_list
+    return date_column.tolist()
 
 
 def extra_country_list(source):
@@ -134,15 +122,15 @@ def extra_word_epidemic(source, date_list):
     country_column = source["AdminRegion1"].isna()
     for date in date_list:
         data = source[(date_column == date) & country_column]
-        data = data[["Confirmed", "ConfirmedChange",
-                     "Deaths", "Recovered","Country_Region"]]
+        data = data[["Country_Region","Confirmed", "Deaths", "Recovered"]]
+        data.drop(data.index[0],inplace=True)
         file_name = "world-epidemic/" + date.replace("/", "-") + ".csv"
         data.fillna(method="pad", inplace=True)
         data.fillna(value=0, inplace=True)
         data["Confirmed"] = data["Confirmed"].astype(int)
-        data["ConfirmedChange"] = data["ConfirmedChange"].apply(converte_int)
-        data["Deaths"] = data["Deaths"].apply(converte_int)
-        data["Recovered"] = data["Recovered"].apply(converte_int)
+        data["Deaths"] = data["Deaths"].astype(int)
+        data["Recovered"] = data["Recovered"].astype(int)
+        data.sort_values(by="Country_Region",inplace=True)
         data.to_csv(file_name, index=None, encoding="utf-8")
 
 
@@ -315,6 +303,6 @@ print("extra_word_epidemic")
 # print("extra_region_comparision")
 # extra_country_position(source_data,country_list_data)
 # print("extra_country_position")
-extra_time_axis_data(date_list_data)
-print("extra_time_axis_data")
+# extra_time_axis_data(date_list_data)
+# print("extra_time_axis_data")
 # extra_country_status(source_data, country_list_data, date_list_data)

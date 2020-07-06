@@ -1,40 +1,39 @@
-Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-79331,520,2618,0,Worldwide
-1,520,0,0,Afghanistan
-22,0,0,0,Australia
-1,0,0,0,Bahrain
-1,0,0,0,Belgium
-1,0,0,0,Cambodia
-1,0,0,0,Cameroon
-11,1,0,3,Canada
-77262,220,2595,24734,China
-1,0,0,24734,Egypt
-1,0,0,24734,Finland
-12,0,1,11,France
-16,0,0,11,Germany
-81,7,2,12,香港
-3,0,0,12,India
-64,21,12,1,Iran
-1,0,12,1,Iraq
-2,0,0,1,Israel
-229,79,6,1,Italy
-157,13,1,22,Japan
-5,13,0,22,Kuwait
-1,0,0,22,Lebanon
-22,0,0,22,Malaysia
-1,0,0,22,Nepal
-2,0,0,22,Oman
-3,0,1,22,Philippines
-2,0,0,22,Russia
-90,1,0,51,Singapore
-833,231,7,18,Korea
-4,1,1,2,Spain
-1,0,0,2,Sri Lanka
-1,0,0,2,Sweden
-1,0,-1,2,Switzerland
-30,2,1,2,台湾
-35,0,0,2,Thailand
-13,0,0,2,United Arab Emirates
-13,4,0,2,United Kingdom
-35,0,2,7,United States
-16,0,0,7,Vietnam
+Country_Region,Confirmed,Deaths,Recovered
+Afghanistan,1,0,0
+Australia,22,0,0
+Bahrain,1,0,0
+Belgium,1,0,0
+Cambodia,1,0,0
+Cameroon,1,0,0
+Canada,11,0,3
+China,77262,2595,24734
+Egypt,1,0,24734
+Finland,1,0,24734
+France,12,1,11
+Germany,16,0,11
+India,3,0,12
+Iran,64,12,1
+Iraq,1,12,1
+Israel,2,0,1
+Italy,229,6,1
+Japan,157,1,22
+Korea,833,7,18
+Kuwait,5,0,22
+Lebanon,1,0,22
+Malaysia,22,0,22
+Nepal,1,0,22
+Oman,2,0,22
+Philippines,3,1,22
+Russia,2,0,22
+Singapore,90,0,51
+Spain,4,1,2
+Sri Lanka,1,0,2
+Sweden,1,0,2
+Switzerland,1,-1,2
+Thailand,35,0,2
+United Arab Emirates,13,0,2
+United Kingdom,13,0,2
+United States,35,2,7
+Vietnam,16,0,7
+台湾,30,1,2
+香港,81,2,12

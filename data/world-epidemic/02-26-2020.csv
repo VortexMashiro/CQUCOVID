@@ -1,53 +1,52 @@
-Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-81109,870,2762,0,Worldwide
-1,0,0,0,Afghanistan
-1,0,0,0,Algeria
-23,1,0,11,Australia
-2,0,0,11,Austria
-26,18,0,11,Bahrain
-1,0,0,11,Belgium
-1,0,0,11,Brazil
-1,0,0,11,Cambodia
-12,1,0,8,Canada
-78191,411,2718,29857,China
-3,2,0,29857,Croatia
-1,0,0,29857,Egypt
-2,0,0,1,Finland
-18,5,1,12,France
-1,5,0,12,Georgia
-21,3,0,14,Germany
-1,3,0,14,Greece
-0,0,0,14,Guam
-91,6,2,18,香港
-3,0,0,18,India
-139,44,19,25,Iran
-5,4,0,25,Iraq
-18,0,0,25,Israel
-445,123,12,45,Italy
-186,22,3,27,Japan
-26,15,0,27,Kuwait
-2,0,0,27,Lebanon
-10,0,0,27,Macao SAR
-22,0,0,27,Malaysia
-1,0,0,27,Nepal
-1,0,0,27,Macedonia
-1,0,0,0,Norway
-4,0,0,0,Oman
-2,0,0,0,Pakistan
-3,0,1,0,Philippines
-0,0,1,0,Puerto Rico
-1,0,1,0,Romania
-2,0,0,0,Russia
-93,2,0,62,Singapore
-1261,284,12,22,Korea
-14,4,1,2,Spain
-1,0,0,2,Sri Lanka
-2,1,0,2,Sweden
-2,1,0,2,Switzerland
-32,1,1,5,台湾
-40,3,0,22,Thailand
-0,0,0,22,U.S. Virgin Islands
-13,0,0,22,United Arab Emirates
-13,0,0,22,United Kingdom
-37,1,2,6,United States
-16,0,0,6,Vietnam
+Country_Region,Confirmed,Deaths,Recovered
+Afghanistan,1,0,0
+Algeria,1,0,0
+Australia,23,0,11
+Austria,2,0,11
+Bahrain,26,0,11
+Belgium,1,0,11
+Brazil,1,0,11
+Cambodia,1,0,11
+Canada,12,0,8
+China,78191,2718,29857
+Croatia,3,0,29857
+Egypt,1,0,29857
+Finland,2,0,1
+France,18,1,12
+Georgia,1,0,12
+Germany,21,0,14
+Greece,1,0,14
+Guam,0,0,14
+India,3,0,18
+Iran,139,19,25
+Iraq,5,0,25
+Israel,18,0,25
+Italy,445,12,45
+Japan,186,3,27
+Korea,1261,12,22
+Kuwait,26,0,27
+Lebanon,2,0,27
+Macao SAR,10,0,27
+Macedonia,1,0,27
+Malaysia,22,0,27
+Nepal,1,0,27
+Norway,1,0,0
+Oman,4,0,0
+Pakistan,2,0,0
+Philippines,3,1,0
+Puerto Rico,0,1,0
+Romania,1,1,0
+Russia,2,0,0
+Singapore,93,0,62
+Spain,14,1,2
+Sri Lanka,1,0,2
+Sweden,2,0,2
+Switzerland,2,0,2
+Thailand,40,0,22
+U.S. Virgin Islands,0,0,22
+United Arab Emirates,13,0,22
+United Kingdom,13,0,22
+United States,37,2,6
+Vietnam,16,0,6
+台湾,32,1,5
+香港,91,2,18

@@ -1,21 +1,20 @@
-Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-6065,1472,0,0,Worldwide
-7,2,0,0,Australia
-1,0,0,0,Cambodia
-3,0,0,0,Canada
-7711,1737,0,0,China
-1,1737,0,0,Finland
-4,1,0,0,France
-4,3,0,0,Germany
-10,2,0,0,香港
-11,4,0,0,Japan
-8,0,0,0,Malaysia
-1,0,0,0,Nepal
-10,3,0,0,Singapore
-4,0,0,0,Korea
-1,0,0,0,Sri Lanka
-8,0,0,0,台湾
-14,0,0,0,Thailand
-4,0,0,0,United Arab Emirates
-5,0,0,0,United States
-2,0,0,0,Vietnam
+Country_Region,Confirmed,Deaths,Recovered
+Australia,7,0,0
+Cambodia,1,0,0
+Canada,3,0,0
+China,7711,0,0
+Finland,1,0,0
+France,4,0,0
+Germany,4,0,0
+Japan,11,0,0
+Korea,4,0,0
+Malaysia,8,0,0
+Nepal,1,0,0
+Singapore,10,0,0
+Sri Lanka,1,0,0
+Thailand,14,0,0
+United Arab Emirates,4,0,0
+United States,5,0,0
+Vietnam,2,0,0
+台湾,8,0,0
+香港,10,0,0

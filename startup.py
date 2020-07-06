@@ -4,4 +4,3 @@ from cqu_covid import app
 
 
 
-

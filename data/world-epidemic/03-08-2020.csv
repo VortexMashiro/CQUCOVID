@@ -1,111 +1,110 @@
-Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-105586,3659,3584,0,Worldwide
-4,0,0,0,Afghanistan
-2,0,0,0,Albania
-21,1,0,0,Algeria
-1,0,0,1,Andorra
-12,3,1,0,Argentina
-1,0,0,0,Armenia
-78,5,3,22,Australia
-99,20,0,0,Austria
-9,0,0,0,Azerbaijan
-56,7,0,4,Bahrain
-3,7,0,0,Bangladesh
-14,1,0,1,Belarus
-200,31,0,1,Belgium
-1,0,0,1,Bhutan
-4,1,0,1,Bosnia and Herz.
-25,6,0,0,Brazil
-4,2,0,0,Bulgaria
-2,0,0,0,Cambodia
-2,0,0,0,Cameroon
-67,7,0,8,Canada
-9,3,0,0,Chile
-80779,30,3100,55501,China
-1,0,0,55501,Colombia
-9,4,0,0,Costa Rica
-12,0,0,0,Croatia
-32,6,0,0,Czech Rep.
-3683,10,139,1,Denmark
-5,2,0,0,Dominican Rep.
-15,1,0,0,Ecuador
-53,6,0,1,Egypt
-10,0,0,1,Estonia
-2,0,0,0,Faroe Is.
-38,9,0,1,Finland
-1126,177,21,12,France
-5,177,0,0,French Guiana
-13,1,0,0,Georgia
-847,163,0,18,Germany
-1,0,0,18,Gibraltar
-73,7,0,0,Greece
-0,0,0,0,Guam
-114,5,2,51,香港
-9,2,0,0,Hungary
-58,8,0,0,Iceland
-39,5,0,3,India
-1998,3,181,0,Indonesia
-6566,743,194,2134,Iran
-54,10,4,0,Iraq
-21,2,0,0,Ireland
-50,9,0,2,Israel
-7375,1492,366,724,Italy
-488,33,7,76,Japan
-1,0,0,76,Jordan
-64,3,0,1,Kuwait
-6,4,0,0,Latvia
-41,9,0,1,Lebanon
-1,0,0,1,Liechtenstein
-1,0,0,1,Lithuania
-5,1,0,0,Luxembourg
-99,6,0,24,Malaysia
-2,0,0,0,Maldives
-3,0,0,0,Malta
-2,0,0,0,Martinique
-7,0,0,1,Mexico
-1,0,0,1,Moldova
-1,0,0,1,Monaco
-2,0,0,1,Morocco
-1,0,0,1,Nepal
-264,76,3,0,Netherlands
-5,0,0,0,New Zealand
-1,0,0,0,Nigeria
-4,1,0,0,Macedonia
-167,22,0,0,Norway
-16,0,0,0,Oman
-7,1,1,0,Pakistan
-1,0,1,0,Paraguay
-6,5,0,0,Peru
-10,4,1,2,Philippines
-11,5,0,0,Poland
-30,9,0,0,Portugal
-0,0,0,0,Puerto Rico
-12,1,0,0,Qatar
-15,2,0,3,Romania
-17,3,0,3,Russia
-1,0,0,3,Saint Barthélemy
-2,0,0,3,Saint Martin
-37,10,1,0,San Marino
-11,2,0,0,Saudi Arabia
-4,0,0,0,Senegal
-1,0,0,0,Serbia
-150,12,0,90,Singapore
-5,2,0,0,Slovakia
-16,4,0,0,Slovenia
-3,1,0,0,South Africa
-7382,248,51,130,Korea
-674,149,17,32,Spain
-1,0,0,32,Sri Lanka
-225,46,0,0,Sweden
-350,96,2,3,Switzerland
-45,0,1,13,台湾
-50,0,1,33,Thailand
-1,0,0,33,Togo
-2,1,0,0,Tunisia
-0,0,0,0,U.S. Virgin Islands
-1,0,0,0,Ukraine
-45,0,0,0,United Arab Emirates
-271,65,3,18,United Kingdom
-497,144,24,8,United States
-1,0,0,8,Vatican City
-30,10,0,16,Vietnam
+Country_Region,Confirmed,Deaths,Recovered
+Afghanistan,4,0,0
+Albania,2,0,0
+Algeria,21,0,0
+Andorra,1,0,1
+Argentina,12,1,0
+Armenia,1,0,0
+Australia,78,3,22
+Austria,99,0,0
+Azerbaijan,9,0,0
+Bahrain,56,0,4
+Bangladesh,3,0,0
+Belarus,14,0,1
+Belgium,200,0,1
+Bhutan,1,0,1
+Bosnia and Herz.,4,0,1
+Brazil,25,0,0
+Bulgaria,4,0,0
+Cambodia,2,0,0
+Cameroon,2,0,0
+Canada,67,0,8
+Chile,9,0,0
+China,80779,3100,55501
+Colombia,1,0,55501
+Costa Rica,9,0,0
+Croatia,12,0,0
+Czech Rep.,32,0,0
+Denmark,3683,139,1
+Dominican Rep.,5,0,0
+Ecuador,15,0,0
+Egypt,53,0,1
+Estonia,10,0,1
+Faroe Is.,2,0,0
+Finland,38,0,1
+France,1126,21,12
+French Guiana,5,0,0
+Georgia,13,0,0
+Germany,847,0,18
+Gibraltar,1,0,18
+Greece,73,0,0
+Guam,0,0,0
+Hungary,9,0,0
+Iceland,58,0,0
+India,39,0,3
+Indonesia,1998,181,0
+Iran,6566,194,2134
+Iraq,54,4,0
+Ireland,21,0,0
+Israel,50,0,2
+Italy,7375,366,724
+Japan,488,7,76
+Jordan,1,0,76
+Korea,7382,51,130
+Kuwait,64,0,1
+Latvia,6,0,0
+Lebanon,41,0,1
+Liechtenstein,1,0,1
+Lithuania,1,0,1
+Luxembourg,5,0,0
+Macedonia,4,0,0
+Malaysia,99,0,24
+Maldives,2,0,0
+Malta,3,0,0
+Martinique,2,0,0
+Mexico,7,0,1
+Moldova,1,0,1
+Monaco,1,0,1
+Morocco,2,0,1
+Nepal,1,0,1
+Netherlands,264,3,0
+New Zealand,5,0,0
+Nigeria,1,0,0
+Norway,167,0,0
+Oman,16,0,0
+Pakistan,7,1,0
+Paraguay,1,1,0
+Peru,6,0,0
+Philippines,10,1,2
+Poland,11,0,0
+Portugal,30,0,0
+Puerto Rico,0,0,0
+Qatar,12,0,0
+Romania,15,0,3
+Russia,17,0,3
+Saint Barthélemy,1,0,3
+Saint Martin,2,0,3
+San Marino,37,1,0
+Saudi Arabia,11,0,0
+Senegal,4,0,0
+Serbia,1,0,0
+Singapore,150,0,90
+Slovakia,5,0,0
+Slovenia,16,0,0
+South Africa,3,0,0
+Spain,674,17,32
+Sri Lanka,1,0,32
+Sweden,225,0,0
+Switzerland,350,2,3
+Thailand,50,1,33
+Togo,1,0,33
+Tunisia,2,0,0
+U.S. Virgin Islands,0,0,0
+Ukraine,1,0,0
+United Arab Emirates,45,0,0
+United Kingdom,271,3,18
+United States,497,24,8
+Vatican City,1,0,8
+Vietnam,30,0,16
+台湾,45,1,13
+香港,114,2,51

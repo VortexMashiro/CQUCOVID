@@ -283,21 +283,12 @@ def get_home_page():
 def get_global_map():
     country_name = json.loads(request.args.get('data', type=str))['name']
     max_data, min_data, result = get.get_word_epidemic(get.get_today())
-    max_data = int(max_data)
-    min_data = int(min_data)
-    map_data = []
-    for i in result:
-        i = i[0::4]
-        i.reverse()
-        i[1] = int(i[1])
-        map_data.append(i)
-    map_data = map_data[1:]
+    map_data = result
     Global_map = (
         Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
-            .add_schema(
-            maptype="world")  # https://github.com/# pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
+            .add_schema( maptype="world")  # https://github.com/# pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
             .add_coordinate_json('weizhi.json')
-            .add("geo", map_data)  # TODO Data Interface
+            .add("geo", [["Canada",100]])
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             # visualmap_opts=opts.VisualMapOpts(
@@ -310,6 +301,16 @@ def get_global_map():
             #     range_text=["High", "Low"],
             #     range_color=["lightskyblue", "yellow", "orangered"],
             #     textstyle_opts=opts.TextStyleOpts(color="#ddd"),
+            # ),
+            # tooltip_opts=opts.TooltipOpts(
+            #     is_show=True,
+            #     formatter=JsCode(
+            #         """function(params) {
+            #         if ('value' in params.data) {
+            #             return params.data.value[0] + ': '+ params.data.value[1];
+            #         }
+            #     }"""
+            #     ),
             # ),
             title_opts=opts.TitleOpts(title=country_name)
         )

@@ -1,68 +1,67 @@
-Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-85403,1751,2924,0,Worldwide
-1,0,0,0,Afghanistan
-1,0,0,0,Algeria
-26,1,0,15,Australia
-5,1,0,15,Austria
-3,2,0,15,Azerbaijan
-38,5,0,15,Bahrain
-1,0,0,15,Belarus
-1,0,0,15,Belgium
-2,1,0,15,Brazil
-1,0,0,15,Cambodia
-20,4,0,8,Canada
-79394,433,2838,36268,China
-7,2,0,36268,Croatia
-3603,10,129,36268,Denmark
-1,10,0,36268,Ecuador
-1,0,0,36268,Egypt
-1,0,0,36268,Estonia
-6,1,0,36268,Finland
-100,43,1,12,France
-3,2,0,12,Georgia
-66,13,0,16,Germany
-7,3,0,16,Greece
-0,0,0,16,Guam
-95,1,2,30,香港
-1,0,2,30,Iceland
-3,0,0,30,India
-593,205,43,123,Iran
-8,1,0,123,Iraq
-1,1,0,123,Ireland
-22,0,0,123,Israel
-1128,240,29,83,Italy
-239,9,5,41,Japan
-45,0,0,41,Kuwait
-10,3,0,41,Lebanon
-1,0,0,41,Lithuania
-1,0,0,41,Luxembourg
-29,4,0,41,Malaysia
-4,1,0,41,Mexico
-0,1,0,41,Myanmar
-1,0,0,41,Nepal
-6,4,0,41,Netherlands
-1,0,0,41,New Zealand
-1,0,0,41,Nigeria
-1,0,0,41,Macedonia
-15,8,0,41,Norway
-6,0,0,1,Oman
-4,2,0,1,Pakistan
-3,0,1,1,Philippines
-0,0,1,1,Puerto Rico
-1,0,0,1,Qatar
-3,0,0,1,Romania
-2,0,0,1,Russia
-3,1,0,1,San Marino
-102,4,0,72,Singapore
-3150,813,17,27,Korea
-59,25,1,2,Spain
-1,0,0,2,Sri Lanka
-14,3,0,2,Sweden
-18,5,0,1,Switzerland
-39,5,1,9,台湾
-40,0,0,28,Thailand
-0,0,0,28,U.S. Virgin Islands
-22,1,0,5,United Arab Emirates
-23,4,0,8,United Kingdom
-40,1,3,6,United States
-16,0,0,6,Vietnam
+Country_Region,Confirmed,Deaths,Recovered
+Afghanistan,1,0,0
+Algeria,1,0,0
+Australia,26,0,15
+Austria,5,0,15
+Azerbaijan,3,0,15
+Bahrain,38,0,15
+Belarus,1,0,15
+Belgium,1,0,15
+Brazil,2,0,15
+Cambodia,1,0,15
+Canada,20,0,8
+China,79394,2838,36268
+Croatia,7,0,36268
+Denmark,3603,129,36268
+Ecuador,1,0,36268
+Egypt,1,0,36268
+Estonia,1,0,36268
+Finland,6,0,36268
+France,100,1,12
+Georgia,3,0,12
+Germany,66,0,16
+Greece,7,0,16
+Guam,0,0,16
+Iceland,1,2,30
+India,3,0,30
+Iran,593,43,123
+Iraq,8,0,123
+Ireland,1,0,123
+Israel,22,0,123
+Italy,1128,29,83
+Japan,239,5,41
+Korea,3150,17,27
+Kuwait,45,0,41
+Lebanon,10,0,41
+Lithuania,1,0,41
+Luxembourg,1,0,41
+Macedonia,1,0,41
+Malaysia,29,0,41
+Mexico,4,0,41
+Myanmar,0,0,41
+Nepal,1,0,41
+Netherlands,6,0,41
+New Zealand,1,0,41
+Nigeria,1,0,41
+Norway,15,0,41
+Oman,6,0,1
+Pakistan,4,0,1
+Philippines,3,1,1
+Puerto Rico,0,1,1
+Qatar,1,0,1
+Romania,3,0,1
+Russia,2,0,1
+San Marino,3,0,1
+Singapore,102,0,72
+Spain,59,1,2
+Sri Lanka,1,0,2
+Sweden,14,0,2
+Switzerland,18,0,1
+Thailand,40,0,28
+U.S. Virgin Islands,0,0,28
+United Arab Emirates,22,0,5
+United Kingdom,23,0,8
+United States,40,3,6
+Vietnam,16,0,6
+台湾,39,1,9
+香港,95,2,30

@@ -1,44 +1,43 @@
-Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-80239,908,2700,0,Worldwide
-1,0,0,0,Afghanistan
-1,0,0,0,Algeria
-22,0,0,0,Australia
-2,0,0,0,Austria
-8,7,0,0,Bahrain
-1,0,0,0,Belgium
-1,0,0,0,Cambodia
-11,0,0,8,Canada
-77780,518,2666,27536,China
-1,518,0,27536,Croatia
-1,0,0,27536,Egypt
-2,1,0,27536,Finland
-13,1,1,11,France
-18,2,0,14,Germany
-85,4,2,18,香港
-3,0,0,18,India
-95,31,16,3,Iran
-1,0,0,3,Iraq
-18,16,0,3,Israel
-322,93,10,3,Italy
-164,7,1,23,Japan
-11,6,0,23,Kuwait
-2,1,0,23,Lebanon
-10,0,0,7,Macao SAR
-22,0,0,20,Malaysia
-1,0,0,20,Nepal
-4,2,0,20,Oman
-3,0,1,20,Philippines
-1,0,0,20,Romania
-2,0,0,20,Russia
-91,1,0,58,Singapore
-977,144,10,22,Korea
-10,6,1,2,Spain
-1,0,0,2,Sri Lanka
-1,0,0,2,Sweden
-1,0,-1,2,Switzerland
-31,1,1,5,台湾
-37,2,0,21,Thailand
-13,0,0,21,United Arab Emirates
-13,0,0,21,United Kingdom
-36,1,2,5,United States
-16,0,0,16,Vietnam
+Country_Region,Confirmed,Deaths,Recovered
+Afghanistan,1,0,0
+Algeria,1,0,0
+Australia,22,0,0
+Austria,2,0,0
+Bahrain,8,0,0
+Belgium,1,0,0
+Cambodia,1,0,0
+Canada,11,0,8
+China,77780,2666,27536
+Croatia,1,0,27536
+Egypt,1,0,27536
+Finland,2,0,27536
+France,13,1,11
+Germany,18,0,14
+India,3,0,18
+Iran,95,16,3
+Iraq,1,0,3
+Israel,18,0,3
+Italy,322,10,3
+Japan,164,1,23
+Korea,977,10,22
+Kuwait,11,0,23
+Lebanon,2,0,23
+Macao SAR,10,0,7
+Malaysia,22,0,20
+Nepal,1,0,20
+Oman,4,0,20
+Philippines,3,1,20
+Romania,1,0,20
+Russia,2,0,20
+Singapore,91,0,58
+Spain,10,1,2
+Sri Lanka,1,0,2
+Sweden,1,0,2
+Switzerland,1,-1,2
+Thailand,37,0,21
+United Arab Emirates,13,0,21
+United Kingdom,13,0,21
+United States,36,2,5
+Vietnam,16,0,16
+台湾,31,1,5
+香港,85,2,18

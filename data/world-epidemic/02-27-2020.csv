@@ -1,56 +1,55 @@
-Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-82294,1185,2804,0,Worldwide
-1,0,0,0,Afghanistan
-1,0,0,0,Algeria
-23,0,0,15,Australia
-2,0,0,15,Austria
-33,7,0,15,Bahrain
-1,0,0,15,Belgium
-1,0,0,15,Brazil
-1,0,0,15,Cambodia
-14,2,0,8,Canada
-78630,439,2747,32563,China
-3,0,0,32563,Croatia
-3583,10,125,32563,Denmark
-1,0,0,32563,Egypt
-1,0,0,32563,Estonia
-3,1,0,32563,Finland
-38,20,1,12,France
-1,0,0,12,Georgia
-26,5,0,15,Germany
-3,2,0,15,Greece
-93,2,2,24,香港
-3,0,0,24,India
-245,106,26,21,Iran
-6,1,0,21,Iraq
-19,1,0,21,Israel
-650,205,17,46,Italy
-210,24,4,32,Japan
-43,17,0,32,Kuwait
-4,2,0,32,Lebanon
-10,0,0,8,Macao SAR
-24,2,0,22,Malaysia
-1,0,0,22,Nepal
-1,0,0,22,Netherlands
-1,0,0,22,Nigeria
-1,0,0,22,Macedonia
-4,3,0,22,Norway
-6,2,0,22,Oman
-2,0,0,22,Pakistan
-3,0,1,22,Philippines
-1,0,1,22,Qatar
-1,0,0,22,Romania
-2,0,0,22,Russia
-1,0,0,22,San Marino
-96,3,0,66,Singapore
-1766,505,13,26,Korea
-26,12,1,2,Spain
-1,0,0,2,Sri Lanka
-3,1,0,2,Sweden
-8,6,0,2,Switzerland
-32,0,1,2,台湾
-40,0,0,27,Thailand
-19,6,0,3,United Arab Emirates
-13,0,0,8,United Kingdom
-38,1,2,8,United States
-16,0,0,8,Vietnam
+Country_Region,Confirmed,Deaths,Recovered
+Afghanistan,1,0,0
+Algeria,1,0,0
+Australia,23,0,15
+Austria,2,0,15
+Bahrain,33,0,15
+Belgium,1,0,15
+Brazil,1,0,15
+Cambodia,1,0,15
+Canada,14,0,8
+China,78630,2747,32563
+Croatia,3,0,32563
+Denmark,3583,125,32563
+Egypt,1,0,32563
+Estonia,1,0,32563
+Finland,3,0,32563
+France,38,1,12
+Georgia,1,0,12
+Germany,26,0,15
+Greece,3,0,15
+India,3,0,24
+Iran,245,26,21
+Iraq,6,0,21
+Israel,19,0,21
+Italy,650,17,46
+Japan,210,4,32
+Korea,1766,13,26
+Kuwait,43,0,32
+Lebanon,4,0,32
+Macao SAR,10,0,8
+Macedonia,1,0,22
+Malaysia,24,0,22
+Nepal,1,0,22
+Netherlands,1,0,22
+Nigeria,1,0,22
+Norway,4,0,22
+Oman,6,0,22
+Pakistan,2,0,22
+Philippines,3,1,22
+Qatar,1,1,22
+Romania,1,0,22
+Russia,2,0,22
+San Marino,1,0,22
+Singapore,96,0,66
+Spain,26,1,2
+Sri Lanka,1,0,2
+Sweden,3,0,2
+Switzerland,8,0,2
+Thailand,40,0,27
+United Arab Emirates,19,0,3
+United Kingdom,13,0,8
+United States,38,2,8
+Vietnam,16,0,8
+台湾,32,1,2
+香港,93,2,24

@@ -1,30 +1,29 @@
-Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-44996,2028,1115,0,Worldwide
-15,0,0,0,Australia
-1,0,0,0,Belgium
-1,0,0,0,Cambodia
-7,0,0,1,Canada
-46472,1819,1114,5062,China
-1,0,0,5062,Finland
-11,0,0,5062,France
-16,2,0,5062,Germany
-50,1,1,0,香港
-3,0,0,0,India
-3,0,0,0,Italy
-28,2,0,4,Japan
-10,0,0,4,Macao SAR
-19,1,0,1,Malaysia
-1,0,0,1,Nepal
-3,0,1,1,Philippines
-2,0,0,2,Russia
-50,3,0,9,Singapore
-28,0,0,4,Korea
-2,0,1,4,Spain
-1,0,0,4,Sri Lanka
-1,0,0,4,Sweden
-18,0,0,4,台湾
-33,0,0,4,Thailand
-8,0,0,4,United Arab Emirates
-8,0,0,1,United Kingdom
-13,0,1,1,United States
-15,0,0,1,Vietnam
+Country_Region,Confirmed,Deaths,Recovered
+Australia,15,0,0
+Belgium,1,0,0
+Cambodia,1,0,0
+Canada,7,0,1
+China,46472,1114,5062
+Finland,1,0,5062
+France,11,0,5062
+Germany,16,0,5062
+India,3,0,0
+Italy,3,0,0
+Japan,28,0,4
+Korea,28,0,4
+Macao SAR,10,0,4
+Malaysia,19,0,1
+Nepal,1,0,1
+Philippines,3,1,1
+Russia,2,0,2
+Singapore,50,0,9
+Spain,2,1,4
+Sri Lanka,1,0,4
+Sweden,1,0,4
+Thailand,33,0,4
+United Arab Emirates,8,0,4
+United Kingdom,8,0,1
+United States,13,1,1
+Vietnam,15,0,1
+台湾,18,0,4
+香港,50,1,0

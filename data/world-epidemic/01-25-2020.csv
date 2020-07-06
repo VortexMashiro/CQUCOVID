@@ -1,19 +1,18 @@
-Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
-1320,479,0,0,Worldwide
-4,479,0,0,Australia
-1,479,0,0,Canada
-1975,688,0,0,China
-3,688,0,0,France
-0,0,0,0,Guam
-5,3,0,0,香港
-3,0,0,0,Japan
-4,1,0,0,Malaysia
-1,1,0,0,Nepal
-0,0,0,0,Puerto Rico
-3,0,0,0,Singapore
-2,0,0,0,Korea
-3,0,0,0,台湾
-6,1,0,0,Thailand
-0,0,0,0,U.S. Virgin Islands
-3,1,0,0,United States
-2,0,0,0,Vietnam
+Country_Region,Confirmed,Deaths,Recovered
+Australia,4,0,0
+Canada,1,0,0
+China,1975,0,0
+France,3,0,0
+Guam,0,0,0
+Japan,3,0,0
+Korea,2,0,0
+Malaysia,4,0,0
+Nepal,1,0,0
+Puerto Rico,0,0,0
+Singapore,3,0,0
+Thailand,6,0,0
+U.S. Virgin Islands,0,0,0
+United States,3,0,0
+Vietnam,2,0,0
+台湾,3,0,0
+香港,5,0,0
