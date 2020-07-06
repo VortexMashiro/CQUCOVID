@@ -15,7 +15,7 @@ from pyecharts import options as opts
 import get
 import paint
 
-from pyecharts.charts import Map, Geo
+from pyecharts.charts import Map, Geo, MapGlobe
 
 from pyecharts.globals import ThemeType
 from pyecharts.commons.utils import JsCode
@@ -421,3 +421,44 @@ def get_news():
         # newslist=newslist
         # TODO  News related, format:  [{'title'=title,'des'=des,'date'=date,'author'=author},...]
     )
+
+#@app.route("/getGlobalMap3D", methods=['GET'])
+@app.route("/getGlobalMap3D")
+def get_global_map3D():
+    #country_name = json.loads(request.args.get('data', type=str))['name']
+    max_data, min_data, result = get.get_word_epidemic(get.get_today())
+    max_data = int(max_data)
+    min_data = int(min_data)
+    map_data = []
+    for i in result:
+        i = i[0::4]
+        i.reverse()
+        i[1] = int(i[1])
+        map_data.append(i)
+    map_data = map_data[1:]
+    symbol_size=12
+    Global_map = (
+        MapGlobe(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
+        .add_schema(
+        maptype="world"
+        )
+        .add("geo", map_data)
+        .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
+        .set_global_opts(
+                
+             visualmap_opts=opts.VisualMapOpts(
+                type_="size",
+                is_calculable=True,
+                range_size=[0,100],
+                min_=min_data,
+                max_=max_data,
+                # pos_left="600", #javascript will do this.
+                # pos_top="400",
+                # range_text=["High", "Low"],
+                # range_color=["lightskyblue", "yellow", "orangered"],
+                # textstyle_opts=opts.TextStyleOpts(color="#ddd"),
+            ),
+            #title_opts=opts.TitleOpts(title=country_name)
+        )
+    )
+    return Global_map.render_embed()
