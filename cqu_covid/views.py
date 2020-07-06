@@ -274,7 +274,8 @@ def get_home_page():
         "home.html",
         countrylist=countrylist,
         # myechart=Global_map.render_embed(),# this is being replaced with AJAX
-        global_status=global_status
+        global_status=global_status,
+        data_date=str(get.get_today())
     )
     # return charts.render_embed()
 
