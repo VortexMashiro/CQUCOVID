@@ -283,25 +283,16 @@ def get_home_page():
 @app.route("/getGlobalMap", methods=['GET'])
 def get_global_map():
     country_name = json.loads(request.args.get('data', type=str))['name']
-    center=None
-    zoom=1
-    if country_name!='Worldwide':
-        with open('weizhi.json','r') as f:
+    center = None
+    zoom = 1
+    if country_name != 'Worldwide':
+        with open('weizhi.json', 'r') as f:
             json_dict = json.load(f)
             if country_name in json_dict:
-                center=json_dict.get(country_name)
-                zoom=5
-    max_data, min_data, result = get.get_word_epidemic(get.get_today())
-    max_data = int(max_data)
-    min_data = int(min_data)
-    map_data = []
-    for i in result:
-        i = i[0::4]
-        i.reverse()
-        i[1] = int(i[1])
-        map_data.append(i)
-    map_data = map_data[1:]
-    symbol_size=12
+                center = json_dict.get(country_name)
+                zoom = 5
+    max_data, min_data, map_data = get.get_word_epidemic(get.get_today())
+    symbol_size = 12
     Global_map = (
         Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
             .add_schema(
@@ -312,17 +303,32 @@ def get_global_map():
             .add("geo", map_data)  # TODO Data Interface
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
-             visualmap_opts=opts.VisualMapOpts(
+            visualmap_opts=opts.VisualMapOpts(
+                is_show=True,
                 type_="size",
                 is_calculable=True,
-                range_size=[10,100],
+                range_size=[10, 100],
                 min_=min_data,
                 max_=max_data,
+                dimension=0
                 # pos_left="600", #javascript will do this.
                 # pos_top="400",
                 # range_text=["High", "Low"],
                 # range_color=["lightskyblue", "yellow", "orangered"],
                 # textstyle_opts=opts.TextStyleOpts(color="#ddd"),
+            ),
+            tooltip_opts=opts.TooltipOpts(
+                is_show=True,
+                formatter="""
+                function(parameter){
+                var tool_tip =
+                parameter.name+
+                "<br/>累计确诊：" + parameter.value[2][0] +
+                "<br/>累计死亡："+parameter.value[2][1]+
+                 "<br/>累计治愈："+parameter.value[2][2];
+                return tool_tip;
+                }
+                """
             ),
             title_opts=opts.TitleOpts(title=country_name)
         )
@@ -375,34 +381,27 @@ def get_news():
         # TODO  News related, format:  [{'title'=title,'des'=des,'date'=date,'author'=author},...]
     )
 
-#@app.route("/getGlobalMap3D", methods=['GET'])
+
+# @app.route("/getGlobalMap3D", methods=['GET'])
 @app.route("/getGlobalMap3D")
 def get_global_map3D():
-    #country_name = json.loads(request.args.get('data', type=str))['name']
-    max_data, min_data, result = get.get_word_epidemic(get.get_today())
-    max_data = int(max_data)
-    min_data = int(min_data)
-    map_data = []
-    for i in result:
-        i = i[0::4]
-        i.reverse()
-        i[1] = int(i[1])
-        map_data.append(i)
-    map_data = map_data[1:]
-    symbol_size=12
+    # country_name = json.loads(request.args.get('data', type=str))['name']
+    max_data, min_data, map_data = get.get_word_epidemic(get.get_today())
+    # map_data : [["Canada",[1,2,3]],...]
+    symbol_size = 12
     Global_map = (
         MapGlobe(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
-        .add_schema(
-        maptype="world"
+            .add_schema(
+            maptype="world"
         )
-        .add("geo", map_data)
-        .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
-        .set_global_opts(
-                
-             visualmap_opts=opts.VisualMapOpts(
+            .add("geo", map_data)
+            .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
+            .set_global_opts(
+
+            visualmap_opts=opts.VisualMapOpts(
                 type_="size",
                 is_calculable=True,
-                range_size=[0,100],
+                range_size=[0, 100],
                 min_=min_data,
                 max_=max_data,
                 # pos_left="600", #javascript will do this.
@@ -411,7 +410,20 @@ def get_global_map3D():
                 # range_color=["lightskyblue", "yellow", "orangered"],
                 # textstyle_opts=opts.TextStyleOpts(color="#ddd"),
             ),
-            #title_opts=opts.TitleOpts(title=country_name)
+            tooltip_opts=opts.TooltipOpts(
+                is_show=True,
+                formatter="""
+                    function(parameter){
+                    var tool_tip =
+                    parameter.name+
+                    "<br/>累计确诊：" + parameter.value[2][0] +
+                    "<br/>累计死亡："+parameter.value[2][1]+
+                     "<br/>累计治愈："+parameter.value[2][2];
+                    return tool_tip;
+                    }
+                    """
+            ),
+            # title_opts=opts.TitleOpts(title=country_name)
         )
     )
     return Global_map.render_embed()

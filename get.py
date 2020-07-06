@@ -12,6 +12,7 @@ def get_word_epidemic(date):
     """
     根据日期获取所有国家对应的累计确诊、累计死亡、累计治愈
     以及最大的累计确诊值和最小的累计确诊值
+    格式： [["country",[confirmed,death,recovered]],...]
     """
     date_name = date.replace("/", "-")
     directory = "data/world-epidemic/"
@@ -24,8 +25,8 @@ def get_word_epidemic(date):
         result_list = []
         for index in range(0, data.shape[0]):
             item = data.iloc[index]
-            result_list.append([item["Country_Region"], int(item["Confirmed"]),
-                                int(item["Deaths"]), int(item["Recovered"])])
+            result_list.append([item["Country_Region"],[ int(item["Confirmed"]),
+                                int(item["Deaths"]), int(item["Recovered"])]])
         return int(max), int(min), result_list
     else:
         return None, None, None
@@ -292,16 +293,22 @@ def get_country_list_with_data():
     if os.path.isfile(file):
         data = pd.read_csv(file, encoding="utf-8")
         country_list = []
+        tmp=[]
         for index in range(0, data.shape[0]):
             row = data.iloc[index]
             total = int(row["Confirmed"]) \
                     + int(row["Deaths"]) \
                     + int(row["Recovered"])
             country = row["Country_Region"]
-            country_list.append({"name": country, "number": format(total, ',')})
+            tmp.append([country,total])
+        tmp_df = pd.DataFrame(data=tmp, columns=["country","total"])
+        tmp_df.sort_values(by="total",inplace=True, ascending=False)
+        for index in range(0,tmp_df.shape[0]):
+            row = tmp_df.iloc[index]
+            country_list.append({"name":row["country"],
+                                 "number":format(row["total"],',') })
         return country_list
     else:
-        print("没有数据文件！")
         return None
 
 
