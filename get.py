@@ -228,7 +228,7 @@ def get_time_axis_data():
     """
     file = "data/world-epidemic/summary.json"
     if os.path.isfile(file):
-        f = open(file, 'r')
+        f = open(file, 'r',encoding="utf-8")
         content = f.read()
         a = json.loads(content)
         f.close()
@@ -236,6 +236,8 @@ def get_time_axis_data():
     else:
         print("没有数据文件！")
         return None
+
+print(get_time_axis_data())
 
 def get_country_status(country="China"):
     """
@@ -334,5 +336,16 @@ def get_today():
     file = "data/country-epidemic-summary/Worldwide.csv"
     if os.path.isfile(file):
         return pd.read_csv(file)["Updated"].tolist()[-1]
+    else:
+        return None
+
+
+def get_date_list():
+    """
+
+    """
+    file = "data/country-epidemic-summary/Worldwide.csv"
+    if os.path.isfile(file):
+        return pd.read_csv(file)["Updated"].tolist()
     else:
         return None
