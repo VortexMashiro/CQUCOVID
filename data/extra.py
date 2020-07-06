@@ -240,7 +240,6 @@ def extra_time_axis_data(date_list):
     :return:
     """
     directory = "world-epidemic/"
-    file_name_json = directory + "summary.json"
     DATA = []
     for date in date_list:
         date_name = date.replace("/", "-")
@@ -252,9 +251,7 @@ def extra_time_axis_data(date_list):
             item_dict = [row["Confirmed"],row["Country_Region"]]
             item_list.append(item_dict)
         DATA.append({"time":date, "data":item_list})
-    json_file = open(file_name_json, "w",encoding="utf-8")
-    json_file.write(json.dumps(DATA,ensure_ascii=False))
-    json_file.close()
+
 
 
 def extra_country_status(source, country_list, date_list):

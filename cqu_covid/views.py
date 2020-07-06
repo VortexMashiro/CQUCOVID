@@ -28,10 +28,7 @@ WarningType.ShowWarning = False  # https://github.com/pyecharts/pyecharts/issues
 # IMPORTANT : ALL CODE SHOULD FOLLOW THIS DOC : http://pyecharts.org/#/zh-cn/web_flask
 
 #######GDP DEMO #########
-
-# time_list = get.get_date_list()
-# print(time_list)
-date_list = get.get_date_list()
+date_list = get.get_date_list()[0::7]
 
 confirmed = get.get_world_confirmed()
 
@@ -40,7 +37,7 @@ minNum = 1
 
 
 def get_year_chart(date: str):
-    map_data = get.get_time_axis_data(date)
+    maxNum,minNum,map_data = get.get_time_axis_data(date)
     min_data, max_data = (minNum, maxNum)
     data_mark: List = []
     i = 0
@@ -61,7 +58,7 @@ def get_year_chart(date: str):
             series_name="",
             data_pair=map_data,
             zoom=1,
-            center=[119.5, 34.5],
+            center=[10, 0],
             is_map_symbol_show=False,
             itemstyle_opts={
                 "normal": {"areaColor": "#323c48", "borderColor": "#404a59"},
@@ -94,14 +91,17 @@ def get_year_chart(date: str):
             visualmap_opts=opts.VisualMapOpts(
                 is_calculable=True,
                 dimension=0,
-                pos_left="30",
-                pos_top="center",
+                pos_left="40",
+                pos_top="10%",
                 range_text=["High", "Low"],
                 range_color=["lightskyblue", "yellow", "orangered"],
                 textstyle_opts=opts.TextStyleOpts(color="#ddd"),
                 min_=min_data,
                 max_=max_data,
             ),
+        )
+            .set_series_opts(
+            label_opts=opts.LabelOpts(is_show=False)
         )
     )
 
@@ -117,7 +117,7 @@ def get_year_chart(date: str):
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             title_opts=opts.TitleOpts(
-                title="世界累计确诊折线图", pos_left="72%", pos_top="5%"
+                title="世\n界\n累\n计\n确\n诊\n折\n线\n图", pos_left="44%", pos_top="70%"
             )
         )
     )
@@ -129,11 +129,12 @@ def get_year_chart(date: str):
             .add_yaxis(
             series_name="",
             y_axis=bar_y_data,
+            bar_width='5%',
+            bar_min_width='10',
             label_opts=opts.LabelOpts(
                 is_show=True, position="right", formatter="{b} : {c}"
             ),
         )
-            .reversal_axis()
             .set_global_opts(
             xaxis_opts=opts.AxisOpts(
                 max_=maxNum, axislabel_opts=opts.LabelOpts(is_show=False)
@@ -142,6 +143,7 @@ def get_year_chart(date: str):
             tooltip_opts=opts.TooltipOpts(is_show=False),
             visualmap_opts=opts.VisualMapOpts(
                 is_calculable=True,
+                orient='horizontal',
                 dimension=0,
                 pos_left="10",
                 pos_top="top",
@@ -154,39 +156,39 @@ def get_year_chart(date: str):
         )
     )
 
-    pie_data = [[x[0], x[1][0]] for x in map_data]
-    pie = (
-        Pie()
-            .add(
-            series_name="",
-            data_pair=pie_data,
-            radius=["15%", "35%"],
-            center=["80%", "82%"],
-            itemstyle_opts=opts.ItemStyleOpts(
-                border_width=1, border_color="rgba(0,0,0,0.3)"
-            ),
-        )
-            .set_global_opts(
-            tooltip_opts=opts.TooltipOpts(is_show=True, formatter="{b} {d}%"),
-            legend_opts=opts.LegendOpts(is_show=False),
-        )
-    )
+    # pie_data = [[x[0], x[1][0]] for x in map_data]
+    # pie = (
+    #     Pie()
+    #         .add(
+    #         series_name="",
+    #         data_pair=pie_data,
+    #         radius=["15%", "35%"],
+    #         center=["80%", "82%"],
+    #         itemstyle_opts=opts.ItemStyleOpts(
+    #             border_width=1, border_color="rgba(0,0,0,0.3)"
+    #         ),
+    #     )
+    #         .set_global_opts(
+    #         tooltip_opts=opts.TooltipOpts(is_show=True, formatter="{b} {d}%"),
+    #         legend_opts=opts.LegendOpts(is_show=False),
+    #     )
+    # )
 
     grid_chart = (
         Grid()
             .add(
             bar,
             grid_opts=opts.GridOpts(
-                pos_left="10", pos_right="45%", pos_top="50%", pos_bottom="5"
+                pos_left="15", pos_right="70%", pos_top="30%", pos_bottom="15"
             ),
         )
             .add(
             line_chart,
             grid_opts=opts.GridOpts(
-                pos_left="65%", pos_right="80", pos_top="10%", pos_bottom="50%"
+                pos_left="50%", pos_right="100", pos_top="70%", pos_bottom="30"
             ),
         )
-            .add(pie, grid_opts=opts.GridOpts(pos_left="45%", pos_top="60%"))
+            # .add(pie, grid_opts=opts.GridOpts(pos_left="45%", pos_top="60%"))
             .add(map_chart, grid_opts=opts.GridOpts())
     )
 
@@ -212,6 +214,7 @@ def get_index():
         # init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.DARK)
         init_opts=opts.InitOpts(width="100vw", height="100vh", theme=ThemeType.DARK)
     )
+
     for day in date_list:
         g = get_year_chart(date=day)
         timeline.add(g, time_point=day)
@@ -220,13 +223,13 @@ def get_index():
         orient="vertical",
         is_auto_play=True,
         is_inverse=True,
-        play_interval=5000,
+        play_interval=2000,
         pos_left="null",
-        pos_right="5",
-        pos_top="20",
-        pos_bottom="20",
+        pos_right="20",
+        pos_top="10",
+        pos_bottom="10",
         width="60",
-        label_opts=opts.LabelOpts(is_show=True, color="#fff"),
+        label_opts=opts.LabelOpts(is_show=False, color="#fff"),
     )
     # timeline.render("china_gdp_from_1993_to_2018.html")
     return render_template(
@@ -234,7 +237,6 @@ def get_index():
         # passed_data=msg_data,
         myechart=timeline.render_embed(),
     )
-
 
 ######GDP DEMO END############
 
@@ -300,14 +302,14 @@ def get_global_map():
             center=center,
             zoom=zoom)  # https://github.com/# pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
             .add_coordinate_json('weizhi.json')
-            .add("geo", map_data)  # TODO Data Interface
+            .add("geo", map_data)
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             visualmap_opts=opts.VisualMapOpts(
                 is_show=True,
                 type_="size",
                 is_calculable=True,
-                range_size=[10, 100],
+                # range_size=[10, 100],
                 min_=min_data,
                 max_=max_data,
                 dimension=0
@@ -401,7 +403,8 @@ def get_global_map3D():
             visualmap_opts=opts.VisualMapOpts(
                 type_="size",
                 is_calculable=True,
-                range_size=[0, 100],
+                dimension=0,
+                range_size=[5, 1000],
                 min_=min_data,
                 max_=max_data,
                 # pos_left="600", #javascript will do this.

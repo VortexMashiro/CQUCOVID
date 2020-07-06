@@ -25,8 +25,8 @@ def get_word_epidemic(date):
         result_list = []
         for index in range(0, data.shape[0]):
             item = data.iloc[index]
-            result_list.append([item["Country_Region"],[ int(item["Confirmed"]),
-                                int(item["Deaths"]), int(item["Recovered"])]])
+            result_list.append([item["Country_Region"], [int(item["Confirmed"]),
+                                                         int(item["Deaths"]), int(item["Recovered"])]])
         return int(max), int(min), result_list
     else:
         return None, None, None
@@ -215,6 +215,17 @@ def get_country_position():
         return None
 
 
+def get_date_list():
+    """
+
+    """
+    file = "data/country-epidemic-summary/Worldwide.csv"
+    if os.path.isfile(file):
+        return pd.read_csv(file)["Updated"].tolist()
+    else:
+        return None
+
+
 def get_time_axis_data(date):
     """
 
@@ -224,12 +235,17 @@ def get_time_axis_data(date):
     file = "data/world-epidemic/" + date_name + ".csv"
     if os.path.isfile(file):
         data = pd.read_csv(file, encoding="utf-8")
+        data.sort_values(by="Confirmed",ascending=False,inplace=True)
+        if data.shape[0] > 30:
+            data = data.head(30)
         result = []
-        for index in range(1, data.shape[0]):
+        max = int(data.head(1)["Confirmed"])
+        min = int(data.tail(1)["Confirmed"])
+        for index in range(0, data.shape[0]):
             row = data.iloc[index]
             result.append([str(row["Country_Region"]),
                            [int(row["Confirmed"]), str(row["Country_Region"])]])
-        return result
+        return max, min ,result
 
 
 def get_world_confirmed():
@@ -238,13 +254,14 @@ def get_world_confirmed():
     """
     result = []
     date_list = get_date_list()
+    print(date_list)
     for date in date_list:
         date_name = date.replace("/", "-")
         file_name = "data/world-epidemic/" + date_name + ".csv"
         data = pd.read_csv(file_name, encoding="utf-8")
         result.append(int(data.iloc[0]["Confirmed"]))
     return result
-
+print(get_world_confirmed())
 
 def get_country_status(country="China"):
     """
@@ -281,7 +298,6 @@ def get_country_status(country="China"):
         }
         return dict
     else:
-        print("没有数据文件！")
         return None
 
 
@@ -293,20 +309,20 @@ def get_country_list_with_data():
     if os.path.isfile(file):
         data = pd.read_csv(file, encoding="utf-8")
         country_list = []
-        tmp=[]
+        tmp = []
         for index in range(0, data.shape[0]):
             row = data.iloc[index]
             total = int(row["Confirmed"]) \
                     + int(row["Deaths"]) \
                     + int(row["Recovered"])
             country = row["Country_Region"]
-            tmp.append([country,total])
-        tmp_df = pd.DataFrame(data=tmp, columns=["country","total"])
-        tmp_df.sort_values(by="total",inplace=True, ascending=False)
-        for index in range(0,tmp_df.shape[0]):
+            tmp.append([country, total])
+        tmp_df = pd.DataFrame(data=tmp, columns=["country", "total"])
+        tmp_df.sort_values(by="total", inplace=True, ascending=False)
+        for index in range(0, tmp_df.shape[0]):
             row = tmp_df.iloc[index]
-            country_list.append({"name":row["country"],
-                                 "number":format(row["total"],',') })
+            country_list.append({"name": row["country"],
+                                 "number": format(row["total"], ',')})
         return country_list
     else:
         return None
@@ -350,16 +366,5 @@ def get_today():
     file = "data/country-epidemic-summary/Worldwide.csv"
     if os.path.isfile(file):
         return str(pd.read_csv(file)["Updated"].tolist()[-1])
-    else:
-        return None
-
-
-def get_date_list():
-    """
-
-    """
-    file = "data/country-epidemic-summary/Worldwide.csv"
-    if os.path.isfile(file):
-        return pd.read_csv(file)["Updated"].tolist()
     else:
         return None
