@@ -41,5 +41,3 @@ Riino advices to **use external package to generate data interface**, this will 
 
 
 Note that the type of pyechart is different : in index page, we use  `Map`, in home page, we use `Bio`, and in home page’s country list, we use `dictionary`. See http://gallery.pyecharts.org/#/Geo/geo_base for more info.
-
-test
