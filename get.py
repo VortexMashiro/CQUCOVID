@@ -237,6 +237,8 @@ def get_time_axis_data():
         print("没有数据文件！")
         return None
 
+print(get_time_axis_data())
+
 def get_country_status(country="China"):
     """
 

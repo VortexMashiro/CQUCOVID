@@ -34,38 +34,49 @@ WarningType.ShowWarning = False  # https://github.com/pyecharts/pyecharts/issues
 # data = json.loads(content)
 # f.close()
 
-data = get.get_time_axis_data()
+# data = get.get_time_axis_data()
+# print(data)
+data = [{"time": "01/21/2020",
+        "data": [{"name": "Worldwide", "value": ["262", "Worldwide"]}, {"name": "China", "value": ["440", "China"]},
+                 {"name": "Guam", "value": ["0", "Guam"]}, {"name": "Japan", "value": ["1", "Japan"]},
+                 {"name": "Puerto Rico", "value": ["0", "Puerto Rico"]}, {"name": "Korea", "value": ["1", "Korea"]},
+                 {"name": "台湾", "value": ["1", "台湾"]}, {"name": "Thailand", "value": ["2", "Thailand"]},
+                 {"name": "U.S. Virgin Islands", "value": ["0", "U.S. Virgin Islands"]},
+                 {"name": "United States", "value": ["1", "United States"]}]}]
+# time_list = get.get_date_list()
+# print(time_list)
+time_list = ['01/21/2020']
 
-time_list = get.get_date_list()
+total_num = [3.4]
 
-total_num = [  # 右上角总值（单位万亿），要改成中国疫情累计确诊
-    3.4,
-    4.5,
-    5.8,
-    6.8,
-    7.6,
-    8.3,
-    8.8,
-    9.9,
-    10.9,
-    12.1,
-    14,
-    16.8,
-    19.9,
-    23.3,
-    28,
-    33.3,
-    36.5,
-    43.7,
-    52.1,
-    57.7,
-    63.4,
-    68.4,
-    72.3,
-    78,
-    84.7,
-    91.5,
-]
+# total_num = [  # 右上角总值（单位万亿），要改成中国疫情累计确诊
+#     3.4,
+#     4.5,
+#     5.8,
+#     6.8,
+#     7.6,
+#     8.3,
+#     8.8,
+#     9.9,
+#     10.9,
+#     12.1,
+#     14,
+#     16.8,
+#     19.9,
+#     23.3,
+#     28,
+#     33.3,
+#     36.5,
+#     43.7,
+#     52.1,
+#     57.7,
+#     63.4,
+#     68.4,
+#     72.3,
+#     78,
+#     84.7,
+#     91.5,
+# ]
 maxNum = 97300
 minNum = 0
 
@@ -231,6 +242,8 @@ def target():
 @app.route('/covid')  # GDP demo
 def get_index():
     msg_data = "No data was passed"
+    print(data)
+    print(time_list)
     if request.args.to_dict(flat=False)['data'][0]:
         msg_data = str(request.args.to_dict(flat=False)['data'][0])
 
@@ -312,7 +325,7 @@ def get_home_page():
 def get_global_map():
     country_name = json.loads(request.args.get('data', type=str))['name']
     max_data, min_data, result = get.get_word_epidemic(get.get_today())
-    max_data=int(max_data)
+    max_data = int(max_data)
     min_data = int(min_data)
     map_data = []
     for i in result:
@@ -350,15 +363,12 @@ def get_global_map():
     return Global_map.dump_options_with_quotes()
 
 
-
-
-
 # When user clicks a country in countrylist, ask here to get a line pyecharts.
 @app.route("/getConuntryBar", methods=['GET'])
 def get_country_chart():
     print("get a ajax GET request.")
     country_name = json.loads(request.args.get('data', type=str))['name']
-    date_list, n_confirmed_list,deaths = get.get_country_epidemic_summary(country_name)
+    date_list, n_confirmed_list, deaths = get.get_country_epidemic_summary(country_name)
     c = (
         Bar()
             .add_xaxis(date_list)
