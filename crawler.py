@@ -66,8 +66,12 @@ def getNews(country_name):
     # print(url_list[:3])
     # print('---------')
     # print(content_list[:3])
+    if len(title_list)<3 or len(url_list) <3 or len(content_list) <3:
+        return None
+    
     res=[]
     for x,y,z in zip(title_list[:3],url_list[:3],content_list[:3]):
         dic={'title':x,'url':y,'content':z}
         res.append(dic)
-    return res
+    data={'news':res}
+    return data

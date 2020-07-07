@@ -331,11 +331,12 @@ def get_country_status():
 ##############HOMW PAGE##########################
 
 
-@app.route('/getnews', methods=['GET'])
+@app.route('/getNews', methods=['GET'])
 def get_news():
     country_name = json.loads(request.args.get('data', type=str))['name']
     news=crawler.getNews(country_name)
-    return jsonify(news)
+    if news:
+        return jsonify(news)
 
 
 # @app.route("/getGlobalMap3D", methods=['GET'])
