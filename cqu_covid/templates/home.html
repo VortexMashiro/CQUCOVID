@@ -232,6 +232,8 @@
           console.log('click trigger');
           global_map.dispatchAction({
                  type:'showTip',
+                 seriesIndex: 0,
+                 name:params.name,
                  position:['50%', '50%']
                 })
           updateGlobalMap(params.name);

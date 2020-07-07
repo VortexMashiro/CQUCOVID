@@ -188,13 +188,13 @@
                 }
           $.ajax({
                     type: "GET",
-                    url: $SCRIPT_ROOT+"/getGlobalMap",
+                    url: $SCRIPT_ROOT+"/getPageChart",
                     data:data,
                     dataType: 'json',
                     success: function (result) {
                       echartConfig(result);
                       global_map.setOption(result);
-                      console.log('Global Map init Successfully');
+                      console.log('Page Chart init Successfully');
                       console.log(result);
                     }
                 });
@@ -208,13 +208,13 @@
                 }
           $.ajax({
                     type: "GET",
-                    url: $SCRIPT_ROOT+"/getGlobalMap",
+                    url: $SCRIPT_ROOT+"/getPageChart",
                     data:data,
                     dataType: 'json',
                     success: function (result) {
                       echartConfig(result);
                       global_map.setOption(result);
-                      console.log('Global Map Update Successfully');
+                      console.log('Page Chart Update Successfully');
                       console.log(result);
                     }
                 });
