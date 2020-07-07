@@ -53,7 +53,7 @@ def get_week_chart(date: str):
             series_name="",
             data_pair=map_data,
             zoom=1,
-            center=[10, 0],
+            center=[10, 10],
             is_map_symbol_show=False,
             itemstyle_opts={
                 "normal": {"areaColor": "#323c48", "borderColor": "#404a59"},
@@ -112,14 +112,15 @@ def get_week_chart(date: str):
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             title_opts=opts.TitleOpts(
-                title="世\n界\n累\n计\n确\n诊\n折\n线\n图", pos_left="43%", pos_top="70%"
+                title="世\n界\n累\n计\n确\n诊\n折\n线\n图", pos_left="44%", pos_top="70%"
             )
         )
     )
     bar_x_data = [x[0] for x in map_data]
     bar_y_data = [{"name": x[0], "value": x[1][0]} for x in map_data]
-    # if len(bar_y_data) > 30:
-    #     bar_y_data = bar_y_data[0:30]
+    if len(bar_y_data) > 30:
+        bar_x_data = bar_x_data[0:30]
+        bar_y_data = bar_y_data[0:30]
     bar = (
         Bar()
             .add_xaxis(xaxis_data=bar_x_data)
@@ -164,7 +165,7 @@ def get_week_chart(date: str):
             .add(
             line_chart,
             grid_opts=opts.GridOpts(
-                pos_left="48%", pos_right="100", pos_top="70%", pos_bottom="30"
+                pos_left="50%", pos_right="100", pos_top="70%", pos_bottom="30"
             ),
         )
             # .add(pie, grid_opts=opts.GridOpts(pos_left="45%", pos_top="60%"))

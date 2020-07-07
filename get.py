@@ -31,6 +31,7 @@ def get_word_epidemic(date):
     else:
         return None, None, None
 
+
 def get_country_epidemic(date, country):
     """
     获取国家的疫情数据
@@ -234,9 +235,7 @@ def get_time_axis_data(date):
     file = "data/world-epidemic/" + date_name + ".csv"
     if os.path.isfile(file):
         data = pd.read_csv(file, encoding="utf-8")
-        data.sort_values(by="Confirmed",ascending=False,inplace=True)
-        if data.shape[0]>30:
-            data=data.head(30)
+        data.sort_values(by="Confirmed", ascending=False, inplace=True)
         result = []
         max = int(data.head(1)["Confirmed"])
         min = int(data.tail(1)["Confirmed"])
@@ -244,7 +243,7 @@ def get_time_axis_data(date):
             row = data.iloc[index]
             result.append([str(row["Country_Region"]),
                            [int(row["Confirmed"]), str(row["Country_Region"])]])
-        return max, min ,result
+        return max, min, result
 
 
 def get_world_confirmed():
@@ -259,6 +258,7 @@ def get_world_confirmed():
         data = pd.read_csv(file_name, encoding="utf-8")
         result.append(int(data.iloc[0]["Confirmed"]))
     return result
+
 
 def get_country_status(country="China"):
     """
@@ -362,3 +362,12 @@ def get_today():
         return str(pd.read_csv(file)["Updated"].tolist()[-1])
     else:
         return None
+
+
+def get_treemap_data(country_name):
+    """
+
+    """
+
+
+
