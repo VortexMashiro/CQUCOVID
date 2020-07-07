@@ -45,33 +45,33 @@ def getSoup(country_name):
     headers = {'user-agent': USER_AGENT}
     r = requests.get(get_url(country_name),headers = headers)
     print(r.status_code)
-    soup = BeautifulSoup(r.content,'html.parser')
+    soup = BeautifulSoup(r.content.replace(b'&nbsp;',b''),'html.parser')
     return soup
+# ,'html.parser'b
+def getNews(country_name):
+    soup = getSoup(country_name)
 
+    title_list=[]
+    url_list=[]
+    content_list=[]
+    for i in soup.find_all(name='h3',attrs={"class":"c-title"}):
+        title_list.append(i.a.text.replace('\n','').strip())
+        url_list.append(i.a['href'])
 
-soup = getSoup('中国')
+    for i in soup.find_all(name='div',attrs={"class":"c-summary"}):
+        content_list.append(i.text.replace('百度快照','').replace('\n','').replace('\t','').strip())
 
-#result_raw=soup.find_all(name='div',attrs={"class":"result"}) 
-title_list=[]
-author_list=[]
-content_list=[]
-# print(soup.find_all(name='h3',attrs={"class":"c-title"}))
-# print(soup.find_all(name='p',attrs={"class":"c-author"}))
-for i in soup.find_all(name='h3',attrs={"class":"c-title"}):
-    # title_list.append(i.content)
-    print(i)
-    print("--------------------------------")
-    print(i.a)
-    print('------------------------------')
-    print(i.a.string)
-    print('--------------END------------')
-
-# for i in soup.find_all(name='p',attrs={"class":"c-author"}):
-#     author_list.append(i.content)
-
-# for i in soup.find_all(name='div',attrs={"class":"c-summary c-row "}):
-#     content_list.append(i.content)
-
-
-# for x,y,z in zip(title_list,author_list,content_list):
-#     print(x,y,z)
+    # print(title_list[:3])
+    # print('---------')
+    # print(url_list[:3])
+    # print('---------')
+    # print(content_list[:3])
+    if len(title_list)<3 or len(url_list) <3 or len(content_list) <3:
+        return None
+    
+    res=[]
+    for x,y,z in zip(title_list[:3],url_list[:3],content_list[:3]):
+        dic={'title':x,'url':y,'content':z}
+        res.append(dic)
+    data={'news':res}
+    return data

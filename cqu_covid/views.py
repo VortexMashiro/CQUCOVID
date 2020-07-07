@@ -12,6 +12,7 @@ from pyecharts import options as opts
 
 import get
 import paint
+import crawler
 
 from pyecharts.charts import Map, Geo, MapGlobe
 
@@ -332,13 +333,12 @@ def get_country_status():
 ##############HOMW PAGE##########################
 
 
-@app.route('/news')
+@app.route('/getNews', methods=['GET'])
 def get_news():
-    return render_template(
-        'news.html'
-        # newslist=newslist
-        # TODO  News related, format:  [{'title'=title,'des'=des,'date'=date,'author'=author},...]
-    )
+    country_name = json.loads(request.args.get('data', type=str))['name']
+    news=crawler.getNews(country_name)
+    if news:
+        return jsonify(news)
 
 
 # @app.route("/getGlobalMap3D", methods=['GET'])
