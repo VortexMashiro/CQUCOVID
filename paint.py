@@ -138,9 +138,7 @@ def paint_together(country = 'China'):
         paint_confirmed_distributed_chart(country),
         paint_treemap(),
     )
-    page.render("test.html")
     return page.dump_options_with_quotes()
 
-paint_together()
 
 
