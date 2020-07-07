@@ -67,7 +67,7 @@ def paint_country_summary(country):
         )
     )
 
-    return charts
+    return charts.dump_options_with_quotes()
 
 
 def paint_confirmedchange_deathchange(country):
@@ -95,7 +95,7 @@ def paint_confirmedchange_deathchange(country):
         )
     )
 
-    return charts
+    return charts.dump_options_with_quotes()
 
 
 def paint_confirmed_distributed(country, date):
@@ -124,7 +124,7 @@ def paint_confirmed_distributed(country, date):
             .set_series_opts(label_opts=opts.LabelOpts(formatter="{b}: {c}"))
     )
 
-    return charts
+    return charts.dump_options_with_quotes()
 
 
 def paint_confirmedchange_top5(country, date):
@@ -140,7 +140,7 @@ def paint_confirmedchange_top5(country, date):
             .set_global_opts(title_opts=opts.TitleOpts(title="新增确诊最多的地区", subtitle=""))
     )
 
-    return charts
+    return charts.dump_options_with_quotes()
 
 
 def paint_regional_details(country, date):
@@ -158,5 +158,5 @@ def paint_regional_details(country, date):
     table.set_global_opts(
         title_opts=ComponentTitleOpts(title="统计数据（按地区)")
     )
-    table.render("table_base.html")
+    return table.dump_options_with_quotes()
 

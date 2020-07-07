@@ -117,6 +117,8 @@ def get_week_chart(date: str):
     )
     bar_x_data = [x[0] for x in map_data]
     bar_y_data = [{"name": x[0], "value": x[1][0]} for x in map_data]
+    # if len(bar_y_data) > 30:
+    #     bar_y_data = bar_y_data[0:30]
     bar = (
         Bar()
             .add_xaxis(xaxis_data=bar_x_data)

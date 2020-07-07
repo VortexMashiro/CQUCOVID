@@ -235,8 +235,8 @@ def get_time_axis_data(date):
     if os.path.isfile(file):
         data = pd.read_csv(file, encoding="utf-8")
         data.sort_values(by="Confirmed",ascending=False,inplace=True)
-        if data.shape[0] > 30:
-            data = data.head(30)
+        if data.shape[0]>30:
+            data=data.head(30)
         result = []
         max = int(data.head(1)["Confirmed"])
         min = int(data.tail(1)["Confirmed"])
