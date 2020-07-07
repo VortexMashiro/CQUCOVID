@@ -4,13 +4,11 @@ from cqu_covid import app
 
 # from flask import Flask (have done in __init__)
 
-from random import randrange
 import json
 from flask import render_template, request
 from flask import jsonify
 
 from pyecharts import options as opts
-# from pyecharts.charts import Bar
 
 import get
 import paint
@@ -19,27 +17,23 @@ from pyecharts.charts import Map, Geo, MapGlobe
 
 from pyecharts.globals import ThemeType
 from pyecharts.commons.utils import JsCode
-from pyecharts.charts import Timeline, Grid, Bar, Map, Pie, Line, Geo
-from pyecharts.faker import Faker
+from pyecharts.charts import Timeline, Grid, Bar, Map, Line, Geo
 
 from pyecharts.globals import WarningType
 
 WarningType.ShowWarning = False  # https://github.com/pyecharts/pyecharts/issues/1638
 # IMPORTANT : ALL CODE SHOULD FOLLOW THIS DOC : http://pyecharts.org/#/zh-cn/web_flask
 
-#######GDP DEMO #########
+#######TIME LINE #########
 date_list = get.get_date_list()[0::7]
 
-confirmed = get.get_world_confirmed()
-
-maxNum = 7711
-minNum = 1
+confirmed = get.get_world_confirmed()[0::7]
 
 
-def get_year_chart(date: str):
+def get_week_chart(date: str):
     maxNum,minNum,map_data = get.get_time_axis_data(date)
     min_data, max_data = (minNum, maxNum)
-    data_mark: List = []
+    data_mark = []
     i = 0
     for x in date_list:
         if x == date:
@@ -91,8 +85,8 @@ def get_year_chart(date: str):
             visualmap_opts=opts.VisualMapOpts(
                 is_calculable=True,
                 dimension=0,
-                pos_left="40",
-                pos_top="10%",
+                pos_left="20",
+                pos_top="25%",
                 range_text=["High", "Low"],
                 range_color=["lightskyblue", "yellow", "orangered"],
                 textstyle_opts=opts.TextStyleOpts(color="#ddd"),
@@ -117,7 +111,7 @@ def get_year_chart(date: str):
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             title_opts=opts.TitleOpts(
-                title="世\n界\n累\n计\n确\n诊\n折\n线\n图", pos_left="44%", pos_top="70%"
+                title="世\n界\n累\n计\n确\n诊\n折\n线\n图", pos_left="43%", pos_top="70%"
             )
         )
     )
@@ -135,6 +129,7 @@ def get_year_chart(date: str):
                 is_show=True, position="right", formatter="{b} : {c}"
             ),
         )
+            .reversal_axis()
             .set_global_opts(
             xaxis_opts=opts.AxisOpts(
                 max_=maxNum, axislabel_opts=opts.LabelOpts(is_show=False)
@@ -143,10 +138,9 @@ def get_year_chart(date: str):
             tooltip_opts=opts.TooltipOpts(is_show=False),
             visualmap_opts=opts.VisualMapOpts(
                 is_calculable=True,
-                orient='horizontal',
                 dimension=0,
-                pos_left="10",
-                pos_top="top",
+                pos_left="20",
+                pos_top="20%",
                 range_text=["High", "Low"],
                 range_color=["lightskyblue", "yellow", "orangered"],
                 textstyle_opts=opts.TextStyleOpts(color="#ddd"),
@@ -156,36 +150,18 @@ def get_year_chart(date: str):
         )
     )
 
-    # pie_data = [[x[0], x[1][0]] for x in map_data]
-    # pie = (
-    #     Pie()
-    #         .add(
-    #         series_name="",
-    #         data_pair=pie_data,
-    #         radius=["15%", "35%"],
-    #         center=["80%", "82%"],
-    #         itemstyle_opts=opts.ItemStyleOpts(
-    #             border_width=1, border_color="rgba(0,0,0,0.3)"
-    #         ),
-    #     )
-    #         .set_global_opts(
-    #         tooltip_opts=opts.TooltipOpts(is_show=True, formatter="{b} {d}%"),
-    #         legend_opts=opts.LegendOpts(is_show=False),
-    #     )
-    # )
-
     grid_chart = (
         Grid()
             .add(
             bar,
             grid_opts=opts.GridOpts(
-                pos_left="15", pos_right="70%", pos_top="30%", pos_bottom="15"
+                pos_left="15", pos_right="60%", pos_top="50%", pos_bottom="15"
             ),
         )
             .add(
             line_chart,
             grid_opts=opts.GridOpts(
-                pos_left="50%", pos_right="100", pos_top="70%", pos_bottom="30"
+                pos_left="48%", pos_right="100", pos_top="70%", pos_bottom="30"
             ),
         )
             # .add(pie, grid_opts=opts.GridOpts(pos_left="45%", pos_top="60%"))
@@ -203,12 +179,6 @@ def target():
 
 @app.route('/covid')  # GDP demo
 def get_index():
-    # msg_data = "No data was passed"
-    # print(data)
-    # print(time_list)
-    # print(request.args.to_dict(flat=False))
-    # if request.args.to_dict(flat=False)['data'][0]:
-    #     msg_data = str(request.args.to_dict(flat=False)['data'][0])
 
     timeline = Timeline(
         # init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.DARK)
@@ -216,7 +186,7 @@ def get_index():
     )
 
     for day in date_list:
-        g = get_year_chart(date=day)
+        g = get_week_chart(date=day)
         timeline.add(g, time_point=day)
 
     timeline.add_schema(
@@ -238,24 +208,12 @@ def get_index():
         myechart=timeline.render_embed(),
     )
 
-######GDP DEMO END############
+######TIME LINE END############
 
+
+########## HOME PAGE ########
 @app.route('/home')
 def get_home_page():
-    # Global_map = (
-    #     Geo(init_opts=opts.InitOpts(width="100%", height="100%", theme=ThemeType.DARK))
-    #         .add_schema(
-    #         maptype="world")  # https://github.com/pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
-    #         .add("geo", [["上海",100],["西藏",100]])  # TODO Data Interface
-    #         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
-    #         .set_global_opts(
-    #         visualmap_opts=opts.VisualMapOpts(), title_opts=opts.TitleOpts(title="TITLE")
-    #     )
-    #
-    # )
-    #
-    # print(str(Global_map.js_dependencies.items))
-    # print(str(Global_map.js_dependencies._values))
 
     countrylist = [{"name": "China", "number": 11}, {"name": "Japan", "number": 12}]
     countrylist_tmp = get.get_country_list_with_data()
@@ -300,24 +258,19 @@ def get_global_map():
             .add_schema(
             maptype="world",
             center=center,
-            zoom=zoom)  # https://github.com/# pyecharts/pyecharts/blob/master/pyecharts/datasets/map_filename.json
+            zoom=zoom)
             .add_coordinate_json('weizhi.json')
             .add("geo", map_data)
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             visualmap_opts=opts.VisualMapOpts(
-                is_show=True,
-                type_="size",
-                is_calculable=True,
+                is_show=False,
+                # type_="size",
+                # is_calculable=True,
                 # range_size=[10, 100],
-                min_=min_data,
-                max_=max_data,
-                dimension=0
-                # pos_left="600", #javascript will do this.
-                # pos_top="400",
-                # range_text=["High", "Low"],
-                # range_color=["lightskyblue", "yellow", "orangered"],
-                # textstyle_opts=opts.TextStyleOpts(color="#ddd"),
+                # min_=min_data,
+                # max_=max_data,
+                # dimension=0
             ),
             tooltip_opts=opts.TooltipOpts(
                 is_show=True,
@@ -373,6 +326,8 @@ def get_country_status():
     if country_status_tmp:
         country_status = country_status_tmp
     return jsonify(country_status)
+
+##############HOMW PAGE##########################
 
 
 @app.route('/news')

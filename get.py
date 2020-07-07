@@ -254,14 +254,12 @@ def get_world_confirmed():
     """
     result = []
     date_list = get_date_list()
-    print(date_list)
     for date in date_list:
         date_name = date.replace("/", "-")
         file_name = "data/world-epidemic/" + date_name + ".csv"
         data = pd.read_csv(file_name, encoding="utf-8")
         result.append(int(data.iloc[0]["Confirmed"]))
     return result
-print(get_world_confirmed())
 
 def get_country_status(country="China"):
     """
@@ -274,8 +272,6 @@ def get_country_status(country="China"):
                  "r", encoding="utf-8"), dtype=np.str)
         data = data[data["Country_Region"] == country]
         if data.shape[0] == 0:
-            print(country)
-            print("没有这个国家的数据")
             return None
         data = data.iloc[0].tolist()
         c = int(data[0])
@@ -354,7 +350,6 @@ def get_samll_picture_data(country="China"):
             confirmed_change.append(row2["ConfirmedChange"])
         return date_list, confirmed_change, deaths
     else:
-        print("没有数据文件！")
         return None
 
 
