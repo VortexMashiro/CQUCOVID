@@ -412,3 +412,8 @@ def get_global_map3D():
         )
     )
     return Global_map.render_embed()
+
+@app.route('/getPageChart', methods=['GET'])
+def get_page_chart():
+    country_name = json.loads(request.args.get('data', type=str))['name']
+    return paint.paint_together(country_name)

@@ -282,6 +282,15 @@ def extra_country_status(source, country_list, date_list):
     result.to_csv(file_name, encoding="utf-8", index=None)
 
 
+def extra_treemap_data(source):
+    """
+
+    """
+    today = ""
+    country = ""
+    source[(source.Updated==today) & (source.Country_Region==country)]
+
+
 source_data = extra_source()
 print("extra_source")
 date_list_data = extra_date_list(source_data)
