@@ -31,7 +31,6 @@ def get_word_epidemic(date):
     else:
         return None, None, None
 
-
 def get_country_epidemic(date, country):
     """
     获取国家的疫情数据

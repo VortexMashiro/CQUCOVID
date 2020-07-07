@@ -260,17 +260,17 @@ def get_global_map():
             center=center,
             zoom=zoom)
             .add_coordinate_json('weizhi.json')
-            .add("geo", map_data)
+            .add(series_name="geo", data_pair =  map_data)
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             visualmap_opts=opts.VisualMapOpts(
-                is_show=False,
-                # type_="size",
-                # is_calculable=True,
-                # range_size=[10, 100],
-                # min_=min_data,
-                # max_=max_data,
-                # dimension=0
+                is_show=True,
+                type_="size",
+                is_calculable=True,
+                range_size=[10, 100],
+                min_= min_data,
+                max_= max_data,
+                dimension=3
             ),
             tooltip_opts=opts.TooltipOpts(
                 is_show=True,
