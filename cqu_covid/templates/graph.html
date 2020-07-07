@@ -166,14 +166,14 @@
           console.log(event.id);
         }
         function echartConfig(result){
-          eval('result.tooltip.formatter='+result.tooltip.formatter);
-          result.visualMap.bottom='5%';
-          result.visualMap.right='5%';
-          result.tooltip.position='top';
-          //var comfirmed = new Array();
-          for (i=0;i<result.series[0].data.length;i++){
-            result.series[0].data[i].value.push(result.series[0].data[i].value[2][0]);
-          }
+          // eval('result.tooltip.formatter='+result.tooltip.formatter);
+          // result.visualMap.bottom='5%';
+          // result.visualMap.right='5%';
+          // result.tooltip.position='top';
+          // //var comfirmed = new Array();
+          // for (i=0;i<result.series[0].data.length;i++){
+          //   result.series[0].data[i].value.push(result.series[0].data[i].value[2][0]);
+          // }
         }
 
         function naviToTimeline(){
