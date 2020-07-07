@@ -242,6 +242,30 @@ def get_home_page():
         data_date=str(get.get_today())
     )
     # return charts.render_embed()
+@app.route('/graph')
+def get_graph_page():
+    countrylist = [{"name": "China", "number": 11}, {"name": "Japan", "number": 12}]
+    countrylist_tmp = get.get_country_list_with_data()
+    if countrylist_tmp:
+        countrylist = countrylist_tmp
+    global_status = {'total': '10,512,383',
+                     'total_today': '17,364',
+                     'confirm_total': '5,387,249',
+                     'confirm_today': '15,676',
+                     'recover_total': '5,387,249',
+                     'recover_today': '15,676',
+                     'death_total': '5,387,249',
+                     'death_today': '15,676'}
+    global_status_temp = get.get_country_status('Worldwide')
+    if global_status_temp:
+        global_status = global_status_temp
+    return render_template(
+        "graph.html",
+        countrylist=countrylist,
+        # myechart=Global_map.render_embed(),# this is being replaced with AJAX
+        global_status=global_status,
+        data_date=str(get.get_today())
+    )
 
 
 @app.route("/getGlobalMap", methods=['GET'])

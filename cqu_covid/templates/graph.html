@@ -128,66 +128,7 @@
       </div>
     </div>    <!-- verticalHeader -->
     <div class="verticalContent">
-      <div class="overview">
-        <div class="overviewContent">
-          <!-- <h3 class="pageName">详情</h3> -->
-          <div class="segmentPanel">
-            <div id="bar" style="height:40vh"></div> 
-            <!-- this is a ajax pyecharts. -->
-            <div id="news"  style="height:40vh">
-              <h3 class="pageName">相关资讯</h3>
-              <div class='container'>
-                <!-- news list -->
-                <div class="news_item" >
-                  <a id="news_url1" href="">
-                  <div class='row'>
-                    <div class="col-sm">
-                      <h5 class="news_content" id='news_title1'>
-                        ...China-Africa Summit on Solidarity Against COVID-19
-                      </h5>
-                      <p class="news_des" id='news_content1'>
-                        Xi made the remarks in Beijing when chairing the Extraordinary China-Africa Summit on Solidarity against COVID-19 on June 17.
-                      </p>
-                    </div>
-                  </div>
-                  </a>
-                </div><!-- news item -->
 
-                <div class="news_item" >
-                  <a id="news_url2" href="">
-                  <div class='row'>
-                    <div class="col-sm">
-                      <h5 class="news_content" id='news_title2'>
-                        ...China-Africa Summit on Solidarity Against COVID-19
-                      </h5>
-                      <p class="news_des" id='news_content2'>
-                        Xi made the remarks in Beijing when chairing the Extraordinary China-Africa Summit on Solidarity against COVID-19 on June 17.
-                      </p>
-                    </div>
-                  </div>
-                  </a>
-                </div><!-- news item -->
-
-                <div class="news_item" >
-                  <a id="news_url3" href="">
-                  <div class='row'>
-                    <div class="col-sm">
-                      <h5 class="news_content" id='news_title3'>
-                        ...China-Africa Summit on Solidarity Against COVID-19
-                      </h5>
-                      <p class="news_des" id='news_content3'>
-                        Xi made the remarks in Beijing when chairing the Extraordinary China-Africa Summit on Solidarity against COVID-19 on June 17.
-                      </p>
-                    </div>
-                  </div>
-                  </a>
-                </div><!-- news item -->
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
 
@@ -206,85 +147,23 @@
 
   </div>  <!-- verticalWrapper -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div> <!-- content -->
     <script>
         var current_country=$('#Worldwide').parent();
         $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
-        var chart = echarts.init(document.getElementById('bar'), 'white', {renderer: 'canvas'});
         var global_map = echarts.init(document.getElementById('globalMap'), {renderer: 'canvas'});
-        global_map.on('click',function(params){
-          
-          console.log('click trigger');
-          global_map.dispatchAction({
-                 type:'showTip',
-                 position:['50%', '50%']
-                })
-          updateGlobalMap(params.name);
-          getNews(params.name);
-          current_country.removeClass('selected');
-          current_country=$('#'+params.name).parent();
-          current_country.addClass('selected');
-          console.log(params.name);
-          var data = {
-                  data: JSON.stringify({
-                    'name': params.name,
-                  }),
-                }
-          $.ajax({
-                    type: "GET",
-                    url: $SCRIPT_ROOT+"/getConuntryBar",
-                    data:data,
-                    dataType: 'json',
-                    success: function (result) {
-                        chart.setOption(result);
-                    }
-                });
-        })
+
+        current_country.addClass('selected');
+
+        
         //this will be called when clicking a country in countrylist
         function getBar(event){
-          getNews(event.id);
-          // chart.dispatchAction({
-          //         type: 'hideTip'
-          //       })
-          chart.dispatchAction({
-                 type:'showTip',
-                 name:event.id
-                 //position:['50%', '50%']
-                })
+
           updateGlobalMap(event.id);
           current_country.removeClass('selected');
           current_country=$('#'+event.id).parent();
           current_country.addClass('selected');
           console.log(event.id);
-          var data = {
-                  data: JSON.stringify({
-                    'name': event.id,
-                  }),
-                }
-          $.ajax({
-                    type: "GET",
-                    url: $SCRIPT_ROOT+"/getConuntryBar",
-                    data:data,
-                    dataType: 'json',
-                    success: function (result) {
-                        chart.setOption(result);
-                    }
-                });
         }
         function echartConfig(result){
           eval('result.tooltip.formatter='+result.tooltip.formatter);
@@ -296,25 +175,7 @@
             result.series[0].data[i].value.push(result.series[0].data[i].value[2][0]);
           }
         }
-        //this will call getBar() with the data 'Worldwide'
-        function initBar(){
-          current_country.addClass('selected');
-          var data = {
-                  data: JSON.stringify({
-                    'name': 'Worldwide',
-                  }),
-                }
-          $.ajax({
-                    type: "GET",
-                    url: $SCRIPT_ROOT+"/getConuntryBar",
-                    data:data,
-                    dataType: 'json',
-                    success: function (result) {
 
-                        chart.setOption(result);
-                    }
-                });
-        }
         function naviToTimeline(){
           window.location.replace('/covid?data={{messager_data}}');
         }
@@ -359,38 +220,9 @@
                 });
         }
 
-        function getNews(country_name){
-          var data = {
-                  data: JSON.stringify({
-                    'name': country_name,
-                  }),
-                }
-          $.ajax({
-                    type: "GET",
-                    url: $SCRIPT_ROOT+"/getNews",
-                    data:data,
-                    dataType: 'json',
-                    success: function (result) {
-                      console.log('News Update Successfully');
-                      $('#news_title1').html(result.news[0].title);
-                      $('#news_title2').html(result.news[1].title);
-                      $('#news_title3').html(result.news[2].title);
-                      $('#news_content1').html(result.news[0].content);
-                      $('#news_content2').html(result.news[1].content);
-                      $('#news_content3').html(result.news[2].content);
-                      $("#news_url1").attr("href",result.news[0].url);
-                      $("#news_url2").attr("href",result.news[1].url);
-                      $("#news_url3").attr("href",result.news[2].url);
-                    
-                      console.log(result);
-                    }
-                });
-        }
-        
-        initBar();
         initGlobalMap();
-        getNews('Worldwide');
+
     </script>
-<div></div>
+
 
   {% endblock %}
