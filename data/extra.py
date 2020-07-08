@@ -142,24 +142,32 @@ def extra_country_epidemic(source, date_list, country_list):
     :param country_list:  国家列表
     :return: Nothing
     """
-    area_column = source["AdminRegion1"].notna()
     for date in date_list:
-        date_column = source["Updated"]
+        data_date = source[source.Updated == date]
         for country in country_list:
-            country_column = source["Country_Region"]
-            condition = (date_column == date) & (country_column == country)
-            condition = condition & area_column
-            data = source[condition]
-            if data.shape[0] == 0:
+            c2 = data_date["AdminRegion1"].notna()
+            data_country = pd.DataFrame()
+            if country == "Worldwide":
+                c2 = data_date["AdminRegion1"].isna()
+                data_country_tmp = data_date[c2]
+                data_country = data_country_tmp.drop(
+                    index = data_country_tmp.index[0])
+            else:
+                c1 = data_date.Country_Region == country
+                data_country = data_date[c1 & c2]
+
+            if data_country.shape[0] == 0:
                 continue
-            data = data[["Confirmed", "ConfirmedChange",
-                         "Deaths", "Recovered", "AdminRegion1"]]
-            data.fillna(method="pad", inplace=True)
-            data.fillna(value=0, inplace=True)
+            if country == "Worldwide":
+                data_country = data_country[["Confirmed", "ConfirmedChange","Deaths","Recovered","Country_Region"]]
+            else:
+                data_country = data_country[["Confirmed", "ConfirmedChange","Deaths","Recovered","AdminRegion1"]]
+            data_country.fillna(method="pad", inplace=True)
+            data_country.fillna(value=0, inplace=True)
             file_name = "country-epidemic/" \
                         + date.replace("/", "-") + "-" + country + ".csv"
-            data.to_csv(file_name, encoding="utf-8", index=None)
-            print(date, country)
+            data_country.to_csv(file_name, encoding="utf-8", index=None)
+        print(date)
 
 
 def extra_country_epidemic_summary(source, country_list):
@@ -286,20 +294,21 @@ source_data = extra_source()
 print("extra_source")
 date_list_data = extra_date_list(source_data)
 print("extra_date_list")
-extra_word_epidemic(source_data, date_list_data)
-print("extra_word_epidemic")
+# extra_word_epidemic(source_data, date_list_data)
+# print("extra_word_epidemic")
 country_list_data = extra_country_list(source_data)
 print("extra_country_list")
 extra_country_epidemic(source_data, date_list_data, country_list_data)
 print("extra_country_epidemic")
-extra_country_epidemic_summary(source_data, country_list_data)
-print("extra_country_epidemic_summary")
-extra_new_confirmed_death(source_data, country_list_data)
-print("extra_new_confirmed_death")
-extra_region_comparision(source_data,country_list_data)
-print("extra_region_comparision")
-extra_country_position(source_data,country_list_data)
-print("extra_country_position")
-extra_time_axis_data(date_list_data)
-print("extra_time_axis_data")
-extra_country_status(source_data, country_list_data, date_list_data)
+# extra_country_epidemic_summary(source_data, country_list_data)
+# print("extra_country_epidemic_summary")
+# extra_new_confirmed_death(source_data, country_list_data)
+# print("extra_new_confirmed_death")
+# extra_region_comparision(source_data,country_list_data)
+# print("extra_region_comparision")
+# extra_country_position(source_data,country_list_data)
+# print("extra_country_position")
+# extra_time_axis_data(date_list_data)
+# print("extra_time_axis_data")
+# extra_country_status(source_data, country_list_data, date_list_data)
+#

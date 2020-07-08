@@ -1,0 +1,198 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
+84,10,2,1,Afghanistan
+146,23,5,10,Albania
+302,38,21,65,Algeria
+0,0,0,65,American Samoa
+164,2,3,1,Andorra
+3,1,0,0,Angola
+3,2,0,0,Antigua and Barbuda
+502,115,8,51,Argentina
+290,25,0,16,Armenia
+19,2,0,16,Aruba
+2431,285,8,118,Australia
+5560,684,31,9,Austria
+93,6,2,10,Azerbaijan
+5,1,0,0,Bahamas
+419,29,3,190,Bahrain
+39,0,5,7,Bangladesh
+18,0,0,0,Barbados
+86,3,0,29,Belarus
+4937,668,178,547,Belgium
+1,0,0,0,Belize
+6,0,0,0,Benin
+2,0,0,0,Bhutan
+147,1,10,0,Bolivia
+173,9,3,2,Bosnia and Herz.
+2433,232,57,6,Brazil
+109,5,0,2,Brunei
+242,24,3,4,Bulgaria
+146,32,5,10,Burkina Faso
+4,1,1,0,Cape Verde
+96,5,0,6,Cambodia
+70,4,1,2,Cameroon
+3409,590,35,185,Canada
+3,0,0,0,Central African Rep.
+3,0,0,0,Chad
+1142,220,3,17,Chile
+81218,47,3281,73650,China
+470,92,4,6,Colombia
+4,0,0,0,Congo
+48,3,2,1,Dem. Rep. Congo
+201,24,2,2,Costa Rica
+80,7,0,1,Côte d'Ivoire
+442,60,1,16,Croatia
+57,9,1,0,Cuba
+6,0,1,0,Curaçao
+132,8,3,3,Cyprus
+1763,291,9,10,Czech Rep.
+3853,10,139,10,Denmark
+11,8,0,0,Djibouti
+7,5,0,0,Dominica
+488,96,10,3,Dominican Rep.
+1211,129,29,3,Ecuador
+456,54,21,95,Egypt
+13,4,0,0,El Salvador
+9,0,0,0,Eq. Guinea
+4,3,0,0,Eritrea
+404,35,1,8,Estonia
+4,0,0,0,Swaziland
+12,0,0,0,Ethiopia
+132,10,0,0,Faroe Is.
+5,1,0,0,Fiji
+1125,98,3,10,Finland
+25233,2931,1331,3281,France
+28,0,0,0,French Guiana
+25,0,0,0,French Polynesia
+6,0,1,0,Gabon
+3,0,1,0,Gambia
+75,5,0,10,Georgia
+31554,4118,149,3540,Germany
+68,16,2,0,Ghana
+821,78,22,32,Greece
+6,1,22,32,Greenland
+1,0,0,0,Grenada
+83,7,1,0,Guadeloupe
+37,5,1,0,Guam
+24,3,1,4,Guatemala
+30,7,0,0,Guernsey
+4,0,0,1,Guinea
+2,0,0,0,Guinea-Bissau
+5,0,1,0,Guyana
+8,1,0,0,Haiti
+52,16,0,0,Honduras
+410,24,4,102,香港
+226,39,10,21,Hungary
+802,65,2,68,Iceland
+606,87,10,43,India
+2052,4,181,31,Indonesia
+27077,2266,2077,9625,Iran
+346,30,29,75,Iraq
+1564,235,9,5,Ireland
+23,0,0,0,Isle of Man
+2465,423,5,53,Israel
+74386,5210,7503,9362,Italy
+26,1,1,2,Jamaica
+1291,98,45,301,Japan
+16,0,0,0,Jersey
+172,19,0,1,Jordan
+80,8,0,0,Kazakhstan
+28,3,0,1,Kenya
+71,8,1,0,Kosovo
+195,4,0,43,Kuwait
+44,2,0,0,Kyrgyzstan
+3,1,0,0,Lao PDR
+244,23,0,1,Latvia
+368,35,6,8,Lebanon
+3,0,0,0,Liberia
+1,0,0,0,Libya
+52,1,0,0,Liechtenstein
+274,65,4,1,Lithuania
+1333,234,8,6,Luxembourg
+30,4,0,10,Macao SAR
+19,2,0,0,Madagascar
+1796,172,19,199,Malaysia
+13,0,0,3,Maldives
+1,0,0,0,Mali
+129,19,0,2,Malta
+72,6,1,0,Martinique
+2,0,0,0,Mauritania
+48,6,2,0,Mauritius
+35,0,0,0,Mayotte
+475,70,6,4,Mexico
+149,24,1,2,Moldova
+27,4,0,1,Monaco
+10,0,0,0,Mongolia
+53,6,1,0,Montenegro
+225,55,6,7,Morocco
+5,2,0,0,Mozambique
+3,0,0,0,Myanmar
+7,1,0,0,Namibia
+3,1,0,1,Nepal
+6412,852,356,1,Netherlands
+14,5,356,1,New Caledonia
+205,50,0,22,New Zealand
+2,0,0,0,Nicaragua
+7,4,1,0,Niger
+51,7,1,2,Nigeria
+177,29,3,1,Macedonia
+0,0,0,1,Northern Mariana Islands
+2916,350,12,6,Norway
+99,15,0,17,Oman
+1057,66,8,21,Pakistan
+558,115,8,0,Panama
+1,0,0,0,Papua New Guinea
+41,4,3,0,Paraguay
+498,82,7,4,Peru
+636,84,38,26,Philippines
+1051,151,13,1,Poland
+2995,633,43,22,Portugal
+51,12,2,22,Puerto Rico
+537,11,0,41,Qatar
+128,17,0,1,Réunion
+906,144,17,86,Romania
+658,163,1,29,Russia
+41,1,0,0,Rwanda
+3,0,0,1,Saint Barthélemy
+3,1,0,0,Saint Lucia
+11,0,0,2,Saint Martin
+1,0,0,0,Saint Vincent and the Grenadines
+208,11,21,4,San Marino
+900,133,2,29,Saudi Arabia
+99,13,0,8,Senegal
+384,81,4,15,Serbia
+7,0,0,0,Seychelles
+631,73,2,155,Singapore
+226,10,0,7,Slovakia
+526,50,5,10,Slovenia
+1,0,0,0,Somalia
+709,155,0,2,South Africa
+9241,104,131,3730,Korea
+50105,8047,3650,5367,Spain
+102,5,0,3,Sri Lanka
+2,5,0,0,St Kitts and Nevis
+3,0,1,0,Sudan
+8,0,0,0,Suriname
+2710,314,104,16,Sweden
+9765,929,145,131,Switzerland
+7,0,3,0,Syria
+235,20,2,29,台湾
+13,1,0,0,Tanzania
+934,107,4,70,Thailand
+1,0,0,0,Timor-Leste
+23,3,0,1,Togo
+57,5,0,0,Trinidad and Tobago
+197,24,5,1,Tunisia
+2433,561,59,26,Turkey
+17,0,0,26,U.S. Virgin Islands
+14,5,0,0,Uganda
+156,43,5,1,Ukraine
+333,85,2,52,United Arab Emirates
+9529,1452,578,140,United Kingdom
+64916,12226,909,298,United States
+217,28,0,0,Uruguay
+60,10,0,0,Uzbekistan
+4,0,0,0,Vatican City
+106,15,0,15,Venezuela
+141,7,0,17,Vietnam
+12,9,0,0,Zambia
+3,0,1,0,Zimbabwe

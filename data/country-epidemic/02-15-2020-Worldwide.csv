@@ -1,0 +1,29 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
+15,0,0,10,Australia
+1,0,0,10,Belgium
+1,0,0,10,Cambodia
+8,0,0,10,Canada
+51091,1121,1524,8309,China
+1,0,0,8309,Egypt
+1,0,0,8309,Finland
+11,0,0,3,France
+16,0,0,3,Germany
+56,0,1,1,香港
+3,0,0,1,India
+3,0,0,1,Italy
+53,12,1,12,Japan
+21,0,0,7,Malaysia
+1,0,0,7,Nepal
+3,0,1,7,Philippines
+2,0,0,7,Russia
+72,5,0,17,Singapore
+28,0,0,9,Korea
+3,0,1,2,Spain
+1,0,0,2,Sri Lanka
+1,0,0,2,Sweden
+18,0,0,2,台湾
+34,1,0,13,Thailand
+8,0,0,13,United Arab Emirates
+9,0,0,8,United Kingdom
+15,0,1,8,United States
+16,0,0,8,Vietnam

@@ -1,0 +1,79 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
+1,0,0,0,Afghanistan
+3,2,0,0,Algeria
+1,2,0,0,Andorra
+1,0,0,0,Armenia
+33,4,1,15,Australia
+10,0,0,15,Austria
+3,0,0,15,Azerbaijan
+47,7,0,15,Bahrain
+1,0,0,15,Belarus
+8,6,0,1,Belgium
+2,0,0,1,Brazil
+1,0,0,1,Cambodia
+27,3,0,8,Canada
+80174,206,2915,44835,China
+8,1,0,44835,Croatia
+3,0,0,44835,Czech Rep.
+3623,10,133,44835,Denmark
+1,0,0,44835,Dominican Rep.
+8,2,0,44835,Ecuador
+20,18,0,1,Egypt
+2,1,0,1,Estonia
+7,0,0,1,Finland
+191,61,2,12,France
+3,0,0,12,Georgia
+150,33,0,16,Germany
+7,0,0,16,Greece
+0,0,0,16,Guam
+100,2,0,16,香港
+9,6,0,16,Iceland
+5,2,0,3,India
+1855,65,173,3,Indonesia
+1501,523,66,175,Iran
+19,11,0,175,Iraq
+1,0,0,175,Ireland
+28,5,0,175,Israel
+2036,342,52,160,Italy
+268,14,6,42,Japan
+1,14,0,42,Jordan
+56,10,0,42,Kuwait
+1,10,0,42,Latvia
+13,2,0,42,Lebanon
+1,0,0,42,Lithuania
+1,0,0,42,Luxembourg
+33,4,0,42,Malaysia
+5,0,0,42,Mexico
+1,0,0,42,Monaco
+1,0,0,42,Morocco
+1,0,0,42,Nepal
+19,10,0,42,Netherlands
+1,0,0,42,New Zealand
+1,0,0,42,Nigeria
+1,0,0,42,Macedonia
+25,6,0,42,Norway
+6,0,0,2,Oman
+4,0,0,2,Pakistan
+3,0,1,2,Philippines
+2,0,0,2,Portugal
+0,0,0,2,Puerto Rico
+3,2,0,2,Qatar
+3,0,0,2,Romania
+3,1,0,2,Russia
+9,1,1,2,San Marino
+1,1,0,2,Saudi Arabia
+1,1,0,2,Senegal
+108,2,0,78,Singapore
+4812,600,28,31,Korea
+121,36,1,2,Spain
+1,0,0,2,Sri Lanka
+19,5,0,2,Sweden
+40,18,0,1,Switzerland
+41,1,1,12,台湾
+43,1,1,30,Thailand
+1,1,0,0,Tunisia
+0,0,0,0,U.S. Virgin Islands
+25,2,0,0,United Arab Emirates
+40,5,0,8,United Kingdom
+57,15,8,9,United States
+16,0,0,9,Vietnam

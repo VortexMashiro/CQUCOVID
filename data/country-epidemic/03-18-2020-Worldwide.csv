@@ -1,0 +1,176 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
+22,0,0,1,Afghanistan
+59,4,2,0,Albania
+72,12,7,10,Algeria
+0,0,0,0,American Samoa
+16,2,0,1,Andorra
+1,0,0,0,Antigua and Barbuda
+97,18,2,3,Argentina
+110,32,0,1,Armenia
+4,0,0,1,Aruba
+566,113,6,43,Australia
+1646,314,4,9,Austria
+34,0,1,10,Azerbaijan
+1,0,0,0,Bahamas
+237,8,1,88,Bahrain
+14,4,1,3,Bangladesh
+2,0,0,0,Barbados
+51,15,0,5,Belarus
+1486,243,14,14,Belgium
+2,1,0,0,Benin
+1,0,0,0,Bhutan
+140,1,10,0,Bolivia
+44,8,0,2,Bosnia and Herz.
+428,137,4,2,Brazil
+68,12,0,0,Brunei
+92,11,2,0,Bulgaria
+27,7,1,0,Burkina Faso
+37,4,0,1,Cambodia
+11,1,0,0,Cameroon
+728,130,9,12,Canada
+1,0,1,12,Cayman Islands
+1,0,0,0,Central African Rep.
+238,37,0,0,Chile
+80919,9,3237,69614,China
+102,27,1,1,Colombia
+3,1,0,0,Congo
+7,4,0,0,Dem. Rep. Congo
+69,19,0,0,Costa Rica
+9,2,0,1,Côte d'Ivoire
+89,20,1,5,Croatia
+10,5,0,0,Cuba
+3,0,0,0,Curaçao
+58,9,0,0,Cyprus
+560,110,0,3,Czech Rep.
+3783,10,139,3,Denmark
+1,10,0,0,Djibouti
+34,13,2,0,Dominican Rep.
+155,44,2,0,Ecuador
+210,14,6,32,Egypt
+1,14,6,32,El Salvador
+4,3,0,0,Eq. Guinea
+258,33,0,1,Estonia
+1,0,0,0,Swaziland
+6,0,0,0,Ethiopia
+58,11,0,0,Faroe Is.
+511,86,0,10,Finland
+9134,1404,244,602,France
+7,0,0,602,French Guiana
+6,3,0,602,French Polynesia
+3,2,0,0,Gabon
+1,0,0,0,Gambia
+38,4,0,1,Georgia
+8198,1042,12,73,Germany
+9,2,0,0,Ghana
+3,0,0,0,Gibraltar
+418,31,5,14,Greece
+2,1,5,14,Greenland
+18,0,0,14,Guadeloupe
+8,3,0,0,Guam
+8,0,1,0,Guatemala
+1,0,0,0,Guernsey
+1,0,0,0,Guinea
+4,0,1,0,Guyana
+12,3,0,0,Honduras
+192,25,4,92,香港
+58,8,1,2,Hungary
+330,83,1,5,Iceland
+151,14,3,14,India
+2028,3,181,11,Indonesia
+17361,1192,1135,5389,Iran
+164,10,12,41,Iraq
+366,74,2,5,Ireland
+512,118,0,11,Israel
+35713,4207,2978,4025,Italy
+15,2,0,2,Jamaica
+914,41,31,144,Japan
+6,1,0,144,Jersey
+56,16,0,1,Jordan
+36,3,0,0,Kazakhstan
+7,4,0,0,Kenya
+20,1,0,0,Kosovo
+142,12,0,15,Kuwait
+3,12,0,0,Kyrgyzstan
+86,15,0,1,Latvia
+149,16,4,4,Lebanon
+2,0,0,0,Liberia
+7,0,0,0,Liechtenstein
+34,8,0,1,Lithuania
+203,63,2,0,Luxembourg
+15,2,0,10,Macao SAR
+790,117,2,60,Malaysia
+13,0,0,0,Maldives
+48,10,0,2,Malta
+16,0,0,2,Martinique
+2,0,0,0,Mauritania
+3,0,0,0,Mauritius
+1,0,0,0,Mayotte
+118,25,0,4,Mexico
+36,6,1,1,Moldova
+9,0,0,0,Monaco
+6,2,0,0,Mongolia
+8,6,0,0,Montenegro
+54,10,2,1,Morocco
+2,0,0,0,Namibia
+1,0,0,1,Nepal
+2051,346,58,1,Netherlands
+2,346,58,1,New Caledonia
+20,8,0,0,New Zealand
+1,8,0,0,Nicaragua
+7,5,0,1,Nigeria
+48,12,0,1,Macedonia
+0,0,0,0,Northern Mariana Islands
+1423,115,6,1,Norway
+39,15,0,12,Oman
+302,61,2,2,Pakistan
+109,23,1,0,Panama
+11,0,0,0,Paraguay
+145,28,0,1,Peru
+202,15,14,4,Philippines
+287,49,5,1,Poland
+642,194,2,3,Portugal
+6,1,0,0,Puerto Rico
+452,10,0,4,Qatar
+9,0,0,4,Réunion
+260,43,0,19,Romania
+147,33,0,5,Russia
+7,0,0,0,Rwanda
+3,0,0,0,Saint Barthélemy
+2,0,0,0,Saint Lucia
+2,0,0,0,Saint Martin
+1,0,0,0,Saint Vincent and the Grenadines
+127,8,14,4,San Marino
+238,67,0,6,Saudi Arabia
+27,0,0,2,Senegal
+89,17,0,1,Serbia
+6,2,0,0,Seychelles
+313,47,0,114,Singapore
+105,8,0,0,Slovakia
+287,10,1,0,Slovenia
+1,0,0,0,Somalia
+116,31,0,0,South Africa
+8565,152,91,1540,Korea
+14769,2943,638,1081,Spain
+42,13,0,3,Sri Lanka
+2,1,1,0,Sudan
+1,0,0,0,Suriname
+1410,145,14,1,Sweden
+3070,393,37,15,Switzerland
+100,23,1,22,台湾
+3,2,0,0,Tanzania
+212,35,1,42,Thailand
+1,0,0,0,Togo
+7,2,0,0,Trinidad and Tobago
+39,10,1,0,Tunisia
+191,93,3,0,Turkey
+3,1,0,0,U.S. Virgin Islands
+16,2,2,0,Ukraine
+113,5,0,26,United Arab Emirates
+2626,676,103,65,United Kingdom
+8074,2410,126,106,United States
+79,29,0,0,Uruguay
+15,5,0,0,Uzbekistan
+1,0,0,0,Vatican City
+36,0,0,0,Venezuela
+76,10,0,16,Vietnam
+2,10,0,0,Zambia

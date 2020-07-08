@@ -1,0 +1,187 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
+120,5,4,2,Afghanistan
+212,15,10,40,Albania
+511,57,31,31,Algeria
+334,26,6,6,Andorra
+7,3,2,0,Angola
+7,4,0,0,Antigua and Barbuda
+820,75,20,51,Argentina
+482,58,3,30,Armenia
+50,4,3,30,Aruba
+3985,346,16,224,Australia
+8536,541,86,225,Austria
+209,27,4,15,Azerbaijan
+10,0,0,0,Bahamas
+499,26,4,272,Bahrain
+48,0,5,15,Bangladesh
+33,7,0,0,Barbados
+132,19,0,32,Belarus
+10836,1702,431,1359,Belgium
+2,0,0,0,Belize
+7,0,0,0,Benin
+4,1,0,0,Bhutan
+151,1,10,0,Bolivia
+327,58,6,8,Bosnia and Herz.
+4256,352,136,6,Brazil
+126,6,1,34,Brunei
+346,15,8,11,Bulgaria
+222,15,12,23,Burkina Faso
+6,2,1,0,Cape Verde
+103,1,0,21,Cambodia
+139,26,2,2,Cameroon
+6320,665,66,504,Canada
+3,0,0,0,Central African Rep.
+3,0,0,0,Chad
+2139,230,7,75,Chile
+81439,45,3300,75448,China
+702,94,10,10,Colombia
+19,15,0,0,Congo
+65,7,8,2,Dem. Rep. Congo
+314,19,2,3,Costa Rica
+165,25,1,4,Côte d'Ivoire
+713,56,6,52,Croatia
+139,20,3,4,Cuba
+11,2,3,4,Curaçao
+214,35,8,29,Cyprus
+2817,160,23,11,Czech Rep.
+3893,10,139,11,Denmark
+14,2,0,0,Djibouti
+11,0,0,0,Dominica
+901,42,42,3,Dominican Rep.
+1924,89,58,3,Ecuador
+609,33,40,132,Egypt
+30,6,0,0,El Salvador
+12,0,0,0,Eq. Guinea
+12,6,0,0,Eritrea
+679,39,3,20,Estonia
+9,0,0,0,Swaziland
+21,5,0,1,Ethiopia
+155,4,0,1,Faroe Is.
+5,0,0,0,Fiji
+1450,58,11,10,Finland
+40174,2599,2606,7202,France
+35,1,2606,7202,French Polynesia
+7,0,1,0,Gabon
+3,0,1,0,Gambia
+91,1,0,18,Georgia
+52547,3965,389,4445,Germany
+152,11,5,2,Ghana
+1156,95,38,52,Greece
+9,2,0,0,Grenada
+56,1,1,0,Guam
+34,2,1,10,Guatemala
+45,6,0,10,Guernsey
+16,8,0,1,Guinea
+2,0,0,0,Guinea-Bissau
+8,0,1,0,Guyana
+8,0,0,0,Haiti
+139,29,4,3,Honduras
+641,59,4,118,香港
+408,65,13,34,Hungary
+1086,66,2,124,Iceland
+1024,106,27,0,India
+2068,4,181,64,Indonesia
+38309,2901,2640,12391,Iran
+547,41,42,143,Iraq
+2615,200,46,5,Ireland
+42,10,0,0,Isle of Man
+4439,532,12,132,Israel
+97689,5217,10779,13030,Italy
+36,4,1,2,Jamaica
+1866,173,52,404,Japan
+63,2,2,404,Jersey
+259,13,3,18,Jordan
+284,56,1,18,Kazakhstan
+42,4,1,1,Kenya
+94,3,1,1,Kosovo
+255,20,0,67,Kuwait
+84,13,0,0,Kyrgyzstan
+8,0,0,0,Lao PDR
+376,29,0,1,Latvia
+446,8,11,32,Lebanon
+3,0,0,0,Liberia
+8,5,0,0,Libya
+61,3,0,12,Liechtenstein
+437,43,7,1,Lithuania
+1950,119,21,40,Luxembourg
+38,1,0,10,Macao SAR
+39,13,0,0,Madagascar
+2470,150,34,388,Malaysia
+17,1,0,11,Maldives
+18,0,1,0,Mali
+151,2,0,2,Malta
+5,0,0,0,Mauritania
+107,5,2,0,Mauritius
+993,145,20,4,Mexico
+263,32,2,0,Moldova
+43,1,0,1,Monaco
+12,0,0,0,Mongolia
+85,1,2,0,Montenegro
+479,77,26,13,Morocco
+8,0,0,0,Mozambique
+10,2,0,0,Myanmar
+11,3,0,2,Namibia
+5,0,0,1,Nepal
+10866,1104,771,1,Netherlands
+514,63,1,56,New Zealand
+4,0,1,0,Nicaragua
+18,8,1,0,Niger
+111,14,1,3,Nigeria
+259,18,6,3,Macedonia
+4102,257,22,3,Norway
+167,15,0,23,Oman
+1625,99,18,28,Pakistan
+989,88,24,4,Panama
+1,0,0,0,Papua New Guinea
+64,5,3,1,Paraguay
+852,181,18,16,Peru
+1418,343,71,42,Philippines
+1862,224,22,23,Poland
+5962,792,119,43,Portugal
+127,27,5,43,Puerto Rico
+634,44,1,45,Qatar
+1760,308,43,169,Romania
+1534,270,8,64,Russia
+70,10,0,0,Rwanda
+4,1,0,0,Saint Lucia
+1,0,0,1,Saint Vincent and the Grenadines
+229,5,24,12,San Marino
+1299,96,8,37,Saudi Arabia
+142,12,0,27,Senegal
+741,82,13,42,Serbia
+8,0,0,0,Seychelles
+844,42,3,212,Singapore
+336,22,0,7,Slovakia
+730,46,11,10,Slovenia
+3,0,0,0,Somalia
+1280,93,2,31,South Africa
+9661,78,158,5033,Korea
+80110,6878,6803,14709,Spain
+115,5,1,11,Sri Lanka
+2,0,0,0,St Kitts and Nevis
+6,1,1,0,Sudan
+8,0,0,0,Suriname
+3943,281,241,18,Sweden
+14336,1123,300,1823,Switzerland
+10,1,3,0,Syria
+298,15,2,39,台湾
+14,0,0,0,Tanzania
+1388,143,7,111,Thailand
+1,0,0,0,Timor-Leste
+30,5,1,7,Togo
+76,2,3,1,Trinidad and Tobago
+362,50,9,1,Tunisia
+9217,1815,131,105,Turkey
+30,8,0,105,U.S. Virgin Islands
+33,3,0,0,Uganda
+480,62,11,6,Ukraine
+570,102,3,58,United Arab Emirates
+19606,2502,1408,140,United Kingdom
+140223,19118,2434,3231,United States
+309,5,1,0,Uruguay
+144,40,2,7,Uzbekistan
+6,0,0,0,Vatican City
+129,10,3,39,Venezuela
+188,14,0,25,Vietnam
+29,1,0,0,Zambia
+7,0,1,0,Zimbabwe

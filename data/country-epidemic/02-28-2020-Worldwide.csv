@@ -1,0 +1,63 @@
+Confirmed,ConfirmedChange,Deaths,Recovered,Country_Region
+1,0,0,0,Afghanistan
+1,0,0,0,Algeria
+25,2,0,15,Australia
+4,2,0,15,Austria
+1,2,0,15,Azerbaijan
+33,0,0,15,Bahrain
+1,0,0,15,Belarus
+1,0,0,15,Belgium
+1,0,0,15,Brazil
+1,0,0,15,Cambodia
+16,2,0,8,Canada
+78961,331,2791,36117,China
+5,2,0,36117,Croatia
+3593,10,127,36117,Denmark
+1,0,0,36117,Egypt
+1,0,0,36117,Estonia
+5,2,0,1,Finland
+57,19,1,12,France
+1,0,0,12,Georgia
+53,27,0,16,Germany
+4,1,0,16,Greece
+0,0,0,16,Guam
+94,1,2,26,香港
+1,1,0,26,Iceland
+3,0,0,26,India
+388,143,34,21,Iran
+7,1,0,21,Iraq
+22,3,0,21,Israel
+888,238,21,50,Italy
+230,20,5,40,Japan
+45,2,0,40,Kuwait
+7,3,0,40,Lebanon
+1,3,0,40,Lithuania
+25,1,0,22,Malaysia
+3,1,0,22,Mexico
+1,1,0,22,Monaco
+1,0,0,22,Nepal
+2,1,0,22,Netherlands
+1,1,0,22,New Zealand
+1,0,0,22,Nigeria
+1,0,0,22,Macedonia
+7,3,0,22,Norway
+6,0,0,22,Oman
+2,0,0,22,Pakistan
+3,0,1,22,Philippines
+0,0,1,22,Puerto Rico
+3,2,0,22,Romania
+2,0,0,22,Russia
+2,1,0,22,San Marino
+98,2,0,69,Singapore
+2337,571,13,26,Korea
+34,8,1,2,Spain
+1,0,0,2,Sri Lanka
+11,8,0,2,Sweden
+13,5,0,1,Switzerland
+34,2,1,6,台湾
+40,0,0,28,Thailand
+0,0,0,28,U.S. Virgin Islands
+21,2,0,28,United Arab Emirates
+19,6,0,8,United Kingdom
+39,1,2,6,United States
+16,0,0,6,Vietnam
