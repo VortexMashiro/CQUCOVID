@@ -113,7 +113,7 @@
 
   <div class="verticalWrapper">
     <div class="verticalHeader">
-      <div class="locationWrapper"><h2 class="locationTitle">全球</h2></div>
+      <div class="locationWrapper"><h2 class="locationTitle" id="locationtitle">全球</h2></div>
       <div
         class="verticalOptions"
         style="grid-template-columns: repeat(3, min-content);"
@@ -134,10 +134,20 @@
 
       <div class="map" role="main" style="height: 100%; width: 100%; overflow: hidden;">
         <div class="mapContainer allowGL">
-            <div class="wrapper-bingmaps" style="height: 100%; position: relative;">
-                <div class="PyechartMap" id="globalMap" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;">
-                  <!-- {{ myechart|safe }} -->
+            <div class="wrapper-bingmaps" style="height: 100%; position: relative;background:white!important;">
+              <div class="container">
+                <!-- style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;" -->
+                <div class="row" style="height:500px;width: 100%;">
+                    <div class="col-sm PyechartMap" id="Line" >
+                      <!-- {{ myechart|safe }} -->
+                    </div>
                 </div>
+                <div class="row" style="height:500px;width: 100%;">
+                  <div class="col-sm PyechartMap" id="Pie"  ></div>
+                  <div class="col-sm PyechartMap" id="Tree" ></div>
+                </div>
+              </div>
+
             </div>
         </div>
     </div>    <!-- verticalContent -->
@@ -151,7 +161,9 @@
     <script>
         var current_country=$('#Worldwide').parent();
         $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
-        var global_map = echarts.init(document.getElementById('globalMap'), {renderer: 'canvas'});
+        var line_map = echarts.init(document.getElementById('Line'), {renderer: 'canvas'});
+        var pie_map = echarts.init(document.getElementById('Pie'), {renderer: 'canvas'});
+        var tree_map = echarts.init(document.getElementById('Tree'), {renderer: 'canvas'});
 
         current_country.addClass('selected');
 
@@ -180,27 +192,8 @@
           window.location.replace('/covid?data={{messager_data}}');
         }
 
-        function initGlobalMap(){
-          var data = {
-                  data: JSON.stringify({
-                    'name': 'Wordwide',
-                  }),
-                }
-          $.ajax({
-                    type: "GET",
-                    url: $SCRIPT_ROOT+"/getPageChart",
-                    data:data,
-                    dataType: 'json',
-                    success: function (result) {
-                      echartConfig(result);
-                      global_map.setOption(result);
-                      console.log('Page Chart init Successfully');
-                      console.log(result);
-                    }
-                });
-        }
-
         function updateGlobalMap(country_name){
+          $('#locationtitle').html(country_name);
           var data = {
                   data: JSON.stringify({
                     'name': country_name,
@@ -208,19 +201,44 @@
                 }
           $.ajax({
                     type: "GET",
-                    url: $SCRIPT_ROOT+"/getPageChart",
+                    url: $SCRIPT_ROOT+"/getLineChart",
                     data:data,
                     dataType: 'json',
                     success: function (result) {
                       echartConfig(result);
-                      global_map.setOption(result);
-                      console.log('Page Chart Update Successfully');
+                      line_map.setOption(result);
+                      console.log('Line Chart Update Successfully');
+                      console.log(result);
+                    }
+                });
+
+          $.ajax({
+                    type: "GET",
+                    url: $SCRIPT_ROOT+"/getPieChart",
+                    data:data,
+                    dataType: 'json',
+                    success: function (result) {
+                      echartConfig(result);
+                      tree_map.setOption(result);
+                      console.log('tree Chart Update Successfully');
                       console.log(result);
                     }
                 });
         }
 
-        initGlobalMap();
+        updateGlobalMap('Worldwide');
+        $.ajax({
+                    type: "GET",
+                    url: $SCRIPT_ROOT+"/getPieChart",
+                    data:data,
+                    dataType: 'json',
+                    success: function (result) {
+                      echartConfig(result);
+                      pie_map.setOption(result);
+                      console.log('pie Chart Update Successfully');
+                      console.log(result);
+                    }
+                });
 
     </script>
 

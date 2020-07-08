@@ -415,8 +415,16 @@ def get_global_map3D():
     )
     return Global_map.render_embed()
 
-
-@app.route('/getPageChart', methods=['GET'])
-def get_page_chart():
+@app.route('/getLineChart', methods=['GET'])
+def get_line_chart():
     country_name = json.loads(request.args.get('data', type=str))['name']
-    return paint.paint_together(country_name)
+    return paint.paint_line(country_name)
+
+@app.route('/getPieChart', methods=['GET'])
+def get_pie_chart():
+    country_name = json.loads(request.args.get('data', type=str))['name']
+    return paint.paint_pie(country_name)
+@app.route('/getTreeChart', methods=['GET'])
+def get_tree_chart():
+    country_name = json.loads(request.args.get('data', type=str))['name']
+    return paint.paint_tree(country_name)
