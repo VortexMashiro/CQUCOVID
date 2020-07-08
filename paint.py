@@ -8,8 +8,8 @@ from pyecharts.components import Image
 from pyecharts.options import ComponentTitleOpts
 
 def paint_country_summary_chart(country):
-    date_data, confirmed_data, death_data = get.get_country_epidemic_summary(country)
-    date_data1, new_confirmed_data, new_death_data = get.get_new_confirmed_deaths(country)
+    date_data, confirmed_data,new_confirmed_data, death_data,new_death_data\
+        = get.get_country_epidemic_summary(country)
 
     predict_data = get.get_confirmed_pre(country)
 
@@ -112,8 +112,7 @@ def paint_confirmed_distributed_chart(country):
                 .add(
                 "",
                 result,
-                radius=[60, 160],
-
+                radius=[60, 160]
             )
                 .set_global_opts(
                 title_opts=opts.TitleOpts(

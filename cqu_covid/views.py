@@ -326,7 +326,10 @@ def get_global_map():
 def get_country_chart():
     print("get a ajax GET request.")
     country_name = json.loads(request.args.get('data', type=str))['name']
-    date_list, n_confirmed_list, deaths = get.get_country_epidemic_summary(country_name)
+    data = get.get_country_epidemic_summary(country_name)
+    date_list = data[0]
+    n_confirmed_list = data[1]
+    deaths = data[3]
     c = (
         Bar()
             .add_xaxis(date_list)

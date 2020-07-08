@@ -70,16 +70,21 @@ def get_country_epidemic_summary(country):
         data = pd.read_csv(file, dtype=np.object)
         file.close()
         confirmed_list = []
+        confirmed_change_list = []
         death_list = []
+        death_change_list = []
         date_list = []
         for index in range(0, data.shape[0]):
             item = data.iloc[index]
             date_list.append(item["Updated"])
             confirmed_list.append(item["Confirmed"])
+            confirmed_change_list.append(item["ConfirmedChange"])
             death_list.append(item["Deaths"])
-        return date_list, confirmed_list, death_list
+            death_change_list.append(item["DeathsChange"])
+        return date_list, confirmed_list, confirmed_change_list, \
+               death_list, death_change_list
     else:
-        return None, None, None
+        return None
 
 
 # "Côte d'Ivoire.csv
@@ -128,30 +133,6 @@ def get_confirmed_distribution(country, date):
         return result
     else:
         return None
-
-
-def get_new_confirmed_deaths(country):
-    """
-    获取各个国家各地的新增确诊和新增死亡数量
-    :param country: "China"
-    :return: list
-    """
-    file_name = "data/new-confirmed-death/" + country + ".csv"
-    if os.path.isfile(file_name):
-        file = open(file_name, "r", encoding="utf-8")
-        data = pd.read_csv(file, dtype=np.object)
-        file.close()
-        new_confirmed_list = []
-        new_death_list = []
-        date_list = []
-        for index in range(0, data.shape[0]):
-            item = data.iloc[index]
-            date_list.append(item["Updated"])
-            new_confirmed_list.append(item["ConfirmedChange"])
-            new_death_list.append(item["DeathsChange"])
-        return date_list, new_confirmed_list, new_death_list
-    else:
-        return None, None, None
 
 
 def get_new_confirmed_top5(country, date):
@@ -221,25 +202,6 @@ def get_region_comparion(country, date, attribute):
         return result
     else:
         return None
-
-
-def get_country_position():
-    """
-    获取所有国家的经纬度
-    :return: position list
-    """
-    file_name = "data/position/country-position.csv"
-    if os.path.isfile(file_name):
-        file = open(file_name, "r", encoding="utf-8")
-        data = pd.read_csv(file)
-        file.close()
-        position_list = []
-        for index in range(0, data.shape[0]):
-            position_list.append(data.iloc[index].tolist())
-        return position_list
-    else:
-        return None
-
 
 def get_date_list():
     """
@@ -345,37 +307,6 @@ def get_country_list_with_data():
             country_list.append({"name": row["country"],
                                  "number": format(row["total"], ',')})
         return country_list
-    else:
-        return None
-
-
-def get_samll_picture_data(country="China"):
-    """
-
-    """
-    dire1 = "data/country-epidemic-summary/"
-    dire2 = "data/new-confirmed-death/"
-    file_name1 = dire1 + country + ".csv"
-    file_name2 = dire2 + country + ".csv"
-    if os.path.isfile(file_name1) & os.path.isfile(file_name2):
-        file1 = open(file_name1, "r", encoding="utf-8")
-        data1 = pd.read_csv(file1)
-        data1 = data1["Deaths"]
-        file1.close()
-        file2 = open(os.path.join(dire2, country + ".csv"), "r", encoding="utf-8")
-        data2 = pd.read_csv(file2)
-        file2.close()
-        data2 = data2[["Updated", "ConfirmedChange"]]
-        date_list = []
-        confirmed_change = []
-        deaths = []
-        for index in range(0, data1.shape[0]):
-            row1 = data1.iloc[index]
-            row2 = data2.iloc[index]
-            deaths.append(row1)
-            date_list.append(row2["Updated"])
-            confirmed_change.append(row2["ConfirmedChange"])
-        return date_list, confirmed_change, deaths
     else:
         return None
 

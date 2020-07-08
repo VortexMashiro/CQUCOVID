@@ -179,26 +179,12 @@ def extra_country_epidemic_summary(source, country_list):
     areas = source["AdminRegion1"].isna()
     country_column = source["Country_Region"]
     for country in country_list:
-        data = source[(country_column == country) & areas][["Updated", "Confirmed", "Deaths"]]
+        data = source[(country_column == country) & areas]
+        data = data[["Updated", "Confirmed","ConfirmedChange",
+                     "Deaths","DeathsChange"]]
         data.fillna(method="pad", inplace=True)
         data.fillna(value=0, inplace=True)
         file_name = "country-epidemic-summary/" + country + ".csv"
-        data.to_csv(file_name, encoding="utf-8", index=None)
-
-
-def extra_new_confirmed_death(source, country_list):
-    """
-    抽取各个国家各地的新增确诊和新增死亡数量
-    :param country_list: 国家列表
-    :return: Nothing
-    """
-    country_column = source["Country_Region"]
-    source = source[source["AdminRegion1"].isna()]
-    for country in country_list:
-        data = source[source.Country_Region == country][["Updated", "ConfirmedChange", "DeathsChange"]]
-        data.fillna(method="pad", inplace=True)
-        data.fillna(value=0, inplace=True)
-        file_name = "new-confirmed-death/" + country + ".csv"
         data.to_csv(file_name, encoding="utf-8", index=None)
 
 
@@ -215,31 +201,12 @@ def extra_region_comparision(source, country_list):
         data = source[(country_column == country) & areas]
         if data.shape[0] == 0:
             continue
-        data = data[["Updated", "Confirmed", "ConfirmedChange", "Deaths", "Recovered", "AdminRegion1"]]
+        data = data[["Updated", "Confirmed", "ConfirmedChange",
+                     "Deaths", "Recovered", "AdminRegion1"]]
         data.fillna(method="pad", inplace=True)
         data.fillna(value=0, inplace=True)
         file_name = "region-comparision/" + country + ".csv"
         data.to_csv(file_name, encoding="utf-8", index=None)
-
-
-def extra_country_position(source, country_list):
-    """
-    抽取国家的经纬度
-    :param country_list:
-    :return: Nothing
-    """
-    country_column = source["Country_Region"]
-    area_column = source["AdminRegion1"].isna()
-    position_list = []
-    for country in country_list:
-        data = source[(country_column == country) & area_column].iloc[0]
-        data = data[["Latitude", "Longitude", "Country_Region"]].tolist()
-        position_list.append(data)
-    result = pd.DataFrame(position_list, columns=["Latitude", "Longitude", "Country_Region"])
-    result.drop(index=0, inplace=True)
-    file_name = "position/country-position.csv"
-    result.to_csv(file_name, encoding="utf-8", index=None)
-
 
 def extra_time_axis_data(date_list):
     """
@@ -290,20 +257,18 @@ def extra_country_status(source, country_list, date_list):
     result.to_csv(file_name, encoding="utf-8", index=None)
 
 
-source_data = extra_source()
-print("extra_source")
+# source_data = extra_source()
+# print("extra_source")
 # date_list_data = extra_date_list(source_data)
 # print("extra_date_list")
 # extra_word_epidemic(source_data, date_list_data)
 # print("extra_word_epidemic")
-country_list_data = extra_country_list(source_data)
-print("extra_country_list")
+# country_list_data = extra_country_list(source_data)
+# print("extra_country_list")
 # extra_country_epidemic(source_data, date_list_data, country_list_data)
 # print("extra_country_epidemic")
 # extra_country_epidemic_summary(source_data, country_list_data)
 # print("extra_country_epidemic_summary")
-extra_new_confirmed_death(source_data, country_list_data)
-print("extra_new_confirmed_death")
 # extra_region_comparision(source_data,country_list_data)
 # print("extra_region_comparision")
 # extra_country_position(source_data,country_list_data)
