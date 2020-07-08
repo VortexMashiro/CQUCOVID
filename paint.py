@@ -56,7 +56,6 @@ def paint_country_summary_chart(country):
         )
             .set_global_opts(
             title_opts=opts.TitleOpts(
-                title="扩散趋势",
                 subtitle="",
                 pos_left="3%",
                 pos_top="10",
