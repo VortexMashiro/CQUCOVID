@@ -426,5 +426,5 @@ def get_pie_chart():
     return paint.paint_pie(country_name)
 @app.route('/getTreeChart', methods=['GET'])
 def get_tree_chart():
-    country_name = json.loads(request.args.get('data', type=str))['name']
-    return paint.paint_tree(country_name)
+    #country_name = json.loads(request.args.get('data', type=str))['name']
+    return paint.paint_tree()

@@ -132,26 +132,25 @@
 
 
 
-      <div class="map" role="main" style="height: 100%; width: 100%; overflow: hidden;">
-        <div class="mapContainer allowGL">
-            <div class="wrapper-bingmaps" style="height: 100%; position: relative;background:white!important;">
-              <div class="container">
+      <div class="map" role="main" style="height: 100%; width: 100%!important; overflow: hidden;">
+        <div class="mapContainer allowGL" style="width:100%">
+            <div class="wrapper-bingmaps countainer" style="height: 100%; width: 100%;position: relative;background:white!important;overflow:scroll;">
+              <!-- <div class="container"style="position: absolute; width:2200px!important; height: 100%; left: 140px; top: 0px;overflow: scroll;padding:0px;background:red!important;" > -->
                 <!-- style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;" -->
-                <div class="row" style="height:500px;width: 100%;">
-                    <div class="col-sm PyechartMap" id="Line" >
+                <div class="row" style="height:50vh; width: 100%;">
+                    <div class="col-sm" id="Line" > </div>
                       <!-- {{ myechart|safe }} -->
-                    </div>
                 </div>
-                <div class="row" style="height:500px;width: 100%;">
-                  <div class="col-sm PyechartMap" id="Pie"  ></div>
-                  <div class="col-sm PyechartMap" id="Tree" ></div>
+                <div class="row" style="height: 40vh; width: 100%;">
+                  
+                    <div class="col-sm" id="Pie"  ></div>
+                    <div class="col-sm" id="Tree" ></div>
                 </div>
-              </div>
-
-            </div>
+            <!-- </div> -->
         </div>
+      </div><!-- map -->
+        
     </div>    <!-- verticalContent -->
-
     </div>
 
 
@@ -187,6 +186,21 @@
           //   result.series[0].data[i].value.push(result.series[0].data[i].value[2][0]);
           // }
         }
+        function getTree(){
+          $.ajax({
+                    type: "GET",
+                    url: $SCRIPT_ROOT+"/getTreeChart",
+                    data:'Worldwide',
+                    dataType: 'json',
+                    success: function (result) {
+                      echartConfig(result);
+                      pie_map.setOption(result);
+                      console.log('Tree Chart Update Successfully');
+                      console.log(result);
+                    }
+                });
+
+        }
 
         function naviToTimeline(){
           window.location.replace('/covid?data={{messager_data}}');
@@ -220,26 +234,15 @@
                     success: function (result) {
                       echartConfig(result);
                       tree_map.setOption(result);
-                      console.log('tree Chart Update Successfully');
+                      console.log('Pie Chart Update Successfully');
                       console.log(result);
                     }
                 });
         }
 
         updateGlobalMap('Worldwide');
-        $.ajax({
-                    type: "GET",
-                    url: $SCRIPT_ROOT+"/getPieChart",
-                    data:data,
-                    dataType: 'json',
-                    success: function (result) {
-                      echartConfig(result);
-                      pie_map.setOption(result);
-                      console.log('pie Chart Update Successfully');
-                      console.log(result);
-                    }
-                });
-
+        getTree();
+       
     </script>
 
 
