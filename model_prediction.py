@@ -107,7 +107,7 @@ for filename in path_list:
     temp_y = test_y[-1]
 
     # prediction_y.backward()
-    pred_day=21
+    pred_day=23
     pred_y = []
     for i in range(pred_day):
         temp_x[0][0][0]=temp_x[0][0][1]
@@ -173,7 +173,7 @@ for filename in path_list:
     savepre = pd.DataFrame(columns=name, data=pred_result)
     savepre.apply(get_to_int)
     savepre["Confirmed"] = savepre["Confirmed"].apply(get_to_int)
-    savepre.to_csv(pred_data + model_name + '.csv')
+    savepre.to_csv(pred_data + model_name + '.csv', index=None)
     print(model_name + '.csv\tfinish.')
 
 
