@@ -118,9 +118,10 @@
         class="verticalOptions"
         style="grid-template-columns: repeat(3, min-content);"
       >
-        <div class="verticalOption selected" tabindex="0">概况</div>
+      <div class="verticalOption" onclick="naviToGraph()">查看概况与图表</div>
+        <!-- <div class="verticalOption selected" tabindex="0">概况</div>
         <div class="verticalOption" tabindex="0">资讯和视频</div>
-        <div class="verticalOption" tabindex="0">图表</div>
+        <div class="verticalOption" tabindex="0">图表</div> -->
         <div
           class="verticalIndicator"
           style="transform: translateX(0px) scaleX(1);"
@@ -139,14 +140,14 @@
               <div class='container'>
                 <!-- news list -->
                 <div class="news_item" >
-                  <a id="news_url1" href="">
+                  <a id="news_url1" href="http://tech.sina.com.cn/roll/2020-07-08/doc-iircuyvk2588270.shtml">
                   <div class='row'>
                     <div class="col-sm">
                       <h5 class="news_content" id='news_title1'>
-                        ...China-Africa Summit on Solidarity Against COVID-19
+                        WARC:COVID-19对全球广告投资的影响报告
                       </h5>
                       <p class="news_des" id='news_content1'>
-                        Xi made the remarks in Beijing when chairing the Extraordinary China-Africa Summit on Solidarity against COVID-19 on June 17.
+                        新浪   6小时前 原标题:WARC:COVID-19对全球广告投资的影响报告 WARC认为,今年全球广告支出将下降8.1%,(即496亿美元),总额将降至5629亿美元。相比之下,在1月下旬疫情爆发前做... 
                       </p>
                     </div>
                   </div>
@@ -154,14 +155,14 @@
                 </div><!-- news item -->
 
                 <div class="news_item" >
-                  <a id="news_url2" href="">
+                  <a id="news_url2" href="https://baijiahao.baidu.com/s?id=1671449462122961586&wfr=spider&for=pc">
                   <div class='row'>
                     <div class="col-sm">
                       <h5 class="news_content" id='news_title2'>
-                        ...China-Africa Summit on Solidarity Against COVID-19
+                        Covid-19大流行导致2020年全球铝需求将收窄5.4%
                       </h5>
                       <p class="news_des" id='news_content2'>
-                        Xi made the remarks in Beijing when chairing the Extraordinary China-Africa Summit on Solidarity against COVID-19 on June 17.
+                        走出去导航网   2020年07月06日 14:53国际研究公司CM Group为国际铝业协会准备的最新报告显示,到2020年,全球铝需求将萎缩5.4%,随后将出现缓慢的复苏。 COVID-19大流行对全球经济活动的影响将是深远的,... 
                       </p>
                     </div>
                   </div>
@@ -169,14 +170,14 @@
                 </div><!-- news item -->
 
                 <div class="news_item" >
-                  <a id="news_url3" href="">
+                  <a id="news_url3" href="http://www.thepaper.cn/newsDetail_forward_8173326">
                   <div class='row'>
                     <div class="col-sm">
                       <h5 class="news_content" id='news_title3'>
-                        ...China-Africa Summit on Solidarity Against COVID-19
+                        大流行下全球业态新趋势观察之时尚业 | 绿会国际部COVID-19速递
                       </h5>
                       <p class="news_des" id='news_content3'>
-                        Xi made the remarks in Beijing when chairing the Extraordinary China-Africa Summit on Solidarity against COVID-19 on June 17.
+                        澎湃新闻   2小时前 据估计,全球时尚业每年产值约为2.5万亿美元。对时尚业而言,更聪明、更可持续可能正是从COVID-19造成的巨大损失中恢复过来的方法。 (来源:绿会) 彭博社今年5月的... 
                       </p>
                     </div>
                   </div>
@@ -224,6 +225,7 @@
 </div> <!-- content -->
     <script>
         var current_country=$('#Worldwide').parent();
+        var country_name='Worldwide';
         $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
         var chart = echarts.init(document.getElementById('bar'), 'white', {renderer: 'canvas'});
         var global_map = echarts.init(document.getElementById('globalMap'), {renderer: 'canvas'});
@@ -238,6 +240,7 @@
                 })
           updateGlobalMap(params.name);
           getNews(params.name);
+          country_name=params.name;
           current_country.removeClass('selected');
           current_country=$('#'+params.name).parent();
           current_country.addClass('selected');
@@ -259,6 +262,7 @@
         })
         //this will be called when clicking a country in countrylist
         function getBar(event){
+          country_name=event.id;
           getNews(event.id);
           // chart.dispatchAction({
           //         type: 'hideTip'
@@ -319,6 +323,19 @@
         }
         function naviToTimeline(){
           window.location.replace('/covid?data={{messager_data}}');
+        }
+        function naviToGraph(){
+
+          window.location.replace('/graph?data='+country_name);
+        }
+        function getQueryVariable(variable){
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i=0;i<vars.length;i++) {
+                    var pair = vars[i].split("=");
+                    if(pair[0] == variable){return pair[1];}
+            }
+          return(false);
         }
 
         function initGlobalMap(){
