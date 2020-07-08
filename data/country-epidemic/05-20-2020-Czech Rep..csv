@@ -1,18 +1,18 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-1037,10.0,0.0,0.0,Central Bohemia
-194,0.0,0.0,0.0,Hradec Králové
-196,0.0,0.0,0.0,Hradec Králové
-445,3.0,0.0,0.0,Karlovy Vary
-200,0.0,0.0,0.0,Liberec
-200,0.0,0.0,0.0,Liberec
-1328,40.0,0.0,0.0,Moravia-Silesia
-734,1.0,0.0,0.0,Olomouc
-732,0.0,0.0,0.0,Olomouc
-285,1.0,0.0,0.0,Pardubice
-659,2.0,0.0,0.0,Plzeň
-2006,13.0,0.0,0.0,Prague
-182,0.0,0.0,0.0,South Bohemia
-515,1.0,0.0,0.0,South Moravia
-531,1.0,0.0,0.0,Ústí nad Labem
-182,1.0,0.0,0.0,Vysočina
-354,8.0,0.0,0.0,Zlin
+1037,10,0.0,0.0,Central Bohemia
+194,0,0.0,0.0,Hradec Králové
+196,0,0.0,0.0,Hradec Králové
+445,3,0.0,0.0,Karlovy Vary
+200,0,0.0,0.0,Liberec
+200,0,0.0,0.0,Liberec
+1328,40,0.0,0.0,Moravia-Silesia
+734,1,0.0,0.0,Olomouc
+732,0,0.0,0.0,Olomouc
+285,1,0.0,0.0,Pardubice
+659,2,0.0,0.0,Plzeň
+2006,13,0.0,0.0,Prague
+182,0,0.0,0.0,South Bohemia
+515,1,0.0,0.0,South Moravia
+531,1,0.0,0.0,Ústí nad Labem
+182,1,0.0,0.0,Vysočina
+354,8,0.0,0.0,Zlin

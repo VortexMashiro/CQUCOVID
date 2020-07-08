@@ -1,17 +1,17 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-84,6.0,4.0,23.0,Atlántida
-39,14.0,0.0,5.0,Choluteca
-42,0.0,1.0,19.0,Colón
-20,4.0,3.0,2.0,Comayagua
-5,1.0,0.0,0.0,Copán
-1714,40.0,118.0,152.0,Cortés
-9,4.0,0.0,1.0,El Paraíso
-512,29.0,6.0,63.0,Francisco Morazán
-10,1.0,1.0,4.0,Intibucá
-4,2.0,0.0,2.0,La Paz
-10,3.0,1.0,2.0,Lempira
-1,0.0,0.0,1.0,Ocotepeque
-5,3.0,0.0,1.0,Olancho
-20,7.0,2.0,2.0,Santa Bárbara
-35,14.0,0.0,4.0,Valle
-136,8.0,6.0,8.0,Yoro
+84,6,4,23,Atlántida
+39,14,0,5,Choluteca
+42,0,1,19,Colón
+20,4,3,2,Comayagua
+5,1,0,0,Copán
+1714,40,118,152,Cortés
+9,4,0,1,El Paraíso
+512,29,6,63,Francisco Morazán
+10,1,1,4,Intibucá
+4,2,0,2,La Paz
+10,3,1,2,Lempira
+1,0,0,1,Ocotepeque
+5,3,0,1,Olancho
+20,7,2,2,Santa Bárbara
+35,14,0,4,Valle
+136,8,6,8,Yoro

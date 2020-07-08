@@ -1,6 +1,6 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-3116,32.0,183.0,0.0,Coimbra
-183,2.0,1.0,0.0,Évora
-320,2.0,11.0,0.0,Faro
-5277,83.0,160.0,0.0,Lisbon
-13707,325.0,491.0,0.0,Porto
+3116,32,183,0.0,Coimbra
+183,2,1,0.0,Évora
+320,2,11,0.0,Faro
+5277,83,160,0.0,Lisbon
+13707,325,491,0.0,Porto

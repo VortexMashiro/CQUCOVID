@@ -1,20 +1,20 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-12546,3.0,1326.0,9297.0,Andalusia
-5359,23.0,828.0,3186.0,Aragon
-2351,5.0,304.0,1031.0,Asturias
-1955,2.0,210.0,1423.0,Balearic Islands
-13176,9.0,1429.0,1423.0,Basque Country
-2268,8.0,151.0,1456.0,Canary Islands
-2273,0.0,203.0,1981.0,Cantabria
-16431,44.0,2811.0,6181.0,Castile La Mancha
-18048,53.0,1914.0,7472.0,Castilla Leon
-55144,337.0,5621.0,24966.0,Catalonia
-114,4.0,4.0,24966.0,Ceuta
-2919,1.0,487.0,2422.0,Extremadura
-9291,11.0,595.0,7820.0,Galicia
-4008,0.0,347.0,2749.0,La Rioja
-64972,119.0,8720.0,39751.0,Madrid
-119,0.0,2.0,115.0,Melilla
-1517,0.0,139.0,115.0,Murcia
-5195,1.0,493.0,3155.0,Navarre
-11051,9.0,1336.0,9089.0,Valencia
+12546,3,1326,9297,Andalusia
+5359,23,828,3186,Aragon
+2351,5,304,1031,Asturias
+1955,2,210,1423,Balearic Islands
+13176,9,1429,1423,Basque Country
+2268,8,151,1456,Canary Islands
+2273,0,203,1981,Cantabria
+16431,44,2811,6181,Castile La Mancha
+18048,53,1914,7472,Castilla Leon
+55144,337,5621,24966,Catalonia
+114,4,4,24966,Ceuta
+2919,1,487,2422,Extremadura
+9291,11,595,7820,Galicia
+4008,0,347,2749,La Rioja
+64972,119,8720,39751,Madrid
+119,0,2,115,Melilla
+1517,0,139,115,Murcia
+5195,1,493,3155,Navarre
+11051,9,1336,9089,Valencia

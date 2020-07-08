@@ -1,33 +1,33 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-1072,37.0,48.0,0.0,Aguascalientes
-5784,180.0,1200.0,0.0,Baja California
-735,21.0,41.0,0.0,Baja California Sur
-688,9.0,103.0,0.0,Campeche
-2283,125.0,176.0,0.0,Chiapas
-1807,36.0,376.0,0.0,Chihuahua
-1350,43.0,91.0,0.0,Coahuila
-196,16.0,29.0,0.0,Colima
-536,38.0,49.0,0.0,Durango
-2278,143.0,134.0,0.0,Guanajuato
-2325,167.0,347.0,0.0,Guerrero
-2131,54.0,386.0,0.0,Hidalgo
-2447,158.0,213.0,0.0,Jalisco
-17815,657.0,1531.0,0.0,México
-29580,1191.0,3631.0,0.0,Mexico City
-2311,98.0,220.0,0.0,Michoacán
-1540,49.0,295.0,0.0,Morelos
-722,27.0,81.0,0.0,Nayarit
-1758,33.0,109.0,0.0,Nuevo León
-2000,117.0,215.0,0.0,Oaxaca
-3804,193.0,525.0,0.0,Puebla
-1106,56.0,139.0,0.0,Querétaro
-2116,44.0,411.0,0.0,Quintana Roo
-1124,38.0,62.0,0.0,San Luis Potosí
-4237,201.0,673.0,0.0,Sinaloa
-2727,51.0,165.0,0.0,Sonora
-5068,71.0,626.0,0.0,Tabasco
-1952,104.0,140.0,0.0,Tamaulipas
-1257,51.0,183.0,0.0,Tlaxcala
-4871,285.0,721.0,0.0,Veracruz
-2059,47.0,207.0,0.0,Yucatán
-347,6.0,43.0,0.0,Zacatecas
+1072,37,48,0.0,Aguascalientes
+5784,180,1200,0.0,Baja California
+735,21,41,0.0,Baja California Sur
+688,9,103,0.0,Campeche
+2283,125,176,0.0,Chiapas
+1807,36,376,0.0,Chihuahua
+1350,43,91,0.0,Coahuila
+196,16,29,0.0,Colima
+536,38,49,0.0,Durango
+2278,143,134,0.0,Guanajuato
+2325,167,347,0.0,Guerrero
+2131,54,386,0.0,Hidalgo
+2447,158,213,0.0,Jalisco
+17815,657,1531,0.0,México
+29580,1191,3631,0.0,Mexico City
+2311,98,220,0.0,Michoacán
+1540,49,295,0.0,Morelos
+722,27,81,0.0,Nayarit
+1758,33,109,0.0,Nuevo León
+2000,117,215,0.0,Oaxaca
+3804,193,525,0.0,Puebla
+1106,56,139,0.0,Querétaro
+2116,44,411,0.0,Quintana Roo
+1124,38,62,0.0,San Luis Potosí
+4237,201,673,0.0,Sinaloa
+2727,51,165,0.0,Sonora
+5068,71,626,0.0,Tabasco
+1952,104,140,0.0,Tamaulipas
+1257,51,183,0.0,Tlaxcala
+4871,285,721,0.0,Veracruz
+2059,47,207,0.0,Yucatán
+347,6,43,0.0,Zacatecas

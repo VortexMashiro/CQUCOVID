@@ -282,33 +282,24 @@ def extra_country_status(source, country_list, date_list):
     result.to_csv(file_name, encoding="utf-8", index=None)
 
 
-def extra_treemap_data(source):
-    """
-
-    """
-    today = ""
-    country = ""
-    source[(source.Updated==today) & (source.Country_Region==country)]
-
-
 source_data = extra_source()
 print("extra_source")
 date_list_data = extra_date_list(source_data)
 print("extra_date_list")
 extra_word_epidemic(source_data, date_list_data)
 print("extra_word_epidemic")
-# country_list_data = extra_country_list(source_data)
-# print("extra_country_list")
-# extra_country_epidemic(source_data, date_list_data, country_list_data)
-# print("extra_country_epidemic")
-# extra_country_epidemic_summary(source_data, country_list_data)
-# print("extra_country_epidemic_summary")
-# extra_new_confirmed_death(source_data, country_list_data)
-# print("extra_new_confirmed_death")
-# extra_region_comparision(source_data,country_list_data)
-# print("extra_region_comparision")
-# extra_country_position(source_data,country_list_data)
-# print("extra_country_position")
-# extra_time_axis_data(date_list_data)
-# print("extra_time_axis_data")
-# extra_country_status(source_data, country_list_data, date_list_data)
+country_list_data = extra_country_list(source_data)
+print("extra_country_list")
+extra_country_epidemic(source_data, date_list_data, country_list_data)
+print("extra_country_epidemic")
+extra_country_epidemic_summary(source_data, country_list_data)
+print("extra_country_epidemic_summary")
+extra_new_confirmed_death(source_data, country_list_data)
+print("extra_new_confirmed_death")
+extra_region_comparision(source_data,country_list_data)
+print("extra_region_comparision")
+extra_country_position(source_data,country_list_data)
+print("extra_country_position")
+extra_time_axis_data(date_list_data)
+print("extra_time_axis_data")
+extra_country_status(source_data, country_list_data, date_list_data)

@@ -1,35 +1,35 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-22,0.0,1.0,18.0,Aceh
-659,19.0,5.0,424.0,Bali
-126,3.0,1.0,43.0,Bangka-Belitung
-1121,25.0,75.0,411.0,Banten
-99,1.0,4.0,48.0,Bengkulu
-1832,19.0,103.0,631.0,Central Java
-552,15.0,29.0,213.0,Central Kalimantan
-162,1.0,4.0,95.0,Central Sulawesi
-7103,297.0,553.0,1793.0,East Java
-365,3.0,3.0,228.0,East Kalimantan
-105,0.0,1.0,37.0,East Nusa Tenggara
-149,4.0,7.0,69.0,Gorontalo
-8650,147.0,537.0,3661.0,Jakarta
-105,0.0,0.0,27.0,Jambi
-152,2.0,11.0,109.0,Lampung
-355,27.0,9.0,89.0,Maluku
-170,0.0,2.0,135.0,North Kalimantan
-263,36.0,20.0,39.0,North Maluku
-579,14.0,52.0,97.0,North Sulawesi
-680,45.0,56.0,205.0,North Sumatra
-1156,19.0,7.0,78.0,Papua
-122,1.0,6.0,107.0,Riau
-238,4.0,16.0,128.0,Riau Islands
-272,6.0,5.0,178.0,South East Sulawesi
-1634,69.0,112.0,164.0,South Kalimantan
-2524,141.0,98.0,757.0,South Sulawesi
-1271,42.0,46.0,505.0,South Sumatra
-2551,45.0,161.0,1016.0,West Java
-250,5.0,4.0,145.0,West Kalimantan
-868,11.0,31.0,448.0,West Nusa Tenggara
-195,4.0,2.0,85.0,West Papua
-96,1.0,2.0,66.0,West Sulawesi
-661,2.0,29.0,392.0,West Sumatra
-252,2.0,8.0,195.0,Yogyakarta
+22,0,1,18,Aceh
+659,19,5,424,Bali
+126,3,1,43,Bangka-Belitung
+1121,25,75,411,Banten
+99,1,4,48,Bengkulu
+1832,19,103,631,Central Java
+552,15,29,213,Central Kalimantan
+162,1,4,95,Central Sulawesi
+7103,297,553,1793,East Java
+365,3,3,228,East Kalimantan
+105,0,1,37,East Nusa Tenggara
+149,4,7,69,Gorontalo
+8650,147,537,3661,Jakarta
+105,0,0,27,Jambi
+152,2,11,109,Lampung
+355,27,9,89,Maluku
+170,0,2,135,North Kalimantan
+263,36,20,39,North Maluku
+579,14,52,97,North Sulawesi
+680,45,56,205,North Sumatra
+1156,19,7,78,Papua
+122,1,6,107,Riau
+238,4,16,128,Riau Islands
+272,6,5,178,South East Sulawesi
+1634,69,112,164,South Kalimantan
+2524,141,98,757,South Sulawesi
+1271,42,46,505,South Sumatra
+2551,45,161,1016,West Java
+250,5,4,145,West Kalimantan
+868,11,31,448,West Nusa Tenggara
+195,4,2,85,West Papua
+96,1,2,66,West Sulawesi
+661,2,29,392,West Sumatra
+252,2,8,195,Yogyakarta

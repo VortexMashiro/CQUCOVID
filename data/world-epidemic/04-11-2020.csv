@@ -13,8 +13,8 @@ Aruba,92,0,29
 Australia,6292,56,3141
 Austria,13776,337,6604
 Azerbaijan,1058,11,200
-Bahamas,46,8,5
-Bahrain,998,6,551
+Bahamas,42,8,5
+Bahrain,1016,6,551
 Bangladesh,482,30,36
 Barbados,68,4,11
 Belarus,2226,23,172
@@ -41,7 +41,7 @@ Central African Rep.,8,0,0
 Chad,11,0,9
 Chile,6927,73,1864
 China,81953,3339,77525
-Colombia,2709,100,197
+Colombia,2709,100,214
 Congo,64,5,0
 Costa Rica,577,3,49
 Croatia,1534,21,323
@@ -73,8 +73,8 @@ French-Guadeloupe,76,1,0
 French-Martinique,66,1,0
 Gabon,46,1,1
 Gambia,4,1,2
-Georgia,242,3,56
-Germany,117658,2544,48692
+Georgia,242,3,54
+Germany,117658,2544,42155
 Ghana,408,8,4
 Gibraltar,129,0,84
 Greece,2081,93,269
@@ -103,7 +103,7 @@ Jamaica,69,4,13
 Japan,6748,98,762
 Jersey,205,3,762
 Jordan,381,7,177
-Kazakhstan,865,10,64
+Kazakhstan,865,10,68
 Kenya,191,7,22
 Korea,10512,214,7243
 Kosovo,283,7,58
@@ -111,7 +111,7 @@ Kuwait,1154,1,133
 Kyrgyzstan,339,5,44
 Lao PDR,18,0,0
 Latvia,651,5,16
-Lebanon,630,20,73
+Lebanon,630,20,67
 Liberia,37,5,3
 Libya,24,1,8
 Liechtenstein,79,1,55
@@ -144,7 +144,7 @@ Netherlands,24413,2643,1
 New Caledonia,18,0,1
 New Zealand,1312,4,422
 Nicaragua,9,1,2
-Niger,491,11,50
+Niger,438,11,41
 Nigeria,318,10,70
 Northern Mariana Islands,11,2,41
 Norway,6320,98,41
@@ -186,7 +186,7 @@ Sudan,19,2,2
 Suriname,10,1,4
 Swaziland,12,0,7
 Sweden,10447,1248,4
-Switzerland,25107,1013,11100
+Switzerland,25107,1002,11100
 Syria,25,3,4
 São Tomé and Príncipe,632,12,0
 Tanzania,32,3,5

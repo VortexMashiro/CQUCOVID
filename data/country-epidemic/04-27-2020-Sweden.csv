@@ -1,22 +1,22 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-64,1.0,2.0,0.0,Blekinge County
-689,4.0,82.0,0.0,Dalarna County
-520,6.0,52.0,0.0,Gavleborg County
-28,2.0,1.0,0.0,Gotland County
-305,5.0,31.0,0.0,Halland County
-281,4.0,11.0,0.0,Jamtland County
-682,2.0,53.0,0.0,Jonkoping County
-146,6.0,10.0,0.0,Kalmar County
-263,4.0,17.0,0.0,Kronoberg County
-233,2.0,30.0,0.0,Norrbotten
-877,17.0,55.0,0.0,Orebro County
-1365,10.0,91.0,0.0,Ostergotland County
-679,23.0,62.0,0.0,Skane County
-1092,3.0,158.0,0.0,Sodermanland County
-7378,88.0,1237.0,0.0,Stockholm County
-882,7.0,84.0,0.0,Uppsala County
-136,1.0,8.0,0.0,Varmland County
-293,1.0,14.0,0.0,Västerbotten
-210,15.0,34.0,0.0,Västernorrland
-702,42.0,78.0,0.0,Vastmanland County
-2101,43.0,164.0,0.0,Vastra Gotaland County
+64,1,2,0.0,Blekinge County
+689,4,82,0.0,Dalarna County
+520,6,52,0.0,Gavleborg County
+28,2,1,0.0,Gotland County
+305,5,31,0.0,Halland County
+281,4,11,0.0,Jamtland County
+682,2,53,0.0,Jonkoping County
+146,6,10,0.0,Kalmar County
+263,4,17,0.0,Kronoberg County
+233,2,30,0.0,Norrbotten
+877,17,55,0.0,Orebro County
+1365,10,91,0.0,Ostergotland County
+679,23,62,0.0,Skane County
+1092,3,158,0.0,Sodermanland County
+7378,88,1237,0.0,Stockholm County
+882,7,84,0.0,Uppsala County
+136,1,8,0.0,Varmland County
+293,1,14,0.0,Västerbotten
+210,15,34,0.0,Västernorrland
+702,42,78,0.0,Vastmanland County
+2101,43,164,0.0,Vastra Gotaland County

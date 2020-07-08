@@ -1,7 +1,7 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
 1,0,0.0,0.0,Andalusia
-6,1.0,0.0,0.0,Canary Islands
-1,0.0,0.0,0.0,Castilla Leon
-2,1.0,0.0,0.0,Catalonia
-4,2.0,0.0,0.0,Madrid
-2,2.0,0.0,0.0,Valencia
+6,1,0.0,0.0,Canary Islands
+1,0,0.0,0.0,Castilla Leon
+2,1,0.0,0.0,Catalonia
+4,2,0.0,0.0,Madrid
+2,2,0.0,0.0,Valencia

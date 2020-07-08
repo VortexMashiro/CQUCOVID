@@ -6,13 +6,13 @@ Andorra,308,3,5
 Angola,4,0,0
 Antigua and Barbuda,3,0,0
 Argentina,745,19,51
-Armenia,424,3,30
-Aruba,46,3,30
+Armenia,424,3,28
+Aruba,46,3,28
 Australia,3639,14,224
 Austria,7995,68,225
 Azerbaijan,182,4,15
 Bahamas,10,0,0
-Bahrain,476,4,265
+Bahrain,473,4,254
 Bangladesh,48,5,11
 Barbados,26,0,0
 Belarus,113,0,32
@@ -63,7 +63,7 @@ French Polynesia,34,2314,5700
 Gabon,7,1,0
 Gambia,3,1,0
 Georgia,90,0,14
-Germany,48582,325,3286
+Germany,48582,325,4227
 Ghana,141,5,2
 Greece,1061,32,52
 Grenada,7,0,0
@@ -113,7 +113,7 @@ Malta,149,0,2
 Mauritania,5,0,0
 Mauritius,102,2,0
 Mexico,848,16,4
-Moldova,231,2,0
+Moldova,231,2,3
 Monaco,42,0,1
 Mongolia,12,0,0
 Montenegro,84,1,0
@@ -171,11 +171,11 @@ Trinidad and Tobago,74,2,1
 Tunisia,312,8,2
 Turkey,7402,108,70
 U.S. Virgin Islands,22,0,70
-Uganda,23,0,0
+Uganda,30,0,0
 Ukraine,418,9,5
 United Arab Emirates,468,2,55
 United Kingdom,17104,1228,140
-United States,121105,2042,2387
+United States,121105,2042,3231
 Uruguay,304,0,0
 Uzbekistan,104,2,0
 Vatican City,6,0,0

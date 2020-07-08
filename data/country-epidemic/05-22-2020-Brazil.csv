@@ -1,28 +1,28 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-3343,240.0,80.0,0.0,Acre
-5302,386.0,280.0,0.0,Alagoas
-5655,467.0,157.0,0.0,Amapá
-27038,1671.0,1669.0,0.0,Amazonas
-12557,616.0,399.0,0.0,Bahia
-34573,3160.0,2251.0,0.0,Ceará
-9520,642.0,397.0,0.0,Espírito Santo
-5948,406.0,90.0,0.0,Federal District
-2304,190.0,93.0,0.0,Goiás
-17212,1154.0,693.0,0.0,Maranhão
-1220,48.0,37.0,0.0,Mato Grosso
-805,59.0,17.0,0.0,Mato Grosso do Sul
-5995,399.0,201.0,0.0,Minas Gerais
-21469,1713.0,1937.0,0.0,Pará
-6882,644.0,248.0,0.0,Paraiba
-2939,129.0,146.0,0.0,Paraná
-25760,1849.0,2057.0,0.0,Pernambuco
-3074,222.0,93.0,0.0,Piauí
-33589,1500.0,3657.0,0.0,Rio de Janeiro
-4251,191.0,181.0,0.0,Rio Grande do Norte
-5918,445.0,172.0,0.0,Rio Grande do Sul
-2774,115.0,106.0,0.0,Rondônia
-2306,160.0,83.0,0.0,Roraima
-6458,848.0,100.0,0.0,Santa Catarina
-76871,3132.0,5773.0,0.0,São Paulo
-4922,188.0,82.0,0.0,Sergipe
-2205,229.0,49.0,0.0,Tocantins
+3343,240,80,0.0,Acre
+5302,386,280,0.0,Alagoas
+5655,467,157,0.0,Amapá
+27038,1671,1669,0.0,Amazonas
+12557,616,399,0.0,Bahia
+34573,3160,2251,0.0,Ceará
+9520,642,397,0.0,Espírito Santo
+5948,406,90,0.0,Federal District
+2304,190,93,0.0,Goiás
+17212,1154,693,0.0,Maranhão
+1220,48,37,0.0,Mato Grosso
+805,59,17,0.0,Mato Grosso do Sul
+5995,399,201,0.0,Minas Gerais
+21469,1713,1937,0.0,Pará
+6882,644,248,0.0,Paraiba
+2939,129,146,0.0,Paraná
+25760,1849,2057,0.0,Pernambuco
+3074,222,93,0.0,Piauí
+33589,1500,3657,0.0,Rio de Janeiro
+4251,191,181,0.0,Rio Grande do Norte
+5918,445,172,0.0,Rio Grande do Sul
+2774,115,106,0.0,Rondônia
+2306,160,83,0.0,Roraima
+6458,848,100,0.0,Santa Catarina
+76871,3132,5773,0.0,São Paulo
+4922,188,82,0.0,Sergipe
+2205,229,49,0.0,Tocantins

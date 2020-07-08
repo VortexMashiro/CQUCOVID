@@ -1,20 +1,20 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-28,6.0,0.0,0.0,Aargau
-5,3.0,0.0,0.0,Appenzell Outer-Rhoden
-62,11.0,0.0,0.0,Berne
-42,11.0,0.0,0.0,Basel-Country
-101,21.0,0.0,0.0,Basel-Town
-31,5.0,0.0,0.0,Fribourg
-83,10.0,0.0,0.0,Geneva
-39,11.0,0.0,0.0,Graubünden
-18,10.0,0.0,0.0,Lucerne
-37,4.0,0.0,0.0,Neuchâtel
-5,1.0,0.0,0.0,Nidwalden
-7,1.0,0.0,0.0,Obwalden
-19,5.0,0.0,0.0,St Gallen
-8,1.0,0.0,0.0,Solothurn
-10,1.0,0.0,0.0,Schwyz
-218,47.0,0.0,0.0,Ticino
-197,66.0,0.0,0.0,Vaud
-29,6.0,0.0,0.0,Valais
-140,48.0,0.0,0.0,Zurich
+28,6,0.0,0.0,Aargau
+5,3,0.0,0.0,Appenzell Outer-Rhoden
+62,11,0.0,0.0,Berne
+42,11,0.0,0.0,Basel-Country
+101,21,0.0,0.0,Basel-Town
+31,5,0.0,0.0,Fribourg
+83,10,0.0,0.0,Geneva
+39,11,0.0,0.0,Graubünden
+18,10,0.0,0.0,Lucerne
+37,4,0.0,0.0,Neuchâtel
+5,1,0.0,0.0,Nidwalden
+7,1,0.0,0.0,Obwalden
+19,5,0.0,0.0,St Gallen
+8,1,0.0,0.0,Solothurn
+10,1,0.0,0.0,Schwyz
+218,47,0.0,0.0,Ticino
+197,66,0.0,0.0,Vaud
+29,6,0.0,0.0,Valais
+140,48,0.0,0.0,Zurich

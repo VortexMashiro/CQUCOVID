@@ -1,5 +1,5 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-24,1.0,0,0.0,Appenzell Inner-Rhoden
-77,5.0,3.0,0.0,Appenzell Outer-Rhoden
-53,3.0,1.0,0.0,Schaffhausen
-632,54.0,17.0,0.0,St Gallen
+24,1,0,0.0,Appenzell Inner-Rhoden
+77,5,3,0.0,Appenzell Outer-Rhoden
+53,3,1,0.0,Schaffhausen
+632,54,17,0.0,St Gallen

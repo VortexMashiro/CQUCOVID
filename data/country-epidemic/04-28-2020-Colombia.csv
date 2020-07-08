@@ -1,23 +1,23 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-461,9.0,5.0,158.0,Antioquia
-218,42.0,8.0,52.0,Atlantico
-244,4.0,22.0,72.0,Bolivar
-2345,100.0,89.0,432.0,Capital District
-2,0.0,1.0,0.0,Caqueta
-10,0.0,0.0,6.0,Casanare
-31,4.0,4.0,10.0,Cauca
-54,1.0,5.0,29.0,Cesar
-23,0.0,3.0,6.0,Cordoba
-213,10.0,11.0,73.0,Cundinamarca
-92,5.0,6.0,31.0,Huila
-163,3.0,14.0,15.0,Magdalena
-248,16.0,4.0,10.0,Meta
-96,3.0,7.0,12.0,Narino
-62,1.0,5.0,23.0,Norte de Santander
-59,3.0,2.0,20.0,Quindio
-188,3.0,6.0,39.0,Risaralda
-6,0.0,0.0,2.0,San Andrés and Providencia
-39,0.0,3.0,26.0,Santander
-1,0.0,0.0,1.0,Sucre
-54,12.0,2.0,16.0,Tolima
-847,6.0,48.0,152.0,Valle del Cauca
+461,9,5,158,Antioquia
+218,42,8,52,Atlantico
+244,4,22,72,Bolivar
+2345,100,89,432,Capital District
+2,0,1,0,Caqueta
+10,0,0,6,Casanare
+31,4,4,10,Cauca
+54,1,5,29,Cesar
+23,0,3,6,Cordoba
+213,10,11,73,Cundinamarca
+92,5,6,31,Huila
+163,3,14,15,Magdalena
+248,16,4,10,Meta
+96,3,7,12,Narino
+62,1,5,23,Norte de Santander
+59,3,2,20,Quindio
+188,3,6,39,Risaralda
+6,0,0,2,San Andrés and Providencia
+39,0,3,26,Santander
+1,0,0,1,Sucre
+54,12,2,16,Tolima
+847,6,48,152,Valle del Cauca

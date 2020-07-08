@@ -1,22 +1,22 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-152,2.0,4.0,47.0,Bali
-350,9.0,35.0,29.0,Banten
-479,30.0,52.0,54.0,Central Java
-82,15.0,4.0,9.0,Central Kalimantan
-29,2.0,3.0,3.0,Central Sulawesi
-638,35.0,58.0,101.0,East Java
-69,1.0,1.0,11.0,East Kalimantan
-3383,123.0,301.0,322.0,Jakarta
-17,0.0,0.0,10.0,Maluku
-12,8.0,0.0,2.0,North Maluku
-93,9.0,10.0,21.0,North Sumatra
-123,5.0,6.0,28.0,Papua
-107,9.0,6.0,9.0,South Kalimantan
-387,13.0,30.0,75.0,South Sulawesi
-762,6.0,71.0,79.0,West Java
-31,4.0,3.0,7.0,West Kalimantan
-108,15.0,4.0,11.0,West Nusa Tenggara
-8,1.0,1.0,0.0,West Papua
-8,1.0,1.0,1.0,West Sulawesi
-81,5.0,8.0,13.0,West Sumatra
-75,3.0,7.0,30.0,Yogyakarta
+152,2,4,47,Bali
+350,9,35,29,Banten
+479,30,52,54,Central Java
+82,15,4,9,Central Kalimantan
+29,2,3,3,Central Sulawesi
+638,35,58,101,East Java
+69,1,1,11,East Kalimantan
+3383,123,301,322,Jakarta
+17,0,0,10,Maluku
+12,8,0,2,North Maluku
+93,9,10,21,North Sumatra
+123,5,6,28,Papua
+107,9,6,9,South Kalimantan
+387,13,30,75,South Sulawesi
+762,6,71,79,West Java
+31,4,3,7,West Kalimantan
+108,15,4,11,West Nusa Tenggara
+8,1,1,0,West Papua
+8,1,1,1,West Sulawesi
+81,5,8,13,West Sumatra
+75,3,7,30,Yogyakarta

@@ -1,64 +1,64 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-1,1.0,0,0.0,Alaska
-0,0.0,0,0.0,Alabama
-6,5.0,0,0.0,Arkansas
-9,0.0,0.0,0.0,Arizona
-198,21.0,4.0,0.0,California
-49,15.0,0.0,0.0,Colorado
-6,3.0,0.0,0.0,Connecticut
-10,0.0,0.0,0.0,District of Columbia
-4,3.0,0.0,0.0,Delaware
-44,18.0,0.0,0.0,Florida
-33,6.0,0.0,0.0,Georgia
-1,6.0,0.0,0.0,Georgia
-3,1.0,0.0,0.0,Georgia
-2,1.0,0.0,0.0,Georgia
-3,1.0,0.0,0.0,Georgia
-8,1.0,0.0,0.0,Georgia
-1,1.0,0.0,0.0,Georgia
-2,0.0,0.0,0.0,Hawaii
-17,1.0,0.0,0.0,Iowa
-0,0.0,0.0,0.0,Idaho
-32,7.0,0.0,0.0,Illinois
-12,1.0,0.0,0.0,Indiana
-4,3.0,1.0,0.0,Kansas
-11,3.0,1.0,0.0,Kentucky
-19,6.0,0.0,0.0,Louisiana
-108,13.0,0.0,0.0,Massachusetts
-9,2.0,0.0,0.0,Massachusetts
-2,1.0,0.0,0.0,Massachusetts
-49,5.0,0.0,0.0,Massachusetts
-24,1.0,0.0,0.0,Massachusetts
-22,1.0,0.0,0.0,Massachusetts
-1,0.0,0.0,0.0,Massachusetts
-12,3.0,0.0,0.0,Maryland
-1,1.0,0.0,0.0,Maine
-12,10.0,0.0,0.0,Michigan
-9,4.0,0.0,0.0,Minnesota
-2,1.0,0.0,0.0,Missouri
-1,0.0,0.0,0.0,Mississippi
-1,0.0,0.0,0.0,Montana
-15,7.0,0.0,0.0,North Carolina
-1,0.0,0.0,0.0,North Dakota
-8,5.0,0.0,0.0,Nebraska
-6,1.0,0.0,0.0,New Hampshire
-29,6.0,1.0,0.0,New Jersey
-6,2.0,0.0,0.0,New Mexico
-5,0.0,0.0,0.0,Nevada
-325,109.0,0.0,0.0,New York
-5,1.0,0.0,0.0,Ohio
-3,1.0,0.0,0.0,Oklahoma
-22,1.0,0.0,0.0,Oregon
-22,6.0,0.0,0.0,Pennsylvania
-5,0.0,0.0,0.0,Rhode Island
-12,2.0,0.0,0.0,South Carolina
-8,0.0,0.0,0.0,South Dakota
-18,9.0,0.0,0.0,Tennessee
-22,4.0,0.0,0.0,Texas
-5,1.0,0.0,0.0,Utah
-17,7.0,0.0,0.0,Virginia
-2,1.0,0.0,0.0,Vermont
-553,70.0,44.0,0.0,Washington
-8,2.0,0.0,0.0,Wisconsin
-0,0.0,0.0,0.0,West Virginia
-1,0.0,0.0,0.0,Wyoming
+1,1,0,0.0,Alaska
+0,0,0,0.0,Alabama
+6,5,0,0.0,Arkansas
+9,0,0,0.0,Arizona
+198,21,4,0.0,California
+49,15,0,0.0,Colorado
+6,3,0,0.0,Connecticut
+10,0,0,0.0,District of Columbia
+4,3,0,0.0,Delaware
+44,18,0,0.0,Florida
+33,6,0,0.0,Georgia
+1,6,0,0.0,Georgia
+3,1,0,0.0,Georgia
+2,1,0,0.0,Georgia
+3,1,0,0.0,Georgia
+8,1,0,0.0,Georgia
+1,1,0,0.0,Georgia
+2,0,0,0.0,Hawaii
+17,1,0,0.0,Iowa
+0,0,0,0.0,Idaho
+32,7,0,0.0,Illinois
+12,1,0,0.0,Indiana
+4,3,1,0.0,Kansas
+11,3,1,0.0,Kentucky
+19,6,0,0.0,Louisiana
+108,13,0,0.0,Massachusetts
+9,2,0,0.0,Massachusetts
+2,1,0,0.0,Massachusetts
+49,5,0,0.0,Massachusetts
+24,1,0,0.0,Massachusetts
+22,1,0,0.0,Massachusetts
+1,0,0,0.0,Massachusetts
+12,3,0,0.0,Maryland
+1,1,0,0.0,Maine
+12,10,0,0.0,Michigan
+9,4,0,0.0,Minnesota
+2,1,0,0.0,Missouri
+1,0,0,0.0,Mississippi
+1,0,0,0.0,Montana
+15,7,0,0.0,North Carolina
+1,0,0,0.0,North Dakota
+8,5,0,0.0,Nebraska
+6,1,0,0.0,New Hampshire
+29,6,1,0.0,New Jersey
+6,2,0,0.0,New Mexico
+5,0,0,0.0,Nevada
+325,109,0,0.0,New York
+5,1,0,0.0,Ohio
+3,1,0,0.0,Oklahoma
+22,1,0,0.0,Oregon
+22,6,0,0.0,Pennsylvania
+5,0,0,0.0,Rhode Island
+12,2,0,0.0,South Carolina
+8,0,0,0.0,South Dakota
+18,9,0,0.0,Tennessee
+22,4,0,0.0,Texas
+5,1,0,0.0,Utah
+17,7,0,0.0,Virginia
+2,1,0,0.0,Vermont
+553,70,44,0.0,Washington
+8,2,0,0.0,Wisconsin
+0,0,0,0.0,West Virginia
+1,0,0,0.0,Wyoming

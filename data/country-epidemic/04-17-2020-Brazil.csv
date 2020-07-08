@@ -1,28 +1,28 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-135,25.0,5.0,0.0,Acre
-110,21.0,7.0,0.0,Alagoas
-370,8.0,10.0,0.0,Amapá
-1809,90.0,145.0,0.0,Amazonas
-1059,108.0,36.0,0.0,Bahia
-2684,298.0,149.0,0.0,Ceará
-856,102.0,25.0,0.0,Espírito Santo
-746,30.0,20.0,0.0,Federal District
-335,17.0,16.0,0.0,Goiás
-797,102.0,40.0,0.0,Maranhão
-162,6.0,5.0,0.0,Mato Grosso
-143,12.0,5.0,0.0,Mato Grosso do Sul
-1021,63.0,35.0,0.0,Minas Gerais
-557,119.0,26.0,0.0,Pará
-195,30.0,26.0,0.0,Paraiba
-874,42.0,42.0,0.0,Paraná
-2006,323.0,186.0,0.0,Pernambuco
-102,11.0,8.0,0.0,Piauí
-4349,405.0,341.0,0.0,Rio de Janeiro
-463,63.0,23.0,0.0,Rio Grande do Norte
-802,22.0,22.0,0.0,Rio Grande do Sul
-92,16.0,3.0,0.0,Rondônia
-164,22.0,3.0,0.0,Roraima
-926,42.0,30.0,0.0,Santa Catarina
-12841,1273.0,928.0,0.0,São Paulo
-53,5.0,4.0,0.0,Sergipe
-31,2.0,1.0,0.0,Tocantins
+135,25,5,0.0,Acre
+110,21,7,0.0,Alagoas
+370,8,10,0.0,Amapá
+1809,90,145,0.0,Amazonas
+1059,108,36,0.0,Bahia
+2684,298,149,0.0,Ceará
+856,102,25,0.0,Espírito Santo
+746,30,20,0.0,Federal District
+335,17,16,0.0,Goiás
+797,102,40,0.0,Maranhão
+162,6,5,0.0,Mato Grosso
+143,12,5,0.0,Mato Grosso do Sul
+1021,63,35,0.0,Minas Gerais
+557,119,26,0.0,Pará
+195,30,26,0.0,Paraiba
+874,42,42,0.0,Paraná
+2006,323,186,0.0,Pernambuco
+102,11,8,0.0,Piauí
+4349,405,341,0.0,Rio de Janeiro
+463,63,23,0.0,Rio Grande do Norte
+802,22,22,0.0,Rio Grande do Sul
+92,16,3,0.0,Rondônia
+164,22,3,0.0,Roraima
+926,42,30,0.0,Santa Catarina
+12841,1273,928,0.0,São Paulo
+53,5,4,0.0,Sergipe
+31,2,1,0.0,Tocantins

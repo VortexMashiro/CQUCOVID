@@ -1,10 +1,10 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-2101,0.0,124.0,25.0,Beni
-43,0.0,2.0,14.0,Chuquisaca
-1162,0.0,55.0,71.0,Cochabamba
-1639,87.0,38.0,272.0,La Paz
-537,27.0,21.0,74.0,Oruro
-339,28.0,3.0,12.0,Pando
-428,24.0,3.0,31.0,Potosí
-13291,448.0,225.0,1650.0,Santa Cruz
-229,17.0,4.0,10.0,Tarija
+3141,75,124,25,Beni
+43,0,2,14,Chuquisaca
+2192,103,55,71,Cochabamba
+1639,87,38,272,La Paz
+537,27,21,74,Oruro
+339,28,3,12,Pando
+428,24,3,31,Potosí
+13291,448,225,1650,Santa Cruz
+229,17,4,10,Tarija

@@ -1,17 +1,17 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-8,0.0,0.0,0.0,Aisen of Gral. C. Ibáñez del Campo
-1410,79.0,12.0,0.0,Antofagasta
-1589,25.0,43.0,0.0,Araucanía
-381,13.0,7.0,0.0,Arica y Parinacota
-146,3.0,0.0,0.0,Atacama
-1070,34.0,9.0,0.0,Bio-Bio
-194,14.0,1.0,0.0,Coquimbo
-644,3.0,11.0,0.0,Los Lagos
-221,2.0,6.0,0.0,Los Ríos
-945,8.0,16.0,0.0,Magallanes and Antarctic Region
-565,25.0,14.0,0.0,Maule
-910,25.0,20.0,0.0,Ñuble
-352,29.0,5.0,0.0,O’Higgins
-31354,2078.0,221.0,0.0,Santiago Metropolitan
-861,82.0,2.0,0.0,Tarapacá
-1393,81.0,27.0,0.0,Valparaíso
+8,0,0,0.0,Aisen of Gral. C. Ibáñez del Campo
+1410,79,12,0.0,Antofagasta
+1589,25,43,0.0,Araucanía
+381,13,7,0.0,Arica y Parinacota
+146,3,0,0.0,Atacama
+1070,34,9,0.0,Bio-Bio
+194,14,1,0.0,Coquimbo
+644,3,11,0.0,Los Lagos
+221,2,6,0.0,Los Ríos
+945,8,16,0.0,Magallanes and Antarctic Region
+565,25,14,0.0,Maule
+910,25,20,0.0,Ñuble
+352,29,5,0.0,O’Higgins
+31354,2078,221,0.0,Santiago Metropolitan
+861,82,2,0.0,Tarapacá
+1393,81,27,0.0,Valparaíso

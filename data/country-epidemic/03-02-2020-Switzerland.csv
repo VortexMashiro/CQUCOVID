@@ -1,7 +1,7 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-6,4.0,0.0,0.0,Aargau
-1,4.0,0.0,0.0,Schwyz
-6,4.0,0.0,0.0,Ticino
-2,1.0,0.0,0.0,Vaud
-1,1.0,0.0,0.0,Zug
-13,4.0,0.0,0.0,Zurich
+6,4,0.0,0.0,Aargau
+1,4,0.0,0.0,Schwyz
+6,4,0.0,0.0,Ticino
+2,1,0.0,0.0,Vaud
+1,1,0.0,0.0,Zug
+13,4,0.0,0.0,Zurich

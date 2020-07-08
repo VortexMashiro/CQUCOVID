@@ -1,16 +1,16 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-366,26.0,2.0,0.0,Antofagasta
-1184,42.0,26.0,0.0,Araucanía
-239,29.0,3.0,0.0,Arica y Parinacota
-21,3.0,0.0,0.0,Atacama
-683,8.0,5.0,0.0,Bio-Bio
-72,2.0,0.0,0.0,Coquimbo
-460,6.0,8.0,0.0,Los Lagos
-174,1.0,3.0,0.0,Los Ríos
-624,9.0,7.0,0.0,Magallanes and Antarctic Region
-349,16.0,10.0,0.0,Maule
-715,7.0,14.0,0.0,Ñuble
-81,5.0,1.0,0.0,O’Higgins
-6761,327.0,86.0,0.0,Santiago Metropolitan
-134,6.0,0.0,0.0,Tarapacá
-436,7.0,8.0,0.0,Valparaíso
+366,26,2,0.0,Antofagasta
+1184,42,26,0.0,Araucanía
+239,29,3,0.0,Arica y Parinacota
+21,3,0,0.0,Atacama
+683,8,5,0.0,Bio-Bio
+72,2,0,0.0,Coquimbo
+460,6,8,0.0,Los Lagos
+174,1,3,0.0,Los Ríos
+624,9,7,0.0,Magallanes and Antarctic Region
+349,16,10,0.0,Maule
+715,7,14,0.0,Ñuble
+81,5,1,0.0,O’Higgins
+6761,327,86,0.0,Santiago Metropolitan
+134,6,0,0.0,Tarapacá
+436,7,8,0.0,Valparaíso

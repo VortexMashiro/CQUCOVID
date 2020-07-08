@@ -1,27 +1,27 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-1222,0.0,46.0,0,Aargau
-25,0.0,0.0,0,Appenzell Inner-Rhoden
-100,0.0,3.0,0,Appenzell Outer-Rhoden
-846,0.0,35.0,0,Basel-Country
-983,0.0,50.0,0,Basel-Town
-1933,0.0,97.0,0,Berne
-1177,1.0,84.0,0,Fribourg
-5165,0.0,292.0,1.0,Geneva
-128,0.0,12.0,1.0,Glarus
-828,0.0,50.0,1.0,Graubünden
-205,0.0,7.0,1.0,Jura
-736,0.0,20.0,1.0,Lucerne
-735,0.0,83.0,1.0,Neuchâtel
-124,0.0,3.0,1.0,Nidwalden
-82,0.0,0.0,1.0,Obwalden
-79,0.0,7.0,1.0,Schaffhausen
-308,0.0,23.0,1.0,Schwyz
-446,0.0,17.0,1.0,Solothurn
-811,0.0,37.0,1.0,St Gallen
-384,0.0,18.0,1.0,Thurgau
-3317,0.0,350.0,568.0,Ticino
-93,0.0,7.0,568.0,Uri
-1972,2.0,152.0,568.0,Valais
-5467,1.0,406.0,1.0,Vaud
-207,0.0,9.0,1.0,Zug
-3651,4.0,130.0,11.0,Zurich
+1222,0,46,0,Aargau
+25,0,0,0,Appenzell Inner-Rhoden
+987,887,3,0,Appenzell Outer-Rhoden
+846,0,35,0,Basel-Country
+983,0,50,0,Basel-Town
+1933,0,97,0,Berne
+1177,1,84,0,Fribourg
+5165,0,292,1,Geneva
+128,0,12,1,Glarus
+828,0,50,1,Graubünden
+205,0,7,1,Jura
+736,0,20,1,Lucerne
+735,0,83,1,Neuchâtel
+124,0,3,1,Nidwalden
+82,0,0,1,Obwalden
+79,0,7,1,Schaffhausen
+308,0,23,1,Schwyz
+446,0,17,1,Solothurn
+811,0,37,1,St Gallen
+376,-8,17,1,Thurgau
+3317,0,350,568,Ticino
+93,0,7,568,Uri
+1972,2,152,568,Valais
+5467,1,406,1,Vaud
+207,0,9,1,Zug
+3651,4,130,11,Zurich

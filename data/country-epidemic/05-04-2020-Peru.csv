@@ -1,26 +1,26 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-164,12.0,2.0,0.0,Amazonas
-1014,96.0,77.0,0.0,Ancash
-100,5.0,0.0,0.0,Apurimac
-692,41.0,18.0,0.0,Arequipa
-143,16.0,0.0,0.0,Ayacucho
-268,27.0,3.0,0.0,Cajamarca
-3979,220.0,70.0,0.0,Callao
-234,8.0,3.0,0.0,Cuzco
-199,31.0,1.0,0.0,Huancavelica
-248,20.0,2.0,0.0,Huanuco
-688,72.0,41.0,0.0,Ica
-524,38.0,7.0,0.0,Junín
-965,88.0,23.0,0.0,La Libertad
-2763,202.0,294.0,0.0,Lambayeque
-29842,1997.0,529.0,0.0,Lima
-1502,125.0,62.0,0.0,Loreto
-121,4.0,1.0,0.0,Madre de Dios
-133,6.0,0.0,0.0,Moquegua
-162,17.0,1.0,0.0,Pasco
-1752,168.0,149.0,0.0,Piura
-142,14.0,1.0,0.0,Puno
-296,23.0,1.0,0.0,San Martin
-141,12.0,2.0,0.0,Tacna
-347,15.0,19.0,0.0,Tumbes
-953,107.0,38.0,0.0,Ucayali
+164,12,2,0.0,Amazonas
+1014,96,77,0.0,Ancash
+100,5,0,0.0,Apurimac
+692,41,18,0.0,Arequipa
+143,16,0,0.0,Ayacucho
+268,27,3,0.0,Cajamarca
+3979,220,70,0.0,Callao
+234,8,3,0.0,Cuzco
+199,31,1,0.0,Huancavelica
+248,20,2,0.0,Huanuco
+688,72,41,0.0,Ica
+524,38,7,0.0,Junín
+965,88,23,0.0,La Libertad
+2763,202,294,0.0,Lambayeque
+29842,1997,529,0.0,Lima
+1502,125,62,0.0,Loreto
+121,4,1,0.0,Madre de Dios
+133,6,0,0.0,Moquegua
+162,17,1,0.0,Pasco
+1752,168,149,0.0,Piura
+142,14,1,0.0,Puno
+296,23,1,0.0,San Martin
+141,12,2,0.0,Tacna
+347,15,19,0.0,Tumbes
+953,107,38,0.0,Ucayali

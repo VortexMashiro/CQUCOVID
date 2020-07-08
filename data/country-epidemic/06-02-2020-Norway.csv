@@ -1,12 +1,12 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-2301,3.0,0.0,0.0,Akershus
-338,0.0,0.0,0.0,Aust-Agder
-252,0.0,0.0,0.0,Finnmark
-140,2.0,0.0,0.0,Møre og Romsdal
-508,3.0,0.0,0.0,Møre og Romsdal
-121,0.0,0.0,0.0,Nordland
-883,0.0,0.0,0.0,Oppland
-2641,3.0,0.0,0.0,Oslo
-438,0.0,0.0,0.0,Rogaland
-537,1.0,0.0,0.0,Trondelag
-287,0.0,0.0,0.0,Vestfold og Telemark
+2301,3,0.0,0.0,Akershus
+338,0,0.0,0.0,Aust-Agder
+252,0,0.0,0.0,Finnmark
+140,2,0.0,0.0,Møre og Romsdal
+508,3,0.0,0.0,Møre og Romsdal
+121,0,0.0,0.0,Nordland
+883,0,0.0,0.0,Oppland
+2641,3,0.0,0.0,Oslo
+438,0,0.0,0.0,Rogaland
+537,1,0.0,0.0,Trondelag
+287,0,0.0,0.0,Vestfold og Telemark

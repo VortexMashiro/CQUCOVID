@@ -1,10 +1,12 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-1380,49.0,80.0,0.0,City of Buenos Aires
-307,10.0,13.0,0.0,Chaco
-1381,374.0,78.0,0.0,City of Buenos Aires
-273,4.0,14.0,0.0,Cordoba
-8,2.0,1.0,0.0,Misiones
-75,0.0,9.0,0.0,Mendoza
-108,2.0,5.0,0.0,Neuquen
-193,8.0,7.0,0.0,Rio Negro
-131,1.0,0.0,0.0,"Tierra del Fuego, Antarctica, and South Atlantic Islands"
+1380,49,80,0.0,City of Buenos Aires
+307,10,13,0.0,Chaco
+1381,374,78,0.0,City of Buenos Aires
+273,4,14,0.0,Cordoba
+48,5,14,0.0,La Rioja
+8,2,1,0.0,Misiones
+75,0,9,0.0,Mendoza
+108,2,5,0.0,Neuquen
+193,8,7,0.0,Rio Negro
+4,0,7,0.0,Salta
+131,1,0,0.0,"Tierra del Fuego, Antarctica, and South Atlantic Islands"

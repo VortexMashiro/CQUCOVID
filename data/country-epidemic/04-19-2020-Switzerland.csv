@@ -1,23 +1,23 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-979,19.0,24.0,0.0,Aargau
-82,2.0,3.0,0.0,Appenzell Outer-Rhoden
-803,5.0,25.0,0.0,Basel-Country
-932,3.0,40.0,0.0,Basel-Town
-1599,13.0,69.0,0.0,Berne
-980,24.0,71.0,0.0,Fribourg
-4654,43.0,193.0,0.0,Geneva
-111,3.0,3.0,0.0,Glarus
-760,8.0,39.0,0.0,Graubünden
-192,2.0,2.0,0.0,Jura
-626,3.0,15.0,0.0,Lucerne
-636,11.0,50.0,0.0,Neuchâtel
-62,1.0,1.0,0.0,Schaffhausen
-268,2.0,15.0,0.0,Schwyz
-355,2.0,11.0,0.0,Solothurn
-705,6.0,27.0,0.0,St Gallen
-333,1.0,13.0,0.0,Thurgau
-3032,38.0,281.0,0.0,Ticino
-1755,10.0,103.0,0.0,Valais
-4945,65.0,292.0,0.0,Vaud
-175,1.0,7.0,0.0,Zug
-3239,27.0,101.0,0.0,Zurich
+979,19,24,0.0,Aargau
+82,2,3,0.0,Appenzell Outer-Rhoden
+803,5,25,0.0,Basel-Country
+932,3,40,0.0,Basel-Town
+1599,13,69,0.0,Berne
+980,24,71,0.0,Fribourg
+4654,43,193,0.0,Geneva
+111,3,3,0.0,Glarus
+760,8,39,0.0,Graubünden
+192,2,2,0.0,Jura
+626,3,15,0.0,Lucerne
+636,11,50,0.0,Neuchâtel
+62,1,1,0.0,Schaffhausen
+268,2,15,0.0,Schwyz
+355,2,11,0.0,Solothurn
+705,6,27,0.0,St Gallen
+333,1,13,0.0,Thurgau
+3032,38,281,0.0,Ticino
+1755,10,103,0.0,Valais
+4945,65,292,0.0,Vaud
+175,1,7,0.0,Zug
+3239,27,101,0.0,Zurich

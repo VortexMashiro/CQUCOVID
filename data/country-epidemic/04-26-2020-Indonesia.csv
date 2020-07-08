@@ -1,27 +1,27 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-186,3.0,4.0,75.0,Bali
-10,1.0,1.0,2.0,Bangka-Belitung
-649,28.0,58.0,72.0,Central Java
-104,4.0,4.0,9.0,Central Kalimantan
-785,15.0,87.0,138.0,East Java
-105,8.0,1.0,11.0,East Kalimantan
-1,0.0,0.0,1.0,East Nusa Tenggara
-15,1.0,1.0,0.0,Gorontalo
-3798,114.0,353.0,335.0,Jakarta
-32,11.0,0.0,1.0,Jambi
-42,4.0,5.0,10.0,Lampung
-22,0.0,0.0,11.0,Maluku
-89,6.0,1.0,2.0,North Kalimantan
-26,12.0,0.0,2.0,North Maluku
-40,4.0,3.0,11.0,North Sulawesi
-111,6.0,12.0,21.0,North Sumatra
-141,5.0,6.0,32.0,Papua
-39,1.0,4.0,14.0,Riau
-85,2.0,8.0,9.0,Riau Islands
-45,4.0,2.0,6.0,South East Sulawesi
-440,8.0,36.0,99.0,South Sulawesi
-129,10.0,3.0,18.0,South Sumatra
-912,5.0,77.0,93.0,West Java
-195,15.0,4.0,20.0,West Nusa Tenggara
-102,5.0,11.0,20.0,West Sumatra
-82,3.0,7.0,36.0,Yogyakarta
+186,3,4,75,Bali
+10,1,1,2,Bangka-Belitung
+649,28,58,72,Central Java
+104,4,4,9,Central Kalimantan
+785,15,87,138,East Java
+105,8,1,11,East Kalimantan
+1,0,0,1,East Nusa Tenggara
+15,1,1,0,Gorontalo
+3798,114,353,335,Jakarta
+32,11,0,1,Jambi
+42,4,5,10,Lampung
+22,0,0,11,Maluku
+89,6,1,2,North Kalimantan
+26,12,0,2,North Maluku
+40,4,3,11,North Sulawesi
+111,6,12,21,North Sumatra
+141,5,6,32,Papua
+39,1,4,14,Riau
+85,2,8,9,Riau Islands
+45,4,2,6,South East Sulawesi
+440,8,36,99,South Sulawesi
+129,10,3,18,South Sumatra
+912,5,77,93,West Java
+195,15,4,20,West Nusa Tenggara
+102,5,11,20,West Sumatra
+82,3,7,36,Yogyakarta

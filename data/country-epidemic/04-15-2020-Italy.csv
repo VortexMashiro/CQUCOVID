@@ -1,26 +1,26 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-2274,61.0,240.0,224.0,Abruzzi
-2253,20.0,236.0,211.0,Abruzzi
-327,4.0,21.0,38.0,Basilicata
-959,16.0,71.0,81.0,Calabria
-3810,70.0,278.0,442.0,Campania
-21136,348.0,2788.0,4664.0,Emilia-Romagna
-2578,48.0,212.0,938.0,Friuli-Venezia Giulia
-5144,88.0,305.0,764.0,Latium
-5232,264.0,311.0,874.0,Latium
-5892,148.0,807.0,1665.0,Liguria
-62224,955.0,11377.0,17855.0,Lombardy
-5503,122.0,746.0,1660.0,Marches
-5462,41.0,737.0,1588.0,Marches
-263,3.0,15.0,42.0,Molise
-18468,667.0,2015.0,3019.0,Piedmont
-3195,65.0,288.0,323.0,Apulia
-1152,12.0,83.0,208.0,Sardinia
-2541,42.0,181.0,273.0,Sicily
-7750,180.0,556.0,693.0,Tuscany
-2222,37.0,223.0,425.0,Trentino-Alto Adige
-3220,94.0,318.0,798.0,Trentino
-5275,1075.0,512.0,1146.0,Trentino-Alto Adige
-1322,1.0,54.0,686.0,Umbria
-959,16.0,121.0,289.0,Valle d'Aosta
-14812,281.0,940.0,2895.0,Veneto
+2274,61,240,224,Abruzzi
+2253,20,236,211,Abruzzi
+327,4,21,38,Basilicata
+959,16,71,81,Calabria
+3810,70,278,442,Campania
+21136,348,2788,4664,Emilia-Romagna
+2578,48,212,938,Friuli-Venezia Giulia
+5144,88,305,764,Latium
+5232,264,311,874,Latium
+5892,148,807,1665,Liguria
+62224,955,11377,17855,Lombardy
+5503,122,746,1660,Marches
+5462,41,737,1588,Marches
+263,3,15,42,Molise
+18468,667,2015,3019,Piedmont
+3195,65,288,323,Apulia
+1152,12,83,208,Sardinia
+2541,42,181,273,Sicily
+7750,180,556,693,Tuscany
+2222,37,223,425,Trentino-Alto Adige
+3220,94,318,798,Trentino
+5275,1075,512,1146,Trentino-Alto Adige
+1322,1,54,686,Umbria
+959,16,121,289,Valle d'Aosta
+14812,281,940,2895,Veneto

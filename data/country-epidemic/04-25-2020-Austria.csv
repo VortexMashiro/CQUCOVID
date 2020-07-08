@@ -1,10 +1,10 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-315,1.0,9.0,235.0,Burgenland
-403,1.0,12.0,360.0,Carinthia
-2547,14.0,90.0,1950.0,Lower Austria
-1208,1.0,33.0,1041.0,Salzburg
-1705,8.0,120.0,1011.0,Styria
-3463,17.0,101.0,2982.0,Tyrol
-2238,8.0,51.0,2021.0,Upper Austria
-2323,33.0,107.0,1748.0,Vienna
-869,0.0,14.0,755.0,Vorarlberg
+315,1,9,235,Burgenland
+403,1,12,360,Carinthia
+2547,14,90,1950,Lower Austria
+1208,1,33,1041,Salzburg
+1705,8,120,1011,Styria
+3463,17,101,2982,Tyrol
+2238,8,51,2021,Upper Austria
+2323,33,107,1748,Vienna
+869,0,14,755,Vorarlberg

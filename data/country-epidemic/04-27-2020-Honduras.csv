@@ -1,12 +1,12 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-21,1.0,3.0,14.0,Atlántida
-6,2.0,0.0,0.0,Choluteca
-4,2.0,0.0,0.0,Comayagua
-1,0.0,0.0,0.0,Copán
-496,63.0,51.0,23.0,Cortés
-65,1.0,2.0,42.0,Francisco Morazán
-2,0.0,0.0,0.0,La Paz
-5,0.0,1.0,0.0,Lempira
-12,2.0,0.0,2.0,Santa Bárbara
-1,2.0,0.0,0.0,Valle
-19,7.0,3.0,0.0,Yoro
+21,1,3,14,Atlántida
+6,2,0,0,Choluteca
+4,2,0,0,Comayagua
+1,0,0,0,Copán
+496,63,51,23,Cortés
+65,1,2,42,Francisco Morazán
+2,0,0,0,La Paz
+5,0,1,0,Lempira
+12,2,0,2,Santa Bárbara
+1,2,0,0,Valle
+19,7,3,0,Yoro

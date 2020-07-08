@@ -1,5 +1,5 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
 2,0,0,0.0,Emilia-Romagna
-55,40.0,1.0,0.0,Lombardy
-1,40.0,1.0,0.0,Piedmont
-18,16.0,1.0,0.0,Veneto
+55,40,1,0.0,Lombardy
+1,40,1,0.0,Piedmont
+18,16,1,0.0,Veneto

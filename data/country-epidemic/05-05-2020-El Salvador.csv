@@ -1,15 +1,15 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-18,1.0,0.0,0.0,Ahuachapán
-4,0.0,0.0,0.0,Cabañas
-10,1.0,0.0,0.0,Chalatenango
-19,7.0,0.0,0.0,Cuscatlán
-37,14.0,0.0,0.0,La Libertad
-18,6.0,0.0,0.0,La Paz
-13,7.0,0.0,0.0,La Unión
-4,0.0,0.0,0.0,Morazán
-28,11.0,0.0,0.0,San Miguel
-224,17.0,0.0,0.0,San Salvador
-12,1.0,0.0,0.0,San Vicente
-35,13.0,0.0,0.0,Santa Ana
-8,1.0,0.0,0.0,Sonsonate
-9,0.0,0.0,0.0,Usulután
+18,1,0.0,0.0,Ahuachapán
+4,0,0.0,0.0,Cabañas
+10,1,0.0,0.0,Chalatenango
+19,7,0.0,0.0,Cuscatlán
+37,14,0.0,0.0,La Libertad
+18,6,0.0,0.0,La Paz
+13,7,0.0,0.0,La Unión
+4,0,0.0,0.0,Morazán
+28,11,0.0,0.0,San Miguel
+224,17,0.0,0.0,San Salvador
+12,1,0.0,0.0,San Vicente
+35,13,0.0,0.0,Santa Ana
+8,1,0.0,0.0,Sonsonate
+9,0,0.0,0.0,Usulután

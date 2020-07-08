@@ -1,6 +1,6 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-5893,311.0,53.0,2037.0,Baluchistan
-4405,459.0,41.0,629.0,Islamabad
-12422,532.0,521.0,3221.0,Khyber Pakhtunkhwa
-35063,1919.0,629.0,7806.0,Punjab
-35060,1524.0,575.0,16782.0,Sindh
+5893,311,53,2037,Baluchistan
+4405,459,41,629,Islamabad
+12422,532,521,3221,Khyber Pakhtunkhwa
+35063,1919,629,7806,Punjab
+35060,1524,575,16782,Sindh

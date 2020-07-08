@@ -1,19 +1,19 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-219,22.0,0.0,0.0,Andalusia
-80,16.0,0.0,0.0,Aragon
-67,20.0,0.0,0.0,Asturias
-30,2.0,0.0,0.0,Balearic Islands
-417,11.0,0.0,0.0,Basque Country
-70,19.0,0.0,0.0,Canary Islands
-43,4.0,0.0,0.0,Cantabria
-194,79.0,0.0,0.0,Castile La Mancha
-169,77.0,0.0,0.0,Castilla Leon
-316,56.0,0.0,0.0,Catalonia
-39,5.0,0.0,0.0,Extremadura
-85,23.0,0.0,0.0,Galicia
-243,38.0,0.0,0.0,La Rioja
-1990,602.0,0.0,0.0,Madrid
-2,602.0,0.0,0.0,Melilla
-35,9.0,0.0,0.0,Murcia
-130,57.0,0.0,0.0,Navarre
-94,18.0,0.0,0.0,Valencia
+219,22,0.0,0.0,Andalusia
+80,16,0.0,0.0,Aragon
+67,20,0.0,0.0,Asturias
+30,2,0.0,0.0,Balearic Islands
+417,11,0.0,0.0,Basque Country
+70,19,0.0,0.0,Canary Islands
+43,4,0.0,0.0,Cantabria
+194,79,0.0,0.0,Castile La Mancha
+169,77,0.0,0.0,Castilla Leon
+316,56,0.0,0.0,Catalonia
+39,5,0.0,0.0,Extremadura
+85,23,0.0,0.0,Galicia
+243,38,0.0,0.0,La Rioja
+1990,602,0.0,0.0,Madrid
+2,602,0.0,0.0,Melilla
+35,9,0.0,0.0,Murcia
+130,57,0.0,0.0,Navarre
+94,18,0.0,0.0,Valencia

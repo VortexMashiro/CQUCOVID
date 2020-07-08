@@ -1,35 +1,35 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-37,0.0,2.0,20.0,Aceh
-829,0.0,6.0,542.0,Bali
-147,0.0,2.0,68.0,Bangka-Belitung
-1309,0.0,79.0,508.0,Banten
-105,0.0,6.0,65.0,Bengkulu
-2346,0.0,121.0,860.0,Central Java
-702,0.0,38.0,243.0,Central Kalimantan
-172,0.0,4.0,129.0,Central Sulawesi
-8533,0.0,651.0,2381.0,East Java
-397,0.0,4.0,292.0,East Kalimantan
-108,0.0,1.0,40.0,East Nusa Tenggara
-214,0.0,8.0,90.0,Gorontalo
-9349,0.0,563.0,4445.0,Jakarta
-109,0.0,0.0,45.0,Jambi
-169,0.0,12.0,117.0,Lampung
-520,0.0,13.0,113.0,Maluku
-171,0.0,2.0,145.0,North Kalimantan
-322,0.0,22.0,48.0,North Maluku
-736,0.0,59.0,122.0,North Sulawesi
-970,0.0,67.0,227.0,North Sumatra
-1311,0.0,7.0,297.0,Papua
-128,0.0,6.0,112.0,Riau
-263,0.0,16.0,161.0,Riau Islands
-292,0.0,5.0,203.0,South East Sulawesi
-2208,0.0,141.0,333.0,South Kalimantan
-3200,0.0,123.0,1104.0,South Sulawesi
-1541,0.0,61.0,682.0,South Sumatra
-2703,0.0,169.0,1177.0,West Java
-282,0.0,4.0,167.0,West Kalimantan
-978,0.0,41.0,654.0,West Nusa Tenggara
-214,0.0,3.0,96.0,West Papua
-99,0.0,2.0,76.0,West Sulawesi
-691,0.0,30.0,465.0,West Sumatra
-276,0.0,8.0,216.0,Yogyakarta
+37,0,2,20,Aceh
+1234,58,6,542,Bali
+148,1,2,68,Bangka-Belitung
+1390,12,79,508,Banten
+116,2,6,65,Bengkulu
+3249,129,121,860,Central Java
+821,17,38,243,Central Kalimantan
+179,1,4,129,Central Sulawesi
+10612,297,651,2381,East Java
+461,10,4,292,East Kalimantan
+111,1,1,40,East Nusa Tenggara
+235,3,8,90,Gorontalo
+10584,177,563,4445,Jakarta
+110,1,0,45,Jambi
+179,2,12,117,Lampung
+639,17,13,113,Maluku
+185,2,2,145,North Kalimantan
+630,44,22,48,North Maluku
+946,30,59,122,North Sulawesi
+1327,51,67,227,North Sumatra
+1612,43,7,297,Papua
+177,7,6,112,Riau
+284,3,16,161,Riau Islands
+376,12,5,203,South East Sulawesi
+2770,81,141,333,South Kalimantan
+4287,156,123,1104,South Sulawesi
+1828,41,61,682,South Sumatra
+3022,46,169,1177,West Java
+308,4,4,167,West Kalimantan
+1118,20,41,654,West Nusa Tenggara
+228,2,3,96,West Papua
+106,1,2,76,West Sulawesi
+719,4,30,465,West Sumatra
+297,3,8,216,Yogyakarta

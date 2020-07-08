@@ -96,7 +96,7 @@ def paint_confirmed_distributed_chart(country):
             "",
             result,
             radius=[60, 160],
-            center=['50%', '65%']
+            # center=['50%', '65%']
         )
             .set_global_opts(
             title_opts=opts.TitleOpts(
@@ -138,6 +138,7 @@ def paint_together(country = 'China'):
         paint_confirmed_distributed_chart(country),
         paint_treemap(),
     )
+    # page.render("pictures.html")
     return page.dump_options_with_quotes()
 
 

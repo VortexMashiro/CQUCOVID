@@ -1,14 +1,14 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-2014,379.0,198.0,0,Abruzzi
-315,3.0,17.0,0,Basilicata
-921,6.0,66.0,0,Calabria
-3593,76.0,243.0,0,Campania
-4583,950.0,263.0,0,Latium
-5084,842.0,682.0,0,Marches
-251,5.0,14.0,0,Molise
-2984,80.0,260.0,0,Apulia
-1109,18.0,74.0,0,Sardinia
-2411,47.0,162.0,0,Sicily
-7174,216.0,492.0,0,Tuscany
-2082,88.0,293.0,678.0,Trentino-Alto Adige
-1314,5.0,52.0,678.0,Umbria
+2014,379,198,0,Abruzzi
+315,3,17,0,Basilicata
+921,6,66,0,Calabria
+3593,76,243,0,Campania
+4583,950,263,0,Latium
+5084,842,682,0,Marches
+251,5,14,0,Molise
+2984,80,260,0,Apulia
+1109,18,74,0,Sardinia
+2411,47,162,0,Sicily
+7174,216,492,0,Tuscany
+2082,88,293,678,Trentino-Alto Adige
+1314,5,52,678,Umbria

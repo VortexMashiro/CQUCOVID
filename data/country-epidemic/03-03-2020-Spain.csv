@@ -1,7 +1,7 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-31,7.0,0.0,0.0,Andalusia
-33,6.0,0.0,0.0,Basque Country
-10,1.0,0.0,0.0,Castile La Mancha
-8,3.0,0.0,0.0,Castilla Leon
-3,0.0,0.0,0.0,La Rioja
-81,4.0,0.0,0.0,Madrid
+31,7,0.0,0.0,Andalusia
+33,6,0.0,0.0,Basque Country
+10,1,0.0,0.0,Castile La Mancha
+8,3,0.0,0.0,Castilla Leon
+3,0,0.0,0.0,La Rioja
+81,4,0.0,0.0,Madrid

@@ -1,28 +1,28 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-657,104.0,24.0,0.0,Acre
-1441,69.0,64.0,0.0,Alagoas
-1482,295.0,43.0,0.0,Amapá
-6683,621.0,548.0,0.0,Amazonas
-3495,180.0,123.0,0.0,Bahia
-8370,61.0,663.0,0.0,Ceará
-3086,101.0,114.0,0.0,Espírito Santo
-1649,83.0,33.0,0.0,Federal District
-850,25.0,30.0,0.0,Goiás
-4040,235.0,237.0,0.0,Maranhão
-337,6.0,12.0,0.0,Mato Grosso
-272,6.0,10.0,0.0,Mato Grosso do Sul
-2118,95.0,89.0,0.0,Minas Gerais
-3863,403.0,309.0,0.0,Pará
-1169,135.0,76.0,0.0,Paraiba
-1514,22.0,93.0,0.0,Paraná
-8643,498.0,652.0,0.0,Pernambuco
-742,77.0,28.0,0.0,Piauí
-11139,593.0,1019.0,0.0,Rio de Janeiro
-1392,26.0,61.0,0.0,Rio Grande do Norte
-1666,47.0,65.0,0.0,Rio Grande do Sul
-705,52.0,24.0,0.0,Rondônia
-740,72.0,11.0,0.0,Roraima
-2477,42.0,52.0,0.0,Santa Catarina
-31772,598.0,2627.0,0.0,São Paulo
-730,129.0,14.0,0.0,Sergipe
-246,55.0,4.0,0.0,Tocantins
+657,104,24,0.0,Acre
+1441,69,64,0.0,Alagoas
+1482,295,43,0.0,Amapá
+6683,621,548,0.0,Amazonas
+3495,180,123,0.0,Bahia
+8370,61,663,0.0,Ceará
+3086,101,114,0.0,Espírito Santo
+1649,83,33,0.0,Federal District
+850,25,30,0.0,Goiás
+4040,235,237,0.0,Maranhão
+337,6,12,0.0,Mato Grosso
+272,6,10,0.0,Mato Grosso do Sul
+2118,95,89,0.0,Minas Gerais
+3863,403,309,0.0,Pará
+1169,135,76,0.0,Paraiba
+1514,22,93,0.0,Paraná
+8643,498,652,0.0,Pernambuco
+742,77,28,0.0,Piauí
+11139,593,1019,0.0,Rio de Janeiro
+1392,26,61,0.0,Rio Grande do Norte
+1666,47,65,0.0,Rio Grande do Sul
+705,52,24,0.0,Rondônia
+740,72,11,0.0,Roraima
+2477,42,52,0.0,Santa Catarina
+31772,598,2627,0.0,São Paulo
+730,129,14,0.0,Sergipe
+246,55,4,0.0,Tocantins

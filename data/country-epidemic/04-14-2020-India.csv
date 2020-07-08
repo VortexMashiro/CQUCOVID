@@ -1,32 +1,32 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-11,0.0,0.0,10.0,Andaman and Nicobar Islands
-473,41.0,9.0,14.0,Andhra Pradesh
-1,0.0,0.0,0.0,Arunachal Pradesh
-31,0.0,1.0,0.0,Assam
-66,2.0,1.0,26.0,Bihar
-21,0.0,0.0,7.0,Chandigarh
-31,0.0,0.0,10.0,Chhattisgarh
-1510,356.0,28.0,30.0,Delhi
-7,0.0,0.0,5.0,Goa
-617,78.0,26.0,55.0,Gujarat
-32,0.0,1.0,13.0,Himachal Pradesh
-199,14.0,3.0,34.0,Haryana
-24,5.0,2.0,0.0,Jharkhand
-258,11.0,9.0,65.0,Karnataka
-379,3.0,3.0,198.0,Kerala
-2337,352.0,160.0,229.0,Maharashtra
-1,352.0,0.0,0.0,Meghalaya
-2,0.0,0.0,1.0,Manipur
-730,126.0,50.0,51.0,Madhya Pradesh
-1,0.0,0.0,0.0,Mizoram
-1,0.0,0.0,0.0,Nagaland
-55,1.0,1.0,18.0,Orissa
-176,9.0,12.0,14.0,Punjab
-7,0.0,0.0,1.0,Puducherry
-879,67.0,3.0,133.0,Rajasthan
-1173,98.0,11.0,58.0,Tamil Nadu
-2,0.0,0.0,0.0,Tripura
-624,62.0,17.0,100.0,Telangana
-35,0.0,0.0,7.0,Uttarakhand
-657,174.0,5.0,49.0,Uttar Pradesh
-190,38.0,7.0,36.0,West Bengal
+11,0,0,10,Andaman and Nicobar Islands
+473,41,9,14,Andhra Pradesh
+1,0,0,0,Arunachal Pradesh
+31,0,1,0,Assam
+66,2,1,26,Bihar
+21,0,0,7,Chandigarh
+31,0,0,10,Chhattisgarh
+1510,356,28,30,Delhi
+7,0,0,5,Goa
+617,78,26,55,Gujarat
+32,0,1,13,Himachal Pradesh
+199,14,3,34,Haryana
+24,5,2,0,Jharkhand
+258,11,9,65,Karnataka
+379,3,3,198,Kerala
+2337,352,160,229,Maharashtra
+1,352,0,0,Meghalaya
+2,0,0,1,Manipur
+730,126,50,51,Madhya Pradesh
+1,0,0,0,Mizoram
+1,0,0,0,Nagaland
+55,1,1,18,Orissa
+176,9,12,14,Punjab
+7,0,0,1,Puducherry
+879,67,3,133,Rajasthan
+1173,98,11,58,Tamil Nadu
+2,0,0,0,Tripura
+624,62,17,100,Telangana
+35,0,0,7,Uttarakhand
+657,174,5,49,Uttar Pradesh
+190,38,7,36,West Bengal

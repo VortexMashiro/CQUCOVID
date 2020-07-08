@@ -1,79 +1,79 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-91,7.0,2.0,15.0,Adygea
-72,9.0,0.0,4.0,Altay Territory
-16,2.0,0.0,4.0,Amur
-107,68.0,0.0,11.0,Arkhangel’sk
-123,24.0,3.0,9.0,Astrakhan’
-274,22.0,10.0,14.0,Bashkortostan
-90,9.0,2.0,11.0,Belgorod
-20,1.0,0.0,4.0,Birobijan
-279,23.0,1.0,30.0,Bryansk
-115,3.0,2.0,37.0,Buryatia
-219,44.0,5.0,19.0,Chechnya
-68,7.0,0.0,33.0,Chelyabinsk
-2,0.0,0.0,0.0,Chukot
-193,29.0,1.0,9.0,Chuvashia
-292,35.0,9.0,28.0,Dagestan
-269,42.0,5.0,22.0,Ingushetia
-55,1.0,2.0,12.0,Irkutsk
-183,19.0,1.0,12.0,Ivanovo
-136,22.0,0.0,8.0,Kabardino-Balkaria
-126,11.0,1.0,30.0,Kaliningrad
-74,7.0,3.0,9.0,Kalmykia
-188,37.0,2.0,9.0,Kaluga
-34,5.0,0.0,3.0,Kamchatka
-67,17.0,0.0,1.0,Karachay-Cherkessia
-19,4.0,0.0,0.0,Karelia
-35,9.0,1.0,6.0,Kemerovo
-185,38.0,4.0,12.0,Khabarovsk
-68,22.0,0.0,3.0,Khakassia
-175,14.0,0.0,20.0,Khanty-Mansi
-150,39.0,2.0,14.0,Kirov
-481,7.0,3.0,10.0,Komi-Permyak
-66,13.0,2.0,7.0,Kostroma
-383,48.0,5.0,54.0,Krasnodar
-300,24.0,0.0,17.0,Krasnoyarsk
-196,26.0,2.0,8.0,Kursk
-149,20.0,1.0,48.0,Lipetsk
-63,1.0,0.0,1.0,Magadan
-262,43.0,1.0,24.0,Mari El
-258,60.0,1.0,5.0,Mordovia
-24324,3570.0,176.0,1763.0,Moscow City
-354,33.0,3.0,28.0,Murmansk
-646,129.0,4.0,21.0,Nizhniy Novgorod
-120,26.0,3.0,7.0,North Ossetia-Alania
-98,18.0,1.0,4.0,Novgorod
-108,22.0,3.0,16.0,Novosibirsk
-33,2.0,0.0,14.0,Omsk
-132,13.0,1.0,10.0,Orel
-184,44.0,2.0,16.0,Orenburg
-160,20.0,5.0,4.0,Penza
-198,28.0,3.0,27.0,Perm
-80,13.0,2.0,4.0,Primorye
-44,2.0,6.0,8.0,Pskov
-232,35.0,0.0,13.0,Rostov
-267,42.0,0.0,9.0,Ryazan’
-88,41.0,0.0,16.0,Sakha
-19,0.0,0.0,8.0,Sakhalin
-79,15.0,0.0,15.0,Samara
-114,16.0,0.0,13.0,Saratov
-173,21.0,2.0,4.0,Smolensk
-1760,114.0,8.0,239.0,St Petersburg City
-232,23.0,3.0,26.0,Stavropol
-141,15.0,1.0,49.0,Sverdlovsk
-187,22.0,0.0,8.0,Tambov
-191,31.0,0.0,25.0,Tatarstan
-29,5.0,0.0,4.0,Tomsk
-287,58.0,0.0,39.0,Tula
-13,4.0,0.0,0.0,Tuva
-270,33.0,0.0,12.0,Tver’
-227,42.0,2.0,20.0,Tyumen’
-66,4.0,3.0,7.0,Udmurtia
-168,11.0,2.0,3.0,Ul’yanovsk
-225,27.0,5.0,11.0,Vladimir
-93,14.0,1.0,23.0,Volgograd
-93,7.0,0.0,13.0,Vologda
-156,26.0,5.0,28.0,Voronezh
-116,10.0,1.0,7.0,Yamalo-Nenets
-117,12.0,0.0,12.0,Yaroslavl’
-34,1.0,0.0,4.0,Zabaykalsky Krai
+91,7,2,15,Adygea
+72,9,0,4,Altay Territory
+16,2,0,4,Amur
+107,68,0,11,Arkhangel’sk
+123,24,3,9,Astrakhan’
+274,22,10,14,Bashkortostan
+90,9,2,11,Belgorod
+20,1,0,4,Birobijan
+279,23,1,30,Bryansk
+115,3,2,37,Buryatia
+219,44,5,19,Chechnya
+68,7,0,33,Chelyabinsk
+2,0,0,0,Chukot
+193,29,1,9,Chuvashia
+292,35,9,28,Dagestan
+269,42,5,22,Ingushetia
+55,1,2,12,Irkutsk
+183,19,1,12,Ivanovo
+136,22,0,8,Kabardino-Balkaria
+126,11,1,30,Kaliningrad
+74,7,3,9,Kalmykia
+188,37,2,9,Kaluga
+34,5,0,3,Kamchatka
+67,17,0,1,Karachay-Cherkessia
+19,4,0,0,Karelia
+35,9,1,6,Kemerovo
+185,38,4,12,Khabarovsk
+68,22,0,3,Khakassia
+175,14,0,20,Khanty-Mansi
+150,39,2,14,Kirov
+481,7,3,10,Komi-Permyak
+66,13,2,7,Kostroma
+383,48,5,54,Krasnodar
+300,24,0,17,Krasnoyarsk
+196,26,2,8,Kursk
+149,20,1,48,Lipetsk
+63,1,0,1,Magadan
+262,43,1,24,Mari El
+258,60,1,5,Mordovia
+24324,3570,176,1763,Moscow City
+354,33,3,28,Murmansk
+646,129,4,21,Nizhniy Novgorod
+120,26,3,7,North Ossetia-Alania
+98,18,1,4,Novgorod
+108,22,3,16,Novosibirsk
+33,2,0,14,Omsk
+132,13,1,10,Orel
+184,44,2,16,Orenburg
+160,20,5,4,Penza
+198,28,3,27,Perm
+80,13,2,4,Primorye
+44,2,6,8,Pskov
+232,35,0,13,Rostov
+267,42,0,9,Ryazan’
+88,41,0,16,Sakha
+19,0,0,8,Sakhalin
+79,15,0,15,Samara
+114,16,0,13,Saratov
+173,21,2,4,Smolensk
+1760,114,8,239,St Petersburg City
+232,23,3,26,Stavropol
+141,15,1,49,Sverdlovsk
+187,22,0,8,Tambov
+191,31,0,25,Tatarstan
+29,5,0,4,Tomsk
+287,58,0,39,Tula
+13,4,0,0,Tuva
+270,33,0,12,Tver’
+227,42,2,20,Tyumen’
+66,4,3,7,Udmurtia
+168,11,2,3,Ul’yanovsk
+225,27,5,11,Vladimir
+93,14,1,23,Volgograd
+93,7,0,13,Vologda
+156,26,5,28,Voronezh
+116,10,1,7,Yamalo-Nenets
+117,12,0,12,Yaroslavl’
+34,1,0,4,Zabaykalsky Krai

@@ -1,8 +1,8 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-2,0.0,0.0,0.0,Choluteca
-28,0.0,1.0,0.0,Colón
-2,0.0,0.0,0.0,Comayagua
-1,0.0,0.0,0.0,Copán
-2,0.0,0.0,0.0,La Paz
-5,0.0,1.0,0.0,Lempira
-9,0.0,0.0,0.0,Santa Bárbara
+2,0,0,0,Choluteca
+28,0,1,0,Colón
+2,0,0,0,Comayagua
+1,0,0,0,Copán
+2,0,0,0,La Paz
+5,0,1,0,Lempira
+9,0,0,0,Santa Bárbara

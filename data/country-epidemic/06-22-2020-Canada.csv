@@ -1,14 +1,14 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-7736,32.0,153.0,7041.0,Alberta
-2822,16.0,169.0,2471.0,British Columbia
-303,1.0,7.0,293.0,Manitoba
-164,0.0,2.0,135.0,New Brunswick
-261,0.0,3.0,258.0,Newfoundland and Labrador
-1061,0.0,62.0,998.0,Nova Scotia
-5,0.0,0.0,5.0,Northwest Territories
-0,0.0,0.0,0.0,Nunavut
-33637,161.0,2609.0,28933.0,Ontario
-27,0.0,0.0,27.0,Prince Edward Island
-54835,69.0,5417.0,23506.0,Quebec
-751,5.0,13.0,643.0,Saskatchewan
-11,0.0,0.0,11.0,Yukon Territory
+7736,32,153,7041,Alberta
+2822,16,169,2471,British Columbia
+303,1,7,293,Manitoba
+164,0,2,135,New Brunswick
+261,0,3,258,Newfoundland and Labrador
+1061,0,62,998,Nova Scotia
+5,0,0,5,Northwest Territories
+0,0,0,0,Nunavut
+33637,161,2609,28933,Ontario
+27,0,0,27,Prince Edward Island
+54835,69,5417,23506,Quebec
+751,5,13,643,Saskatchewan
+11,0,0,11,Yukon Territory
