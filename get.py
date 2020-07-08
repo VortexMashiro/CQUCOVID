@@ -421,9 +421,23 @@ def get_treemap_data(today):
                 ar1_list.append({"name": str(row["AdminRegion1"]), "value": int(row["Confirmed"]), "children": []})
                 continue
             ar2_list = []
+            tmp1 = tmp1[tmp1["AdminRegion2"].notna()]
             for j in range(0, tmp1.shape[0]):
                 item = tmp1.iloc[j]
                 ar2_list.append({"name": str(item["AdminRegion2"]), "value": int(item["Confirmed"]), "children": []})
             ar1_list.append({"name": str(row["AdminRegion1"]), "value": int(row["Confirmed"]), "children": ar2_list})
         data_list.append({"name": str(country_name), "value": int(country_value), "children": ar1_list})
     return {"children": data_list}
+
+
+def get_confirmed_pre(country):
+    file_name = "prediction_data/" + country + ".csv"
+    if os.path.isfile(file_name):
+        data = pd.read_csv(file_name, encoding="utf-8")
+        confirmed = []
+        for index in range(0, data.shape[0]):
+            print(data.iloc[index])
+            confirmed.append(int(data.iloc[index]["Confirmed"]))
+        return confirmed
+    else:
+        return None

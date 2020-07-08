@@ -173,7 +173,7 @@ for filename in path_list:
     savepre = pd.DataFrame(columns=name, data=pred_result)
     savepre.apply(get_to_int)
     savepre["Confirmed"] = savepre["Confirmed"].apply(get_to_int)
-    savepre.to_csv(pred_data + model_name + '.csv')
+    savepre.to_csv(pred_data + model_name + '.csv', index=None)
     print(model_name + '.csv\tfinish.')
 
 

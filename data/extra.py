@@ -193,8 +193,9 @@ def extra_new_confirmed_death(source, country_list):
     :return: Nothing
     """
     country_column = source["Country_Region"]
+    source = source[source["AdminRegion1"].isna()]
     for country in country_list:
-        data = source[country_column == country][["Updated", "ConfirmedChange", "DeathsChange"]]
+        data = source[source.Country_Region == country][["Updated", "ConfirmedChange", "DeathsChange"]]
         data.fillna(method="pad", inplace=True)
         data.fillna(value=0, inplace=True)
         file_name = "new-confirmed-death/" + country + ".csv"
@@ -291,18 +292,18 @@ def extra_country_status(source, country_list, date_list):
 
 source_data = extra_source()
 print("extra_source")
-date_list_data = extra_date_list(source_data)
-print("extra_date_list")
+# date_list_data = extra_date_list(source_data)
+# print("extra_date_list")
 # extra_word_epidemic(source_data, date_list_data)
 # print("extra_word_epidemic")
 country_list_data = extra_country_list(source_data)
 print("extra_country_list")
-extra_country_epidemic(source_data, date_list_data, country_list_data)
-print("extra_country_epidemic")
+# extra_country_epidemic(source_data, date_list_data, country_list_data)
+# print("extra_country_epidemic")
 # extra_country_epidemic_summary(source_data, country_list_data)
 # print("extra_country_epidemic_summary")
-# extra_new_confirmed_death(source_data, country_list_data)
-# print("extra_new_confirmed_death")
+extra_new_confirmed_death(source_data, country_list_data)
+print("extra_new_confirmed_death")
 # extra_region_comparision(source_data,country_list_data)
 # print("extra_region_comparision")
 # extra_country_position(source_data,country_list_data)
