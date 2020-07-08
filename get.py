@@ -104,13 +104,14 @@ def get_confirmed_distribution(country, date):
             data = data[["AdminRegion1","Confirmed"]]
         data.sort_values(by="Confirmed",inplace=True,ascending=False)
         result = []
-        if country == "Worldwid":
+        if country == "Worldwide":
             for index in range(0, data.shape[0]):
                 row = data.iloc[index]
                 result.append([row["Country_Region"], int(row["Confirmed"])])
         else:
              for index in range(0, data.shape[0]):
                  row  = data.iloc[index]
+                 print(row)
                  result.append([row["AdminRegion1"],int(row["Confirmed"])])
         return result
     else:

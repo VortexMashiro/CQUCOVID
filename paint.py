@@ -90,7 +90,7 @@ def paint_confirmed_distributed_chart(country):
     result = get.get_confirmed_distribution(country, date)
 
     charts = (
-        Pie(init_opts=opts.InitOpts( height="600%"))
+        Pie()
             .add(
             "",
             result,
@@ -142,9 +142,11 @@ def paint_together(country = 'China'):
 
 
 
-def paint_tree(country = 'China'):
+def paint_tree(country = 'Worldwide'):
     return paint_treemap().dump_options_with_quotes()
-def paint_line(country = 'China'):
+def paint_line(country = 'Worldwide'):
     return paint_country_summary_chart(country).dump_options_with_quotes()
-def paint_pie(country = 'China'):
-    return paint_treemap().dump_options_with_quotes()
+def paint_pie(country = 'Worldwide'):
+    return paint_confirmed_distributed_chart(country).dump_options_with_quotes()
+
+
