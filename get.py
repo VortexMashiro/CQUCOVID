@@ -18,7 +18,7 @@ def get_word_epidemic(date):
     directory = "data/world-epidemic/"
     if os.path.isfile(directory + date_name + ".csv"):
         file = open(os.path.join(directory, date_name + ".csv"),
-            'r', encoding="utf-8")
+                    'r', encoding="utf-8")
         data = pd.read_csv(file)
         file.close()
         max = data["Confirmed"].max()
@@ -46,7 +46,7 @@ def get_country_epidemic(date, country):
     if os.path.isfile(file_name):
         data = pd.read_csv(
             os.path.join("data/country-epidemic/", date_name + "-" + country + ".csv"),
-                 encoding="utf-8")
+            encoding="utf-8")
         confirmed = data["Confirmed"].astype(int)
         max = confirmed.max()
         min = confirmed.min()
@@ -64,10 +64,10 @@ def get_country_epidemic_summary(country):
     :param country:
     :return: list
     """
-    file_name = "data/country-epidemic-summary/"+ country + ".csv"
+    file_name = "data/country-epidemic-summary/" + country + ".csv"
     if os.path.exists(file_name):
-        file = open(file_name,mode = "r",encoding="utf-8")
-        data = pd.read_csv(file,dtype=np.object)
+        file = open(file_name, mode="r", encoding="utf-8")
+        data = pd.read_csv(file, dtype=np.object)
         file.close()
         confirmed_list = []
         death_list = []
@@ -80,6 +80,8 @@ def get_country_epidemic_summary(country):
         return date_list, confirmed_list, death_list
     else:
         return None, None, None
+
+
 # "Côte d'Ivoire.csv
 
 def get_confirmed_distribution(country, date):
@@ -92,27 +94,37 @@ def get_confirmed_distribution(country, date):
     date_name = date.replace("/", "-")
     file_name = "data/country-epidemic/" \
                 + date_name + "-" + country + ".csv"
+    world = "Worldwide"
     if os.path.isfile(file_name):
         file = open(os.path.join("data/country-epidemic/",
                                  date_name + "-" + country + ".csv"),
-                                 "r", encoding="utf-8")
+                    "r", encoding="utf-8")
         data = pd.read_csv(file)
         file.close()
-        if country == "Worldwide":
-           data = data[["Country_Region","Confirmed"]]
+        if country == world:
+            data = data[["Country_Region", "Confirmed"]]
         else:
-            data = data[["AdminRegion1","Confirmed"]]
-        data.sort_values(by="Confirmed",inplace=True,ascending=False)
+            data = data[["AdminRegion1", "Confirmed"]]
+        data.sort_values(by="Confirmed", inplace=True, ascending=False)
         result = []
-        if country == "Worldwide":
+        if data.shape[0] > 20:
+            data1 = data.head(20)
+            confirmed = data.tail(-20)["Confirmed"].sum()
+            dict1 = {}
+            if country == world:
+                dict1["Country_Region"] = "其它"
+            else:
+                dict1["AdminRegion1"] = "其它"
+            dict1["Confirmed"] = confirmed
+            data = data1.append(dict1, ignore_index=True)
+        if country == world:
             for index in range(0, data.shape[0]):
                 row = data.iloc[index]
                 result.append([row["Country_Region"], int(row["Confirmed"])])
         else:
-             for index in range(0, data.shape[0]):
-                 row  = data.iloc[index]
-                 print(row)
-                 result.append([row["AdminRegion1"],int(row["Confirmed"])])
+            for index in range(0, data.shape[0]):
+                row = data.iloc[index]
+                result.append([row["AdminRegion1"], int(row["Confirmed"])])
         return result
     else:
         return None
@@ -185,7 +197,7 @@ def get_region_comparion(country, date, attribute):
                  + date_name + "-" + country + ".csv"
     file_name2 = "data/region-comparision/" + country + ".csv"
     if os.path.isfile(file_name1) and os.path.isfile(file_name2):
-        file1 = open(file_name1,"r", encoding="utf-8")
+        file1 = open(file_name1, "r", encoding="utf-8")
         data = pd.read_csv(file1, dtype=np.object)
         file1.close()
         if attribute not in data.columns:
@@ -218,7 +230,7 @@ def get_country_position():
     """
     file_name = "data/position/country-position.csv"
     if os.path.isfile(file_name):
-        file = open(file_name,"r", encoding="utf-8")
+        file = open(file_name, "r", encoding="utf-8")
         data = pd.read_csv(file)
         file.close()
         position_list = []
@@ -280,7 +292,7 @@ def get_country_status(country="China"):
     """
     file_name = "data/country-status/country_status.csv"
     if os.path.isfile(file_name):
-        file =open(file_name,"r", encoding="utf-8")
+        file = open(file_name, "r", encoding="utf-8")
         data = pd.read_csv(file, dtype=np.str)
         file.close()
         data = data[data["Country_Region"] == country]
@@ -380,22 +392,23 @@ def get_today():
         return None
 
 
-def get_treemap_data( today):
+def get_treemap_data(today):
     """
 
     """
     data_list = []
     source = pd.read_csv("data/Bing-COVID19-Data.csv", encoding="utf-8")
+    source = source[source.Updated == today]
     country_list = source["Country_Region"].unique()
     country_list = country_list[1:]
     for country_name in country_list:
-        data = source[(source.Country_Region == country_name) & (source.Updated == today)]
+        data = source[source.Country_Region == country_name]
         if data.shape[0] == 0:
             continue
         data = data[["Confirmed", "Country_Region", "AdminRegion1", "AdminRegion2"]]
         country_value = int(data[data["AdminRegion1"].isna()]["Confirmed"])
         if data.shape[0] <= 1:
-            data_list.append({"name": str(country_name), "value": int(country_value), "children":[]})
+            data_list.append({"name": str(country_name), "value": int(country_value), "children": []})
             continue
         ar1_list = []
         tmp = data[data["AdminRegion2"].isna()].fillna(value="nan")
@@ -403,14 +416,14 @@ def get_treemap_data( today):
             row = tmp.iloc[index]
             if row["AdminRegion1"] == "nan":
                 continue
-            tmp1 = data[(data["AdminRegion2"].notna()) & (data.AdminRegion1 == row["AdminRegion1"])]
+            tmp1 = data[data.AdminRegion1 == row["AdminRegion1"]]
             if tmp1.shape[0] == 0:
-                ar1_list.append({"name": str(row["AdminRegion1"]), "value": int(row["Confirmed"]), "children":[]})
+                ar1_list.append({"name": str(row["AdminRegion1"]), "value": int(row["Confirmed"]), "children": []})
                 continue
             ar2_list = []
             for j in range(0, tmp1.shape[0]):
                 item = tmp1.iloc[j]
-                ar2_list.append({"name": str(item["AdminRegion2"]), "value": int(item["Confirmed"]), "children":[]})
+                ar2_list.append({"name": str(item["AdminRegion2"]), "value": int(item["Confirmed"]), "children": []})
             ar1_list.append({"name": str(row["AdminRegion1"]), "value": int(row["Confirmed"]), "children": ar2_list})
         data_list.append({"name": str(country_name), "value": int(country_value), "children": ar1_list})
     return {"children": data_list}
