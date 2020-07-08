@@ -2,8 +2,9 @@ from pyecharts.commons.utils import JsCode
 
 import get
 from pyecharts import options as opts
-from pyecharts.charts import Line, Pie, TreeMap, Page, Grid
-
+from pyecharts.charts import Line, Pie, TreeMap, Page
+from pyecharts.components import Image
+from pyecharts.options import ComponentTitleOpts
 
 
 def paint_country_summary_chart(country):
@@ -89,29 +90,91 @@ def paint_confirmed_distributed_chart(country):
     date = get.get_today()
     result = get.get_confirmed_distribution(country, date)
 
-    charts = (
-        Pie()
-            .add(
-            "",
-            result,
-            radius=[60, 160],
-            # center=['50%', '65%']
-        )
-            .set_global_opts(
-            title_opts=opts.TitleOpts(
-                title="累计确诊分布",
-                pos_left="3%",
-                pos_top="10",
-                title_textstyle_opts=opts.TextStyleOpts(
-                    font_size=22,
-                )
-            ),
-            legend_opts=opts.LegendOpts(type_="scroll", pos_left='80%', pos_top='20%', orient="vertical"),
-        )
-            .set_series_opts(label_opts=opts.LabelOpts(formatter="{b}: {c} ({d}%)", font_size=15,))
-    )
+    if result:
+        charts = (
+            Pie()
+                .add(
+                "",
+                result,
+                radius=[60, 160],
 
-    return charts
+            )
+                .set_global_opts(
+                title_opts=opts.TitleOpts(
+                    title="累计确诊分布",
+                    pos_left="3%",
+                    pos_top="10",
+                    title_textstyle_opts=opts.TextStyleOpts(
+                        font_size=22,
+                    )
+                ),
+                legend_opts=opts.LegendOpts(type_="scroll", pos_left='80%', pos_top='20%', orient="vertical"),
+            )
+                .set_series_opts(label_opts=opts.LabelOpts(formatter="{b}: {c} ({d}%)", font_size=15, ))
+        )
+
+        return charts
+
+    else:
+        data = get.get_word_epidemic(date)[2]
+        flag = False
+        for index in range(0,len(data)):
+            if data[index][0] == country:
+                data = data[index][1][0]
+                flag = True
+                break
+
+        if not flag:
+            title_charts = (
+                Pie()
+                    .add(
+                    "",
+                    [[country, -1]],
+                    radius=[0, 0],
+                    center=['100%', '100%']
+                )
+                    .set_global_opts(
+                    title_opts=opts.TitleOpts(
+                        title="暂无数据",
+                        pos_left="40%%",
+                        pos_top="44%",
+                        title_textstyle_opts=opts.TextStyleOpts(
+                            font_size=30,
+                        )
+                    ),
+                    legend_opts=opts.LegendOpts(is_show=False),
+                )
+                    .set_series_opts(label_opts=opts.LabelOpts(is_show=False ))
+            )
+            return title_charts
+
+        draw_data = [[country, data]]
+
+        empty_charts = (
+            Pie()
+                .add(
+                "",
+                draw_data,
+                radius=[60, 160],
+                # center=['50%', '65%']
+            )
+                .set_global_opts(
+                title_opts=opts.TitleOpts(
+                    title="确诊人数",
+                    pos_left="3%",
+                    pos_top="10",
+                    title_textstyle_opts=opts.TextStyleOpts(
+                        font_size=22,
+                    )
+                ),
+                legend_opts=opts.LegendOpts(type_="scroll", pos_left='80%', pos_top='20%', orient="vertical"),
+            )
+                .set_series_opts(label_opts=opts.LabelOpts(formatter="{b}: {c} ({d}%)", font_size=15, ))
+        )
+
+    return empty_charts
+
+
 
 def paint_treemap():
     data = get.get_treemap_data(get.get_today())
