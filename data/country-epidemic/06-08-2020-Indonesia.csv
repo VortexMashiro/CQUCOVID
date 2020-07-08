@@ -1,35 +1,35 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-20,0.0,1.0,18.0,Aceh
-594,24.0,5.0,377.0,Bali
-102,7.0,1.0,36.0,Bangka-Belitung
-1047,20.0,71.0,372.0,Banten
-96,1.0,4.0,40.0,Bengkulu
-1642,35.0,98.0,428.0,Central Java
-504,7.0,28.0,202.0,Central Kalimantan
-159,8.0,4.0,93.0,Central Sulawesi
-6313,255.0,502.0,1499.0,East Java
-338,7.0,3.0,213.0,East Kalimantan
-103,1.0,1.0,30.0,East Nusa Tenggara
-134,5.0,6.0,54.0,Gorontalo
-8121,119.0,529.0,3206.0,Jakarta
-103,1.0,0.0,27.0,Jambi
-145,2.0,11.0,102.0,Lampung
-307,18.0,8.0,80.0,Maluku
-169,1.0,2.0,129.0,North Kalimantan
-186,3.0,19.0,33.0,North Maluku
-510,40.0,47.0,73.0,North Sulawesi
-607,24.0,48.0,189.0,North Sumatra
-1090,58.0,7.0,78.0,Papua
-118,1.0,6.0,103.0,Riau
-228,2.0,15.0,120.0,Riau Islands
-259,1.0,5.0,155.0,South East Sulawesi
-1347,45.0,100.0,117.0,South Kalimantan
-2014,80.0,94.0,673.0,South Sulawesi
-1158,28.0,42.0,391.0,South Sumatra
-2424,20.0,161.0,952.0,West Java
-210,2.0,4.0,117.0,West Kalimantan
-822,22.0,22.0,325.0,West Nusa Tenggara
-179,2.0,2.0,74.0,West Papua
-94,1.0,2.0,62.0,West Sulawesi
-626,7.0,27.0,351.0,West Sumatra
-247,3.0,8.0,185.0,Yogyakarta
+20,0,1,18,Aceh
+594,24,5,377,Bali
+102,7,1,36,Bangka-Belitung
+1047,20,71,372,Banten
+96,1,4,40,Bengkulu
+1642,35,98,428,Central Java
+504,7,28,202,Central Kalimantan
+159,8,4,93,Central Sulawesi
+6313,255,502,1499,East Java
+338,7,3,213,East Kalimantan
+103,1,1,30,East Nusa Tenggara
+134,5,6,54,Gorontalo
+8121,119,529,3206,Jakarta
+103,1,0,27,Jambi
+145,2,11,102,Lampung
+307,18,8,80,Maluku
+169,1,2,129,North Kalimantan
+186,3,19,33,North Maluku
+510,40,47,73,North Sulawesi
+607,24,48,189,North Sumatra
+1090,58,7,78,Papua
+118,1,6,103,Riau
+228,2,15,120,Riau Islands
+259,1,5,155,South East Sulawesi
+1347,45,100,117,South Kalimantan
+2014,80,94,673,South Sulawesi
+1158,28,42,391,South Sumatra
+2424,20,161,952,West Java
+210,2,4,117,West Kalimantan
+822,22,22,325,West Nusa Tenggara
+179,2,2,74,West Papua
+94,1,2,62,West Sulawesi
+626,7,27,351,West Sumatra
+247,3,8,185,Yogyakarta

@@ -1,8 +1,8 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-20,0.0,3.0,6.0,Atlántida
-4,2.0,0.0,0.0,Choluteca
-29,0.0,1.0,6.0,Colón
-371,10.0,37.0,10.0,Cortés
-63,2.0,2.0,9.0,Francisco Morazán
-10,0.0,0.0,0.0,Santa Bárbara
-12,0.0,3.0,0.0,Yoro
+20,0,3,6,Atlántida
+4,2,0,0,Choluteca
+29,0,1,6,Colón
+371,10,37,10,Cortés
+63,2,2,9,Francisco Morazán
+10,0,0,0,Santa Bárbara
+12,0,3,0,Yoro

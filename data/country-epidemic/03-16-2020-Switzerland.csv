@@ -1,9 +1,9 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-67,15.0,0.0,0.0,Aargau
-165,21.0,0.0,0.0,Basel-Town
-465,361.0,0.0,0.0,Geneva
-26,12.0,0.0,0.0,Schwyz
-11,6.0,0.0,0.0,Thurgau
-422,92.0,0.0,0.0,Ticino
-696,448.0,0.0,0.0,Vaud
-294,24.0,0.0,0.0,Zurich
+67,15,0.0,0.0,Aargau
+165,21,0.0,0.0,Basel-Town
+465,361,0.0,0.0,Geneva
+26,12,0.0,0.0,Schwyz
+11,6,0.0,0.0,Thurgau
+422,92,0.0,0.0,Ticino
+696,448,0.0,0.0,Vaud
+294,24,0.0,0.0,Zurich

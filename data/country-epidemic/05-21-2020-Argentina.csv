@@ -1,22 +1,25 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-0,0.0,0,0.0,Catamarca
-3096,178.0,160.0,0.0,City of Buenos Aires
-660,35.0,35.0,0.0,Chaco
-4,0.0,35.0,0.0,Chubut
-3822,257.0,134.0,0.0,City of Buenos Aires
-79,0.0,134.0,0.0,Corrientes
-429,2.0,28.0,0.0,Cordoba
-30,0.0,28.0,0.0,Entre Rios
-0,0.0,28.0,0.0,Formosa
-5,0.0,28.0,0.0,Jujuy
-63,0.0,7.0,0.0,La Rioja
-26,0.0,1.0,0.0,Misiones
-89,0.0,9.0,0.0,Mendoza
-114,0.0,5.0,0.0,Neuquen
-333,2.0,14.0,0.0,Rio Negro
-4,0.0,14.0,0.0,San Juan
-22,0.0,14.0,0.0,Santiago del Estero
-252,2.0,3.0,0.0,Santa Fe
-11,0.0,3.0,0.0,San Luis
-148,0.0,0.0,0.0,"Tierra del Fuego, Antarctica, and South Atlantic Islands"
-42,0.0,4.0,0.0,Tucuman
+0,0,0,0.0,Catamarca
+5,0,0,0.0,Cordoba
+3096,178,160,0.0,City of Buenos Aires
+660,35,35,0.0,Chaco
+4,0,35,0.0,Chubut
+3822,257,134,0.0,City of Buenos Aires
+79,0,134,0.0,Corrientes
+429,2,28,0.0,Cordoba
+30,0,28,0.0,Entre Rios
+0,0,28,0.0,Formosa
+5,0,28,0.0,Jujuy
+63,0,7,0.0,La Rioja
+49,0,7,0.0,La Rioja
+26,0,1,0.0,Misiones
+89,0,9,0.0,Mendoza
+114,0,5,0.0,Neuquen
+333,2,14,0.0,Rio Negro
+5,0,14,0.0,Salta
+4,0,14,0.0,San Juan
+22,0,14,0.0,Santiago del Estero
+252,2,3,0.0,Santa Fe
+11,0,3,0.0,San Luis
+148,0,0,0.0,"Tierra del Fuego, Antarctica, and South Atlantic Islands"
+42,0,4,0.0,Tucuman

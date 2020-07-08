@@ -1,17 +1,17 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-3125,14.0,137.0,0.0,Brandenburg
-6298,24.0,170.0,0.0,Berlin
-33518,159.0,1594.0,0.0,Baden-Württemberg
-44802,209.0,2209.0,0.0,Bavaria
-1077,19.0,36.0,0.0,Bremen
-9087,56.0,419.0,0.0,Hesse
-4972,12.0,223.0,0.0,Hamburg
-736,7.0,20.0,0.0,Mecklenburg-West Pomerania
-10903,8.0,508.0,0.0,Lower Saxony
-35555,222.0,1473.0,0.0,North Rhine-Westphalia
-6360,5.0,207.0,0.0,Rhineland-Palatinate
-2972,8.0,125.0,0.0,Schleswig-Holstein
-2667,1.0,144.0,0.0,Saarland
-4962,15.0,191.0,0.0,Saxony
-1650,2.0,52.0,0.0,Saxony-Anhalt
-2622,28.0,126.0,0.0,Thuringia
+3125,14,137,0.0,Brandenburg
+6298,24,170,0.0,Berlin
+33518,159,1594,0.0,Baden-Württemberg
+44802,209,2209,0.0,Bavaria
+1077,19,36,0.0,Bremen
+9087,56,419,0.0,Hesse
+4972,12,223,0.0,Hamburg
+736,7,20,0.0,Mecklenburg-West Pomerania
+10903,8,508,0.0,Lower Saxony
+35555,222,1473,0.0,North Rhine-Westphalia
+6360,5,207,0.0,Rhineland-Palatinate
+2972,8,125,0.0,Schleswig-Holstein
+2667,1,144,0.0,Saarland
+4962,15,191,0.0,Saxony
+1650,2,52,0.0,Saxony-Anhalt
+2622,28,126,0.0,Thuringia

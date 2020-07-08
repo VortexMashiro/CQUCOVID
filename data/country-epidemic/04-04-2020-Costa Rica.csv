@@ -32,59 +32,59 @@ Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
 2,0,0.0,0.0,Guanacaste
 1,0,0.0,0.0,Guanacaste
 0,0,0.0,0.0,Guanacaste
-1,0.0,0.0,0.0,Guanacaste
-0,0.0,0.0,0.0,Guanacaste
-4,0.0,0.0,0.0,Guanacaste
-3,0.0,0.0,0.0,Guanacaste
-2,0.0,0.0,0.0,Guanacaste
-51,0.0,0.0,0.0,Heredia
-6,0.0,0.0,0.0,Heredia
-2,0.0,0.0,0.0,Heredia
-6,0.0,0.0,0.0,Heredia
-1,0.0,0.0,0.0,Heredia
-15,0.0,0.0,0.0,Heredia
-1,0.0,0.0,0.0,Heredia
-12,0.0,0.0,0.0,Heredia
-3,0.0,0.0,0.0,Heredia
-5,0.0,0.0,0.0,Heredia
-0,0.0,0.0,0.0,Heredia
-1,0.0,0.0,0.0,Limon
-0,0.0,0.0,0.0,Limon
-0,0.0,0.0,0.0,Limon
-0,0.0,0.0,0.0,Limon
-0,0.0,0.0,0.0,Limon
-1,0.0,0.0,0.0,Limon
-0,0.0,0.0,0.0,Limon
-18,0.0,0.0,0.0,Puntarenas
-0,0.0,0.0,0.0,Puntarenas
-0,0.0,0.0,0.0,Puntarenas
-2,0.0,0.0,0.0,Puntarenas
-2,0.0,0.0,0.0,Puntarenas
-7,0.0,0.0,0.0,Puntarenas
-0,0.0,0.0,0.0,Puntarenas
-2,0.0,0.0,0.0,Puntarenas
-1,0.0,0.0,0.0,Puntarenas
-0,0.0,0.0,0.0,Puntarenas
-4,0.0,0.0,0.0,Puntarenas
-0,0.0,0.0,0.0,Puntarenas
-196,0.0,0.0,0.0,San Jose
-0,0.0,0.0,0.0,San Jose
-3,0.0,0.0,0.0,San Jose
-3,0.0,0.0,0.0,San Jose
-15,0.0,0.0,0.0,San Jose
-14,0.0,0.0,0.0,San Jose
-21,0.0,0.0,0.0,San Jose
-0,0.0,0.0,0.0,San Jose
-18,0.0,0.0,0.0,San Jose
-11,0.0,0.0,0.0,San Jose
-0,0.0,0.0,0.0,San Jose
-9,0.0,0.0,0.0,San Jose
-1,0.0,0.0,0.0,San Jose
-11,0.0,0.0,0.0,San Jose
-3,0.0,0.0,0.0,San Jose
-0,0.0,0.0,0.0,San Jose
-51,0.0,0.0,0.0,San Jose
-26,0.0,0.0,0.0,San Jose
-3,0.0,0.0,0.0,San Jose
-2,0.0,0.0,0.0,San Jose
-5,0.0,0.0,0.0,San Jose
+1,0,0.0,0.0,Guanacaste
+0,0,0.0,0.0,Guanacaste
+4,0,0.0,0.0,Guanacaste
+3,0,0.0,0.0,Guanacaste
+2,0,0.0,0.0,Guanacaste
+51,0,0.0,0.0,Heredia
+6,0,0.0,0.0,Heredia
+2,0,0.0,0.0,Heredia
+6,0,0.0,0.0,Heredia
+1,0,0.0,0.0,Heredia
+15,0,0.0,0.0,Heredia
+1,0,0.0,0.0,Heredia
+12,0,0.0,0.0,Heredia
+3,0,0.0,0.0,Heredia
+5,0,0.0,0.0,Heredia
+0,0,0.0,0.0,Heredia
+1,0,0.0,0.0,Limon
+0,0,0.0,0.0,Limon
+0,0,0.0,0.0,Limon
+0,0,0.0,0.0,Limon
+0,0,0.0,0.0,Limon
+1,0,0.0,0.0,Limon
+0,0,0.0,0.0,Limon
+18,0,0.0,0.0,Puntarenas
+0,0,0.0,0.0,Puntarenas
+0,0,0.0,0.0,Puntarenas
+2,0,0.0,0.0,Puntarenas
+2,0,0.0,0.0,Puntarenas
+7,0,0.0,0.0,Puntarenas
+0,0,0.0,0.0,Puntarenas
+2,0,0.0,0.0,Puntarenas
+1,0,0.0,0.0,Puntarenas
+0,0,0.0,0.0,Puntarenas
+4,0,0.0,0.0,Puntarenas
+0,0,0.0,0.0,Puntarenas
+196,0,0.0,0.0,San Jose
+0,0,0.0,0.0,San Jose
+3,0,0.0,0.0,San Jose
+3,0,0.0,0.0,San Jose
+15,0,0.0,0.0,San Jose
+14,0,0.0,0.0,San Jose
+21,0,0.0,0.0,San Jose
+0,0,0.0,0.0,San Jose
+18,0,0.0,0.0,San Jose
+11,0,0.0,0.0,San Jose
+0,0,0.0,0.0,San Jose
+9,0,0.0,0.0,San Jose
+1,0,0.0,0.0,San Jose
+11,0,0.0,0.0,San Jose
+3,0,0.0,0.0,San Jose
+0,0,0.0,0.0,San Jose
+51,0,0.0,0.0,San Jose
+26,0,0.0,0.0,San Jose
+3,0,0.0,0.0,San Jose
+2,0,0.0,0.0,San Jose
+5,0,0.0,0.0,San Jose

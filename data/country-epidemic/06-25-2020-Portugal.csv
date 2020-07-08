@@ -1,8 +1,8 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-146,0.0,15.0,0.0,Azores
-4055,13.0,248.0,0.0,Coimbra
-409,3.0,3.0,0.0,Évora
-574,22.0,15.0,0.0,Faro
-17767,240.0,453.0,0.0,Lisbon
-92,0.0,0.0,0.0,Madeira Island
-17372,33.0,815.0,0.0,Porto
+147,1,15,0.0,Azores
+4055,13,248,0.0,Coimbra
+409,3,3,0.0,Évora
+574,22,15,0.0,Faro
+17767,240,453,0.0,Lisbon
+92,0,0,0.0,Madeira Island
+17372,33,815,0.0,Porto

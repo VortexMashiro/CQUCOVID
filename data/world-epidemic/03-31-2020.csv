@@ -47,10 +47,10 @@ Croatia,867,6,67
 Cuba,186,6,8
 Curaçao,11,1,2
 Cyprus,262,10,29
-Czech Rep.,3308,36,45
+Czech Rep.,3308,36,25
 Côte d'Ivoire,179,1,6
 Dem. Rep. Congo,98,8,2
-Denmark,3913,139,45
+Denmark,3913,139,25
 Djibouti,30,0,0
 Dominica,12,0,0
 Dominican Rep.,1284,57,5
@@ -63,7 +63,7 @@ Estonia,745,4,26
 Ethiopia,26,0,2
 Faroe Is.,164,0,74
 Fiji,5,0,0
-Finland,1683,17,10
+Finland,1683,17,0
 France,52128,3523,7202
 French Guiana,43,0,0
 French Polynesia,37,0,1
@@ -123,7 +123,7 @@ Malta,169,0,2
 Martinique,119,2,27
 Mauritania,6,1,2
 Mauritius,147,3,0
-Mayotte,94,0,10
+Mayotte,94,1,10
 Mexico,1215,29,35
 Moldova,353,4,0
 Monaco,52,0,1
@@ -168,7 +168,7 @@ Senegal,175,0,40
 Serbia,900,23,42
 Seychelles,10,0,0
 Sierra Leone,1,0,0
-Singapore,926,3,240
+Singapore,926,3,228
 Slovakia,400,1,7
 Slovenia,802,15,10
 Somalia,3,0,0
@@ -181,7 +181,7 @@ Sudan,7,2,1
 Suriname,10,0,0
 Swaziland,9,0,0
 Sweden,4833,331,18
-Switzerland,16176,388,2105
+Switzerland,16176,432,1823
 Syria,10,3,0
 Tanzania,19,1,1
 Thailand,1651,10,342

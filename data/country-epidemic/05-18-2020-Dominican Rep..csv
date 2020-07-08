@@ -1,33 +1,33 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-138,4.0,2.0,42.0,Azua
-6,0.0,1.0,2.0,Baoruco
-73,1.0,1.0,16.0,Barahona
-6,0.0,0.0,2.0,Dajabón
-3143,87.0,64.0,1527.0,Distrito Nacional
-762,5.0,84.0,484.0,Duarte
-14,0.0,0.0,3.0,El Seibo
-7,0.0,0.0,4.0,Elías Piña
-459,10.0,8.0,87.0,Espaillat
-13,0.0,2.0,5.0,Hato Mayor
-3,0.0,1.0,1.0,Independencia
-197,5.0,2.0,118.0,La Altagracia
-295,6.0,7.0,164.0,La Romana
-785,7.0,23.0,417.0,La Vega
-116,1.0,4.0,74.0,María Trinidad Sánchez
-294,6.0,4.0,130.0,Monseñor Nouel
-31,4.0,0.0,16.0,Monte Cristi
-30,2.0,6.0,2.0,Monte Plata
-5,0.0,0.0,2.0,Pedernales
-87,2.0,3.0,47.0,Peravia
-314,4.0,18.0,189.0,Puerto Plata
-234,2.0,15.0,108.0,Salcedo
-29,1.0,1.0,17.0,Samaná
-633,28.0,18.0,197.0,San Cristóbal
-19,3.0,2.0,7.0,San José de Ocoa
-98,2.0,5.0,42.0,San Juan
-99,1.0,12.0,48.0,San Pedro de Macorís
-232,3.0,6.0,114.0,Sánchez Ramírez
-1244,17.0,67.0,719.0,Santiago
-45,3.0,1.0,19.0,Santiago Rodríguez
-2811,90.0,67.0,1223.0,Santo Domingo
-69,4.0,4.0,21.0,Valverde
+138,4,2,42,Azua
+6,0,1,2,Baoruco
+73,1,1,16,Barahona
+6,0,0,2,Dajabón
+3143,87,64,1527,Distrito Nacional
+762,5,84,484,Duarte
+14,0,0,3,El Seibo
+7,0,0,4,Elías Piña
+459,10,8,87,Espaillat
+13,0,2,5,Hato Mayor
+3,0,1,1,Independencia
+197,5,2,118,La Altagracia
+295,6,7,164,La Romana
+785,7,23,417,La Vega
+116,1,4,74,María Trinidad Sánchez
+294,6,4,130,Monseñor Nouel
+31,4,0,16,Monte Cristi
+30,2,6,2,Monte Plata
+5,0,0,2,Pedernales
+87,2,3,47,Peravia
+314,4,18,189,Puerto Plata
+234,2,15,108,Salcedo
+29,1,1,17,Samaná
+633,28,18,197,San Cristóbal
+19,3,2,7,San José de Ocoa
+98,2,5,42,San Juan
+99,1,12,48,San Pedro de Macorís
+232,3,6,114,Sánchez Ramírez
+1244,17,67,719,Santiago
+45,3,1,19,Santiago Rodríguez
+2811,90,67,1223,Santo Domingo
+69,4,4,21,Valverde

@@ -1,8 +1,8 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-4,0.0,0.0,0.0,El Seibo
-9,0.0,1.0,0.0,Hato Mayor
-1,0.0,0.0,1.0,Independencia
-11,0.0,3.0,0.0,Monte Plata
-19,0.0,1.0,5.0,Samaná
-4,0.0,2.0,0.0,San José de Ocoa
-321,293.0,1.0,3.0,Valverde
+4,0,0,0,El Seibo
+9,0,1,0,Hato Mayor
+1,0,0,1,Independencia
+11,0,3,0,Monte Plata
+19,0,1,5,Samaná
+4,0,2,0,San José de Ocoa
+321,293,1,3,Valverde

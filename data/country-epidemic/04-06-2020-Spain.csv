@@ -1,15 +1,15 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-8767,186.0,528.0,900.0,Andalusia
-3449,102.0,312.0,578.0,Aragon
-1369,49.0,84.0,537.0,Balearic Islands
-9021,211.0,586.0,3728.0,Basque Country
-1501,18.0,85.0,129.0,Cantabria
-11077,475.0,1177.0,1353.0,Castile La Mancha
-9581,465.0,982.0,2711.0,Castilla Leon
-28323,1499.0,2908.0,10738.0,Catalonia
-2116,48.0,258.0,282.0,Extremadura
-6331,180.0,204.0,688.0,Galicia
-2846,127.0,160.0,994.0,La Rioja
-1283,24.0,78.0,193.0,Murcia
-3355,124.0,202.0,421.0,Navarre
-7443,109.0,672.0,1103.0,Valencia
+8767,186,528,900,Andalusia
+3449,102,312,578,Aragon
+1369,49,84,537,Balearic Islands
+9021,211,586,3728,Basque Country
+1501,18,85,129,Cantabria
+11077,475,1177,1353,Castile La Mancha
+9581,465,982,2711,Castilla Leon
+28323,1499,2908,10738,Catalonia
+2116,48,258,282,Extremadura
+6331,180,204,688,Galicia
+2846,127,160,994,La Rioja
+1283,24,78,193,Murcia
+3355,124,202,421,Navarre
+7443,109,672,1103,Valencia

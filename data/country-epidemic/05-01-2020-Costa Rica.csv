@@ -1,8 +1,8 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-192,0.0,2.0,96.0,Alajuela
-50,1.0,0.0,22.0,Cartago
-19,4.0,0.0,13.0,Guanacaste
-63,0.0,0.0,41.0,Heredia
-11,3.0,0.0,4.0,Limon
-39,1.0,0.0,20.0,Puntarenas
-365,3.0,4.0,159.0,San Jose
+192,0,2,96,Alajuela
+50,1,0,22,Cartago
+19,4,0,13,Guanacaste
+63,0,0,41,Heredia
+11,3,0,4,Limon
+39,1,0,20,Puntarenas
+365,3,4,159,San Jose

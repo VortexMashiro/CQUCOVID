@@ -1,14 +1,14 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-499,0.0,0,0.0,Drenthe
-882,0.0,0,0.0,Flevoland
-598,0.0,0,0.0,Friesland
-5574,0.0,0,0.0,Gelderland
-344,0.0,0,0.0,Groningen
-4534,0.0,0,0.0,Limburg
-8692,0.0,0,0.0,North Brabant
-6447,0.0,0,0.0,North Holland
-13,0.0,4.0,0.0,North Holland
-2911,0.0,4.0,0.0,Overijssel
-9408,0.0,4.0,0.0,South Holland
-3354,0.0,4.0,0.0,Utrecht
-640,0.0,4.0,0.0,Zeeland
+523,1,0,0.0,Drenthe
+954,3,0,0.0,Flevoland
+621,1,0,0.0,Friesland
+6262,21,0,0.0,Gelderland
+352,1,0,0.0,Groningen
+4783,8,0,0.0,Limburg
+9383,21,0,0.0,North Brabant
+7049,19,0,0.0,North Holland
+13,0,4,0.0,North Holland
+3048,5,4,0.0,Overijssel
+10825,43,4,0.0,South Holland
+3858,16,4,0.0,Utrecht
+706,2,4,0.0,Zeeland

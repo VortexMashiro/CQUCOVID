@@ -1,26 +1,26 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-23,0.0,1.0,1.0,Azua
-5,0.0,0.0,1.0,Baoruco
-33,0.0,1.0,4.0,Barahona
-1,0.0,0.0,0.0,Dajabón
-1376,81.0,32.0,231.0,Distrito Nacional
-521,35.0,68.0,41.0,Duarte
-0,0.0,0.0,0.0,Elías Piña
-150,12.0,5.0,1.0,Espaillat
-101,8.0,1.0,9.0,La Altagracia
-94,2.0,2.0,4.0,La Romana
-387,26.0,7.0,15.0,La Vega
-74,5.0,3.0,5.0,María Trinidad Sánchez
-157,4.0,3.0,11.0,Monseñor Nouel
-16,0.0,0.0,1.0,Monte Cristi
-3,0.0,0.0,0.0,Pedernales
-35,0.0,1.0,0.0,Peravia
-175,9.0,9.0,10.0,Puerto Plata
-135,10.0,11.0,5.0,Salcedo
-127,10.0,3.0,4.0,San Cristóbal
-38,0.0,3.0,1.0,San Juan
-55,1.0,7.0,8.0,San Pedro de Macorís
-132,5.0,5.0,2.0,Sánchez Ramírez
-678,40.0,38.0,47.0,Santiago
-17,0.0,1.0,0.0,Santiago Rodríguez
-968,88.0,36.0,53.0,Santo Domingo
+23,0,1,1,Azua
+5,0,0,1,Baoruco
+33,0,1,4,Barahona
+1,0,0,0,Dajabón
+1376,81,32,231,Distrito Nacional
+521,35,68,41,Duarte
+0,0,0,0,Elías Piña
+150,12,5,1,Espaillat
+101,8,1,9,La Altagracia
+94,2,2,4,La Romana
+387,26,7,15,La Vega
+74,5,3,5,María Trinidad Sánchez
+157,4,3,11,Monseñor Nouel
+16,0,0,1,Monte Cristi
+3,0,0,0,Pedernales
+35,0,1,0,Peravia
+175,9,9,10,Puerto Plata
+135,10,11,5,Salcedo
+127,10,3,4,San Cristóbal
+38,0,3,1,San Juan
+55,1,7,8,San Pedro de Macorís
+132,5,5,2,Sánchez Ramírez
+678,40,38,47,Santiago
+17,0,1,0,Santiago Rodríguez
+968,88,36,53,Santo Domingo

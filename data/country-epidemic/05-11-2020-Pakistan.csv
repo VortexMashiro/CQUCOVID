@@ -1,6 +1,6 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-2017,90.0,26.0,242.0,Baluchistan
-679,40.0,6.0,72.0,Islamabad
-4669,240.0,245.0,1126.0,Khyber Pakhtunkhwa
-11568,623.0,197.0,4323.0,Punjab
-11480,710.0,189.0,2081.0,Sindh
+2017,90,26,242,Baluchistan
+679,40,6,72,Islamabad
+4669,240,245,1126,Khyber Pakhtunkhwa
+11568,623,197,4323,Punjab
+11480,710,189,2081,Sindh

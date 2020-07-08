@@ -1,8 +1,8 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-1,0.0,0.0,0.0,Dajabón
-3,0.0,0.0,0.0,El Seibo
-0,0.0,0.0,0.0,Elías Piña
-8,0.0,1.0,0.0,Hato Mayor
-1,0.0,0.0,0.0,Independencia
-3,0.0,0.0,0.0,Pedernales
-15,0.0,1.0,5.0,Samaná
+1,0,0,0,Dajabón
+3,0,0,0,El Seibo
+0,0,0,0,Elías Piña
+8,0,1,0,Hato Mayor
+1,0,0,0,Independencia
+3,0,0,0,Pedernales
+15,0,1,5,Samaná

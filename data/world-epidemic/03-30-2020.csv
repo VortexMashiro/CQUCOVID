@@ -2,7 +2,7 @@ Country_Region,Confirmed,Deaths,Recovered
 Afghanistan,145,4,2
 Albania,223,11,44
 Algeria,584,35,31
-Andorra,334,6,6
+Andorra,352,6,6
 Angola,7,2,0
 Anguilla,2,0,0
 Antigua and Barbuda,7,0,0
@@ -70,7 +70,7 @@ French Polynesia,36,0,7202
 Gabon,7,1,0
 Gambia,4,1,0
 Georgia,103,0,20
-Germany,57298,455,6294
+Germany,57298,455,6522
 Ghana,156,5,2
 Gibraltar,65,0,14
 Greece,1212,43,52
@@ -107,7 +107,7 @@ Kuwait,266,0,72
 Kyrgyzstan,94,0,3
 Lao PDR,8,0,0
 Latvia,398,0,1
-Lebanon,463,12,35
+Lebanon,463,12,32
 Liberia,3,0,0
 Libya,8,0,0
 Liechtenstein,64,0,0
@@ -154,7 +154,7 @@ Poland,2055,31,23
 Portugal,6408,140,43
 Puerto Rico,174,6,43
 Qatar,693,1,51
-Romania,1952,65,209
+Romania,1952,65,180
 Russia,1836,9,66
 Rwanda,72,0,0
 Réunion,224,0,51

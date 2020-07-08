@@ -1,18 +1,18 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-229,53.0,6.0,0.0,Abruzzi
-20,8.0,6.0,0.0,Basilicata
-114,25.0,1.0,0.0,Calabria
-460,60.0,9.0,0.0,Campania
-3931,409.0,393.0,0.0,Emilia-Romagna
-394,8.0,30.0,0.0,Friuli-Venezia Giulia
-778,111.0,60.0,0.0,Liguria
-16220,1571.0,1640.0,0.0,Lombardy
-25,4.0,1.0,0.0,Molise
-1899,381.0,133.0,0.0,Piedmont
-340,110.0,18.0,0.0,Apulia
-117,10.0,2.0,0.0,Sardinia
-237,24.0,3.0,0.0,Sicily
-291,50.0,8.0,0.0,Trentino-Alto Adige
-385,7.0,7.0,0.0,Trentino
-136,31.0,2.0,0.0,Valle d'Aosta
-2704,231.0,80.0,0.0,Veneto
+229,53,6,0.0,Abruzzi
+20,8,6,0.0,Basilicata
+114,25,1,0.0,Calabria
+460,60,9,0.0,Campania
+3931,409,393,0.0,Emilia-Romagna
+394,8,30,0.0,Friuli-Venezia Giulia
+778,111,60,0.0,Liguria
+16220,1571,1640,0.0,Lombardy
+25,4,1,0.0,Molise
+1899,381,133,0.0,Piedmont
+340,110,18,0.0,Apulia
+117,10,2,0.0,Sardinia
+237,24,3,0.0,Sicily
+291,50,8,0.0,Trentino-Alto Adige
+385,7,7,0.0,Trentino
+136,31,2,0.0,Valle d'Aosta
+2704,231,80,0.0,Veneto

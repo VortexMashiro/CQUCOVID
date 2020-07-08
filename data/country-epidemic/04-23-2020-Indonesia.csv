@@ -1,14 +1,14 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-7,0.0,1.0,4.0,Aceh
-8,0.0,1.0,2.0,Bangka-Belitung
-8,0.0,1.0,1.0,Bengkulu
-1,0.0,0.0,0.0,East Nusa Tenggara
-7,0.0,1.0,0.0,Gorontalo
-13,0.0,0.0,1.0,Jambi
-27,0.0,5.0,10.0,Lampung
-80,3.0,1.0,2.0,North Kalimantan
-20,0.0,3.0,5.0,North Sulawesi
-35,0.0,4.0,9.0,Riau
-82,1.0,8.0,8.0,Riau Islands
-37,0.0,2.0,4.0,South East Sulawesi
-100,6.0,3.0,5.0,South Sumatra
+7,0,1,4,Aceh
+8,0,1,2,Bangka-Belitung
+8,0,1,1,Bengkulu
+1,0,0,0,East Nusa Tenggara
+7,0,1,0,Gorontalo
+13,0,0,1,Jambi
+27,0,5,10,Lampung
+80,3,1,2,North Kalimantan
+20,0,3,5,North Sulawesi
+35,0,4,9,Riau
+82,1,8,8,Riau Islands
+37,0,2,4,South East Sulawesi
+100,6,3,5,South Sumatra

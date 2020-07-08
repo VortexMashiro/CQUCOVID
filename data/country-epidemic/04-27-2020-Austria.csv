@@ -1,7 +1,7 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-406,2.0,12.0,364.0,Carinthia
-1214,2.0,33.0,1057.0,Salzburg
-1736,3.0,121.0,1059.0,Styria
-3482,3.0,101.0,2997.0,Tyrol
-2246,3.0,52.0,2022.0,Upper Austria
-2359,2.0,110.0,1766.0,Vienna
+406,2,12,364,Carinthia
+1214,2,33,1057,Salzburg
+1736,3,121,1059,Styria
+3482,3,101,2997,Tyrol
+2246,3,52,2022,Upper Austria
+2359,2,110,1766,Vienna

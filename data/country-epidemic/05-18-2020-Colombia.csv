@@ -1,29 +1,29 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-1005,1.0,35.0,28.0,Amazonas
-525,8.0,6.0,314.0,Antioquia
-1661,84.0,45.0,101.0,Atlantico
-1277,66.0,65.0,171.0,Bolivar
-100,4.0,3.0,26.0,Boyaca
-205,0.0,5.0,44.0,Caldas
-5363,157.0,161.0,1329.0,Capital District
-19,0.0,1.0,0.0,Caqueta
-25,0.0,0.0,9.0,Casanare
-63,1.0,4.0,26.0,Cauca
-75,1.0,11.0,53.0,Cesar
-42,0.0,3.0,8.0,Choco
-72,5.0,3.0,13.0,Cordoba
-352,8.0,13.0,167.0,Cundinamarca
-209,1.0,8.0,63.0,Huila
-35,0.0,3.0,5.0,La Guajira
-399,10.0,26.0,100.0,Magdalena
-946,2.0,8.0,50.0,Meta
-471,23.0,23.0,61.0,Narino
-111,2.0,10.0,58.0,Norte de Santander
-3,0.0,0.0,0.0,Putumayo
-78,0.0,3.0,57.0,Quindio
-237,1.0,8.0,150.0,Risaralda
-21,0.0,0.0,4.0,San Andrés and Providencia
-43,0.0,3.0,30.0,Santander
-4,0.0,0.0,1.0,Sucre
-157,2.0,6.0,46.0,Tolima
-1696,49.0,92.0,523.0,Valle del Cauca
+1005,1,35,28,Amazonas
+525,8,6,314,Antioquia
+1661,84,45,101,Atlantico
+1277,66,65,171,Bolivar
+100,4,3,26,Boyaca
+205,0,5,44,Caldas
+5363,157,161,1329,Capital District
+19,0,1,0,Caqueta
+25,0,0,9,Casanare
+63,1,4,26,Cauca
+75,1,11,53,Cesar
+42,0,3,8,Choco
+72,5,3,13,Cordoba
+352,8,13,167,Cundinamarca
+209,1,8,63,Huila
+35,0,3,5,La Guajira
+399,10,26,100,Magdalena
+946,2,8,50,Meta
+471,23,23,61,Narino
+111,2,10,58,Norte de Santander
+3,0,0,0,Putumayo
+78,0,3,57,Quindio
+237,1,8,150,Risaralda
+21,0,0,4,San Andrés and Providencia
+43,0,3,30,Santander
+4,0,0,1,Sucre
+157,2,6,46,Tolima
+1696,49,92,523,Valle del Cauca

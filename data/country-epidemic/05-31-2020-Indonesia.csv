@@ -1,35 +1,35 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-20,0.0,1.0,17.0,Aceh
-465,10.0,4.0,329.0,Bali
-46,1.0,1.0,27.0,Bangka-Belitung
-861,3.0,69.0,244.0,Banten
-91,5.0,2.0,22.0,Bengkulu
-1403,37.0,70.0,361.0,Central Java
-410,12.0,19.0,164.0,Central Kalimantan
-128,1.0,4.0,61.0,Central Sulawesi
-4857,244.0,396.0,609.0,East Java
-295,4.0,3.0,172.0,East Kalimantan
-92,1.0,1.0,14.0,East Nusa Tenggara
-94,25.0,3.0,26.0,Gorontalo
-7348,119.0,517.0,2082.0,Jakarta
-97,0.0,0.0,15.0,Jambi
-133,1.0,10.0,71.0,Lampung
-223,4.0,8.0,36.0,Maluku
-165,0.0,2.0,72.0,North Kalimantan
-153,7.0,11.0,27.0,North Maluku
-339,17.0,37.0,51.0,North Sulawesi
-409,3.0,41.0,146.0,North Sumatra
-675,17.0,6.0,68.0,Papua
-117,0.0,6.0,88.0,Riau
-197,1.0,15.0,102.0,Riau Islands
-244,2.0,5.0,122.0,South East Sulawesi
-919,13.0,80.0,99.0,South Kalimantan
-1541,31.0,74.0,596.0,South Sulawesi
-982,19.0,34.0,203.0,South Sumatra
-2260,29.0,144.0,619.0,West Java
-189,2.0,4.0,53.0,West Kalimantan
-636,42.0,10.0,291.0,West Nusa Tenggara
-168,6.0,2.0,55.0,West Papua
-92,1.0,2.0,41.0,West Sulawesi
-567,15.0,25.0,265.0,West Sumatra
-236,3.0,8.0,160.0,Yogyakarta
+20,0,1,17,Aceh
+465,10,4,329,Bali
+46,1,1,27,Bangka-Belitung
+861,3,69,244,Banten
+91,5,2,22,Bengkulu
+1403,37,70,361,Central Java
+410,12,19,164,Central Kalimantan
+128,1,4,61,Central Sulawesi
+4857,244,396,609,East Java
+295,4,3,172,East Kalimantan
+92,1,1,14,East Nusa Tenggara
+94,25,3,26,Gorontalo
+7348,119,517,2082,Jakarta
+97,0,0,15,Jambi
+133,1,10,71,Lampung
+223,4,8,36,Maluku
+165,0,2,72,North Kalimantan
+153,7,11,27,North Maluku
+339,17,37,51,North Sulawesi
+409,3,41,146,North Sumatra
+675,17,6,68,Papua
+117,0,6,88,Riau
+197,1,15,102,Riau Islands
+244,2,5,122,South East Sulawesi
+919,13,80,99,South Kalimantan
+1541,31,74,596,South Sulawesi
+982,19,34,203,South Sumatra
+2260,29,144,619,West Java
+189,2,4,53,West Kalimantan
+636,42,10,291,West Nusa Tenggara
+168,6,2,55,West Papua
+92,1,2,41,West Sulawesi
+567,15,25,265,West Sumatra
+236,3,8,160,Yogyakarta

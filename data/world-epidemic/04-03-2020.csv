@@ -46,14 +46,14 @@ Costa Rica,416,2,6
 Croatia,1079,8,92
 Cuba,260,6,0
 Curaçao,11,1,2
-Cyprus,396,13,29
-Czech Rep.,4190,58,71
+Cyprus,396,13,18
+Czech Rep.,4190,58,72
 Côte d'Ivoire,218,1,19
 Dem. Rep. Congo,134,13,3
 Denmark,3946,139,1093
 Djibouti,40,0,0
 Dominica,12,0,0
-Dominican Rep.,1533,68,16
+Dominican Rep.,1533,72,16
 Ecuador,3368,145,65
 Egypt,985,66,216
 El Salvador,56,3,0
@@ -65,7 +65,7 @@ Falkland Is.,1,0,0
 Faroe Is.,177,0,91
 Fiji,7,0,0
 Finland,2180,20,0
-France,64338,6507,14008
+France,64338,6507,10935
 French Guiana,61,0,0
 French Polynesia,39,0,1
 Gabon,18,1,0
@@ -73,7 +73,7 @@ Gambia,4,1,0
 Georgia,155,0,27
 Germany,79696,1017,13597
 Ghana,205,5,31
-Gibraltar,88,0,46
+Gibraltar,93,0,46
 Greece,1613,59,53
 Greenland,10,0,3
 Grenada,10,0,0
@@ -170,7 +170,7 @@ Senegal,207,1,66
 Serbia,1476,39,54
 Seychelles,10,0,0
 Sierra Leone,2,0,0
-Singapore,1114,5,266
+Singapore,1114,5,282
 Slovakia,471,1,7
 Slovenia,934,20,10
 Somalia,7,0,1
@@ -183,7 +183,7 @@ Sudan,10,2,2
 Suriname,10,0,0
 Swaziland,9,0,0
 Sweden,6474,532,106
-Switzerland,19303,604,5657
+Switzerland,19303,575,4846
 Syria,16,3,0
 Tanzania,20,1,2
 Thailand,1978,19,581
@@ -196,7 +196,7 @@ Turks and Caicos Islands,5,0,0
 U.S. Virgin Islands,40,0,29
 US Virgin Islands,37,0,21
 Uganda,48,0,0
-Ukraine,1096,28,19
+Ukraine,1096,28,22
 United Arab Emirates,1264,9,108
 United Kingdom,39282,4313,191
 United States,274151,7009,10411

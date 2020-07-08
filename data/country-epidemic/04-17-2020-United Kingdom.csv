@@ -1,6 +1,6 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-81124,5898.0,12698.0,0.0,England
-236,8.0,12698.0,0.0,England
-178,11.0,0.0,0.0,England
-2339,153.0,118.0,0.0,Northern Ireland
-6664,272.0,245.0,0.0,Wales
+81124,5898,12698,0.0,England
+236,8,12698,0.0,England
+178,11,0,0.0,England
+2339,153,118,0.0,Northern Ireland
+6664,272,245,0.0,Wales

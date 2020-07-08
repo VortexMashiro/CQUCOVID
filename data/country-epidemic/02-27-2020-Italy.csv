@@ -1,8 +1,8 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
 1,0,0,0.0,Calabria
-4,1.0,0,0.0,Campania
-145,48.0,2.0,0.0,Emilia-Romagna
-531,128.0,17.0,0.0,Lombardy
-13,9.0,17.0,0.0,Piedmont
-3,2.0,17.0,0.0,Apulia
-151,40.0,2.0,0.0,Veneto
+4,1,0,0.0,Campania
+145,48,2,0.0,Emilia-Romagna
+531,128,17,0.0,Lombardy
+13,9,17,0.0,Piedmont
+3,2,17,0.0,Apulia
+151,40,2,0.0,Veneto

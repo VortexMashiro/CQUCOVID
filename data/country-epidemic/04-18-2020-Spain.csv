@@ -1,20 +1,20 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-11129,76.0,940.0,0.0,Andalusia
-4747,83.0,562.0,0.0,Aragon
-2264,34.0,174.0,0.0,Asturias
-1720,52.0,134.0,0.0,Balearic Islands
-12329,240.0,992.0,0.0,Basque Country
-2028,19.0,157.0,0.0,Canary Islands
-1967,83.0,144.0,0.0,Cantabria
-16311,314.0,1852.0,0.0,Castile La Mancha
-15262,359.0,1401.0,0.0,Castilla Leon
-39458,1142.0,3907.0,0.0,Catalonia
-105,4.0,4.0,0.0,Ceuta
-3077,58.0,372.0,0.0,Extremadura
-8099,86.0,320.0,0.0,Galicia
-4225,127.0,262.0,0.0,La Rioja
-53438,1445.0,7007.0,0.0,Madrid
-104,0.0,3.0,0.0,Melilla
-1634,9.0,112.0,0.0,Murcia
-4527,94.0,338.0,0.0,Navarre
-9903,34.0,999.0,0.0,Valencia
+11129,76,940,0.0,Andalusia
+4747,83,562,0.0,Aragon
+2264,34,174,0.0,Asturias
+1720,52,134,0.0,Balearic Islands
+12329,240,992,0.0,Basque Country
+2028,19,157,0.0,Canary Islands
+1967,83,144,0.0,Cantabria
+16311,314,1852,0.0,Castile La Mancha
+15262,359,1401,0.0,Castilla Leon
+39458,1142,3907,0.0,Catalonia
+105,4,4,0.0,Ceuta
+3077,58,372,0.0,Extremadura
+8099,86,320,0.0,Galicia
+4225,127,262,0.0,La Rioja
+53438,1445,7007,0.0,Madrid
+104,0,3,0.0,Melilla
+1634,9,112,0.0,Murcia
+4527,94,338,0.0,Navarre
+9903,34,999,0.0,Valencia

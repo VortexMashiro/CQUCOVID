@@ -1,10 +1,10 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-38,7.0,0.0,0.0,Andalusia
-5,1.0,0.0,0.0,Aragon
-5,1.0,0.0,0.0,Asturias
-6,1.0,0.0,0.0,Balearic Islands
-10,1.0,0.0,0.0,Canary Islands
-13,1.0,0.0,0.0,Castile La Mancha
-57,18.0,0.0,0.0,Catalonia
-11,4.0,0.0,0.0,La Rioja
-90,5.0,0.0,0.0,Madrid
+38,7,0.0,0.0,Andalusia
+5,1,0.0,0.0,Aragon
+5,1,0.0,0.0,Asturias
+6,1,0.0,0.0,Balearic Islands
+10,1,0.0,0.0,Canary Islands
+13,1,0.0,0.0,Castile La Mancha
+57,18,0.0,0.0,Catalonia
+11,4,0.0,0.0,La Rioja
+90,5,0.0,0.0,Madrid

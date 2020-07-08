@@ -1,22 +1,22 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-7,0.0,0.0,0.0,Andhra Pradesh
-2,0.0,1.0,0.0,Bihar
-6,0.0,0.0,0.0,Chandigarh
-1,0.0,0.0,0.0,Chhattisgarh
-29,0.0,1.0,5.0,Delhi
-29,0.0,1.0,0.0,Gujarat
-3,0.0,1.0,0.0,Himachal Pradesh
-26,9.0,0.0,11.0,Haryana
-33,0.0,1.0,2.0,Karnataka
-67,27.0,0.0,3.0,Kerala
-74,11.0,2.0,0.0,Maharashtra
-6,0.0,0.0,0.0,Madhya Pradesh
-2,0.0,0.0,0.0,Orissa
-21,0.0,1.0,0.0,Punjab
-1,0.0,0.0,0.0,Puducherry
-28,11.0,0.0,3.0,Rajasthan
-9,6.0,0.0,1.0,Tamil Nadu
-32,11.0,0.0,1.0,Telangana
-3,0.0,0.0,0.0,Uttarakhand
-31,7.0,0.0,9.0,Uttar Pradesh
-7,0.0,1.0,0.0,West Bengal
+7,0,0,0,Andhra Pradesh
+2,0,1,0,Bihar
+6,0,0,0,Chandigarh
+1,0,0,0,Chhattisgarh
+29,0,1,5,Delhi
+29,0,1,0,Gujarat
+3,0,1,0,Himachal Pradesh
+26,9,0,11,Haryana
+33,0,1,2,Karnataka
+67,27,0,3,Kerala
+74,11,2,0,Maharashtra
+6,0,0,0,Madhya Pradesh
+2,0,0,0,Orissa
+21,0,1,0,Punjab
+1,0,0,0,Puducherry
+28,11,0,3,Rajasthan
+9,6,0,1,Tamil Nadu
+32,11,0,1,Telangana
+3,0,0,0,Uttarakhand
+31,7,0,9,Uttar Pradesh
+7,0,1,0,West Bengal

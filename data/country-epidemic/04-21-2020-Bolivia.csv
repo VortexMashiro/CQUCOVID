@@ -1,7 +1,7 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-2,0,0.0,0.0,Beni
-1,0.0,0.0,0.0,Chuquisaca
-62,1.0,6.0,13.0,Cochabamba
-134,1.0,12.0,6.0,La Paz
-49,4.0,2.0,8.0,Oruro
-317,27.0,12.0,10.0,Santa Cruz
+2,0,0,0,Beni
+1,0,0,0,Chuquisaca
+62,1,6,13,Cochabamba
+134,1,12,6,La Paz
+49,4,2,8,Oruro
+317,27,12,10,Santa Cruz

@@ -1,5 +1,5 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-2,1.0,0.0,0.0,Aargau
-2,1.0,0.0,0.0,Berne
-1,1.0,0.0,0.0,Fribourg
-2,1.0,0.0,0.0,Valais
+2,1,0.0,0.0,Aargau
+2,1,0.0,0.0,Berne
+1,1,0.0,0.0,Fribourg
+2,1,0.0,0.0,Valais

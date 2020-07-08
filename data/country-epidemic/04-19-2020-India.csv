@@ -1,96 +1,96 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-14,2.0,0.0,11.0,Andaman and Nicobar Islands
-662,59.0,15.0,42.0,Andhra Pradesh
-1,0.0,0.0,0.0,Arunachal Pradesh
-35,0.0,1.0,12.0,Assam
-1,0.0,1.0,12.0,Assam
-86,1.0,2.0,37.0,Bihar
-23,2.0,0.0,10.0,Chandigarh
-36,0.0,0.0,24.0,Chhattisgarh
-1893,186.0,43.0,72.0,Delhi
-12,0.0,43.0,72.0,Delhi
-16,0.0,43.0,72.0,Delhi
-7,0.0,0.0,6.0,Goa
-1604,332.0,58.0,94.0,Gujarat
-13,0.0,58.0,94.0,Gujarat
-39,1.0,1.0,16.0,Himachal Pradesh
-233,8.0,3.0,87.0,Haryana
-2,0.0,3.0,87.0,Haryana
-35,2.0,2.0,0.0,Jharkhand
-5,0.0,2.0,0.0,Jharkhand
-384,13.0,14.0,104.0,Karnataka
-8,0.0,14.0,104.0,Karnataka
-24,0.0,14.0,104.0,Karnataka
-2,0.0,14.0,104.0,Karnataka
-12,0.0,14.0,104.0,Karnataka
-9,0.0,14.0,104.0,Karnataka
-400,4.0,3.0,257.0,Kerala
-64,0.0,3.0,257.0,Kerala
-185,15.0,3.0,257.0,Kerala
-15,0.0,3.0,257.0,Kerala
-15,0.0,3.0,257.0,Kerala
-3,0.0,3.0,257.0,Kerala
-3651,328.0,211.0,365.0,Maharashtra
-1,0.0,211.0,365.0,Maharashtra
-7,0.0,211.0,365.0,Maharashtra
-3,0.0,211.0,365.0,Maharashtra
-11,0.0,1.0,0.0,Meghalaya
-2,0.0,0.0,1.0,Manipur
-1,0.0,0.0,1.0,Manipur
-1,0.0,0.0,1.0,Manipur
-1407,52.0,70.0,127.0,Madhya Pradesh
-2,0.0,70.0,127.0,Madhya Pradesh
-1,0.0,0.0,0.0,Mizoram
-1,0.0,0.0,0.0,Nagaland
-61,1.0,1.0,24.0,Orissa
-3,0.0,1.0,24.0,Orissa
-2,0.0,1.0,24.0,Orissa
-1,0.0,1.0,24.0,Orissa
-34,0.0,1.0,24.0,Orissa
-1,0.0,1.0,24.0,Orissa
-68,7.0,1.0,18.0,Orissa
-219,17.0,16.0,31.0,Punjab
-38,0.0,16.0,31.0,Punjab
-19,0.0,16.0,31.0,Punjab
-7,0.0,0.0,3.0,Puducherry
-1351,122.0,11.0,183.0,Rajasthan
-1372,49.0,15.0,365.0,Tamil Nadu
-288,70.0,15.0,365.0,Tamil Nadu
-109,25.0,15.0,365.0,Tamil Nadu
-45,0.0,15.0,365.0,Tamil Nadu
-32,0.0,15.0,365.0,Tamil Nadu
-7,0.0,15.0,365.0,Tamil Nadu
-6,0.0,15.0,365.0,Tamil Nadu
-22,0.0,15.0,365.0,Tamil Nadu
-24,0.0,15.0,365.0,Tamil Nadu
-28,0.0,15.0,365.0,Tamil Nadu
-2,0.0,15.0,365.0,Tamil Nadu
-11,0.0,15.0,365.0,Tamil Nadu
-5,0.0,15.0,365.0,Tamil Nadu
-11,0.0,15.0,365.0,Tamil Nadu
-24,0.0,15.0,365.0,Tamil Nadu
-12,0.0,15.0,365.0,Tamil Nadu
-12,0.0,15.0,365.0,Tamil Nadu
-17,0.0,15.0,365.0,Tamil Nadu
-38,0.0,15.0,365.0,Tamil Nadu
-20,0.0,15.0,365.0,Tamil Nadu
-9,0.0,15.0,365.0,Tamil Nadu
-5,0.0,15.0,365.0,Tamil Nadu
-16,0.0,15.0,365.0,Tamil Nadu
-11,0.0,15.0,365.0,Tamil Nadu
-2,0.0,0.0,1.0,Tripura
-844,53.0,18.0,186.0,Telangana
-4,0.0,18.0,186.0,Telangana
-23,0.0,18.0,186.0,Telangana
-42,0.0,0.0,9.0,Uttarakhand
-1084,115.0,17.0,108.0,Uttar Pradesh
-77,6.0,17.0,108.0,Uttar Pradesh
-310,23.0,12.0,62.0,West Bengal
-4,0.0,12.0,62.0,West Bengal
-4,0.0,12.0,62.0,West Bengal
-29,0.0,12.0,62.0,West Bengal
-5,0.0,12.0,62.0,West Bengal
-3,0.0,12.0,62.0,West Bengal
-2,0.0,12.0,62.0,West Bengal
-7,0.0,12.0,62.0,West Bengal
-1,0.0,12.0,62.0,West Bengal
+14,2,0,11,Andaman and Nicobar Islands
+662,59,15,42,Andhra Pradesh
+1,0,0,0,Arunachal Pradesh
+35,0,1,12,Assam
+1,0,1,12,Assam
+86,1,2,37,Bihar
+23,2,0,10,Chandigarh
+36,0,0,24,Chhattisgarh
+1893,186,43,72,Delhi
+12,0,43,72,Delhi
+16,0,43,72,Delhi
+7,0,0,6,Goa
+1604,332,58,94,Gujarat
+13,0,58,94,Gujarat
+39,1,1,16,Himachal Pradesh
+233,8,3,87,Haryana
+2,0,3,87,Haryana
+35,2,2,0,Jharkhand
+5,0,2,0,Jharkhand
+384,13,14,104,Karnataka
+8,0,14,104,Karnataka
+24,0,14,104,Karnataka
+2,0,14,104,Karnataka
+12,0,14,104,Karnataka
+9,0,14,104,Karnataka
+400,4,3,257,Kerala
+64,0,3,257,Kerala
+185,15,3,257,Kerala
+15,0,3,257,Kerala
+15,0,3,257,Kerala
+3,0,3,257,Kerala
+3651,328,211,365,Maharashtra
+1,0,211,365,Maharashtra
+7,0,211,365,Maharashtra
+3,0,211,365,Maharashtra
+11,0,1,0,Meghalaya
+2,0,0,1,Manipur
+1,0,0,1,Manipur
+1,0,0,1,Manipur
+1407,52,70,127,Madhya Pradesh
+2,0,70,127,Madhya Pradesh
+1,0,0,0,Mizoram
+1,0,0,0,Nagaland
+61,1,1,24,Orissa
+3,0,1,24,Orissa
+2,0,1,24,Orissa
+1,0,1,24,Orissa
+34,0,1,24,Orissa
+1,0,1,24,Orissa
+68,7,1,18,Orissa
+219,17,16,31,Punjab
+38,0,16,31,Punjab
+19,0,16,31,Punjab
+7,0,0,3,Puducherry
+1351,122,11,183,Rajasthan
+1372,49,15,365,Tamil Nadu
+288,70,15,365,Tamil Nadu
+109,25,15,365,Tamil Nadu
+45,0,15,365,Tamil Nadu
+32,0,15,365,Tamil Nadu
+7,0,15,365,Tamil Nadu
+6,0,15,365,Tamil Nadu
+22,0,15,365,Tamil Nadu
+24,0,15,365,Tamil Nadu
+28,0,15,365,Tamil Nadu
+2,0,15,365,Tamil Nadu
+11,0,15,365,Tamil Nadu
+5,0,15,365,Tamil Nadu
+11,0,15,365,Tamil Nadu
+24,0,15,365,Tamil Nadu
+12,0,15,365,Tamil Nadu
+12,0,15,365,Tamil Nadu
+17,0,15,365,Tamil Nadu
+38,0,15,365,Tamil Nadu
+20,0,15,365,Tamil Nadu
+9,0,15,365,Tamil Nadu
+5,0,15,365,Tamil Nadu
+16,0,15,365,Tamil Nadu
+11,0,15,365,Tamil Nadu
+2,0,0,1,Tripura
+844,53,18,186,Telangana
+4,0,18,186,Telangana
+23,0,18,186,Telangana
+42,0,0,9,Uttarakhand
+1084,115,17,108,Uttar Pradesh
+77,6,17,108,Uttar Pradesh
+310,23,12,62,West Bengal
+4,0,12,62,West Bengal
+4,0,12,62,West Bengal
+29,0,12,62,West Bengal
+5,0,12,62,West Bengal
+3,0,12,62,West Bengal
+2,0,12,62,West Bengal
+7,0,12,62,West Bengal
+1,0,12,62,West Bengal

@@ -32,7 +32,7 @@ confirmed = get.get_world_confirmed()[0::7]
 
 
 def get_week_chart(date: str):
-    maxNum,minNum,map_data = get.get_time_axis_data(date)
+    maxNum, minNum, map_data = get.get_time_axis_data(date)
     min_data, max_data = (minNum, maxNum)
     data_mark = []
     i = 0
@@ -183,7 +183,6 @@ def target():
 
 @app.route('/covid')  # GDP demo
 def get_index():
-
     timeline = Timeline(
         # init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.DARK)
         init_opts=opts.InitOpts(width="100vw", height="100vh", theme=ThemeType.DARK)
@@ -212,13 +211,13 @@ def get_index():
         myechart=timeline.render_embed(),
     )
 
+
 ######TIME LINE END############
 
 
 ########## HOME PAGE ########
 @app.route('/home')
 def get_home_page():
-
     countrylist = [{"name": "China", "number": 11}, {"name": "Japan", "number": 12}]
     countrylist_tmp = get.get_country_list_with_data()
     if countrylist_tmp:
@@ -242,6 +241,8 @@ def get_home_page():
         data_date=str(get.get_today())
     )
     # return charts.render_embed()
+
+
 @app.route('/graph')
 def get_graph_page():
     countrylist = [{"name": "China", "number": 11}, {"name": "Japan", "number": 12}]
@@ -288,7 +289,7 @@ def get_global_map():
             center=center,
             zoom=zoom)
             .add_coordinate_json('weizhi.json')
-            .add(series_name="geo", data_pair =  map_data)
+            .add(series_name="geo", data_pair=map_data)
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             visualmap_opts=opts.VisualMapOpts(
@@ -296,8 +297,8 @@ def get_global_map():
                 type_="size",
                 is_calculable=True,
                 range_size=[10, 100],
-                min_= min_data,
-                max_= max_data,
+                min_=min_data,
+                max_=max_data,
                 dimension=3
             ),
             tooltip_opts=opts.TooltipOpts(
@@ -355,13 +356,14 @@ def get_country_status():
         country_status = country_status_tmp
     return jsonify(country_status)
 
+
 ##############HOMW PAGE##########################
 
 
 @app.route('/getNews', methods=['GET'])
 def get_news():
     country_name = json.loads(request.args.get('data', type=str))['name']
-    news=crawler.getNews(country_name)
+    news = crawler.getNews(country_name)
     if news:
         return jsonify(news)
 
@@ -412,6 +414,7 @@ def get_global_map3D():
         )
     )
     return Global_map.render_embed()
+
 
 @app.route('/getPageChart', methods=['GET'])
 def get_page_chart():

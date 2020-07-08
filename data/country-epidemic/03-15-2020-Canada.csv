@@ -1,8 +1,8 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-39,10.0,0.0,0.0,Alberta
-73,9.0,0.0,0.0,British Columbia
-4,3.0,0.0,0.0,Manitoba
-1,0.0,0.0,0.0,New Brunswick
-103,12.0,0.0,0.0,Ontario
-1,12.0,0.0,0.0,Prince Edward Island
-24,7.0,0.0,0.0,Quebec
+39,10,0,0.0,Alberta
+73,9,0,0.0,British Columbia
+4,3,0,0.0,Manitoba
+1,0,0,0.0,New Brunswick
+103,12,0,0.0,Ontario
+1,12,0,0.0,Prince Edward Island
+24,7,0,0.0,Quebec

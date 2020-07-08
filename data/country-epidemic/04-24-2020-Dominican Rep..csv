@@ -1,31 +1,31 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-25,2.0,1.0,1.0,Azua
-35,2.0,1.0,5.0,Barahona
-3,2.0,0.0,1.0,Dajabón
-1457,81.0,35.0,305.0,Distrito Nacional
-557,36.0,74.0,72.0,Duarte
-4,0.0,0.0,0.0,El Seibo
-1,1.0,0.0,0.0,Elías Piña
-162,12.0,5.0,22.0,Espaillat
-11,2.0,2.0,0.0,Hato Mayor
-1,0.0,0.0,1.0,Independencia
-109,8.0,1.0,23.0,La Altagracia
-97,3.0,2.0,8.0,La Romana
-414,27.0,7.0,36.0,La Vega
-79,5.0,3.0,5.0,María Trinidad Sánchez
-162,5.0,3.0,12.0,Monseñor Nouel
-16,0.0,0.0,2.0,Monte Cristi
-13,2.0,3.0,0.0,Monte Plata
-37,2.0,1.0,2.0,Peravia
-185,10.0,11.0,12.0,Puerto Plata
-145,10.0,11.0,17.0,Salcedo
-21,2.0,1.0,8.0,Samaná
-138,11.0,4.0,6.0,San Cristóbal
-4,0.0,2.0,0.0,San José de Ocoa
-43,5.0,3.0,1.0,San Juan
-56,1.0,7.0,8.0,San Pedro de Macorís
-138,6.0,6.0,3.0,Sánchez Ramírez
-719,41.0,43.0,84.0,Santiago
-24,7.0,1.0,0.0,Santiago Rodríguez
-1057,89.0,38.0,125.0,Santo Domingo
-32,-289.0,2.0,3.0,Valverde
+25,2,1,1,Azua
+35,2,1,5,Barahona
+3,2,0,1,Dajabón
+1457,81,35,305,Distrito Nacional
+557,36,74,72,Duarte
+4,0,0,0,El Seibo
+1,1,0,0,Elías Piña
+162,12,5,22,Espaillat
+11,2,2,0,Hato Mayor
+1,0,0,1,Independencia
+109,8,1,23,La Altagracia
+97,3,2,8,La Romana
+414,27,7,36,La Vega
+79,5,3,5,María Trinidad Sánchez
+162,5,3,12,Monseñor Nouel
+16,0,0,2,Monte Cristi
+13,2,3,0,Monte Plata
+37,2,1,2,Peravia
+185,10,11,12,Puerto Plata
+145,10,11,17,Salcedo
+21,2,1,8,Samaná
+138,11,4,6,San Cristóbal
+4,0,2,0,San José de Ocoa
+43,5,3,1,San Juan
+56,1,7,8,San Pedro de Macorís
+138,6,6,3,Sánchez Ramírez
+719,41,43,84,Santiago
+24,7,1,0,Santiago Rodríguez
+1057,89,38,125,Santo Domingo
+32,-289,2,3,Valverde

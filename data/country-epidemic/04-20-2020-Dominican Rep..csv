@@ -1,30 +1,30 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-22,2.0,1.0,1.0,Azua
-5,4.0,0.0,1.0,Baoruco
-25,6.0,1.0,1.0,Barahona
-1198,92.0,30.0,191.0,Distrito Nacional
-461,53.0,68.0,34.0,Duarte
-4,1.0,0.0,0.0,El Seibo
-137,16.0,4.0,1.0,Espaillat
-9,1.0,1.0,0.0,Hato Mayor
-1,0.0,0.0,1.0,Independencia
-90,2.0,1.0,5.0,La Altagracia
-89,6.0,2.0,4.0,La Romana
-330,35.0,7.0,11.0,La Vega
-64,15.0,2.0,3.0,María Trinidad Sánchez
-133,17.0,3.0,3.0,Monseñor Nouel
-15,1.0,0.0,1.0,Monte Cristi
-11,3.0,3.0,0.0,Monte Plata
-34,5.0,1.0,0.0,Peravia
-143,13.0,9.0,4.0,Puerto Plata
-121,19.0,9.0,5.0,Salcedo
-19,4.0,1.0,5.0,Samaná
-114,10.0,3.0,4.0,San Cristóbal
-4,2.0,2.0,0.0,San José de Ocoa
-32,11.0,3.0,1.0,San Juan
-53,4.0,7.0,6.0,San Pedro de Macorís
-118,21.0,5.0,2.0,Sánchez Ramírez
-594,59.0,28.0,34.0,Santiago
-16,2.0,0.0,0.0,Santiago Rodríguez
-807,90.0,34.0,43.0,Santo Domingo
-28,0.0,1.0,2.0,Valverde
+22,2,1,1,Azua
+5,4,0,1,Baoruco
+25,6,1,1,Barahona
+1198,92,30,191,Distrito Nacional
+461,53,68,34,Duarte
+4,1,0,0,El Seibo
+137,16,4,1,Espaillat
+9,1,1,0,Hato Mayor
+1,0,0,1,Independencia
+90,2,1,5,La Altagracia
+89,6,2,4,La Romana
+330,35,7,11,La Vega
+64,15,2,3,María Trinidad Sánchez
+133,17,3,3,Monseñor Nouel
+15,1,0,1,Monte Cristi
+11,3,3,0,Monte Plata
+34,5,1,0,Peravia
+143,13,9,4,Puerto Plata
+121,19,9,5,Salcedo
+19,4,1,5,Samaná
+114,10,3,4,San Cristóbal
+4,2,2,0,San José de Ocoa
+32,11,3,1,San Juan
+53,4,7,6,San Pedro de Macorís
+118,21,5,2,Sánchez Ramírez
+594,59,28,34,Santiago
+16,2,0,0,Santiago Rodríguez
+807,90,34,43,Santo Domingo
+28,0,1,2,Valverde

@@ -1,90 +1,90 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-727,4.0,6.0,303.0,Alajuela
-138,2.0,3.0,81.0,Alajuela
-9,0.0,0.0,6.0,Alajuela
-22,1.0,1.0,15.0,Alajuela
-18,2.0,1.0,1.0,Alajuela
-68,4.0,0.0,8.0,Alajuela
-13,0.0,0.0,12.0,Alajuela
-9,0.0,0.0,9.0,Alajuela
-12,0.0,0.0,12.0,Alajuela
-14,0.0,0.0,6.0,Alajuela
-0,0.0,0.0,0.0,Alajuela
-235,2.0,0.0,82.0,Alajuela
-1,0.0,0.0,1.0,Alajuela
-126,1.0,0.0,47.0,Alajuela
-8,0.0,0.0,8.0,Alajuela
-61,1.0,1.0,14.0,Alajuela
-9,0.0,0.0,1.0,Alajuela
-107,2.0,0.0,69.0,Cartago
-1,0.0,0.0,1.0,Cartago
-25,0.0,0.0,20.0,Cartago
-9,0.0,0.0,6.0,Cartago
-5,0.0,0.0,2.0,Cartago
-47,3.0,0.0,27.0,Cartago
-12,0.0,0.0,8.0,Cartago
-6,0.0,0.0,3.0,Cartago
-2,0.0,0.0,2.0,Cartago
-214,2.0,0.0,96.0,Guanacaste
-21,0.0,0.0,20.0,Guanacaste
-17,0.0,0.0,12.0,Guanacaste
-32,0.0,0.0,22.0,Guanacaste
-5,0.0,0.0,3.0,Guanacaste
-16,0.0,0.0,1.0,Guanacaste
-29,0.0,0.0,7.0,Guanacaste
-31,1.0,0.0,14.0,Guanacaste
-1,0.0,0.0,0.0,Guanacaste
-45,1.0,0.0,4.0,Guanacaste
-11,1.0,0.0,7.0,Guanacaste
-6,0.0,0.0,6.0,Guanacaste
-248,5.0,0.0,78.0,Heredia
-15,0.0,0.0,9.0,Heredia
-19,2.0,0.0,5.0,Heredia
-24,0.0,0.0,9.0,Heredia
-5,0.0,0.0,1.0,Heredia
-122,2.0,0.0,26.0,Heredia
-3,1.0,0.0,1.0,Heredia
-27,0.0,0.0,15.0,Heredia
-12,2.0,0.0,3.0,Heredia
-15,1.0,0.0,7.0,Heredia
-8,1.0,0.0,2.0,Heredia
-115,3.0,0.0,46.0,Limon
-3,0.0,0.0,2.0,Limon
-3,0.0,0.0,0.0,Limon
-74,0.0,0.0,38.0,Limon
-2,0.0,0.0,1.0,Limon
-31,5.0,0.0,3.0,Limon
-2,0.0,0.0,2.0,Limon
-118,4.0,0.0,65.0,Puntarenas
-0,0.0,0.0,0.0,Puntarenas
-10,1.0,0.0,1.0,Puntarenas
-2,0.0,0.0,2.0,Puntarenas
-8,1.0,0.0,2.0,Puntarenas
-27,0.0,0.0,21.0,Puntarenas
-2,0.0,0.0,2.0,Puntarenas
-2,0.0,0.0,2.0,Puntarenas
-6,0.0,0.0,6.0,Puntarenas
-1,1.0,0.0,0.0,Puntarenas
-54,4.0,0.0,24.0,Puntarenas
-6,0.0,0.0,5.0,Puntarenas
-823,27.0,6.0,463.0,San Jose
-2,0.0,0.0,0.0,San Jose
-91,4.0,0.0,19.0,San Jose
-31,1.0,0.0,26.0,San Jose
-32,2.0,1.0,18.0,San Jose
-35,1.0,0.0,26.0,San Jose
-102,4.0,1.0,47.0,San Jose
-0,0.0,0.0,0.0,San Jose
-52,4.0,0.0,32.0,San Jose
-64,2.0,0.0,39.0,San Jose
-0,0.0,0.0,0.0,San Jose
-20,0.0,0.0,18.0,San Jose
-14,0.0,1.0,7.0,San Jose
-20,0.0,0.0,16.0,San Jose
-6,0.0,0.0,6.0,San Jose
-2,0.0,0.0,2.0,San Jose
-269,15.0,2.0,146.0,San Jose
-53,0.0,1.0,41.0,San Jose
-4,0.0,0.0,4.0,San Jose
-6,0.0,0.0,2.0,San Jose
-25,2.0,0.0,14.0,San Jose
+727,4,6,303,Alajuela
+138,2,3,81,Alajuela
+9,0,0,6,Alajuela
+22,1,1,15,Alajuela
+18,2,1,1,Alajuela
+68,4,0,8,Alajuela
+13,0,0,12,Alajuela
+9,0,0,9,Alajuela
+12,0,0,12,Alajuela
+14,0,0,6,Alajuela
+0,0,0,0,Alajuela
+235,2,0,82,Alajuela
+1,0,0,1,Alajuela
+126,1,0,47,Alajuela
+8,0,0,8,Alajuela
+61,1,1,14,Alajuela
+9,0,0,1,Alajuela
+107,2,0,69,Cartago
+1,0,0,1,Cartago
+25,0,0,20,Cartago
+9,0,0,6,Cartago
+5,0,0,2,Cartago
+47,3,0,27,Cartago
+12,0,0,8,Cartago
+6,0,0,3,Cartago
+2,0,0,2,Cartago
+214,2,0,96,Guanacaste
+21,0,0,20,Guanacaste
+17,0,0,12,Guanacaste
+32,0,0,22,Guanacaste
+5,0,0,3,Guanacaste
+16,0,0,1,Guanacaste
+29,0,0,7,Guanacaste
+31,1,0,14,Guanacaste
+1,0,0,0,Guanacaste
+45,1,0,4,Guanacaste
+11,1,0,7,Guanacaste
+6,0,0,6,Guanacaste
+257,10,0,62,Heredia
+15,0,0,9,Heredia
+19,2,0,5,Heredia
+24,0,0,9,Heredia
+5,0,0,1,Heredia
+122,2,0,26,Heredia
+3,1,0,1,Heredia
+27,0,0,15,Heredia
+12,2,0,3,Heredia
+15,1,0,7,Heredia
+8,1,0,2,Heredia
+115,3,0,46,Limon
+3,0,0,2,Limon
+3,0,0,0,Limon
+74,0,0,38,Limon
+2,0,0,1,Limon
+31,5,0,3,Limon
+2,0,0,2,Limon
+118,4,0,65,Puntarenas
+0,0,0,0,Puntarenas
+10,1,0,1,Puntarenas
+2,0,0,2,Puntarenas
+8,1,0,2,Puntarenas
+27,0,0,21,Puntarenas
+2,0,0,2,Puntarenas
+2,0,0,2,Puntarenas
+6,0,0,6,Puntarenas
+1,1,0,0,Puntarenas
+54,4,0,24,Puntarenas
+6,0,0,5,Puntarenas
+823,27,6,463,San Jose
+2,0,0,0,San Jose
+91,4,0,19,San Jose
+31,1,0,26,San Jose
+32,2,1,18,San Jose
+35,1,0,26,San Jose
+102,4,1,47,San Jose
+0,0,0,0,San Jose
+52,4,0,32,San Jose
+64,2,0,39,San Jose
+0,0,0,0,San Jose
+20,0,0,18,San Jose
+14,0,1,7,San Jose
+21,0,0,16,San Jose
+6,0,0,6,San Jose
+2,0,0,2,San Jose
+269,15,2,146,San Jose
+53,0,1,41,San Jose
+4,0,0,4,San Jose
+6,0,0,2,San Jose
+25,2,0,14,San Jose

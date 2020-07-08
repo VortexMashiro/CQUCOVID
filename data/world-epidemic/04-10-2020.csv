@@ -6,7 +6,7 @@ American Samoa,0,0,405
 Andorra,601,26,71
 Angola,19,2,2
 Anguilla,3,0,0
-Antigua and Barbuda,19,2,0
+Antigua and Barbuda,21,2,0
 Argentina,1975,82,365
 Armenia,967,13,149
 Aruba,86,0,27
@@ -30,10 +30,10 @@ Brazil,19638,1056,173
 British Virgin Islands,3,0,0
 Brunei,136,1,99
 Bulgaria,635,25,54
-Burkina Faso,448,26,159
+Burkina Faso,448,26,146
 Burundi,3,0,0
 Cambodia,119,0,72
-Cameroon,820,12,98
+Cameroon,820,12,61
 Canada,22148,569,5311
 Cape Verde,7,1,0
 Cayman Islands,45,1,6
@@ -74,7 +74,7 @@ French-Martinique,66,1,0
 Gabon,46,1,1
 Gambia,4,1,2
 Georgia,234,3,54
-Germany,113525,2373,42155
+Germany,113525,2373,40015
 Ghana,378,6,34
 Gibraltar,127,0,69
 Greece,2009,90,269
@@ -83,7 +83,7 @@ Grenada,14,0,0
 Guadeloupe,143,8,67
 Guam,130,4,41
 Guatemala,126,3,17
-Guernsey,200,6,40
+Guernsey,200,6,42
 Guinea,194,0,5
 Guinea-Bissau,38,0,0
 Guyana,40,6,8
@@ -114,7 +114,7 @@ Latvia,630,3,16
 Lebanon,619,20,67
 Liberia,37,5,3
 Libya,24,1,8
-Liechtenstein,79,1,55
+Liechtenstein,79,1,0
 Lithuania,999,22,8
 Luxembourg,3223,54,412
 Macao SAR,45,0,10
@@ -192,7 +192,7 @@ Switzerland,24551,1002,10600
 Syria,19,3,4
 São Tomé and Príncipe,632,12,0
 Tajikistan,0,0,0
-Tanzania,32,3,5
+Tanzania,32,3,8
 Thailand,2473,33,1013
 Timor-Leste,2,0,0
 Togo,76,3,25

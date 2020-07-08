@@ -1,7 +1,7 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-6,5.0,0.0,0.0,Andalusia
-1,5.0,0.0,0.0,Aragon
-2,1.0,0.0,0.0,Castilla Leon
-3,1.0,0.0,0.0,Catalonia
-5,1.0,0.0,0.0,Madrid
-8,6.0,0.0,0.0,Valencia
+6,5,0.0,0.0,Andalusia
+1,5,0.0,0.0,Aragon
+2,1,0.0,0.0,Castilla Leon
+3,1,0.0,0.0,Catalonia
+5,1,0.0,0.0,Madrid
+8,6,0.0,0.0,Valencia

@@ -1,9 +1,9 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-106,0.0,3.0,88.0,Australian Capital Territory
-3027,2.0,41.0,1379.0,New South Wales
-28,0.0,0.0,9.0,Northern Territory
-1036,1.0,6.0,738.0,Queensland
-438,0.0,4.0,331.0,South Australia
-221,0.0,13.0,67.0,Tasmania
-1378,14.0,18.0,1172.0,Victoria
-551,0.0,8.0,340.0,Western Australia
+106,0,3,88,Australian Capital Territory
+3027,2,41,1379,New South Wales
+28,0,0,9,Northern Territory
+1036,1,6,738,Queensland
+438,0,4,331,South Australia
+221,0,13,67,Tasmania
+1378,14,18,1172,Victoria
+551,0,8,340,Western Australia

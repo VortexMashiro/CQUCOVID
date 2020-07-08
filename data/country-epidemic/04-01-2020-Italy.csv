@@ -1,21 +1,21 @@
 Confirmed,ConfirmedChange,Deaths,Recovered,AdminRegion1
-1436,35.0,123.0,102.0,Abruzzi
-237,11.0,9.0,3.0,Basilicata
-669,10.0,38.0,21.0,Calabria
-2231,139.0,148.0,107.0,Campania
-14787,713.0,1732.0,1566.0,Emilia-Romagna
-1685,92.0,122.0,357.0,Friuli-Venezia Giulia
-3264,169.0,169.0,337.0,Latium
-3660,244.0,460.0,555.0,Liguria
-44773,1565.0,7593.0,11415.0,Lombardy
-3962,137.0,477.0,29.0,Marches
-160,16.0,10.0,19.0,Molise
-9795,494.0,886.0,439.0,Piedmont
-1946,143.0,129.0,61.0,Apulia
-745,23.0,34.0,36.0,Sardinia
-1718,71.0,88.0,86.0,Sicily
-4867,259.0,253.0,182.0,Tuscany
-1418,47.0,116.0,190.0,Trentino-Alto Adige
-1095,17.0,37.0,194.0,Umbria
-631,3.0,59.0,32.0,Valle d'Aosta
-9625,470.0,499.0,902.0,Veneto
+1436,35,123,102,Abruzzi
+237,11,9,3,Basilicata
+669,10,38,21,Calabria
+2231,139,148,107,Campania
+14787,713,1732,1566,Emilia-Romagna
+1685,92,122,357,Friuli-Venezia Giulia
+3264,169,169,337,Latium
+3660,244,460,555,Liguria
+44773,1565,7593,11415,Lombardy
+3962,137,477,29,Marches
+160,16,10,19,Molise
+9795,494,886,439,Piedmont
+1946,143,129,61,Apulia
+745,23,34,36,Sardinia
+1718,71,88,86,Sicily
+4867,259,253,182,Tuscany
+1418,47,116,190,Trentino-Alto Adige
+1095,17,37,194,Umbria
+631,3,59,32,Valle d'Aosta
+9625,470,499,902,Veneto
