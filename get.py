@@ -98,12 +98,20 @@ def get_confirmed_distribution(country, date):
                                  "r", encoding="utf-8")
         data = pd.read_csv(file)
         file.close()
-        data = data[["AdminRegion1","Confirmed"]]
+        if country == "Worldwide":
+           data = data[["Country_Region","Confirmed"]]
+        else:
+            data = data[["AdminRegion1","Confirmed"]]
         data.sort_values(by="Confirmed",inplace=True,ascending=False)
         result = []
-        for index in range(0, data.shape[0]):
-            row  = data.iloc[index]
-            result.append([row["AdminRegion1"],int(row["Confirmed"])])
+        if country == "Worldwid":
+            for index in range(0, data.shape[0]):
+                row = data.iloc[index]
+                result.append([row["Country_Region"], int(row["Confirmed"])])
+        else:
+             for index in range(0, data.shape[0]):
+                 row  = data.iloc[index]
+                 result.append([row["AdminRegion1"],int(row["Confirmed"])])
         return result
     else:
         return None
