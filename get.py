@@ -436,7 +436,6 @@ def get_confirmed_pre(country):
         data = pd.read_csv(file_name, encoding="utf-8")
         confirmed = []
         for index in range(0, data.shape[0]):
-            print(data.iloc[index])
             confirmed.append(int(data.iloc[index]["Confirmed"]))
         return confirmed
     else:
