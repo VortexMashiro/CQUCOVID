@@ -142,3 +142,9 @@ def paint_together(country = 'China'):
 
 
 
+def paint_tree(country = 'China'):
+    return paint_treemap().dump_options_with_quotes()
+def paint_line(country = 'China'):
+    return paint_country_summary_chart(country).dump_options_with_quotes()
+def paint_pie(country = 'China'):
+    return paint_treemap().dump_options_with_quotes()
