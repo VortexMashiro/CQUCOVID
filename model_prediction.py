@@ -107,7 +107,7 @@ for filename in path_list:
     temp_y = test_y[-1]
 
     # prediction_y.backward()
-    pred_day=21
+    pred_day=23
     pred_y = []
     for i in range(pred_day):
         temp_x[0][0][0]=temp_x[0][0][1]
