@@ -167,7 +167,6 @@ def extra_country_epidemic(source, date_list, country_list):
             file_name = "country-epidemic/" \
                         + date.replace("/", "-") + "-" + country + ".csv"
             data_country.to_csv(file_name, encoding="utf-8", index=None)
-        print(date)
 
 
 def extra_country_epidemic_summary(source, country_list):
